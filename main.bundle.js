@@ -128,7 +128,7 @@ AppComponent = __decorate([
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material__ = __webpack_require__(272);
@@ -140,7 +140,7 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__(292);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__nav_nav_component__ = __webpack_require__(294);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__sidenav_sidenav_component__ = __webpack_require__(298);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blog_post_service__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blog_post_service__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__post_list_post_list_component__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__welcome_welcome_component__ = __webpack_require__(299);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__post_post_component__ = __webpack_require__(297);
@@ -294,8 +294,9 @@ PageNotFoundComponent = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__blog_post_service__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__blog_post_service__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(91);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PostListComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -306,17 +307,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
+
 
 
 var PostListComponent = (function () {
-    function PostListComponent(blogPostService) {
+    function PostListComponent(blogPostService, router) {
         this.blogPostService = blogPostService;
+        this.router = router;
         this.posts = blogPostService.posts;
     }
     PostListComponent.prototype.ngOnInit = function () {
+    };
+    PostListComponent.prototype.onSelect = function (post) {
+        this.router.navigate(['/posts', post.id]);
     };
     return PostListComponent;
 }());
@@ -326,11 +329,10 @@ PostListComponent = __decorate([
         template: __webpack_require__(389),
         styles: [__webpack_require__(361)]
     }),
-    __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["g" /* Inject */])(__WEBPACK_IMPORTED_MODULE_0__blog_post_service__["a" /* BlogPostService */])),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__blog_post_service__["a" /* BlogPostService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__blog_post_service__["a" /* BlogPostService */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__blog_post_service__["a" /* BlogPostService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__blog_post_service__["a" /* BlogPostService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]) === "function" && _b || Object])
 ], PostListComponent);
 
-var _a;
+var _a, _b;
 //# sourceMappingURL=post-list.component.js.map
 
 /***/ }),
@@ -340,8 +342,8 @@ var _a;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blog_post_service__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blog_post_service__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_switchMap__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_switchMap__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PostComponent; });
@@ -379,7 +381,7 @@ PostComponent = __decorate([
         template: __webpack_require__(390),
         styles: [__webpack_require__(362)]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__blog_post_service__["a" /* BlogPostService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__blog_post_service__["a" /* BlogPostService */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__blog_post_service__["a" /* BlogPostService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__blog_post_service__["a" /* BlogPostService */]) === "function" && _c || Object])
 ], PostComponent);
 
 var _a, _b, _c;
@@ -651,7 +653,7 @@ module.exports = "<section class=\"app flex-container\" fxLayout=\"column\" fxLa
 /***/ 387:
 /***/ (function(module, exports) {
 
-module.exports = "<md-toolbar color=\"primary\" class=\"mat-elevation-z10\">\n  Title here?\n</md-toolbar>"
+module.exports = "<md-toolbar color=\"primary\" class=\"mat-elevation-z10\" routerLink=\"/\">\n  Title here?\n</md-toolbar>"
 
 /***/ }),
 
@@ -665,14 +667,14 @@ module.exports = "<p>\n  page-not-found works!\n</p>\n"
 /***/ 389:
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngFor=\"let post of posts;\">\n    <p>{{post.title}}</p>\n    <p>{{post.summary}}</p>\n</div>"
+module.exports = "<md-card *ngFor=\"let post of posts;\" (click)=\"onSelect(post)\" routerLinkActive=\"active\">\n    <md-card-title>{{post.title}}</md-card-title>\n    <md-card-subtitle>{{post.summary}}</md-card-subtitle>\n</md-card>"
 
 /***/ }),
 
 /***/ 390:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>{{post.title}}</h1>\n<h3>published on {{post.published | date}}</h3>\n<div Markdown [path]=\"post.path\"></div>"
+module.exports = "<md-card>\n  <md-card-title>{{post.title}}</md-card-title>\n  <md-card-subtitle>published on {{post.published | date}}</md-card-subtitle>\n  <md-card-content Markdown [path]=\"post.path\"></md-card-content>\n</md-card>"
 
 /***/ }),
 
@@ -698,7 +700,7 @@ module.exports = __webpack_require__(227);
 
 /***/ }),
 
-/***/ 91:
+/***/ 92:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

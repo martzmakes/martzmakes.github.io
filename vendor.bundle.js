@@ -14195,7 +14195,7 @@ function transition$$1(stateChangeExpr, steps) {
 
 var root_1 = __webpack_require__(24);
 var toSubscriber_1 = __webpack_require__(434);
-var observable_1 = __webpack_require__(114);
+var observable_1 = __webpack_require__(115);
 /**
  * A representation of any set of values over any amount of time. This the most basic building block
  * of RxJS.
@@ -14337,7 +14337,7 @@ exports.Observable = Observable;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core_index__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core_index__ = __webpack_require__(144);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__core_index__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__core_index__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__core_index__["c"]; });
@@ -18433,7 +18433,7 @@ var Subscriber_1 = __webpack_require__(8);
 var Subscription_1 = __webpack_require__(31);
 var ObjectUnsubscribedError_1 = __webpack_require__(221);
 var SubjectSubscription_1 = __webpack_require__(396);
-var rxSubscriber_1 = __webpack_require__(115);
+var rxSubscriber_1 = __webpack_require__(116);
 /**
  * @class SubjectSubscriber<T>
  */
@@ -18732,10 +18732,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isFunction_1 = __webpack_require__(119);
+var isFunction_1 = __webpack_require__(120);
 var Subscription_1 = __webpack_require__(31);
 var Observer_1 = __webpack_require__(206);
-var rxSubscriber_1 = __webpack_require__(115);
+var rxSubscriber_1 = __webpack_require__(116);
 /**
  * Implements the {@link Observer} interface and extends the
  * {@link Subscription} class. While the {@link Observer} is the public API for
@@ -18993,9 +18993,9 @@ var SafeSubscriber = (function (_super) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_auto_prefixer__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_auto_prefixer__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_layout_validator__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__responsive_responsive_activation__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__responsive_responsive_activation__ = __webpack_require__(122);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BaseFxDirective; });
 
 
@@ -23744,7 +23744,7 @@ module.exports = function() {
 "use strict";
 
 var Observable_1 = __webpack_require__(1);
-var map_1 = __webpack_require__(112);
+var map_1 = __webpack_require__(113);
 Observable_1.Observable.prototype.map = map_1.map;
 //# sourceMappingURL=map.js.map
 
@@ -23758,7 +23758,7 @@ Observable_1.Observable.prototype.map = map_1.map;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_forkJoin__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_fromPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__ = __webpack_require__(11);
 /* unused harmony export AbstractControlDirective */
@@ -30379,11 +30379,11 @@ var RtlModule = (function () {
 
 "use strict";
 
-var isArray_1 = __webpack_require__(118);
+var isArray_1 = __webpack_require__(119);
 var isObject_1 = __webpack_require__(223);
-var isFunction_1 = __webpack_require__(119);
+var isFunction_1 = __webpack_require__(120);
 var tryCatch_1 = __webpack_require__(225);
-var errorObject_1 = __webpack_require__(117);
+var errorObject_1 = __webpack_require__(118);
 var UnsubscriptionError_1 = __webpack_require__(433);
 /**
  * Represents a disposable resource, such as the execution of an Observable. A
@@ -30578,7 +30578,7 @@ function flattenUnsubscriptionErrors(errors) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__base__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__media_query_media_monitor__ = __webpack_require__(7);
@@ -30844,13 +30844,13 @@ LayoutDirective = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__media_change__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__media_change__ = __webpack_require__(126);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MatchMedia; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -33745,7 +33745,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(1);
-var ScalarObservable_1 = __webpack_require__(111);
+var ScalarObservable_1 = __webpack_require__(112);
 var EmptyObservable_1 = __webpack_require__(62);
 var isScheduler_1 = __webpack_require__(64);
 /**
@@ -33872,9 +33872,9 @@ var isArrayLike_1 = __webpack_require__(222);
 var isPromise_1 = __webpack_require__(224);
 var isObject_1 = __webpack_require__(223);
 var Observable_1 = __webpack_require__(1);
-var iterator_1 = __webpack_require__(113);
+var iterator_1 = __webpack_require__(114);
 var InnerSubscriber_1 = __webpack_require__(393);
-var observable_1 = __webpack_require__(114);
+var observable_1 = __webpack_require__(115);
 function subscribeToResult(outerSubscriber, result, outerValue, outerIndex) {
     var destination = new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex);
     if (destination.closed) {
@@ -34300,7 +34300,7 @@ var MdOptionModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__overlay__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__overlay__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__portal_portal__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__overlay_state__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__position_connected_position__ = __webpack_require__(79);
@@ -34637,7 +34637,7 @@ var OverlayModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform__ = __webpack_require__(53);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__features__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__features__ = __webpack_require__(149);
 /* unused harmony namespace reexport */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlatformModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -35288,10 +35288,10 @@ var BaseFxDirectiveAdapter = (function (_super) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__break_points_token__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_break_points__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_orientation_break_points__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_break_points__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_orientation_break_points__ = __webpack_require__(125);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_object_extend__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_breakpoint_tools__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_breakpoint_tools__ = __webpack_require__(131);
 /* unused harmony export buildMergedBreakPoints */
 /* unused harmony export DEFAULT_BREAKPOINTS_PROVIDER_FACTORY */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DEFAULT_BREAKPOINTS_PROVIDER; });
@@ -35381,7 +35381,7 @@ var BREAKPOINTS = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* OpaqueT
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__match_media__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__observable_media__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__observable_media__ = __webpack_require__(128);
 /* unused harmony export OBSERVABLE_MEDIA_PROVIDER_FACTORY */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OBSERVABLE_MEDIA_PROVIDER; });
 /**
@@ -35530,7 +35530,7 @@ var MdAutocomplete = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list_key_manager__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list_key_manager__ = __webpack_require__(141);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FocusKeyManager; });
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -36341,7 +36341,7 @@ var PortalModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dialog_errors__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_a11y_focus_trap__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_first__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_first__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_first__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdDialogContainer; });
 var __extends = (this && this.__extends) || function (d, b) {
@@ -36508,8 +36508,8 @@ var MdGridListBadRatioError = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_platform_features__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__input_container_errors__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_platform_features__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__input_container_errors__ = __webpack_require__(168);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdPlaceholder; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdHint; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return MdInputDirective; });
@@ -36957,10 +36957,10 @@ var MdInputContainer = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__menu_errors__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__menu_errors__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menu_item__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_a11y_focus_key_manager__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_animations__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_animations__ = __webpack_require__(171);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdMenu; });
 // TODO(kara): prevent-close functionality
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -37109,7 +37109,7 @@ var MdMenu = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__menu_errors__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__menu_errors__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core__ = __webpack_require__(2);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdMenuTrigger; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -38107,7551 +38107,13 @@ var MdTabLabel = (function (_super) {
 //# sourceMappingURL=tab-label.js.map
 
 /***/ }),
-/* 91 */,
-/* 92 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_marked__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_marked___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_marked__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__ = __webpack_require__(400);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MarkdownService; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-var MarkdownService = (function () {
-    function MarkdownService(http) {
-        this.http = http;
-        this.extendRenderer();
-        this.setMarkedOptions();
-    }
-    //get the content from remote resource
-    MarkdownService.prototype.getContent = function (path) {
-        return this.http.get(path)
-            .map(this.extractData)
-            .catch(this.handleError);
-    };
-    // handle data
-    MarkdownService.prototype.extractData = function (res) {
-        return res.text() || '';
-    };
-    //handle error
-    MarkdownService.prototype.handleError = function (error) {
-        var errMsg;
-        if (error instanceof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Response */]) {
-            var body = error.json() || '';
-            var err = body.error || JSON.stringify(body);
-            errMsg = error.status + " - " + (error.statusText || '') + " " + err;
-        }
-        else {
-            errMsg = error.message ? error.message : error.toString();
-        }
-        console.error(errMsg);
-        return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].throw(errMsg);
-    };
-    // extend marked render to support todo checkbox
-    MarkdownService.prototype.extendRenderer = function () {
-        this.renderer = new __WEBPACK_IMPORTED_MODULE_3_marked__["Renderer"]();
-        this.renderer.listitem = function (text) {
-            if (/^\s*\[[x ]\]\s*/.test(text)) {
-                text = text
-                    .replace(/^\s*\[ \]\s*/, '<input type="checkbox" style=" vertical-align: middle; margin: 0 0.2em 0.25em -1.6em; font-size: 16px; " disabled> ')
-                    .replace(/^\s*\[x\]\s*/, '<input type="checkbox" style=" vertical-align: middle; margin: 0 0.2em 0.25em -1.6em; font-size: 16px; " checked disabled> ');
-                return '<li style="list-style: none">' + text + '</li>';
-            }
-            else {
-                return '<li>' + text + '</li>';
-            }
-        };
-    };
-    MarkdownService.prototype.setMarkedOptions = function () {
-        __WEBPACK_IMPORTED_MODULE_3_marked__["setOptions"]({
-            renderer: this.renderer,
-            gfm: true,
-            tables: true,
-            breaks: false,
-            pedantic: false,
-            sanitize: false,
-            smartLists: true,
-            smartypants: false
-        });
-    };
-    // comple markdown to html
-    MarkdownService.prototype.compile = function (data) {
-        return __WEBPACK_IMPORTED_MODULE_3_marked__(data);
-    };
-    return MarkdownService;
-}());
-MarkdownService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */]])
-], MarkdownService);
-
-//# sourceMappingURL=markdown.service.js.map
-
-/***/ }),
-/* 93 */,
-/* 94 */,
-/* 95 */,
-/* 96 */,
-/* 97 */,
-/* 98 */,
-/* 99 */,
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var Subject_1 = __webpack_require__(6);
-var ObjectUnsubscribedError_1 = __webpack_require__(221);
-/**
- * @class BehaviorSubject<T>
- */
-var BehaviorSubject = (function (_super) {
-    __extends(BehaviorSubject, _super);
-    function BehaviorSubject(_value) {
-        _super.call(this);
-        this._value = _value;
-    }
-    Object.defineProperty(BehaviorSubject.prototype, "value", {
-        get: function () {
-            return this.getValue();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    BehaviorSubject.prototype._subscribe = function (subscriber) {
-        var subscription = _super.prototype._subscribe.call(this, subscriber);
-        if (subscription && !subscription.closed) {
-            subscriber.next(this._value);
-        }
-        return subscription;
-    };
-    BehaviorSubject.prototype.getValue = function () {
-        if (this.hasError) {
-            throw this.thrownError;
-        }
-        else if (this.closed) {
-            throw new ObjectUnsubscribedError_1.ObjectUnsubscribedError();
-        }
-        else {
-            return this._value;
-        }
-    };
-    BehaviorSubject.prototype.next = function (value) {
-        _super.prototype.next.call(this, this._value = value);
-    };
-    return BehaviorSubject;
-}(Subject_1.Subject));
-exports.BehaviorSubject = BehaviorSubject;
-//# sourceMappingURL=BehaviorSubject.js.map
-
-/***/ }),
-/* 110 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(1);
-var first_1 = __webpack_require__(218);
-Observable_1.Observable.prototype.first = first_1.first;
-//# sourceMappingURL=first.js.map
-
-/***/ }),
-/* 111 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var Observable_1 = __webpack_require__(1);
-/**
- * We need this JSDoc comment for affecting ESDoc.
- * @extends {Ignored}
- * @hide true
- */
-var ScalarObservable = (function (_super) {
-    __extends(ScalarObservable, _super);
-    function ScalarObservable(value, scheduler) {
-        _super.call(this);
-        this.value = value;
-        this.scheduler = scheduler;
-        this._isScalar = true;
-        if (scheduler) {
-            this._isScalar = false;
-        }
-    }
-    ScalarObservable.create = function (value, scheduler) {
-        return new ScalarObservable(value, scheduler);
-    };
-    ScalarObservable.dispatch = function (state) {
-        var done = state.done, value = state.value, subscriber = state.subscriber;
-        if (done) {
-            subscriber.complete();
-            return;
-        }
-        subscriber.next(value);
-        if (subscriber.closed) {
-            return;
-        }
-        state.done = true;
-        this.schedule(state);
-    };
-    ScalarObservable.prototype._subscribe = function (subscriber) {
-        var value = this.value;
-        var scheduler = this.scheduler;
-        if (scheduler) {
-            return scheduler.schedule(ScalarObservable.dispatch, 0, {
-                done: false, value: value, subscriber: subscriber
-            });
-        }
-        else {
-            subscriber.next(value);
-            if (!subscriber.closed) {
-                subscriber.complete();
-            }
-        }
-    };
-    return ScalarObservable;
-}(Observable_1.Observable));
-exports.ScalarObservable = ScalarObservable;
-//# sourceMappingURL=ScalarObservable.js.map
-
-/***/ }),
-/* 112 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var Subscriber_1 = __webpack_require__(8);
-/**
- * Applies a given `project` function to each value emitted by the source
- * Observable, and emits the resulting values as an Observable.
- *
- * <span class="informal">Like [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map),
- * it passes each source value through a transformation function to get
- * corresponding output values.</span>
- *
- * <img src="./img/map.png" width="100%">
- *
- * Similar to the well known `Array.prototype.map` function, this operator
- * applies a projection to each value and emits that projection in the output
- * Observable.
- *
- * @example <caption>Map every every click to the clientX position of that click</caption>
- * var clicks = Rx.Observable.fromEvent(document, 'click');
- * var positions = clicks.map(ev => ev.clientX);
- * positions.subscribe(x => console.log(x));
- *
- * @see {@link mapTo}
- * @see {@link pluck}
- *
- * @param {function(value: T, index: number): R} project The function to apply
- * to each `value` emitted by the source Observable. The `index` parameter is
- * the number `i` for the i-th emission that has happened since the
- * subscription, starting from the number `0`.
- * @param {any} [thisArg] An optional argument to define what `this` is in the
- * `project` function.
- * @return {Observable<R>} An Observable that emits the values from the source
- * Observable transformed by the given `project` function.
- * @method map
- * @owner Observable
- */
-function map(project, thisArg) {
-    if (typeof project !== 'function') {
-        throw new TypeError('argument is not a function. Are you looking for `mapTo()`?');
-    }
-    return this.lift(new MapOperator(project, thisArg));
-}
-exports.map = map;
-var MapOperator = (function () {
-    function MapOperator(project, thisArg) {
-        this.project = project;
-        this.thisArg = thisArg;
-    }
-    MapOperator.prototype.call = function (subscriber, source) {
-        return source.subscribe(new MapSubscriber(subscriber, this.project, this.thisArg));
-    };
-    return MapOperator;
-}());
-exports.MapOperator = MapOperator;
-/**
- * We need this JSDoc comment for affecting ESDoc.
- * @ignore
- * @extends {Ignored}
- */
-var MapSubscriber = (function (_super) {
-    __extends(MapSubscriber, _super);
-    function MapSubscriber(destination, project, thisArg) {
-        _super.call(this, destination);
-        this.project = project;
-        this.count = 0;
-        this.thisArg = thisArg || this;
-    }
-    // NOTE: This looks unoptimized, but it's actually purposefully NOT
-    // using try/catch optimizations.
-    MapSubscriber.prototype._next = function (value) {
-        var result;
-        try {
-            result = this.project.call(this.thisArg, value, this.count++);
-        }
-        catch (err) {
-            this.destination.error(err);
-            return;
-        }
-        this.destination.next(result);
-    };
-    return MapSubscriber;
-}(Subscriber_1.Subscriber));
-//# sourceMappingURL=map.js.map
-
-/***/ }),
-/* 113 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var root_1 = __webpack_require__(24);
-function symbolIteratorPonyfill(root) {
-    var Symbol = root.Symbol;
-    if (typeof Symbol === 'function') {
-        if (!Symbol.iterator) {
-            Symbol.iterator = Symbol('iterator polyfill');
-        }
-        return Symbol.iterator;
-    }
-    else {
-        // [for Mozilla Gecko 27-35:](https://mzl.la/2ewE1zC)
-        var Set_1 = root.Set;
-        if (Set_1 && typeof new Set_1()['@@iterator'] === 'function') {
-            return '@@iterator';
-        }
-        var Map_1 = root.Map;
-        // required for compatability with es6-shim
-        if (Map_1) {
-            var keys = Object.getOwnPropertyNames(Map_1.prototype);
-            for (var i = 0; i < keys.length; ++i) {
-                var key = keys[i];
-                // according to spec, Map.prototype[@@iterator] and Map.orototype.entries must be equal.
-                if (key !== 'entries' && key !== 'size' && Map_1.prototype[key] === Map_1.prototype['entries']) {
-                    return key;
-                }
-            }
-        }
-        return '@@iterator';
-    }
-}
-exports.symbolIteratorPonyfill = symbolIteratorPonyfill;
-exports.$$iterator = symbolIteratorPonyfill(root_1.root);
-//# sourceMappingURL=iterator.js.map
-
-/***/ }),
-/* 114 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var root_1 = __webpack_require__(24);
-function getSymbolObservable(context) {
-    var $$observable;
-    var Symbol = context.Symbol;
-    if (typeof Symbol === 'function') {
-        if (Symbol.observable) {
-            $$observable = Symbol.observable;
-        }
-        else {
-            $$observable = Symbol('observable');
-            Symbol.observable = $$observable;
-        }
-    }
-    else {
-        $$observable = '@@observable';
-    }
-    return $$observable;
-}
-exports.getSymbolObservable = getSymbolObservable;
-exports.$$observable = getSymbolObservable(root_1.root);
-//# sourceMappingURL=observable.js.map
-
-/***/ }),
-/* 115 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var root_1 = __webpack_require__(24);
-var Symbol = root_1.root.Symbol;
-exports.$$rxSubscriber = (typeof Symbol === 'function' && typeof Symbol.for === 'function') ?
-    Symbol.for('rxSubscriber') : '@@rxSubscriber';
-//# sourceMappingURL=rxSubscriber.js.map
-
-/***/ }),
-/* 116 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-/**
- * An error thrown when an Observable or a sequence was queried but has no
- * elements.
- *
- * @see {@link first}
- * @see {@link last}
- * @see {@link single}
- *
- * @class EmptyError
- */
-var EmptyError = (function (_super) {
-    __extends(EmptyError, _super);
-    function EmptyError() {
-        var err = _super.call(this, 'no elements in sequence');
-        this.name = err.name = 'EmptyError';
-        this.stack = err.stack;
-        this.message = err.message;
-    }
-    return EmptyError;
-}(Error));
-exports.EmptyError = EmptyError;
-//# sourceMappingURL=EmptyError.js.map
-
-/***/ }),
-/* 117 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-// typeof any so that it we don't have to cast when comparing a result to the error object
-exports.errorObject = { e: {} };
-//# sourceMappingURL=errorObject.js.map
-
-/***/ }),
-/* 118 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-exports.isArray = Array.isArray || (function (x) { return x && typeof x.length === 'number'; });
-//# sourceMappingURL=isArray.js.map
-
-/***/ }),
-/* 119 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function isFunction(x) {
-    return typeof x === 'function';
-}
-exports.isFunction = isFunction;
-//# sourceMappingURL=isFunction.js.map
-
-/***/ }),
-/* 120 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__base__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__layout__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__media_query_media_monitor__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_layout_validator__ = __webpack_require__(34);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LayoutWrapDirective; });
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-
-
-
-
-/**
- * @deprecated
- * This functionality is now part of the `fxLayout` API
- *
- * 'layout-wrap' flexbox styling directive
- * Defines wrapping of child elements in layout container
- * Optional values: reverse, wrap-reverse, none, nowrap, wrap (default)]
- *
- *
- * @see https://css-tricks.com/almanac/properties/f/flex-wrap/
- */
-var LayoutWrapDirective = (function (_super) {
-    __extends(LayoutWrapDirective, _super);
-    /* tslint:enable */
-    function LayoutWrapDirective(monitor, elRef, renderer, container) {
-        var _this = _super.call(this, monitor, elRef, renderer) || this;
-        _this._layout = 'row'; // default flex-direction
-        if (container) {
-            _this._layoutWatcher = container.layout$.subscribe(_this._onLayoutChange.bind(_this));
-        }
-        return _this;
-    }
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrap", {
-        /* tslint:disable */
-        set: function (val) { this._cacheInput("wrap", val); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapXs", {
-        set: function (val) { this._cacheInput('wrapXs', val); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapSm", {
-        set: function (val) { this._cacheInput('wrapSm', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapMd", {
-        set: function (val) { this._cacheInput('wrapMd', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLg", {
-        set: function (val) { this._cacheInput('wrapLg', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapXl", {
-        set: function (val) { this._cacheInput('wrapXl', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapGtXs", {
-        set: function (val) { this._cacheInput('wrapGtXs', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapGtSm", {
-        set: function (val) { this._cacheInput('wrapGtSm', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapGtMd", {
-        set: function (val) { this._cacheInput('wrapGtMd', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapGtLg", {
-        set: function (val) { this._cacheInput('wrapGtLg', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLtSm", {
-        set: function (val) { this._cacheInput('wrapLtSm', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLtMd", {
-        set: function (val) { this._cacheInput('wrapLtMd', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLtLg", {
-        set: function (val) { this._cacheInput('wrapLtLg', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLtXl", {
-        set: function (val) { this._cacheInput('wrapLtXl', val); },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    // *********************************************
-    // Lifecycle Methods
-    // *********************************************
-    LayoutWrapDirective.prototype.ngOnChanges = function (changes) {
-        if (changes['wrap'] != null || this._mqActivation) {
-            this._updateWithValue();
-        }
-    };
-    /**
-     * After the initial onChanges, build an mqActivation object that bridges
-     * mql change events to onMediaQueryChange handlers
-     */
-    LayoutWrapDirective.prototype.ngOnInit = function () {
-        var _this = this;
-        this._listenForMediaQueryChanges('wrap', 'wrap', function (changes) {
-            _this._updateWithValue(changes.value);
-        });
-        this._updateWithValue();
-    };
-    LayoutWrapDirective.prototype.ngOnDestroy = function () {
-        _super.prototype.ngOnDestroy.call(this);
-        if (this._layoutWatcher) {
-            this._layoutWatcher.unsubscribe();
-        }
-    };
-    // *********************************************
-    // Protected methods
-    // *********************************************
-    /**
-     * Cache the parent container 'flex-direction' and update the 'flex' styles
-     */
-    LayoutWrapDirective.prototype._onLayoutChange = function (direction) {
-        var _this = this;
-        this._layout = (direction || '').toLowerCase().replace('-reverse', '');
-        if (!__WEBPACK_IMPORTED_MODULE_4__utils_layout_validator__["b" /* LAYOUT_VALUES */].find(function (x) { return x === _this._layout; })) {
-            this._layout = 'row';
-        }
-        this._updateWithValue();
-    };
-    LayoutWrapDirective.prototype._updateWithValue = function (value) {
-        value = value || this._queryInput("wrap");
-        if (this._mqActivation) {
-            value = this._mqActivation.activatedInput;
-        }
-        value = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__utils_layout_validator__["c" /* validateWrapValue */])(value || 'wrap');
-        this._applyStyleToElement(this._buildCSS(value));
-    };
-    /**
-     * Build the CSS that should be assigned to the element instance
-     */
-    LayoutWrapDirective.prototype._buildCSS = function (value) {
-        return {
-            'display': 'flex',
-            'flex-wrap': value,
-            'flex-direction': this.flowDirection
-        };
-    };
-    Object.defineProperty(LayoutWrapDirective.prototype, "flowDirection", {
-        get: function () {
-            var _this = this;
-            var computeFlowDirection = function () { return _this._getFlowDirection(_this._elementRef.nativeElement); };
-            return this._layoutWatcher ? this._layout : computeFlowDirection();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    return LayoutWrapDirective;
-}(__WEBPACK_IMPORTED_MODULE_1__base__["a" /* BaseFxDirective */]));
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrap", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.xs'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapXs", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.sm'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapSm", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.md'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapMd", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lg'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapLg", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.xl'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapXl", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.gt-xs'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapGtXs", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.gt-sm'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapGtSm", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.gt-md'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapGtMd", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.gt-lg'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapGtLg", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lt-sm'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapLtSm", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lt-md'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapLtMd", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lt-lg'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapLtLg", null);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lt-xl'),
-    __metadata("design:type", Object),
-    __metadata("design:paramtypes", [Object])
-], LayoutWrapDirective.prototype, "wrapLtXl", null);
-LayoutWrapDirective = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({ selector: "\n  [fxLayoutWrap], [fxLayoutWrap.xs], [fxLayoutWrap.sm], [fxLayoutWrap.lg], [fxLayoutWrap.xl],\n  [fxLayoutWrap.gt-xs], [fxLayoutWrap.gt-sm], [fxLayoutWrap.gt-md], [fxLayoutWrap.gt-lg],\n  [fxLayoutWrap.lt-xs], [fxLayoutWrap.lt-sm], [fxLayoutWrap.lt-md], [fxLayoutWrap.lt-lg]\n" }),
-    __param(3, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()), __param(3, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Self */])()),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__media_query_media_monitor__["a" /* MediaMonitor */],
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */],
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */],
-        __WEBPACK_IMPORTED_MODULE_2__layout__["a" /* LayoutDirective */]])
-], LayoutWrapDirective);
-
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/flexbox/api/layout-wrap.js.map
-
-/***/ }),
-/* 121 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_filter__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_filter__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_object_extend__ = __webpack_require__(20);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return KeyOptions; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ResponsiveActivation; });
-
-
-
-var KeyOptions = (function () {
-    function KeyOptions(baseKey, defaultValue, inputKeys) {
-        this.baseKey = baseKey;
-        this.defaultValue = defaultValue;
-        this.inputKeys = inputKeys;
-    }
-    return KeyOptions;
-}());
-
-/**
- * ResponsiveActivation acts as a proxy between the MonitorMedia service (which emits mediaQuery
- * changes) and the fx API directives. The MQA proxies mediaQuery change events and notifies the
- * directive via the specified callback.
- *
- * - The MQA also determines which directive property should be used to determine the
- *   current change 'value'... BEFORE the original `onMediaQueryChanges()` method is called.
- * - The `ngOnDestroy()` method is also head-hooked to enable auto-unsubscribe from the
- *   MediaQueryServices.
- *
- * NOTE: these interceptions enables the logic in the fx API directives to remain terse and clean.
- */
-var ResponsiveActivation = (function () {
-    /**
-     * Constructor
-     */
-    function ResponsiveActivation(_options, _mediaMonitor, _onMediaChanges) {
-        this._options = _options;
-        this._mediaMonitor = _mediaMonitor;
-        this._onMediaChanges = _onMediaChanges;
-        this._subscribers = [];
-        this._subscribers = this._configureChangeObservers();
-    }
-    Object.defineProperty(ResponsiveActivation.prototype, "mediaMonitor", {
-        /**
-         * Accessor to the DI'ed directive property
-         * Each directive instance has a reference to the MediaMonitor which is
-         * used HERE to subscribe to mediaQuery change notifications.
-         */
-        get: function () {
-            return this._mediaMonitor;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ResponsiveActivation.prototype, "activatedInputKey", {
-        /**
-         * Determine which directive @Input() property is currently active (for the viewport size):
-         * The key must be defined (in use) or fallback to the 'closest' overlapping property key
-         * that is defined; otherwise the default property key will be used.
-         * e.g.
-         *      if `<div fxHide fxHide.gt-sm="false">` is used but the current activated mediaQuery alias
-         *      key is `.md` then `.gt-sm` should be used instead
-         */
-        get: function () {
-            return this._activatedInputKey || this._options.baseKey;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ResponsiveActivation.prototype, "activatedInput", {
-        /**
-         * Get the currently activated @Input value or the fallback default @Input value
-         */
-        get: function () {
-            var key = this.activatedInputKey;
-            return this.hasKeyValue(key) ? this._lookupKeyValue(key) : this._options.defaultValue;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Fast validator for presence of attribute on the host element
-     */
-    ResponsiveActivation.prototype.hasKeyValue = function (key) {
-        var value = this._options.inputKeys[key];
-        return typeof value !== 'undefined';
-    };
-    /**
-     * Remove interceptors, restore original functions, and forward the onDestroy() call
-     */
-    ResponsiveActivation.prototype.destroy = function () {
-        this._subscribers.forEach(function (link) {
-            link.unsubscribe();
-        });
-        this._subscribers = [];
-    };
-    /**
-     * For each *defined* API property, register a callback to `_onMonitorEvents( )`
-     * Cache 1..n subscriptions for internal auto-unsubscribes when the the directive destructs
-     */
-    ResponsiveActivation.prototype._configureChangeObservers = function () {
-        var _this = this;
-        var subscriptions = [];
-        this._buildRegistryMap().forEach(function (bp) {
-            if (_this._keyInUse(bp.key)) {
-                // Inject directive default property key name: to let onMediaChange() calls
-                // know which property is being triggered...
-                var buildChanges = function (change) {
-                    change = change.clone();
-                    change.property = _this._options.baseKey;
-                    return change;
-                };
-                subscriptions.push(_this.mediaMonitor.observe(bp.alias)
-                    .map(buildChanges)
-                    .subscribe(function (change) {
-                    _this._onMonitorEvents(change);
-                }));
-            }
-        });
-        return subscriptions;
-    };
-    /**
-     * Build mediaQuery key-hashmap; only for the directive properties that are actually defined/used
-     * in the HTML markup
-     */
-    ResponsiveActivation.prototype._buildRegistryMap = function () {
-        var _this = this;
-        return this.mediaMonitor.breakpoints
-            .map(function (bp) {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils_object_extend__["a" /* extendObject */])({}, bp, {
-                baseKey: _this._options.baseKey,
-                key: _this._options.baseKey + bp.suffix // e.g.  layoutGtSm, layoutMd, layoutGtLg
-            });
-        })
-            .filter(function (bp) { return _this._keyInUse(bp.key); });
-    };
-    /**
-     * Synchronizes change notifications with the current mq-activated @Input and calculates the
-     * mq-activated input value or the default value
-     */
-    ResponsiveActivation.prototype._onMonitorEvents = function (change) {
-        if (change.property == this._options.baseKey) {
-            change.value = this._calculateActivatedValue(change);
-            this._onMediaChanges(change);
-        }
-    };
-    /**
-     * Has the key been specified in the HTML markup and thus is intended
-     * to participate in activation processes.
-     */
-    ResponsiveActivation.prototype._keyInUse = function (key) {
-        return this._lookupKeyValue(key) !== undefined;
-    };
-    /**
-     *  Map input key associated with mediaQuery activation to closest defined input key
-     *  then return the values associated with the targeted input property
-     *
-     *  !! change events may arrive out-of-order (activate before deactivate)
-     *     so make sure the deactivate is used ONLY when the keys match
-     *     (since a different activate may be in use)
-     */
-    ResponsiveActivation.prototype._calculateActivatedValue = function (current) {
-        var currentKey = this._options.baseKey + current.suffix; // e.g. suffix == 'GtSm',
-        var newKey = this._activatedInputKey; // e.g. newKey == hideGtSm
-        newKey = current.matches ? currentKey : ((newKey == currentKey) ? null : newKey);
-        this._activatedInputKey = this._validateInputKey(newKey);
-        return this.activatedInput;
-    };
-    /**
-     * For the specified input property key, validate it is defined (used in the markup)
-     * If not see if a overlapping mediaQuery-related input key fallback has been defined
-     *
-     * NOTE: scans in the order defined by activeOverLaps (largest viewport ranges -> smallest ranges)
-     */
-    ResponsiveActivation.prototype._validateInputKey = function (inputKey) {
-        var _this = this;
-        var items = this.mediaMonitor.activeOverlaps;
-        var isMissingKey = function (key) { return !_this._keyInUse(key); };
-        if (isMissingKey(inputKey)) {
-            items.some(function (bp) {
-                var key = _this._options.baseKey + bp.suffix;
-                if (!isMissingKey(key)) {
-                    inputKey = key;
-                    return true; // exit .some()
-                }
-                return false;
-            });
-        }
-        return inputKey;
-    };
-    /**
-     * Get the value (if any) for the directive instances @Input property (aka key)
-     */
-    ResponsiveActivation.prototype._lookupKeyValue = function (key) {
-        return this._options.inputKeys[key];
-    };
-    return ResponsiveActivation;
-}());
-
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/flexbox/responsive/responsive-activation.js.map
-
-/***/ }),
-/* 122 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__match_media__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__media_monitor__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__observable_media_provider__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__breakpoints_break_points_provider__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__breakpoints_break_point_registry__ = __webpack_require__(25);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MediaQueriesModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-
-
-
-
-
-/**
- * *****************************************************************
- * Define module for the MediaQuery API
- * *****************************************************************
- */
-var MediaQueriesModule = (function () {
-    function MediaQueriesModule() {
-    }
-    return MediaQueriesModule;
-}());
-MediaQueriesModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-        providers: [
-            __WEBPACK_IMPORTED_MODULE_4__breakpoints_break_points_provider__["a" /* DEFAULT_BREAKPOINTS_PROVIDER */],
-            __WEBPACK_IMPORTED_MODULE_5__breakpoints_break_point_registry__["a" /* BreakPointRegistry */],
-            __WEBPACK_IMPORTED_MODULE_1__match_media__["a" /* MatchMedia */],
-            __WEBPACK_IMPORTED_MODULE_2__media_monitor__["a" /* MediaMonitor */],
-            __WEBPACK_IMPORTED_MODULE_3__observable_media_provider__["a" /* OBSERVABLE_MEDIA_PROVIDER */] // easy subscription injectable `media$` matchMedia observable
-        ]
-    })
-], MediaQueriesModule);
-
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/_module.js.map
-
-/***/ }),
-/* 123 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export RESPONSIVE_ALIASES */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DEFAULT_BREAKPOINTS; });
-var RESPONSIVE_ALIASES = [
-    'xs', 'gt-xs', 'sm', 'gt-sm', 'md', 'gt-md', 'lg', 'gt-lg', 'xl'
-];
-var DEFAULT_BREAKPOINTS = [
-    {
-        alias: 'xs',
-        mediaQuery: 'screen and (max-width: 599px)'
-    },
-    {
-        alias: 'gt-xs',
-        overlapping: true,
-        mediaQuery: 'screen and (min-width: 600px)'
-    },
-    {
-        alias: 'lt-sm',
-        overlapping: true,
-        mediaQuery: 'screen and (max-width: 599px)'
-    },
-    {
-        alias: 'sm',
-        mediaQuery: 'screen and (min-width: 600px) and (max-width: 959px)'
-    },
-    {
-        alias: 'gt-sm',
-        overlapping: true,
-        mediaQuery: 'screen and (min-width: 960px)'
-    },
-    {
-        alias: 'lt-md',
-        overlapping: true,
-        mediaQuery: 'screen and (max-width: 959px)'
-    },
-    {
-        alias: 'md',
-        mediaQuery: 'screen and (min-width: 960px) and (max-width: 1279px)'
-    },
-    {
-        alias: 'gt-md',
-        overlapping: true,
-        mediaQuery: 'screen and (min-width: 1280px)'
-    },
-    {
-        alias: 'lt-lg',
-        overlapping: true,
-        mediaQuery: 'screen and (max-width: 1279px)'
-    },
-    {
-        alias: 'lg',
-        mediaQuery: 'screen and (min-width: 1280px) and (max-width: 1919px)'
-    },
-    {
-        alias: 'gt-lg',
-        overlapping: true,
-        mediaQuery: 'screen and (min-width: 1920px)'
-    },
-    {
-        alias: 'lt-xl',
-        overlapping: true,
-        mediaQuery: 'screen and (max-width: 1920px)'
-    },
-    {
-        alias: 'xl',
-        mediaQuery: 'screen and (min-width: 1920px) and (max-width: 5000px)'
-    }
-];
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/breakpoints/data/break-points.js.map
-
-/***/ }),
-/* 124 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export ScreenTypes */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ORIENTATION_BREAKPOINTS; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/* tslint:disable */
-var HANDSET_PORTRAIT = '(orientations: portrait) and (max-width: 599px)';
-var HANDSET_LANDSCAPE = '(orientations: landscape) and (max-width: 959px)';
-var TABLET_LANDSCAPE = '(orientations: landscape) and (min-width: 960px) and (max-width: 1279px)';
-var TABLET_PORTRAIT = '(orientations: portrait) and (min-width: 600px) and (max-width: 839px)';
-var WEB_PORTRAIT = '(orientations: portrait) and (min-width: 840px)';
-var WEB_LANDSCAPE = '(orientations: landscape) and (min-width: 1280px)';
-var ScreenTypes = {
-    'HANDSET': HANDSET_PORTRAIT + ", " + HANDSET_LANDSCAPE,
-    'TABLET': TABLET_PORTRAIT + " , " + TABLET_LANDSCAPE,
-    'WEB': WEB_PORTRAIT + ", " + WEB_LANDSCAPE + " ",
-    'HANDSET_PORTRAIT': "" + HANDSET_PORTRAIT,
-    'TABLET_PORTRAIT': TABLET_PORTRAIT + " ",
-    'WEB_PORTRAIT': "" + WEB_PORTRAIT,
-    'HANDSET_LANDSCAPE': HANDSET_LANDSCAPE + "]",
-    'TABLET_LANDSCAPE': "" + TABLET_LANDSCAPE,
-    'WEB_LANDSCAPE': "" + WEB_LANDSCAPE
-};
-/**
- * Extended Breakpoints for handset/tablets with landscape or portrait orientations
- */
-var ORIENTATION_BREAKPOINTS = [
-    { 'alias': 'handset', 'mediaQuery': ScreenTypes.HANDSET },
-    { 'alias': 'handset.landscape', 'mediaQuery': ScreenTypes.HANDSET_LANDSCAPE },
-    { 'alias': 'handset.portrait', 'mediaQuery': ScreenTypes.HANDSET_PORTRAIT },
-    { 'alias': 'tablet', 'mediaQuery': ScreenTypes.TABLET },
-    { 'alias': 'tablet.landscape', 'mediaQuery': ScreenTypes.TABLET },
-    { 'alias': 'tablet.portrait', 'mediaQuery': ScreenTypes.TABLET_PORTRAIT },
-    { 'alias': 'web', 'mediaQuery': ScreenTypes.WEB, overlapping: true },
-    { 'alias': 'web.landscape', 'mediaQuery': ScreenTypes.WEB_LANDSCAPE, overlapping: true },
-    { 'alias': 'web.portrait', 'mediaQuery': ScreenTypes.WEB_PORTRAIT, overlapping: true }
-];
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/breakpoints/data/orientation-break-points.js.map
-
-/***/ }),
-/* 125 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MediaChange; });
-/**
- * Class instances emitted [to observers] for each mql notification
- */
-var MediaChange = (function () {
-    function MediaChange(matches, // Is the mq currently activated
-        mediaQuery, // e.g.   (min-width: 600px) and (max-width: 959px)
-        mqAlias, // e.g.   gt-sm, md, gt-lg
-        suffix // e.g.   GtSM, Md, GtLg
-    ) {
-        if (matches === void 0) { matches = false; }
-        if (mediaQuery === void 0) { mediaQuery = 'all'; }
-        if (mqAlias === void 0) { mqAlias = ''; }
-        if (suffix === void 0) { suffix = ''; } // e.g.   GtSM, Md, GtLg
-        this.matches = matches;
-        this.mediaQuery = mediaQuery;
-        this.mqAlias = mqAlias;
-        this.suffix = suffix; // e.g.   GtSM, Md, GtLg
-    }
-    MediaChange.prototype.clone = function () {
-        return new MediaChange(this.matches, this.mediaQuery, this.mqAlias, this.suffix);
-    };
-    return MediaChange;
-}());
-
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/media-change.js.map
-
-/***/ }),
-/* 126 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__media_monitor__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__match_media__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__ = __webpack_require__(25);
-/* unused harmony export MEDIA_MONITOR_PROVIDER_FACTORY */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MEDIA_MONITOR_PROVIDER; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-
-
-
-/**
- * Ensure a single global service provider
- */
-function MEDIA_MONITOR_PROVIDER_FACTORY(parentMonitor, breakpoints, matchMedia) {
-    return parentMonitor || new __WEBPACK_IMPORTED_MODULE_1__media_monitor__["a" /* MediaMonitor */](breakpoints, matchMedia);
-}
-/**
- * Export provider that uses a global service factory (above)
- */
-var MEDIA_MONITOR_PROVIDER = {
-    provide: __WEBPACK_IMPORTED_MODULE_1__media_monitor__["a" /* MediaMonitor */],
-    deps: [
-        [new __WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */](), __WEBPACK_IMPORTED_MODULE_1__media_monitor__["a" /* MediaMonitor */]],
-        __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__["a" /* BreakPointRegistry */],
-        __WEBPACK_IMPORTED_MODULE_2__match_media__["a" /* MatchMedia */],
-    ],
-    useFactory: MEDIA_MONITOR_PROVIDER_FACTORY
-};
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/media-monitor-provider.js.map
-
-/***/ }),
-/* 127 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__match_media__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_add_alias__ = __webpack_require__(69);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ObservableMedia; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MediaService; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-
-
-
-
-
-/**
- * Base class for MediaService and pseudo-token for
- */
-var ObservableMedia = (function () {
-    function ObservableMedia() {
-    }
-    return ObservableMedia;
-}());
-
-/**
- * Class internalizes a MatchMedia service and exposes an Subscribable and Observable interface.
-
- * This an Observable with that exposes a feature to subscribe to mediaQuery
- * changes and a validator method (`isActive(<alias>)`) to test if a mediaQuery (or alias) is
- * currently active.
- *
- * !! Only mediaChange activations (not de-activations) are announced by the ObservableMedia
- *
- * This class uses the BreakPoint Registry to inject alias information into the raw MediaChange
- * notification. For custom mediaQuery notifications, alias information will not be injected and
- * those fields will be ''.
- *
- * !! This is not an actual Observable. It is a wrapper of an Observable used to publish additional
- * methods like `isActive(<alias>). To access the Observable and use RxJS operators, use
- * `.asObservable()` with syntax like media.asObservable().map(....).
- *
- *  @usage
- *
- *  // RxJS
- *  import 'rxjs/add/operator/filter';
- *  import { ObservableMedia } from '@angular/flex-layout';
- *
- *  @Component({ ... })
- *  export class AppComponent {
- *    status : string = '';
- *
- *    constructor(  media:ObservableMedia ) {
- *      let onChange = (change:MediaChange) => {
- *        this.status = change ? `'${change.mqAlias}' = (${change.mediaQuery})` : "";
- *      };
- *
- *      // Subscribe directly or access observable to use filter/map operators
- *      // e.g.
- *      //      media.subscribe(onChange);
- *
- *      media.asObservable()
- *        .filter((change:MediaChange) => true)   // silly noop filter
- *        .subscribe(onChange);
- *    }
- *  }
- */
-var MediaService = (function () {
-    function MediaService(mediaWatcher, breakpoints) {
-        this.mediaWatcher = mediaWatcher;
-        this.breakpoints = breakpoints;
-        /**
-         * Should we announce gt-<xxx> breakpoint activations ?
-         */
-        this.filterOverlaps = true;
-        this.observable$ = this._buildObservable();
-        this._registerBreakPoints();
-    }
-    /**
-     * Test if specified query/alias is active.
-     */
-    MediaService.prototype.isActive = function (alias) {
-        var query = this._toMediaQuery(alias);
-        return this.mediaWatcher.isActive(query);
-    };
-    ;
-    /**
-     * Proxy to the Observable subscribe method
-     */
-    MediaService.prototype.subscribe = function (next, error, complete) {
-        return this.observable$.subscribe(next, error, complete);
-    };
-    ;
-    /**
-     * Access to observable for use with operators like
-     * .filter(), .map(), etc.
-     */
-    MediaService.prototype.asObservable = function () {
-        return this.observable$;
-    };
-    // ************************************************
-    // Internal Methods
-    // ************************************************
-    /**
-     * Register all the mediaQueries registered in the BreakPointRegistry
-     * This is needed so subscribers can be auto-notified of all standard, registered
-     * mediaQuery activations
-     */
-    MediaService.prototype._registerBreakPoints = function () {
-        var _this = this;
-        this.breakpoints.items.forEach(function (bp) {
-            _this.mediaWatcher.registerQuery(bp.mediaQuery);
-            return bp;
-        });
-    };
-    /**
-     * Prepare internal observable
-     * NOTE: the raw MediaChange events [from MatchMedia] do not contain important alias information
-     * these must be injected into the MediaChange
-     */
-    MediaService.prototype._buildObservable = function () {
-        var _this = this;
-        var self = this;
-        // Only pass/announce activations (not de-activations)
-        // Inject associated (if any) alias information into the MediaChange event
-        // Exclude mediaQuery activations for overlapping mQs. List bounded mQ ranges only
-        var activationsOnly = function (change) {
-            return change.matches === true;
-        };
-        var addAliasInformation = function (change) {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_add_alias__["a" /* mergeAlias */])(change, _this._findByQuery(change.mediaQuery));
-        };
-        var excludeOverlaps = function (change) {
-            var bp = _this.breakpoints.findByQuery(change.mediaQuery);
-            return !bp ? true : !(self.filterOverlaps && bp.overlapping);
-        };
-        return this.mediaWatcher.observe()
-            .filter(activationsOnly)
-            .map(addAliasInformation)
-            .filter(excludeOverlaps);
-    };
-    /**
-     * Breakpoint locator by alias
-     */
-    MediaService.prototype._findByAlias = function (alias) {
-        return this.breakpoints.findByAlias(alias);
-    };
-    /**
-     * Breakpoint locator by mediaQuery
-     */
-    MediaService.prototype._findByQuery = function (query) {
-        return this.breakpoints.findByQuery(query);
-    };
-    ;
-    /**
-     * Find associated breakpoint (if any)
-     */
-    MediaService.prototype._toMediaQuery = function (query) {
-        var bp = this._findByAlias(query) || this._findByQuery(query);
-        return bp ? bp.mediaQuery : query;
-    };
-    ;
-    return MediaService;
-}());
-MediaService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__match_media__["a" /* MatchMedia */],
-        __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__["a" /* BreakPointRegistry */]])
-], MediaService);
-
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/observable-media.js.map
-
-/***/ }),
-/* 128 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = applyCssPrefixes;
-/* unused harmony export toAlignContentValue */
-/* unused harmony export toBoxValue */
-/* unused harmony export toBoxOrient */
-/* unused harmony export toBoxDirection */
-/* unused harmony export toBoxOrdinal */
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/** Applies CSS prefixes to appropriate style keys.*/
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */ function applyCssPrefixes(target) {
-    for (var key in target) {
-        var value = target[key];
-        switch (key) {
-            case 'display':
-                target['display'] = value;
-                // also need 'display : -webkit-box' and 'display : -ms-flexbox;'
-                break;
-            case 'flex':
-                target['-ms-flex'] = value;
-                target['-webkit-box-flex'] = value.split(" ")[0];
-                break;
-            case 'flex-direction':
-                value = value || "row";
-                target['flex-direction'] = value;
-                target['-ms-flex-direction'] = value;
-                target['-webkit-box-orient'] = toBoxOrient(value);
-                target['-webkit-box-direction'] = toBoxDirection(value);
-                break;
-            case 'flex-wrap':
-                target['-ms-flex-wrap'] = value;
-                break;
-            case 'order':
-                if (isNaN(value)) {
-                    value = "0";
-                }
-                target['order'] = value;
-                target['-ms-flex-order'] = value;
-                target['-webkit-box-ordinal-group'] = toBoxOrdinal(value);
-                break;
-            case 'justify-content':
-                target['-ms-flex-pack'] = toBoxValue(value);
-                target['-webkit-box-pack'] = toBoxValue(value);
-                break;
-            case 'align-items':
-                target['-ms-flex-align'] = toBoxValue(value);
-                target['-webkit-box-align'] = toBoxValue(value);
-                break;
-            case 'align-self':
-                target['-ms-flex-item-align'] = toBoxValue(value);
-                break;
-            case 'align-content':
-                target['-ms-align-content'] = toAlignContentValue(value);
-                target['-ms-flex-line-pack'] = toAlignContentValue(value);
-                break;
-        }
-    }
-    return target;
-}
-function toAlignContentValue(value) {
-    switch (value) {
-        case "space-between":
-            return "justify";
-        case "space-around":
-            return "distribute";
-        default:
-            return toBoxValue(value);
-    }
-}
-/** Convert flex values flex-start, flex-end to start, end. */
-function toBoxValue(value) {
-    if (value === void 0) { value = ""; }
-    return (value == 'flex-start') ? 'start' : ((value == 'flex-end') ? 'end' : value);
-}
-/** Convert flex Direction to Box orientations */
-function toBoxOrient(flexDirection) {
-    if (flexDirection === void 0) { flexDirection = 'row'; }
-    return flexDirection.indexOf('column') === -1 ? 'horizontal' : 'vertical';
-}
-/** Convert flex Direction to Box direction type */
-function toBoxDirection(flexDirection) {
-    if (flexDirection === void 0) { flexDirection = 'row'; }
-    return flexDirection.indexOf('reverse') !== -1 ? 'reverse' : 'normal';
-}
-/** Convert flex order to Box ordinal group */
-function toBoxOrdinal(order) {
-    if (order === void 0) { order = '0'; }
-    var value = order ? parseInt(order) + 1 : 1;
-    return isNaN(value) ? "0" : value.toString();
-}
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/utils/auto-prefixer.js.map
-
-/***/ }),
-/* 129 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = validateBasis;
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
-* The flex API permits 3 or 1 parts of the value:
-*    - `flex-grow flex-shrink flex-basis`, or
-*    - `flex-basis`
-*/
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */ function validateBasis(basis, grow, shrink) {
-    if (grow === void 0) { grow = "1"; }
-    if (shrink === void 0) { shrink = "1"; }
-    var parts = [grow, shrink, basis];
-    var j = basis.indexOf('calc');
-    if (j > 0) {
-        parts[2] = _validateCalcValue(basis.substring(j).trim());
-        var matches = basis.substr(0, j).trim().split(" ");
-        if (matches.length == 2) {
-            parts[0] = matches[0];
-            parts[1] = matches[1];
-        }
-    }
-    else if (j == 0) {
-        parts[2] = _validateCalcValue(basis.trim());
-    }
-    else {
-        var matches = basis.split(" ");
-        parts = (matches.length === 3) ? matches : [
-            grow, shrink, basis
-        ];
-    }
-    return parts;
-}
-/**
- * Calc expressions require whitespace before & after any expression operators
- * This is a simple, crude whitespace padding solution.
- *   - "3 3 calc(15em + 20px)"
- *   - calc(100% / 7 * 2)
- *   - "calc(15em + 20px)"
- *   - "calc(15em+20px)"
- *   - "37px"
- *   = "43%"
- */
-function _validateCalcValue(calc) {
-    return calc.replace(/[\s]/g, "").replace(/[\/\*\+\-]/g, " $& ");
-}
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/utils/basis-validator.js.map
-
-/***/ }),
-/* 130 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__object_extend__ = __webpack_require__(20);
-/* harmony export (immutable) */ __webpack_exports__["b"] = validateSuffixes;
-/* harmony export (immutable) */ __webpack_exports__["a"] = mergeByAlias;
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-var ALIAS_DELIMITERS = /(\.|-|_)/g;
-function firstUpperCase(part) {
-    var first = part.length > 0 ? part.charAt(0) : "";
-    var remainder = (part.length > 1) ? part.slice(1) : "";
-    return first.toUpperCase() + remainder;
-}
-/**
- * Converts snake-case to SnakeCase.
- * @param name Text to UpperCamelCase
- */
-function camelCase(name) {
-    return name
-        .replace(ALIAS_DELIMITERS, "|")
-        .split("|")
-        .map(firstUpperCase)
-        .join("");
-}
-/**
- * For each breakpoint, ensure that a Suffix is defined;
- * fallback to UpperCamelCase the unique Alias value
- */
-function validateSuffixes(list) {
-    list.forEach(function (bp) {
-        if (!bp.suffix || bp.suffix === "") {
-            bp.suffix = camelCase(bp.alias); // create Suffix value based on alias
-            bp.overlapping = bp.overlapping || false; // ensure default value
-        }
-    });
-    return list;
-}
-/**
- * Merge a custom breakpoint list with the default list based on unique alias values
- *  - Items are added if the alias is not in the default list
- *  - Items are merged with the custom override if the alias exists in the default list
- */
-function mergeByAlias(defaults, custom) {
-    if (custom === void 0) { custom = []; }
-    var merged = defaults.map(function (bp) { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__object_extend__["a" /* extendObject */])({}, bp); });
-    var findByAlias = function (alias) { return merged.reduce(function (result, bp) {
-        return result || ((bp.alias === alias) ? bp : null);
-    }, null); };
-    // Merge custom breakpoints
-    custom.forEach(function (bp) {
-        var target = findByAlias(bp.alias);
-        if (target) {
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__object_extend__["a" /* extendObject */])(target, bp);
-        }
-        else {
-            merged.push(bp);
-        }
-    });
-    return validateSuffixes(merged);
-}
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/utils/breakpoint-tools.js.map
-
-/***/ }),
-/* 131 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export NgStyleKeyValue */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ngStyleUtils; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * NgStyle allowed inputs
- */
-var NgStyleKeyValue = (function () {
-    function NgStyleKeyValue(key, value, noQuotes) {
-        if (noQuotes === void 0) { noQuotes = true; }
-        this.key = key;
-        this.value = value;
-        this.key = noQuotes ? key.replace(/['"]/g, "").trim() : key.trim();
-        this.value = noQuotes ? value.replace(/['"]/g, "").trim() : value.trim();
-        this.value = this.value.replace(/;/, "");
-    }
-    return NgStyleKeyValue;
-}());
-
-/**
- * Transform Operators for @angular/flex-layout NgStyle Directive
- */
-var ngStyleUtils = {
-    getType: getType,
-    buildRawList: buildRawList,
-    buildMapFromList: buildMapFromList,
-    buildMapFromSet: buildMapFromSet
-};
-function getType(target) {
-    var what = typeof target;
-    if (what === 'object') {
-        return (target.constructor === Array) ? 'array' :
-            (target.constructor === Set) ? 'set' : 'object';
-    }
-    return what;
-}
-/**
- * Split string of key:value pairs into Array of k-v pairs
- * e.g.  'key:value; key:value; key:value;' -> ['key:value',...]
- */
-function buildRawList(source, delimiter) {
-    if (delimiter === void 0) { delimiter = ";"; }
-    return String(source)
-        .trim()
-        .split(delimiter)
-        .map(function (val) { return val.trim(); })
-        .filter(function (val) { return val !== ""; });
-}
-/**
- * Convert array of key:value strings to a iterable map object
- */
-function buildMapFromList(styles, sanitize) {
-    var sanitizeValue = function (it) {
-        if (sanitize) {
-            it.value = sanitize(it.value);
-        }
-        return it;
-    };
-    return styles
-        .map(stringToKeyValue)
-        .filter(function (entry) { return !!entry; })
-        .map(sanitizeValue)
-        .reduce(keyValuesToMap, {});
-}
-;
-/**
- * Convert Set<string> or raw Object to an iterable NgStyleMap
- */
-function buildMapFromSet(source, sanitize) {
-    var list = new Array();
-    if (getType(source) == 'set') {
-        source.forEach(function (entry) { return list.push(entry); });
-    }
-    else {
-        Object.keys(source).forEach(function (key) {
-            list.push(key + ":" + source[key]);
-        });
-    }
-    return buildMapFromList(list, sanitize);
-}
-/**
- * Convert "key:value" -> [key, value]
- */
-function stringToKeyValue(it) {
-    var _a = it.split(":"), key = _a[0], val = _a[1];
-    return val ? new NgStyleKeyValue(key, val) : null;
-}
-;
-/**
- * Convert [ [key,value] ] -> { key : value }
- */
-function keyValuesToMap(map, entry) {
-    if (!!entry.key) {
-        map[entry.key] = entry.value;
-    }
-    return map;
-}
-//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/utils/style-transforms.js.map
-
-/***/ }),
-/* 132 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__autocomplete__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_a11y_activedescendant_key_manager__ = __webpack_require__(253);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_keyboard_keycodes__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_rtl_dir__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_Subject__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_observable_merge__ = __webpack_require__(398);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_add_observable_merge__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_switchMap__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_switchMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__input_input_container__ = __webpack_require__(83);
-/* unused harmony export AUTOCOMPLETE_OPTION_HEIGHT */
-/* unused harmony export AUTOCOMPLETE_PANEL_HEIGHT */
-/* unused harmony export MD_AUTOCOMPLETE_VALUE_ACCESSOR */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdAutocompleteTrigger; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
- * The following style constants are necessary to save here in order
- * to properly calculate the scrollTop of the panel. Because we are not
- * actually focusing the active item, scroll must be handled manually.
- */
-/** The height of each autocomplete option. */
-var AUTOCOMPLETE_OPTION_HEIGHT = 48;
-/** The total height of the autocomplete panel. */
-var AUTOCOMPLETE_PANEL_HEIGHT = 256;
-/**
- * Provider that allows the autocomplete to register as a ControlValueAccessor.
- * @docs-private
- */
-var MD_AUTOCOMPLETE_VALUE_ACCESSOR = {
-    provide: __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* NG_VALUE_ACCESSOR */],
-    useExisting: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* forwardRef */])(function () { return MdAutocompleteTrigger; }),
-    multi: true
-};
-var MdAutocompleteTrigger = (function () {
-    function MdAutocompleteTrigger(_element, _overlay, _viewContainerRef, _dir, _zone, _inputContainer) {
-        this._element = _element;
-        this._overlay = _overlay;
-        this._viewContainerRef = _viewContainerRef;
-        this._dir = _dir;
-        this._zone = _zone;
-        this._inputContainer = _inputContainer;
-        this._panelOpen = false;
-        /** Stream of blur events that should close the panel. */
-        this._blurStream = new __WEBPACK_IMPORTED_MODULE_8_rxjs_Subject__["Subject"]();
-        /** View -> model callback called when value changes */
-        this._onChange = function (value) { };
-        /** View -> model callback called when autocomplete has been touched */
-        this._onTouched = function () { };
-    }
-    Object.defineProperty(MdAutocompleteTrigger.prototype, "_matAutocomplete", {
-        /** Property with mat- prefix for no-conflict mode. */
-        get: function () {
-            return this.autocomplete;
-        },
-        set: function (autocomplete) {
-            this.autocomplete = autocomplete;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    MdAutocompleteTrigger.prototype.ngAfterContentInit = function () {
-        this._keyManager = new __WEBPACK_IMPORTED_MODULE_5__core_a11y_activedescendant_key_manager__["a" /* ActiveDescendantKeyManager */](this.autocomplete.options).withWrap();
-    };
-    MdAutocompleteTrigger.prototype.ngOnDestroy = function () {
-        if (this._panelPositionSubscription) {
-            this._panelPositionSubscription.unsubscribe();
-        }
-        this._destroyPanel();
-    };
-    Object.defineProperty(MdAutocompleteTrigger.prototype, "panelOpen", {
-        /* Whether or not the autocomplete panel is open. */
-        get: function () {
-            return this._panelOpen;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /** Opens the autocomplete suggestion panel. */
-    MdAutocompleteTrigger.prototype.openPanel = function () {
-        if (!this._overlayRef) {
-            this._createOverlay();
-        }
-        if (!this._overlayRef.hasAttached()) {
-            this._overlayRef.attach(this._portal);
-            this._subscribeToClosingActions();
-        }
-        this._panelOpen = true;
-        this._floatPlaceholder('always');
-    };
-    /** Closes the autocomplete suggestion panel. */
-    MdAutocompleteTrigger.prototype.closePanel = function () {
-        if (this._overlayRef && this._overlayRef.hasAttached()) {
-            this._overlayRef.detach();
-        }
-        this._panelOpen = false;
-        this._floatPlaceholder('auto');
-    };
-    Object.defineProperty(MdAutocompleteTrigger.prototype, "panelClosingActions", {
-        /**
-         * A stream of actions that should close the autocomplete panel, including
-         * when an option is selected, on blur, and when TAB is pressed.
-         */
-        get: function () {
-            return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].merge.apply(__WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"], this.optionSelections.concat([this._blurStream.asObservable(), this._keyManager.tabOut]));
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdAutocompleteTrigger.prototype, "optionSelections", {
-        /** Stream of autocomplete option selections. */
-        get: function () {
-            return this.autocomplete.options.map(function (option) { return option.onSelect; });
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdAutocompleteTrigger.prototype, "activeOption", {
-        /** The currently active option, coerced to MdOption type. */
-        get: function () {
-            return this._keyManager.activeItem;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Sets the autocomplete's value. Part of the ControlValueAccessor interface
-     * required to integrate with Angular's core forms API.
-     *
-     * @param value New value to be written to the model.
-     */
-    MdAutocompleteTrigger.prototype.writeValue = function (value) {
-        var _this = this;
-        Promise.resolve(null).then(function () { return _this._setTriggerValue(value); });
-    };
-    /**
-     * Saves a callback function to be invoked when the autocomplete's value
-     * changes from user input. Part of the ControlValueAccessor interface
-     * required to integrate with Angular's core forms API.
-     *
-     * @param fn Callback to be triggered when the value changes.
-     */
-    MdAutocompleteTrigger.prototype.registerOnChange = function (fn) {
-        this._onChange = fn;
-    };
-    /**
-     * Saves a callback function to be invoked when the autocomplete is blurred
-     * by the user. Part of the ControlValueAccessor interface required
-     * to integrate with Angular's core forms API.
-     *
-     * @param fn Callback to be triggered when the component has been touched.
-     */
-    MdAutocompleteTrigger.prototype.registerOnTouched = function (fn) {
-        this._onTouched = fn;
-    };
-    MdAutocompleteTrigger.prototype._handleKeydown = function (event) {
-        if (this.activeOption && event.keyCode === __WEBPACK_IMPORTED_MODULE_6__core_keyboard_keycodes__["a" /* ENTER */]) {
-            this.activeOption._selectViaInteraction();
-        }
-        else {
-            this._keyManager.onKeydown(event);
-            if (event.keyCode === __WEBPACK_IMPORTED_MODULE_6__core_keyboard_keycodes__["i" /* UP_ARROW */] || event.keyCode === __WEBPACK_IMPORTED_MODULE_6__core_keyboard_keycodes__["j" /* DOWN_ARROW */]) {
-                this.openPanel();
-                this._scrollToOption();
-            }
-        }
-    };
-    MdAutocompleteTrigger.prototype._handleInput = function (value) {
-        this._onChange(value);
-        this.openPanel();
-    };
-    MdAutocompleteTrigger.prototype._handleBlur = function (newlyFocusedTag) {
-        this._onTouched();
-        // Only emit blur event if the new focus is *not* on an option.
-        if (newlyFocusedTag !== 'MD-OPTION') {
-            this._blurStream.next(null);
-        }
-    };
-    /**
-     * In "auto" mode, the placeholder will animate down as soon as focus is lost.
-     * This causes the value to jump when selecting an option with the mouse.
-     * This method manually floats the placeholder until the panel can be closed.
-     */
-    MdAutocompleteTrigger.prototype._floatPlaceholder = function (state) {
-        if (this._inputContainer) {
-            this._inputContainer.floatPlaceholder = state;
-        }
-    };
-    /**
-     * Given that we are not actually focusing active options, we must manually adjust scroll
-     * to reveal options below the fold. First, we find the offset of the option from the top
-     * of the panel. The new scrollTop will be that offset - the panel height + the option
-     * height, so the active option will be just visible at the bottom of the panel.
-     */
-    MdAutocompleteTrigger.prototype._scrollToOption = function () {
-        var optionOffset = this._keyManager.activeItemIndex * AUTOCOMPLETE_OPTION_HEIGHT;
-        var newScrollTop = Math.max(0, optionOffset - AUTOCOMPLETE_PANEL_HEIGHT + AUTOCOMPLETE_OPTION_HEIGHT);
-        this.autocomplete._setScrollTop(newScrollTop);
-    };
-    /**
-     * This method listens to a stream of panel closing actions and resets the
-     * stream every time the option list changes.
-     */
-    MdAutocompleteTrigger.prototype._subscribeToClosingActions = function () {
-        var _this = this;
-        // When the zone is stable initially, and when the option list changes...
-        __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].merge(this._zone.onStable.first(), this.autocomplete.options.changes)
-            .switchMap(function () {
-            _this._resetPanel();
-            return _this.panelClosingActions;
-        })
-            .first()
-            .subscribe(function (event) { return _this._setValueAndClose(event); });
-    };
-    /** Destroys the autocomplete suggestion panel. */
-    MdAutocompleteTrigger.prototype._destroyPanel = function () {
-        if (this._overlayRef) {
-            this.closePanel();
-            this._overlayRef.dispose();
-            this._overlayRef = null;
-        }
-    };
-    MdAutocompleteTrigger.prototype._setTriggerValue = function (value) {
-        this._element.nativeElement.value =
-            this.autocomplete.displayWith ? this.autocomplete.displayWith(value) : value;
-    };
-    /**
-    * This method closes the panel, and if a value is specified, also sets the associated
-    * control to that value. It will also mark the control as dirty if this interaction
-    * stemmed from the user.
-    */
-    MdAutocompleteTrigger.prototype._setValueAndClose = function (event) {
-        if (event) {
-            this._setTriggerValue(event.source.value);
-            this._onChange(event.source.value);
-        }
-        this.closePanel();
-    };
-    MdAutocompleteTrigger.prototype._createOverlay = function () {
-        this._portal = new __WEBPACK_IMPORTED_MODULE_2__core__["m" /* TemplatePortal */](this.autocomplete.template, this._viewContainerRef);
-        this._overlayRef = this._overlay.create(this._getOverlayConfig());
-    };
-    MdAutocompleteTrigger.prototype._getOverlayConfig = function () {
-        var overlayState = new __WEBPACK_IMPORTED_MODULE_2__core__["b" /* OverlayState */]();
-        overlayState.positionStrategy = this._getOverlayPosition();
-        overlayState.width = this._getHostWidth();
-        overlayState.direction = this._dir ? this._dir.value : 'ltr';
-        return overlayState;
-    };
-    MdAutocompleteTrigger.prototype._getOverlayPosition = function () {
-        this._positionStrategy = this._overlay.position().connectedTo(this._element, { originX: 'start', originY: 'bottom' }, { overlayX: 'start', overlayY: 'top' })
-            .withFallbackPosition({ originX: 'start', originY: 'top' }, { overlayX: 'start', overlayY: 'bottom' });
-        this._subscribeToPositionChanges(this._positionStrategy);
-        return this._positionStrategy;
-    };
-    /**
-     * This method subscribes to position changes in the autocomplete panel, so the panel's
-     * y-offset can be adjusted to match the new position.
-     */
-    MdAutocompleteTrigger.prototype._subscribeToPositionChanges = function (strategy) {
-        var _this = this;
-        this._panelPositionSubscription = strategy.onPositionChange.subscribe(function (change) {
-            _this.autocomplete.positionY = change.connectionPair.originY === 'top' ? 'above' : 'below';
-        });
-    };
-    /** Returns the width of the input element, so the panel width can match it. */
-    MdAutocompleteTrigger.prototype._getHostWidth = function () {
-        return this._element.nativeElement.getBoundingClientRect().width;
-    };
-    /** Reset active item to null so arrow events will activate the correct options.*/
-    MdAutocompleteTrigger.prototype._resetActiveItem = function () {
-        this._keyManager.setActiveItem(null);
-    };
-    /**
-     * Resets the active item and re-calculates alignment of the panel in case its size
-     * has changed due to fewer or greater number of options.
-     */
-    MdAutocompleteTrigger.prototype._resetPanel = function () {
-        this._resetActiveItem();
-        this._positionStrategy.recalculateLastPosition();
-        this.autocomplete._setVisibility();
-    };
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('mdAutocomplete'), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_3__autocomplete__["a" /* MdAutocomplete */])
-    ], MdAutocompleteTrigger.prototype, "autocomplete", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('matAutocomplete'), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_3__autocomplete__["a" /* MdAutocomplete */])
-    ], MdAutocompleteTrigger.prototype, "_matAutocomplete", null);
-    MdAutocompleteTrigger = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: 'input[mdAutocomplete], input[matAutocomplete]',
-            host: {
-                'role': 'combobox',
-                'autocomplete': 'off',
-                'aria-autocomplete': 'list',
-                'aria-multiline': 'false',
-                '[attr.aria-activedescendant]': 'activeOption?.id',
-                '[attr.aria-expanded]': 'panelOpen.toString()',
-                '[attr.aria-owns]': 'autocomplete?.id',
-                '(focus)': 'openPanel()',
-                '(blur)': '_handleBlur($event.relatedTarget?.tagName)',
-                '(input)': '_handleInput($event.target.value)',
-                '(keydown)': '_handleKeydown($event)',
-            },
-            providers: [MD_AUTOCOMPLETE_VALUE_ACCESSOR]
-        }),
-        __param(3, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
-        __param(5, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
-        __param(5, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Host */])()), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_2__core__["c" /* Overlay */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_7__core_rtl_dir__["a" /* Dir */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* NgZone */], __WEBPACK_IMPORTED_MODULE_12__input_input_container__["b" /* MdInputContainer */]])
-    ], MdAutocompleteTrigger);
-    return MdAutocompleteTrigger;
-}());
-//# sourceMappingURL=autocomplete-trigger.js.map
-
-/***/ }),
-/* 133 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__autocomplete__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__autocomplete_trigger__ = __webpack_require__(132);
-/* unused harmony namespace reexport */
-/* unused harmony namespace reexport */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdAutocompleteModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-var MdAutocompleteModule = (function () {
-    function MdAutocompleteModule() {
-    }
-    /** @deprecated */
-    MdAutocompleteModule.forRoot = function () {
-        return {
-            ngModule: MdAutocompleteModule,
-            providers: [__WEBPACK_IMPORTED_MODULE_1__core__["D" /* OVERLAY_PROVIDERS */]]
-        };
-    };
-    MdAutocompleteModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-            imports: [__WEBPACK_IMPORTED_MODULE_1__core__["E" /* MdOptionModule */], __WEBPACK_IMPORTED_MODULE_1__core__["d" /* OverlayModule */], __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */], __WEBPACK_IMPORTED_MODULE_2__angular_common__["c" /* CommonModule */]],
-            exports: [__WEBPACK_IMPORTED_MODULE_3__autocomplete__["a" /* MdAutocomplete */], __WEBPACK_IMPORTED_MODULE_1__core__["E" /* MdOptionModule */], __WEBPACK_IMPORTED_MODULE_4__autocomplete_trigger__["a" /* MdAutocompleteTrigger */], __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */]],
-            declarations: [__WEBPACK_IMPORTED_MODULE_3__autocomplete__["a" /* MdAutocomplete */], __WEBPACK_IMPORTED_MODULE_4__autocomplete_trigger__["a" /* MdAutocompleteTrigger */]],
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdAutocompleteModule);
-    return MdAutocompleteModule;
-}());
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 134 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button_toggle__ = __webpack_require__(248);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__button_toggle__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 135 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button__ = __webpack_require__(249);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__button__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 136 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__card__ = __webpack_require__(250);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__card__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 137 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__checkbox__ = __webpack_require__(251);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__checkbox__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 138 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_coercion_boolean_property__ = __webpack_require__(12);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdChip; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Material design styled Chip component. Used inside the MdChipList component.
- */
-var MdChip = (function () {
-    function MdChip(_renderer, _elementRef) {
-        this._renderer = _renderer;
-        this._elementRef = _elementRef;
-        /** Whether or not the chip is disabled. Disabled chips cannot be focused. */
-        this._disabled = null;
-        /** Whether or not the chip is selected. */
-        this._selected = false;
-        /** The palette color of selected chips. */
-        this._color = 'primary';
-        /** Emitted when the chip is focused. */
-        this.onFocus = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-        /** Emitted when the chip is selected. */
-        this.select = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-        /** Emitted when the chip is deselected. */
-        this.deselect = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-        /** Emitted when the chip is destroyed. */
-        this.destroy = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-    }
-    MdChip.prototype.ngOnInit = function () {
-        this._addDefaultCSSClass();
-        this._updateColor(this._color);
-    };
-    MdChip.prototype.ngOnDestroy = function () {
-        this.destroy.emit({ chip: this });
-    };
-    Object.defineProperty(MdChip.prototype, "disabled", {
-        /** Whether or not the chip is disabled. */
-        get: function () {
-            return this._disabled;
-        },
-        /** Sets the disabled state of the chip. */
-        set: function (value) {
-            this._disabled = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value) ? true : null;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChip.prototype, "_isAriaDisabled", {
-        /** A String representation of the current disabled state. */
-        get: function () {
-            return String(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(this.disabled));
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChip.prototype, "selected", {
-        /** Whether or not this chip is selected. */
-        get: function () {
-            return this._selected;
-        },
-        set: function (value) {
-            this._selected = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value);
-            if (this._selected) {
-                this.select.emit({ chip: this });
-            }
-            else {
-                this.deselect.emit({ chip: this });
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Toggles the current selected state of this chip.
-     * @return Whether the chip is selected.
-     */
-    MdChip.prototype.toggleSelected = function () {
-        this.selected = !this.selected;
-        return this.selected;
-    };
-    Object.defineProperty(MdChip.prototype, "color", {
-        /** The color of the chip. Can be `primary`, `accent`, or `warn`. */
-        get: function () {
-            return this._color;
-        },
-        set: function (value) {
-            this._updateColor(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /** Allows for programmatic focusing of the chip. */
-    MdChip.prototype.focus = function () {
-        this._renderer.invokeElementMethod(this._elementRef.nativeElement, 'focus');
-        this.onFocus.emit({ chip: this });
-    };
-    /** Ensures events fire properly upon click. */
-    MdChip.prototype._handleClick = function (event) {
-        // Check disabled
-        if (this.disabled) {
-            event.preventDefault();
-            event.stopPropagation();
-        }
-        else {
-            this.focus();
-        }
-    };
-    /** Initializes the appropriate CSS classes based on the chip type (basic or standard). */
-    MdChip.prototype._addDefaultCSSClass = function () {
-        var el = this._elementRef.nativeElement;
-        // Always add the `mat-chip` class
-        el.classList.add('mat-chip');
-        // If we are a basic chip, also add the `mat-basic-chip` class for :not() targeting
-        if (el.nodeName.toLowerCase() == 'mat-basic-chip' || el.hasAttribute('mat-basic-chip') ||
-            el.nodeName.toLowerCase() == 'md-basic-chip' || el.hasAttribute('md-basic-chip')) {
-            el.classList.add('mat-basic-chip');
-        }
-    };
-    /** Updates the private _color variable and the native element. */
-    MdChip.prototype._updateColor = function (newColor) {
-        this._setElementColor(this._color, false);
-        this._setElementColor(newColor, true);
-        this._color = newColor;
-    };
-    /** Sets the mat-color on the native element. */
-    MdChip.prototype._setElementColor = function (color, isAdd) {
-        if (color != null && color != '') {
-            this._renderer.setElementClass(this._elementRef.nativeElement, "mat-" + color, isAdd);
-        }
-    };
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', Object)
-    ], MdChip.prototype, "select", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', Object)
-    ], MdChip.prototype, "deselect", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', Object)
-    ], MdChip.prototype, "destroy", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Boolean)
-    ], MdChip.prototype, "disabled", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Boolean)
-    ], MdChip.prototype, "selected", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', String)
-    ], MdChip.prototype, "color", null);
-    MdChip = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
-            selector: "md-basic-chip, [md-basic-chip], md-chip, [md-chip],\n             mat-basic-chip, [mat-basic-chip], mat-chip, [mat-chip]",
-            template: "<ng-content></ng-content>",
-            host: {
-                '[class.mat-chip]': 'true',
-                'tabindex': '-1',
-                'role': 'option',
-                '[class.mat-chip-selected]': 'selected',
-                '[attr.disabled]': 'disabled',
-                '[attr.aria-disabled]': '_isAriaDisabled',
-                '(click)': '_handleClick($event)'
-            }
-        }), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */]])
-    ], MdChip);
-    return MdChip;
-}());
-//# sourceMappingURL=chip.js.map
-
-/***/ }),
-/* 139 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chip_list__ = __webpack_require__(252);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__chip_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__chip__ = __webpack_require__(138);
-/* unused harmony namespace reexport */
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 140 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListKeyManager; });
-
-
-/**
- * This class manages keyboard events for selectable lists. If you pass it a query list
- * of items, it will set the active item correctly when arrow events occur.
- */
-var ListKeyManager = (function () {
-    function ListKeyManager(_items) {
-        this._items = _items;
-        this._tabOut = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
-        this._wrap = false;
-    }
-    /**
-     * Turns on wrapping mode, which ensures that the active item will wrap to
-     * the other end of list when there are no more items in the given direction.
-     *
-     * @returns The ListKeyManager that the method was called on.
-     */
-    ListKeyManager.prototype.withWrap = function () {
-        this._wrap = true;
-        return this;
-    };
-    /**
-     * Sets the active item to the item at the index specified.
-     *
-     * @param index The index of the item to be set as active.
-     */
-    ListKeyManager.prototype.setActiveItem = function (index) {
-        this._activeItemIndex = index;
-        this._activeItem = this._items.toArray()[index];
-    };
-    /**
-     * Sets the active item depending on the key event passed in.
-     * @param event Keyboard event to be used for determining which element should be active.
-     */
-    ListKeyManager.prototype.onKeydown = function (event) {
-        switch (event.keyCode) {
-            case __WEBPACK_IMPORTED_MODULE_0__core__["v" /* DOWN_ARROW */]:
-                this.setNextItemActive();
-                break;
-            case __WEBPACK_IMPORTED_MODULE_0__core__["w" /* UP_ARROW */]:
-                this.setPreviousItemActive();
-                break;
-            case __WEBPACK_IMPORTED_MODULE_0__core__["x" /* HOME */]:
-                this.setFirstItemActive();
-                break;
-            case __WEBPACK_IMPORTED_MODULE_0__core__["y" /* END */]:
-                this.setLastItemActive();
-                break;
-            case __WEBPACK_IMPORTED_MODULE_0__core__["z" /* TAB */]:
-                // Note that we shouldn't prevent the default action on tab.
-                this._tabOut.next(null);
-                return;
-            default:
-                return;
-        }
-        event.preventDefault();
-    };
-    Object.defineProperty(ListKeyManager.prototype, "activeItemIndex", {
-        /** Returns the index of the currently active item. */
-        get: function () {
-            return this._activeItemIndex;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ListKeyManager.prototype, "activeItem", {
-        /** Returns the currently active item. */
-        get: function () {
-            return this._activeItem;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /** Sets the active item to the first enabled item in the list. */
-    ListKeyManager.prototype.setFirstItemActive = function () {
-        this._setActiveItemByIndex(0, 1);
-    };
-    /** Sets the active item to the last enabled item in the list. */
-    ListKeyManager.prototype.setLastItemActive = function () {
-        this._setActiveItemByIndex(this._items.length - 1, -1);
-    };
-    /** Sets the active item to the next enabled item in the list. */
-    ListKeyManager.prototype.setNextItemActive = function () {
-        this._activeItemIndex === null ? this.setFirstItemActive() : this._setActiveItemByDelta(1);
-    };
-    /** Sets the active item to a previous enabled item in the list. */
-    ListKeyManager.prototype.setPreviousItemActive = function () {
-        this._activeItemIndex === null && this._wrap ? this.setLastItemActive()
-            : this._setActiveItemByDelta(-1);
-    };
-    /**
-     * Allows setting of the activeItemIndex without any other effects.
-     * @param index The new activeItemIndex.
-     */
-    ListKeyManager.prototype.updateActiveItemIndex = function (index) {
-        this._activeItemIndex = index;
-    };
-    Object.defineProperty(ListKeyManager.prototype, "tabOut", {
-        /**
-         * Observable that emits any time the TAB key is pressed, so components can react
-         * when focus is shifted off of the list.
-         */
-        get: function () {
-            return this._tabOut.asObservable();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * This method sets the active item, given a list of items and the delta between the
-     * currently active item and the new active item. It will calculate differently
-     * depending on whether wrap mode is turned on.
-     */
-    ListKeyManager.prototype._setActiveItemByDelta = function (delta, items) {
-        if (items === void 0) { items = this._items.toArray(); }
-        this._wrap ? this._setActiveInWrapMode(delta, items)
-            : this._setActiveInDefaultMode(delta, items);
-    };
-    /**
-     * Sets the active item properly given "wrap" mode. In other words, it will continue to move
-     * down the list until it finds an item that is not disabled, and it will wrap if it
-     * encounters either end of the list.
-     */
-    ListKeyManager.prototype._setActiveInWrapMode = function (delta, items) {
-        // when active item would leave menu, wrap to beginning or end
-        this._activeItemIndex =
-            (this._activeItemIndex + delta + items.length) % items.length;
-        // skip all disabled menu items recursively until an enabled one is reached
-        if (items[this._activeItemIndex].disabled) {
-            this._setActiveInWrapMode(delta, items);
-        }
-        else {
-            this.setActiveItem(this._activeItemIndex);
-        }
-    };
-    /**
-     * Sets the active item properly given the default mode. In other words, it will
-     * continue to move down the list until it finds an item that is not disabled. If
-     * it encounters either end of the list, it will stop and not wrap.
-     */
-    ListKeyManager.prototype._setActiveInDefaultMode = function (delta, items) {
-        this._setActiveItemByIndex(this._activeItemIndex + delta, delta, items);
-    };
-    /**
-     * Sets the active item to the first enabled item starting at the index specified. If the
-     * item is disabled, it will move in the fallbackDelta direction until it either
-     * finds an enabled item or encounters the end of the list.
-     */
-    ListKeyManager.prototype._setActiveItemByIndex = function (index, fallbackDelta, items) {
-        if (items === void 0) { items = this._items.toArray(); }
-        if (!items[index]) {
-            return;
-        }
-        while (items[index].disabled) {
-            index += fallbackDelta;
-            if (!items[index]) {
-                return;
-            }
-        }
-        this.setActiveItem(index);
-    };
-    return ListKeyManager;
-}());
-//# sourceMappingURL=list-key-manager.js.map
-
-/***/ }),
-/* 141 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UniqueSelectionDispatcher; });
-/* unused harmony export UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return UNIQUE_SELECTION_DISPATCHER_PROVIDER; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-/**
- * Class to coordinate unique selection based on name.
- * Intended to be consumed as an Angular service.
- * This service is needed because native radio change events are only fired on the item currently
- * being selected, and we still need to uncheck the previous selection.
- *
- * This service does not *store* any IDs and names because they may change at any time, so it is
- * less error-prone if they are simply passed through when the events occur.
- */
-var UniqueSelectionDispatcher = (function () {
-    function UniqueSelectionDispatcher() {
-        this._listeners = [];
-    }
-    /**
-     * Notify other items that selection for the given name has been set.
-     * @param id ID of the item.
-     * @param name Name of the item.
-     */
-    UniqueSelectionDispatcher.prototype.notify = function (id, name) {
-        for (var _i = 0, _a = this._listeners; _i < _a.length; _i++) {
-            var listener = _a[_i];
-            listener(id, name);
-        }
-    };
-    /** Listen for future changes to item selection. */
-    UniqueSelectionDispatcher.prototype.listen = function (listener) {
-        this._listeners.push(listener);
-    };
-    UniqueSelectionDispatcher = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(), 
-        __metadata('design:paramtypes', [])
-    ], UniqueSelectionDispatcher);
-    return UniqueSelectionDispatcher;
-}());
-function UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY(parentDispatcher) {
-    return parentDispatcher || new UniqueSelectionDispatcher();
-}
-var UNIQUE_SELECTION_DISPATCHER_PROVIDER = {
-    // If there is already a dispatcher available, use that. Otherwise, provide a new one.
-    provide: UniqueSelectionDispatcher,
-    deps: [[new __WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */](), UniqueSelectionDispatcher]],
-    useFactory: UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY
-};
-//# sourceMappingURL=unique-selection-dispatcher.js.map
-
-/***/ }),
-/* 142 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__line_line__ = __webpack_require__(144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rtl_dir__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__observe_content_observe_content__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__option_option__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ripple_ripple__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__overlay_overlay_directives__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__a11y_index__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__selection_index__ = __webpack_require__(150);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_2__rtl_dir__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_2__rtl_dir__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_3__observe_content_observe_content__["a"]; });
-/* unused harmony reexport ObserveContent */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_4__option_option__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_4__option_option__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__portal_portal__ = __webpack_require__(36);
-/* unused harmony reexport Portal */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_10__portal_portal__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_10__portal_portal__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__portal_portal__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__portal_dom_portal_host__ = __webpack_require__(149);
-/* unused harmony reexport DomPortalHost */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__projection_projection__ = __webpack_require__(263);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_12__projection_projection__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__platform_index__ = __webpack_require__(52);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__platform_platform__ = __webpack_require__(53);
-/* unused harmony reexport MdPlatform */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__overlay_overlay__ = __webpack_require__(146);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_15__overlay_overlay__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_15__overlay_overlay__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__overlay_overlay_container__ = __webpack_require__(77);
-/* unused harmony reexport OverlayContainer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__overlay_fullscreen_overlay_container__ = __webpack_require__(258);
-/* unused harmony reexport FullscreenOverlayContainer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__overlay_overlay_ref__ = __webpack_require__(145);
-/* unused harmony reexport OverlayRef */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__overlay_overlay_state__ = __webpack_require__(78);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_19__overlay_overlay_state__["a"]; });
-/* unused harmony reexport ConnectedOverlayDirective */
-/* unused harmony reexport OverlayOrigin */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_7__overlay_overlay_directives__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__overlay_position_connected_position_strategy__ = __webpack_require__(147);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__overlay_position_connected_position__ = __webpack_require__(79);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__overlay_scroll_scroll_dispatcher__ = __webpack_require__(27);
-/* unused harmony reexport ScrollDispatcher */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__gestures_gesture_config__ = __webpack_require__(257);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_23__gestures_gesture_config__["a"]; });
-/* unused harmony reexport MdRipple */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_5__ripple_ripple__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__a11y_live_announcer__ = __webpack_require__(74);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_24__a11y_live_announcer__["b"]; });
-/* unused harmony reexport LIVE_ANNOUNCER_ELEMENT_TOKEN */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_24__a11y_live_announcer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__selection_selection__ = __webpack_require__(265);
-/* unused harmony namespace reexport */
-/* unused harmony reexport MdLiveAnnouncer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__a11y_focus_trap__ = __webpack_require__(49);
-/* unused harmony reexport FocusTrap */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__a11y_interactivity_checker__ = __webpack_require__(73);
-/* unused harmony reexport InteractivityChecker */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__a11y_fake_mousedown__ = __webpack_require__(254);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_28__a11y_fake_mousedown__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_8__a11y_index__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__coordination_unique_selection_dispatcher__ = __webpack_require__(141);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_29__coordination_unique_selection_dispatcher__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_29__coordination_unique_selection_dispatcher__["b"]; });
-/* unused harmony reexport MdUniqueSelectionDispatcher */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_1__line_line__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_1__line_line__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_1__line_line__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__style_index__ = __webpack_require__(154);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_30__style_index__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__errors_error__ = __webpack_require__(75);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_31__errors_error__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__ = __webpack_require__(21);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["c"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["d"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["j"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["i"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["h"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["g"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["l"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__compatibility_compatibility__ = __webpack_require__(40);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__animation_animation__ = __webpack_require__(255);
-/* unused harmony namespace reexport */
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__coercion_boolean_property__ = __webpack_require__(12);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_35__coercion_boolean_property__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__coercion_number_property__ = __webpack_require__(256);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_36__coercion_number_property__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_33__compatibility_compatibility__["a"]; });
-/* unused harmony reexport NoConflictStyleCompatibilityMode */
-/* unused harmony export MdCoreModule */
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-// RTL
-
-// Mutation Observer
-
-
-// Portals
-
-
-
-// Projection
-
-// Platform
-
-/** @deprecated */
-
-// Overlay
-
-
-
-
-
-
-
-
-
-// Gestures
-
-// Explicitly specify the interfaces which should be re-exported, because if everything
-// is re-exported, module bundlers may run into issues with treeshaking.
-// Ripple
-
-// a11y
-
-// Selection
-
-/** @deprecated */
-
-
-
-
-
-
-/** @deprecated */
-
-
-// Style
-
-// Error
-
-// Misc
-// Keybindings
-
-
-// Animation
-
-// Selection
-
-// Coercion
-
-
-// Compatibility
-
-var MdCoreModule = (function () {
-    function MdCoreModule() {
-    }
-    /** @deprecated */
-    MdCoreModule.forRoot = function () {
-        return {
-            ngModule: MdCoreModule,
-            providers: [],
-        };
-    };
-    MdCoreModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1__line_line__["a" /* MdLineModule */],
-                __WEBPACK_IMPORTED_MODULE_2__rtl_dir__["b" /* RtlModule */],
-                __WEBPACK_IMPORTED_MODULE_5__ripple_ripple__["a" /* MdRippleModule */],
-                __WEBPACK_IMPORTED_MODULE_3__observe_content_observe_content__["a" /* ObserveContentModule */],
-                __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["a" /* PortalModule */],
-                __WEBPACK_IMPORTED_MODULE_7__overlay_overlay_directives__["a" /* OverlayModule */],
-                __WEBPACK_IMPORTED_MODULE_8__a11y_index__["a" /* A11yModule */],
-                __WEBPACK_IMPORTED_MODULE_4__option_option__["a" /* MdOptionModule */],
-                __WEBPACK_IMPORTED_MODULE_9__selection_index__["a" /* MdSelectionModule */],
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_1__line_line__["a" /* MdLineModule */],
-                __WEBPACK_IMPORTED_MODULE_2__rtl_dir__["b" /* RtlModule */],
-                __WEBPACK_IMPORTED_MODULE_5__ripple_ripple__["a" /* MdRippleModule */],
-                __WEBPACK_IMPORTED_MODULE_3__observe_content_observe_content__["a" /* ObserveContentModule */],
-                __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["a" /* PortalModule */],
-                __WEBPACK_IMPORTED_MODULE_7__overlay_overlay_directives__["a" /* OverlayModule */],
-                __WEBPACK_IMPORTED_MODULE_8__a11y_index__["a" /* A11yModule */],
-                __WEBPACK_IMPORTED_MODULE_4__option_option__["a" /* MdOptionModule */],
-                __WEBPACK_IMPORTED_MODULE_9__selection_index__["a" /* MdSelectionModule */],
-            ],
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdCoreModule);
-    return MdCoreModule;
-}());
-//# sourceMappingURL=core.js.map
-
-/***/ }),
-/* 143 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(142);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["c"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["d"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["e"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["f"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["g"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["h"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["i"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["j"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["k"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["l"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["m"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["n"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["o"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["p"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["q"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["r"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["s"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["t"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["u"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["A"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["B"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["C"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["D"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["E"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["F"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["G"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["H"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["I"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["J"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["K"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["L"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["M"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["N"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 144 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__compatibility_compatibility__ = __webpack_require__(40);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdLine; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdLineSetter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdLineModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Shared directive to count lines inside a text area, such as a list item.
- * Line elements can be extracted with a @ContentChildren(MdLine) query, then
- * counted by checking the query list's length.
- */
-var MdLine = (function () {
-    function MdLine() {
-    }
-    MdLine = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: '[md-line], [mat-line]',
-            host: {
-                '[class.mat-line]': 'true'
-            }
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdLine);
-    return MdLine;
-}());
-/**
- * Helper that takes a query list of lines and sets the correct class on the host.
- * @docs-private
- */
-var MdLineSetter = (function () {
-    function MdLineSetter(_lines, _renderer, _element) {
-        var _this = this;
-        this._lines = _lines;
-        this._renderer = _renderer;
-        this._element = _element;
-        this._setLineClass(this._lines.length);
-        this._lines.changes.subscribe(function () {
-            _this._setLineClass(_this._lines.length);
-        });
-    }
-    MdLineSetter.prototype._setLineClass = function (count) {
-        this._resetClasses();
-        if (count === 2 || count === 3) {
-            this._setClass("mat-" + count + "-line", true);
-        }
-        else if (count > 3) {
-            this._setClass("mat-multi-line", true);
-        }
-    };
-    MdLineSetter.prototype._resetClasses = function () {
-        this._setClass('mat-2-line', false);
-        this._setClass('mat-3-line', false);
-        this._setClass('mat-multi-line', false);
-    };
-    MdLineSetter.prototype._setClass = function (className, bool) {
-        this._renderer.setElementClass(this._element.nativeElement, className, bool);
-    };
-    return MdLineSetter;
-}());
-var MdLineModule = (function () {
-    function MdLineModule() {
-    }
-    MdLineModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-            imports: [__WEBPACK_IMPORTED_MODULE_1__compatibility_compatibility__["a" /* CompatibilityModule */]],
-            exports: [MdLine, __WEBPACK_IMPORTED_MODULE_1__compatibility_compatibility__["a" /* CompatibilityModule */]],
-            declarations: [MdLine],
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdLineModule);
-    return MdLineModule;
-}());
-//# sourceMappingURL=line.js.map
-
-/***/ }),
-/* 145 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OverlayRef; });
-
-/**
- * Reference to an overlay that has been created with the Overlay service.
- * Used to manipulate or dispose of said overlay.
- */
-var OverlayRef = (function () {
-    function OverlayRef(_portalHost, _pane, _state, _ngZone) {
-        this._portalHost = _portalHost;
-        this._pane = _pane;
-        this._state = _state;
-        this._ngZone = _ngZone;
-        this._backdropElement = null;
-        this._backdropClick = new __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__["Subject"]();
-    }
-    Object.defineProperty(OverlayRef.prototype, "overlayElement", {
-        /** The overlay's HTML element */
-        get: function () {
-            return this._pane;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Attaches the overlay to a portal instance and adds the backdrop.
-     * @param portal Portal instance to which to attach the overlay.
-     * @returns The portal attachment result.
-     */
-    OverlayRef.prototype.attach = function (portal) {
-        if (this._state.hasBackdrop) {
-            this._attachBackdrop();
-        }
-        var attachResult = this._portalHost.attach(portal);
-        // Update the pane element with the given state configuration.
-        this.updateSize();
-        this.updateDirection();
-        this.updatePosition();
-        // Enable pointer events for the overlay pane element.
-        this._togglePointerEvents(true);
-        return attachResult;
-    };
-    /**
-     * Detaches an overlay from a portal.
-     * @returns Resolves when the overlay has been detached.
-     */
-    OverlayRef.prototype.detach = function () {
-        this._detachBackdrop();
-        // When the overlay is detached, the pane element should disable pointer events.
-        // This is necessary because otherwise the pane element will cover the page and disable
-        // pointer events therefore. Depends on the position strategy and the applied pane boundaries.
-        this._togglePointerEvents(false);
-        return this._portalHost.detach();
-    };
-    /**
-     * Cleans up the overlay from the DOM.
-     */
-    OverlayRef.prototype.dispose = function () {
-        if (this._state.positionStrategy) {
-            this._state.positionStrategy.dispose();
-        }
-        this._detachBackdrop();
-        this._portalHost.dispose();
-    };
-    /**
-     * Checks whether the overlay has been attached.
-     */
-    OverlayRef.prototype.hasAttached = function () {
-        return this._portalHost.hasAttached();
-    };
-    /**
-     * Returns an observable that emits when the backdrop has been clicked.
-     */
-    OverlayRef.prototype.backdropClick = function () {
-        return this._backdropClick.asObservable();
-    };
-    /**
-     * Gets the current state config of the overlay.
-     */
-    OverlayRef.prototype.getState = function () {
-        return this._state;
-    };
-    /** Updates the position of the overlay based on the position strategy. */
-    OverlayRef.prototype.updatePosition = function () {
-        if (this._state.positionStrategy) {
-            this._state.positionStrategy.apply(this._pane);
-        }
-    };
-    /** Updates the text direction of the overlay panel. **/
-    OverlayRef.prototype.updateDirection = function () {
-        this._pane.setAttribute('dir', this._state.direction);
-    };
-    /** Updates the size of the overlay based on the overlay config. */
-    OverlayRef.prototype.updateSize = function () {
-        if (this._state.width || this._state.width === 0) {
-            this._pane.style.width = formatCssUnit(this._state.width);
-        }
-        if (this._state.height || this._state.height === 0) {
-            this._pane.style.height = formatCssUnit(this._state.height);
-        }
-        if (this._state.minWidth || this._state.minWidth === 0) {
-            this._pane.style.minWidth = formatCssUnit(this._state.minWidth);
-        }
-        if (this._state.minHeight || this._state.minHeight === 0) {
-            this._pane.style.minHeight = formatCssUnit(this._state.minHeight);
-        }
-    };
-    /** Toggles the pointer events for the overlay pane element. */
-    OverlayRef.prototype._togglePointerEvents = function (enablePointer) {
-        this._pane.style.pointerEvents = enablePointer ? 'auto' : 'none';
-    };
-    /** Attaches a backdrop for this overlay. */
-    OverlayRef.prototype._attachBackdrop = function () {
-        var _this = this;
-        this._backdropElement = document.createElement('div');
-        this._backdropElement.classList.add('cdk-overlay-backdrop');
-        this._backdropElement.classList.add(this._state.backdropClass);
-        // Insert the backdrop before the pane in the DOM order,
-        // in order to handle stacked overlays properly.
-        this._pane.parentElement.insertBefore(this._backdropElement, this._pane);
-        // Forward backdrop clicks such that the consumer of the overlay can perform whatever
-        // action desired when such a click occurs (usually closing the overlay).
-        this._backdropElement.addEventListener('click', function () { return _this._backdropClick.next(null); });
-        // Add class to fade-in the backdrop after one frame.
-        requestAnimationFrame(function () {
-            if (_this._backdropElement) {
-                _this._backdropElement.classList.add('cdk-overlay-backdrop-showing');
-            }
-        });
-    };
-    /** Detaches the backdrop (if any) associated with the overlay. */
-    OverlayRef.prototype._detachBackdrop = function () {
-        var _this = this;
-        var backdropToDetach = this._backdropElement;
-        if (backdropToDetach) {
-            var finishDetach_1 = function () {
-                // It may not be attached to anything in certain cases (e.g. unit tests).
-                if (backdropToDetach && backdropToDetach.parentNode) {
-                    backdropToDetach.parentNode.removeChild(backdropToDetach);
-                }
-                // It is possible that a new portal has been attached to this overlay since we started
-                // removing the backdrop. If that is the case, only clear the backdrop reference if it
-                // is still the same instance that we started to remove.
-                if (_this._backdropElement == backdropToDetach) {
-                    _this._backdropElement = null;
-                }
-            };
-            backdropToDetach.classList.remove('cdk-overlay-backdrop-showing');
-            backdropToDetach.classList.remove(this._state.backdropClass);
-            backdropToDetach.addEventListener('transitionend', finishDetach_1);
-            // If the backdrop doesn't have a transition, the `transitionend` event won't fire.
-            // In this case we make it unclickable and we try to remove it after a delay.
-            backdropToDetach.style.pointerEvents = 'none';
-            // Run this outside the Angular zone because there's nothing that Angular cares about.
-            // If it were to run inside the Angular zone, every test that used Overlay would have to be
-            // either async or fakeAsync.
-            this._ngZone.runOutsideAngular(function () {
-                setTimeout(finishDetach_1, 500);
-            });
-        }
-    };
-    return OverlayRef;
-}());
-function formatCssUnit(value) {
-    return typeof value === 'string' ? value : value + "px";
-}
-//# sourceMappingURL=overlay-ref.js.map
-
-/***/ }),
-/* 146 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__overlay_state__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__portal_dom_portal_host__ = __webpack_require__(149);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__overlay_ref__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__position_overlay_position_builder__ = __webpack_require__(260);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__position_viewport_ruler__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__overlay_container__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scroll_scroll_dispatcher__ = __webpack_require__(27);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Overlay; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return OVERLAY_PROVIDERS; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-/** Next overlay unique ID. */
-var nextUniqueId = 0;
-/** The default state for newly created overlays. */
-var defaultState = new __WEBPACK_IMPORTED_MODULE_1__overlay_state__["a" /* OverlayState */]();
-/**
- * Service to create Overlays. Overlays are dynamically added pieces of floating UI, meant to be
- * used as a low-level building building block for other components. Dialogs, tooltips, menus,
- * selects, etc. can all be built using overlays. The service should primarily be used by authors
- * of re-usable components rather than developers building end-user applications.
- *
- * An overlay *is* a PortalHost, so any kind of Portal can be loaded into one.
- */
-var Overlay = (function () {
-    function Overlay(_overlayContainer, _componentFactoryResolver, _positionBuilder, _appRef, _injector, _ngZone) {
-        this._overlayContainer = _overlayContainer;
-        this._componentFactoryResolver = _componentFactoryResolver;
-        this._positionBuilder = _positionBuilder;
-        this._appRef = _appRef;
-        this._injector = _injector;
-        this._ngZone = _ngZone;
-    }
-    /**
-     * Creates an overlay.
-     * @param state State to apply to the overlay.
-     * @returns Reference to the created overlay.
-     */
-    Overlay.prototype.create = function (state) {
-        if (state === void 0) { state = defaultState; }
-        return this._createOverlayRef(this._createPaneElement(), state);
-    };
-    /**
-     * Returns a position builder that can be used, via fluent API,
-     * to construct and configure a position strategy.
-     */
-    Overlay.prototype.position = function () {
-        return this._positionBuilder;
-    };
-    /**
-     * Creates the DOM element for an overlay and appends it to the overlay container.
-     * @returns Newly-created pane element
-     */
-    Overlay.prototype._createPaneElement = function () {
-        var pane = document.createElement('div');
-        pane.id = "cdk-overlay-" + nextUniqueId++;
-        pane.classList.add('cdk-overlay-pane');
-        this._overlayContainer.getContainerElement().appendChild(pane);
-        return pane;
-    };
-    /**
-     * Create a DomPortalHost into which the overlay content can be loaded.
-     * @param pane The DOM element to turn into a portal host.
-     * @returns A portal host for the given DOM element.
-     */
-    Overlay.prototype._createPortalHost = function (pane) {
-        return new __WEBPACK_IMPORTED_MODULE_2__portal_dom_portal_host__["a" /* DomPortalHost */](pane, this._componentFactoryResolver, this._appRef, this._injector);
-    };
-    /**
-     * Creates an OverlayRef for an overlay in the given DOM element.
-     * @param pane DOM element for the overlay
-     * @param state
-     */
-    Overlay.prototype._createOverlayRef = function (pane, state) {
-        return new __WEBPACK_IMPORTED_MODULE_3__overlay_ref__["a" /* OverlayRef */](this._createPortalHost(pane), pane, state, this._ngZone);
-    };
-    Overlay = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_6__overlay_container__["a" /* OverlayContainer */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* ComponentFactoryResolver */], __WEBPACK_IMPORTED_MODULE_4__position_overlay_position_builder__["a" /* OverlayPositionBuilder */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ApplicationRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* Injector */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* NgZone */]])
-    ], Overlay);
-    return Overlay;
-}());
-/** Providers for Overlay and its related injectables. */
-var OVERLAY_PROVIDERS = [
-    Overlay,
-    __WEBPACK_IMPORTED_MODULE_4__position_overlay_position_builder__["a" /* OverlayPositionBuilder */],
-    __WEBPACK_IMPORTED_MODULE_5__position_viewport_ruler__["b" /* VIEWPORT_RULER_PROVIDER */],
-    __WEBPACK_IMPORTED_MODULE_7__scroll_scroll_dispatcher__["b" /* SCROLL_DISPATCHER_PROVIDER */],
-    __WEBPACK_IMPORTED_MODULE_6__overlay_container__["b" /* OVERLAY_CONTAINER_PROVIDER */],
-];
-//# sourceMappingURL=overlay.js.map
-
-/***/ }),
-/* 147 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__connected_position__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConnectedPositionStrategy; });
-
-
-/**
- * A strategy for positioning overlays. Using this strategy, an overlay is given an
- * implicit position relative some origin element. The relative position is defined in terms of
- * a point on the origin element that is connected to a point on the overlay element. For example,
- * a basic dropdown is connecting the bottom-left corner of the origin to the top-left corner
- * of the overlay.
- */
-var ConnectedPositionStrategy = (function () {
-    function ConnectedPositionStrategy(_connectedTo, _originPos, _overlayPos, _viewportRuler) {
-        this._connectedTo = _connectedTo;
-        this._originPos = _originPos;
-        this._overlayPos = _overlayPos;
-        this._viewportRuler = _viewportRuler;
-        this._dir = 'ltr';
-        /** The offset in pixels for the overlay connection point on the x-axis */
-        this._offsetX = 0;
-        /** The offset in pixels for the overlay connection point on the y-axis */
-        this._offsetY = 0;
-        /** The Scrollable containers used to check scrollable view properties on position change. */
-        this.scrollables = [];
-        /** Ordered list of preferred positions, from most to least desirable. */
-        this._preferredPositions = [];
-        this._onPositionChange = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
-        this._origin = this._connectedTo.nativeElement;
-        this.withFallbackPosition(_originPos, _overlayPos);
-    }
-    Object.defineProperty(ConnectedPositionStrategy.prototype, "_isRtl", {
-        /** Whether the we're dealing with an RTL context */
-        get: function () {
-            return this._dir === 'rtl';
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ConnectedPositionStrategy.prototype, "onPositionChange", {
-        /** Emits an event when the connection point changes. */
-        get: function () {
-            return this._onPositionChange.asObservable();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ConnectedPositionStrategy.prototype, "positions", {
-        /** Ordered list of preferred positions, from most to least desirable. */
-        get: function () {
-            return this._preferredPositions;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * To be used to for any cleanup after the element gets destroyed.
-     */
-    ConnectedPositionStrategy.prototype.dispose = function () { };
-    /**
-     * Updates the position of the overlay element, using whichever preferred position relative
-     * to the origin fits on-screen.
-     * @docs-private
-     *
-     * @param element Element to which to apply the CSS styles.
-     * @returns Resolves when the styles have been applied.
-     */
-    ConnectedPositionStrategy.prototype.apply = function (element) {
-        // Cache the overlay pane element in case re-calculating position is necessary
-        this._pane = element;
-        // We need the bounding rects for the origin and the overlay to determine how to position
-        // the overlay relative to the origin.
-        var originRect = this._origin.getBoundingClientRect();
-        var overlayRect = element.getBoundingClientRect();
-        // We use the viewport rect to determine whether a position would go off-screen.
-        var viewportRect = this._viewportRuler.getViewportRect();
-        // Fallback point if none of the fallbacks fit into the viewport.
-        var fallbackPoint = null;
-        // We want to place the overlay in the first of the preferred positions such that the
-        // overlay fits on-screen.
-        for (var _i = 0, _a = this._preferredPositions; _i < _a.length; _i++) {
-            var pos = _a[_i];
-            // Get the (x, y) point of connection on the origin, and then use that to get the
-            // (top, left) coordinate for the overlay at `pos`.
-            var originPoint = this._getOriginConnectionPoint(originRect, pos);
-            var overlayPoint = this._getOverlayPoint(originPoint, overlayRect, viewportRect, pos);
-            // If the overlay in the calculated position fits on-screen, put it there and we're done.
-            if (overlayPoint.fitsInViewport) {
-                this._setElementPosition(element, overlayPoint);
-                // Save the last connected position in case the position needs to be re-calculated.
-                this._lastConnectedPosition = pos;
-                // Notify that the position has been changed along with its change properties.
-                var scrollableViewProperties = this.getScrollableViewProperties(element);
-                var positionChange = new __WEBPACK_IMPORTED_MODULE_0__connected_position__["a" /* ConnectedOverlayPositionChange */](pos, scrollableViewProperties);
-                this._onPositionChange.next(positionChange);
-                return Promise.resolve(null);
-            }
-            else if (!fallbackPoint || fallbackPoint.visibleArea < overlayPoint.visibleArea) {
-                fallbackPoint = overlayPoint;
-            }
-        }
-        // If none of the preferred positions were in the viewport, take the one
-        // with the largest visible area.
-        this._setElementPosition(element, fallbackPoint);
-        return Promise.resolve(null);
-    };
-    /**
-     * This re-aligns the overlay element with the trigger in its last calculated position,
-     * even if a position higher in the "preferred positions" list would now fit. This
-     * allows one to re-align the panel without changing the orientation of the panel.
-     */
-    ConnectedPositionStrategy.prototype.recalculateLastPosition = function () {
-        var originRect = this._origin.getBoundingClientRect();
-        var overlayRect = this._pane.getBoundingClientRect();
-        var viewportRect = this._viewportRuler.getViewportRect();
-        var originPoint = this._getOriginConnectionPoint(originRect, this._lastConnectedPosition);
-        var overlayPoint = this._getOverlayPoint(originPoint, overlayRect, viewportRect, this._lastConnectedPosition);
-        this._setElementPosition(this._pane, overlayPoint);
-    };
-    /**
-     * Sets the list of Scrollable containers that host the origin element so that
-     * on reposition we can evaluate if it or the overlay has been clipped or outside view. Every
-     * Scrollable must be an ancestor element of the strategy's origin element.
-     */
-    ConnectedPositionStrategy.prototype.withScrollableContainers = function (scrollables) {
-        this.scrollables = scrollables;
-    };
-    /**
-     * Adds a new preferred fallback position.
-     * @param originPos
-     * @param overlayPos
-     */
-    ConnectedPositionStrategy.prototype.withFallbackPosition = function (originPos, overlayPos) {
-        this._preferredPositions.push(new __WEBPACK_IMPORTED_MODULE_0__connected_position__["b" /* ConnectionPositionPair */](originPos, overlayPos));
-        return this;
-    };
-    /**
-     * Sets the layout direction so the overlay's position can be adjusted to match.
-     * @param dir New layout direction.
-     */
-    ConnectedPositionStrategy.prototype.withDirection = function (dir) {
-        this._dir = dir;
-        return this;
-    };
-    /**
-     * Sets an offset for the overlay's connection point on the x-axis
-     * @param offset New offset in the X axis.
-     */
-    ConnectedPositionStrategy.prototype.withOffsetX = function (offset) {
-        this._offsetX = offset;
-        return this;
-    };
-    /**
-     * Sets an offset for the overlay's connection point on the y-axis
-     * @param  offset New offset in the Y axis.
-     */
-    ConnectedPositionStrategy.prototype.withOffsetY = function (offset) {
-        this._offsetY = offset;
-        return this;
-    };
-    /**
-     * Gets the horizontal (x) "start" dimension based on whether the overlay is in an RTL context.
-     * @param rect
-     */
-    ConnectedPositionStrategy.prototype._getStartX = function (rect) {
-        return this._isRtl ? rect.right : rect.left;
-    };
-    /**
-     * Gets the horizontal (x) "end" dimension based on whether the overlay is in an RTL context.
-     * @param rect
-     */
-    ConnectedPositionStrategy.prototype._getEndX = function (rect) {
-        return this._isRtl ? rect.left : rect.right;
-    };
-    /**
-     * Gets the (x, y) coordinate of a connection point on the origin based on a relative position.
-     * @param originRect
-     * @param pos
-     */
-    ConnectedPositionStrategy.prototype._getOriginConnectionPoint = function (originRect, pos) {
-        var originStartX = this._getStartX(originRect);
-        var originEndX = this._getEndX(originRect);
-        var x;
-        if (pos.originX == 'center') {
-            x = originStartX + (originRect.width / 2);
-        }
-        else {
-            x = pos.originX == 'start' ? originStartX : originEndX;
-        }
-        var y;
-        if (pos.originY == 'center') {
-            y = originRect.top + (originRect.height / 2);
-        }
-        else {
-            y = pos.originY == 'top' ? originRect.top : originRect.bottom;
-        }
-        return { x: x, y: y };
-    };
-    /**
-     * Gets the (x, y) coordinate of the top-left corner of the overlay given a given position and
-     * origin point to which the overlay should be connected, as well as how much of the element
-     * would be inside the viewport at that position.
-     */
-    ConnectedPositionStrategy.prototype._getOverlayPoint = function (originPoint, overlayRect, viewportRect, pos) {
-        // Calculate the (overlayStartX, overlayStartY), the start of the potential overlay position
-        // relative to the origin point.
-        var overlayStartX;
-        if (pos.overlayX == 'center') {
-            overlayStartX = -overlayRect.width / 2;
-        }
-        else if (pos.overlayX === 'start') {
-            overlayStartX = this._isRtl ? -overlayRect.width : 0;
-        }
-        else {
-            overlayStartX = this._isRtl ? 0 : -overlayRect.width;
-        }
-        var overlayStartY;
-        if (pos.overlayY == 'center') {
-            overlayStartY = -overlayRect.height / 2;
-        }
-        else {
-            overlayStartY = pos.overlayY == 'top' ? 0 : -overlayRect.height;
-        }
-        // The (x, y) coordinates of the overlay.
-        var x = originPoint.x + overlayStartX + this._offsetX;
-        var y = originPoint.y + overlayStartY + this._offsetY;
-        // How much the overlay would overflow at this position, on each side.
-        var leftOverflow = 0 - x;
-        var rightOverflow = (x + overlayRect.width) - viewportRect.width;
-        var topOverflow = 0 - y;
-        var bottomOverflow = (y + overlayRect.height) - viewportRect.height;
-        // Visible parts of the element on each axis.
-        var visibleWidth = this._subtractOverflows(overlayRect.width, leftOverflow, rightOverflow);
-        var visibleHeight = this._subtractOverflows(overlayRect.height, topOverflow, bottomOverflow);
-        // The area of the element that's within the viewport.
-        var visibleArea = visibleWidth * visibleHeight;
-        var fitsInViewport = (overlayRect.width * overlayRect.height) === visibleArea;
-        return { x: x, y: y, fitsInViewport: fitsInViewport, visibleArea: visibleArea };
-    };
-    /**
-     * Gets the view properties of the trigger and overlay, including whether they are clipped
-     * or completely outside the view of any of the strategy's scrollables.
-     */
-    ConnectedPositionStrategy.prototype.getScrollableViewProperties = function (overlay) {
-        var _this = this;
-        var originBounds = this._getElementBounds(this._origin);
-        var overlayBounds = this._getElementBounds(overlay);
-        var scrollContainerBounds = this.scrollables.map(function (scrollable) {
-            return _this._getElementBounds(scrollable.getElementRef().nativeElement);
-        });
-        return {
-            isOriginClipped: this.isElementClipped(originBounds, scrollContainerBounds),
-            isOriginOutsideView: this.isElementOutsideView(originBounds, scrollContainerBounds),
-            isOverlayClipped: this.isElementClipped(overlayBounds, scrollContainerBounds),
-            isOverlayOutsideView: this.isElementOutsideView(overlayBounds, scrollContainerBounds),
-        };
-    };
-    /** Whether the element is completely out of the view of any of the containers. */
-    ConnectedPositionStrategy.prototype.isElementOutsideView = function (elementBounds, containersBounds) {
-        return containersBounds.some(function (containerBounds) {
-            var outsideAbove = elementBounds.bottom < containerBounds.top;
-            var outsideBelow = elementBounds.top > containerBounds.bottom;
-            var outsideLeft = elementBounds.right < containerBounds.left;
-            var outsideRight = elementBounds.left > containerBounds.right;
-            return outsideAbove || outsideBelow || outsideLeft || outsideRight;
-        });
-    };
-    /** Whether the element is clipped by any of the containers. */
-    ConnectedPositionStrategy.prototype.isElementClipped = function (elementBounds, containersBounds) {
-        return containersBounds.some(function (containerBounds) {
-            var clippedAbove = elementBounds.top < containerBounds.top;
-            var clippedBelow = elementBounds.bottom > containerBounds.bottom;
-            var clippedLeft = elementBounds.left < containerBounds.left;
-            var clippedRight = elementBounds.right > containerBounds.right;
-            return clippedAbove || clippedBelow || clippedLeft || clippedRight;
-        });
-    };
-    /**
-     * Physically positions the overlay element to the given coordinate.
-     * @param element
-     * @param overlayPoint
-     */
-    ConnectedPositionStrategy.prototype._setElementPosition = function (element, overlayPoint) {
-        element.style.left = overlayPoint.x + 'px';
-        element.style.top = overlayPoint.y + 'px';
-    };
-    /** Returns the bounding positions of the provided element with respect to the viewport. */
-    ConnectedPositionStrategy.prototype._getElementBounds = function (element) {
-        var boundingClientRect = element.getBoundingClientRect();
-        return {
-            top: boundingClientRect.top,
-            right: boundingClientRect.left + boundingClientRect.width,
-            bottom: boundingClientRect.top + boundingClientRect.height,
-            left: boundingClientRect.left
-        };
-    };
-    /**
-     * Subtracts the amount that an element is overflowing on an axis from it's length.
-     */
-    ConnectedPositionStrategy.prototype._subtractOverflows = function (length) {
-        var overflows = [];
-        for (var _i = 1; _i < arguments.length; _i++) {
-            overflows[_i - 1] = arguments[_i];
-        }
-        return overflows.reduce(function (currentValue, currentOverflow) {
-            return currentValue - Math.max(currentOverflow, 0);
-        }, length);
-    };
-    return ConnectedPositionStrategy;
-}());
-//# sourceMappingURL=connected-position-strategy.js.map
-
-/***/ }),
-/* 148 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = getSupportedInputTypes;
-var supportedInputTypes;
-/** @returns The input types supported by this browser. */
-function getSupportedInputTypes() {
-    if (!supportedInputTypes) {
-        var featureTestInput_1 = document.createElement('input');
-        supportedInputTypes = new Set([
-            // `color` must come first. Chrome 56 shows a warning if we change the type to `color` after
-            // first changing it to something else:
-            // The specified value "" does not conform to the required format.
-            // The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.
-            'color',
-            'button',
-            'checkbox',
-            'date',
-            'datetime-local',
-            'email',
-            'file',
-            'hidden',
-            'image',
-            'month',
-            'number',
-            'password',
-            'radio',
-            'range',
-            'reset',
-            'search',
-            'submit',
-            'tel',
-            'text',
-            'time',
-            'url',
-            'week',
-        ].filter(function (value) {
-            featureTestInput_1.setAttribute('type', value);
-            return featureTestInput_1.type === value;
-        }));
-    }
-    return supportedInputTypes;
-}
-//# sourceMappingURL=features.js.map
-
-/***/ }),
-/* 149 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__portal__ = __webpack_require__(36);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DomPortalHost; });
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-
-/**
- * A PortalHost for attaching portals to an arbitrary DOM element outside of the Angular
- * application context.
- *
- * This is the only part of the portal core that directly touches the DOM.
- */
-var DomPortalHost = (function (_super) {
-    __extends(DomPortalHost, _super);
-    function DomPortalHost(_hostDomElement, _componentFactoryResolver, _appRef, _defaultInjector) {
-        _super.call(this);
-        this._hostDomElement = _hostDomElement;
-        this._componentFactoryResolver = _componentFactoryResolver;
-        this._appRef = _appRef;
-        this._defaultInjector = _defaultInjector;
-    }
-    /**
-     * Attach the given ComponentPortal to DOM element using the ComponentFactoryResolver.
-     * @param portal Portal to be attached
-     */
-    DomPortalHost.prototype.attachComponentPortal = function (portal) {
-        var _this = this;
-        var componentFactory = this._componentFactoryResolver.resolveComponentFactory(portal.component);
-        var componentRef;
-        // If the portal specifies a ViewContainerRef, we will use that as the attachment point
-        // for the component (in terms of Angular's component tree, not rendering).
-        // When the ViewContainerRef is missing, we use the factory to create the component directly
-        // and then manually attach the view to the application.
-        if (portal.viewContainerRef) {
-            componentRef = portal.viewContainerRef.createComponent(componentFactory, portal.viewContainerRef.length, portal.injector || portal.viewContainerRef.parentInjector);
-            this.setDisposeFn(function () { return componentRef.destroy(); });
-        }
-        else {
-            componentRef = componentFactory.create(portal.injector || this._defaultInjector);
-            this._appRef.attachView(componentRef.hostView);
-            this.setDisposeFn(function () {
-                _this._appRef.detachView(componentRef.hostView);
-                componentRef.destroy();
-            });
-        }
-        // At this point the component has been instantiated, so we move it to the location in the DOM
-        // where we want it to be rendered.
-        this._hostDomElement.appendChild(this._getComponentRootNode(componentRef));
-        return componentRef;
-    };
-    /**
-     * Attaches a template portal to the DOM as an embedded view.
-     * @param portal Portal to be attached.
-     */
-    DomPortalHost.prototype.attachTemplatePortal = function (portal) {
-        var _this = this;
-        var viewContainer = portal.viewContainerRef;
-        var viewRef = viewContainer.createEmbeddedView(portal.templateRef);
-        // The method `createEmbeddedView` will add the view as a child of the viewContainer.
-        // But for the DomPortalHost the view can be added everywhere in the DOM (e.g Overlay Container)
-        // To move the view to the specified host element. We just re-append the existing root nodes.
-        viewRef.rootNodes.forEach(function (rootNode) { return _this._hostDomElement.appendChild(rootNode); });
-        this.setDisposeFn((function () {
-            var index = viewContainer.indexOf(viewRef);
-            if (index !== -1) {
-                viewContainer.remove(index);
-            }
-        }));
-        // TODO(jelbourn): Return locals from view.
-        return new Map();
-    };
-    /**
-     * Clears out a portal from the DOM.
-     */
-    DomPortalHost.prototype.dispose = function () {
-        _super.prototype.dispose.call(this);
-        if (this._hostDomElement.parentNode != null) {
-            this._hostDomElement.parentNode.removeChild(this._hostDomElement);
-        }
-    };
-    /** Gets the root HTMLElement for an instantiated component. */
-    DomPortalHost.prototype._getComponentRootNode = function (componentRef) {
-        return componentRef.hostView.rootNodes[0];
-    };
-    return DomPortalHost;
-}(__WEBPACK_IMPORTED_MODULE_0__portal__["c" /* BasePortalHost */]));
-//# sourceMappingURL=dom-portal-host.js.map
-
-/***/ }),
-/* 150 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pseudo_checkbox_pseudo_checkbox__ = __webpack_require__(151);
-/* unused harmony namespace reexport */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSelectionModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var MdSelectionModule = (function () {
-    function MdSelectionModule() {
-    }
-    MdSelectionModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-            exports: [__WEBPACK_IMPORTED_MODULE_1__pseudo_checkbox_pseudo_checkbox__["a" /* MdPseudoCheckbox */]],
-            declarations: [__WEBPACK_IMPORTED_MODULE_1__pseudo_checkbox_pseudo_checkbox__["a" /* MdPseudoCheckbox */]]
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdSelectionModule);
-    return MdSelectionModule;
-}());
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 151 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdPseudoCheckbox; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-/**
- * Component that shows a simplified checkbox without including any kind of "real" checkbox.
- * Meant to be used when the checkbox is purely decorative and a large number of them will be
- * included, such as for the options in a multi-select. Uses no SVGs or complex animations.
- *
- * Note that this component will be completely invisible to screen-reader users. This is *not*
- * interchangeable with <md-checkbox> and should *not* be used if the user would directly interact
- * with the checkbox. The pseudo-checkbox should only be used as an implementation detail of
- * more complex components that appropriately handle selected / checked state.
- * @docs-private
- */
-var MdPseudoCheckbox = (function () {
-    function MdPseudoCheckbox(_elementRef, _renderer) {
-        this._elementRef = _elementRef;
-        this._renderer = _renderer;
-        /** Display state of the checkbox. */
-        this.state = 'unchecked';
-        /** Whether the checkbox is disabled. */
-        this.disabled = false;
-        this.color = 'accent';
-    }
-    Object.defineProperty(MdPseudoCheckbox.prototype, "color", {
-        /** Color of the checkbox. */
-        get: function () { return this._color; },
-        set: function (value) {
-            if (value) {
-                var nativeElement = this._elementRef.nativeElement;
-                this._renderer.setElementClass(nativeElement, "mat-" + this.color, false);
-                this._renderer.setElementClass(nativeElement, "mat-" + value, true);
-                this._color = value;
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    ;
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', String)
-    ], MdPseudoCheckbox.prototype, "state", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Boolean)
-    ], MdPseudoCheckbox.prototype, "disabled", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', String)
-    ], MdPseudoCheckbox.prototype, "color", null);
-    MdPseudoCheckbox = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ViewEncapsulation */].None,
-            selector: 'md-pseudo-checkbox, mat-pseudo-checkbox',
-            styles: [".mat-pseudo-checkbox{width:20px;height:20px;border:2px solid;border-radius:2px;cursor:pointer;display:inline-block;vertical-align:middle;box-sizing:border-box;position:relative;transition:border-color 90ms cubic-bezier(0,0,.2,.1),background-color 90ms cubic-bezier(0,0,.2,.1)}.mat-pseudo-checkbox::after{position:absolute;opacity:0;content:'';border-bottom:2px solid currentColor;transition:opacity 90ms cubic-bezier(0,0,.2,.1)}.mat-pseudo-checkbox-disabled{cursor:default}.mat-pseudo-checkbox-indeterminate::after{top:9px;left:2px;width:16px;opacity:1}.mat-pseudo-checkbox-checked::after{top:5px;left:3px;width:12px;height:5px;border-left:2px solid currentColor;transform:rotate(-45deg);opacity:1}"],
-            template: '',
-            host: {
-                '[class.mat-pseudo-checkbox]': 'true',
-                '[class.mat-pseudo-checkbox-indeterminate]': 'state === "indeterminate"',
-                '[class.mat-pseudo-checkbox-checked]': 'state === "checked"',
-                '[class.mat-pseudo-checkbox-disabled]': 'disabled',
-            },
-        }), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */]])
-    ], MdPseudoCheckbox);
-    return MdPseudoCheckbox;
-}());
-//# sourceMappingURL=pseudo-checkbox.js.map
-
-/***/ }),
-/* 152 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = applyCssTransform;
-/**
- * Applies a CSS transform to an element, including browser-prefixed properties.
- * @param element
- * @param transformValue
- */
-function applyCssTransform(element, transformValue) {
-    // It's important to trim the result, because the browser will ignore the set operation
-    // if the string contains only whitespace.
-    var value = transformValue.trim();
-    element.style.transform = value;
-    element.style.webkitTransform = value;
-}
-//# sourceMappingURL=apply-transform.js.map
-
-/***/ }),
-/* 153 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
-/* unused harmony export TOUCH_BUFFER_MS */
-/* unused harmony export FocusOriginMonitor */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CdkFocusClasses; });
-/* unused harmony export FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return FOCUS_ORIGIN_MONITOR_PROVIDER; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-// This is the value used by AngularJS Material. Through trial and error (on iPhone 6S) they found
-// that a value of around 650ms seems appropriate.
-var TOUCH_BUFFER_MS = 650;
-/** Monitors mouse and keyboard events to determine the cause of focus events. */
-var FocusOriginMonitor = (function () {
-    function FocusOriginMonitor() {
-        // Note: we listen to events in the capture phase so we can detect them even if the user stops
-        // propagation.
-        var _this = this;
-        /** The focus origin that the next focus event is a result of. */
-        this._origin = null;
-        /** Whether the window has just been focused. */
-        this._windowFocused = false;
-        // On keydown record the origin and clear any touch event that may be in progress.
-        document.addEventListener('keydown', function () {
-            _this._lastTouchTarget = null;
-            _this._setOriginForCurrentEventQueue('keyboard');
-        }, true);
-        // On mousedown record the origin only if there is not touch target, since a mousedown can
-        // happen as a result of a touch event.
-        document.addEventListener('mousedown', function () {
-            if (!_this._lastTouchTarget) {
-                _this._setOriginForCurrentEventQueue('mouse');
-            }
-        }, true);
-        // When the touchstart event fires the focus event is not yet in the event queue. This means we
-        // can't rely on the trick used above (setting timeout of 0ms). Instead we wait 650ms to see if
-        // a focus happens.
-        document.addEventListener('touchstart', function (event) {
-            if (_this._touchTimeout != null) {
-                clearTimeout(_this._touchTimeout);
-            }
-            _this._lastTouchTarget = event.target;
-            _this._touchTimeout = setTimeout(function () { return _this._lastTouchTarget = null; }, TOUCH_BUFFER_MS);
-        }, true);
-        // Make a note of when the window regains focus, so we can restore the origin info for the
-        // focused element.
-        window.addEventListener('focus', function () {
-            _this._windowFocused = true;
-            setTimeout(function () { return _this._windowFocused = false; }, 0);
-        });
-    }
-    /** Register an element to receive focus classes. */
-    FocusOriginMonitor.prototype.registerElementForFocusClasses = function (element, renderer) {
-        var _this = this;
-        var subject = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
-        renderer.listen(element, 'focus', function (event) { return _this._onFocus(event, element, renderer, subject); });
-        renderer.listen(element, 'blur', function () { return _this._onBlur(element, renderer, subject); });
-        return subject.asObservable();
-    };
-    /** Focuses the element via the specified focus origin. */
-    FocusOriginMonitor.prototype.focusVia = function (element, renderer, origin) {
-        this._setOriginForCurrentEventQueue(origin);
-        renderer.invokeElementMethod(element, 'focus');
-    };
-    /** Sets the origin and schedules an async function to clear it at the end of the event queue. */
-    FocusOriginMonitor.prototype._setOriginForCurrentEventQueue = function (origin) {
-        var _this = this;
-        this._origin = origin;
-        setTimeout(function () { return _this._origin = null; }, 0);
-    };
-    /** Checks whether the given focus event was caused by a touchstart event. */
-    FocusOriginMonitor.prototype._wasCausedByTouch = function (event) {
-        // Note(mmalerba): This implementation is not quite perfect, there is a small edge case.
-        // Consider the following dom structure:
-        //
-        // <div #parent tabindex="0" cdkFocusClasses>
-        //   <div #child (click)="#parent.focus()"></div>
-        // </div>
-        //
-        // If the user touches the #child element and the #parent is programmatically focused as a
-        // result, this code will still consider it to have been caused by the touch event and will
-        // apply the cdk-touch-focused class rather than the cdk-program-focused class. This is a
-        // relatively small edge-case that can be worked around by using
-        // focusVia(parentEl, renderer,  'program') to focus the parent element.
-        //
-        // If we decide that we absolutely must handle this case correctly, we can do so by listening
-        // for the first focus event after the touchstart, and then the first blur event after that
-        // focus event. When that blur event fires we know that whatever follows is not a result of the
-        // touchstart.
-        var focusTarget = event.target;
-        return this._lastTouchTarget instanceof Node && focusTarget instanceof Node &&
-            (focusTarget == this._lastTouchTarget || focusTarget.contains(this._lastTouchTarget));
-    };
-    /** Handles focus events on a registered element. */
-    FocusOriginMonitor.prototype._onFocus = function (event, element, renderer, subject) {
-        // If we couldn't detect a cause for the focus event, it's due to one of two reasons:
-        // 1) The window has just regained focus, in which case we want to restore the focused state of
-        //    the element from before the window blurred.
-        // 2) It was caused by a touch event, in which case we mark the origin as 'touch'.
-        // 3) The element was programmatically focused, in which case we should mark the origin as
-        //    'program'.
-        if (!this._origin) {
-            if (this._windowFocused && this._lastFocusOrigin) {
-                this._origin = this._lastFocusOrigin;
-            }
-            else if (this._wasCausedByTouch(event)) {
-                this._origin = 'touch';
-            }
-            else {
-                this._origin = 'program';
-            }
-        }
-        renderer.setElementClass(element, 'cdk-focused', true);
-        renderer.setElementClass(element, 'cdk-touch-focused', this._origin == 'touch');
-        renderer.setElementClass(element, 'cdk-keyboard-focused', this._origin == 'keyboard');
-        renderer.setElementClass(element, 'cdk-mouse-focused', this._origin == 'mouse');
-        renderer.setElementClass(element, 'cdk-program-focused', this._origin == 'program');
-        subject.next(this._origin);
-        this._lastFocusOrigin = this._origin;
-        this._origin = null;
-    };
-    /** Handles blur events on a registered element. */
-    FocusOriginMonitor.prototype._onBlur = function (element, renderer, subject) {
-        renderer.setElementClass(element, 'cdk-focused', false);
-        renderer.setElementClass(element, 'cdk-touch-focused', false);
-        renderer.setElementClass(element, 'cdk-keyboard-focused', false);
-        renderer.setElementClass(element, 'cdk-mouse-focused', false);
-        renderer.setElementClass(element, 'cdk-program-focused', false);
-        subject.next(null);
-    };
-    FocusOriginMonitor = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(), 
-        __metadata('design:paramtypes', [])
-    ], FocusOriginMonitor);
-    return FocusOriginMonitor;
-}());
-/**
- * Directive that determines how a particular element was focused (via keyboard, mouse, or
- * programmatically) and adds corresponding classes to the element.
- */
-var CdkFocusClasses = (function () {
-    function CdkFocusClasses(elementRef, focusOriginMonitor, renderer) {
-        this.changes =
-            focusOriginMonitor.registerElementForFocusClasses(elementRef.nativeElement, renderer);
-    }
-    CdkFocusClasses = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: '[cdkFocusClasses]',
-        }), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], FocusOriginMonitor, __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */]])
-    ], CdkFocusClasses);
-    return CdkFocusClasses;
-}());
-function FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY(parentDispatcher) {
-    return parentDispatcher || new FocusOriginMonitor();
-}
-var FOCUS_ORIGIN_MONITOR_PROVIDER = {
-    // If there is already a FocusOriginMonitor available, use that. Otherwise, provide a new one.
-    provide: FocusOriginMonitor,
-    deps: [[new __WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */](), FocusOriginMonitor]],
-    useFactory: FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY
-};
-//# sourceMappingURL=focus-classes.js.map
-
-/***/ }),
-/* 154 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__focus_classes__ = __webpack_require__(153);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__apply_transform__ = __webpack_require__(152);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__apply_transform__["a"]; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return StyleModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var StyleModule = (function () {
-    function StyleModule() {
-    }
-    StyleModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-            declarations: [__WEBPACK_IMPORTED_MODULE_1__focus_classes__["a" /* CdkFocusClasses */]],
-            exports: [__WEBPACK_IMPORTED_MODULE_1__focus_classes__["a" /* CdkFocusClasses */]],
-            providers: [__WEBPACK_IMPORTED_MODULE_1__focus_classes__["b" /* FOCUS_ORIGIN_MONITOR_PROVIDER */]],
-        }), 
-        __metadata('design:paramtypes', [])
-    ], StyleModule);
-    return StyleModule;
-}());
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 155 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = extendObject;
-/**
- * Extends an object with the *enumerable* and *own* properties of one or more source objects,
- * similar to Object.assign.
- *
- * @param dest The object which will have properties copied to it.
- * @param sources The source objects from which properties will be copied.
- */
-function extendObject(dest) {
-    var sources = [];
-    for (var _i = 1; _i < arguments.length; _i++) {
-        sources[_i - 1] = arguments[_i];
-    }
-    if (dest == null) {
-        throw TypeError('Cannot convert undefined or null to object');
-    }
-    for (var _a = 0, sources_1 = sources; _a < sources_1.length; _a++) {
-        var source = sources_1[_a];
-        if (source != null) {
-            for (var key in source) {
-                if (source.hasOwnProperty(key)) {
-                    dest[key] = source[key];
-                }
-            }
-        }
-    }
-    return dest;
-}
-//# sourceMappingURL=object-extend.js.map
-
-/***/ }),
-/* 156 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdDialogConfig; });
-;
-/**
- * Configuration for opening a modal dialog with the MdDialog service.
- */
-var MdDialogConfig = (function () {
-    function MdDialogConfig() {
-        /** The ARIA role of the dialog element. */
-        this.role = 'dialog';
-        /** Whether the user can use escape or clicking outside to close a modal. */
-        this.disableClose = false;
-        /** Width of the dialog. */
-        this.width = '';
-        /** Height of the dialog. */
-        this.height = '';
-    }
-    return MdDialogConfig;
-}());
-//# sourceMappingURL=dialog-config.js.map
-
-/***/ }),
-/* 157 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dialog_ref__ = __webpack_require__(54);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdDialogClose; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdDialogTitle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdDialogContent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return MdDialogActions; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Button that will close the current dialog.
- */
-var MdDialogClose = (function () {
-    function MdDialogClose(dialogRef) {
-        this.dialogRef = dialogRef;
-        /** Screenreader label for the button. */
-        this.ariaLabel = 'Close dialog';
-    }
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('aria-label'), 
-        __metadata('design:type', String)
-    ], MdDialogClose.prototype, "ariaLabel", void 0);
-    MdDialogClose = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: 'button[md-dialog-close], button[mat-dialog-close]',
-            host: {
-                '(click)': 'dialogRef.close()',
-                '[attr.aria-label]': 'ariaLabel',
-                'type': 'button',
-            }
-        }), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_1__dialog_ref__["a" /* MdDialogRef */]])
-    ], MdDialogClose);
-    return MdDialogClose;
-}());
-/**
- * Title of a dialog element. Stays fixed to the top of the dialog when scrolling.
- */
-var MdDialogTitle = (function () {
-    function MdDialogTitle() {
-    }
-    MdDialogTitle = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: '[md-dialog-title], [mat-dialog-title]',
-            host: {
-                '[class.mat-dialog-title]': 'true'
-            }
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdDialogTitle);
-    return MdDialogTitle;
-}());
-/**
- * Scrollable content container of a dialog.
- */
-var MdDialogContent = (function () {
-    function MdDialogContent() {
-    }
-    MdDialogContent = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: '[md-dialog-content], md-dialog-content, [mat-dialog-content], mat-dialog-content',
-            host: {
-                '[class.mat-dialog-content]': 'true'
-            }
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdDialogContent);
-    return MdDialogContent;
-}());
-/**
- * Container for the bottom action buttons in a dialog.
- * Stays fixed to the bottom when scrolling.
- */
-var MdDialogActions = (function () {
-    function MdDialogActions() {
-    }
-    MdDialogActions = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: '[md-dialog-actions], md-dialog-actions, [mat-dialog-actions], mat-dialog-actions',
-            host: {
-                '[class.mat-dialog-actions]': 'true'
-            }
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdDialogActions);
-    return MdDialogActions;
-}());
-//# sourceMappingURL=dialog-content-directives.js.map
-
-/***/ }),
-/* 158 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dialog_ref__ = __webpack_require__(54);
-/* unused harmony export MD_DIALOG_DATA */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DialogInjector; });
-
-
-var MD_DIALOG_DATA = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* OpaqueToken */]('MdDialogData');
-/** Custom injector type specifically for instantiating components with a dialog. */
-var DialogInjector = (function () {
-    function DialogInjector(_parentInjector, _dialogRef, _data) {
-        this._parentInjector = _parentInjector;
-        this._dialogRef = _dialogRef;
-        this._data = _data;
-    }
-    DialogInjector.prototype.get = function (token, notFoundValue) {
-        if (token === __WEBPACK_IMPORTED_MODULE_1__dialog_ref__["a" /* MdDialogRef */]) {
-            return this._dialogRef;
-        }
-        if (token === MD_DIALOG_DATA && this._data) {
-            return this._data;
-        }
-        return this._parentInjector.get(token, notFoundValue);
-    };
-    return DialogInjector;
-}());
-//# sourceMappingURL=dialog-injector.js.map
-
-/***/ }),
-/* 159 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_util_object_extend__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_keyboard_keycodes__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dialog_injector__ = __webpack_require__(158);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dialog_config__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dialog_ref__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dialog_container__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_portal_portal__ = __webpack_require__(36);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdDialog; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-
-
-
-
-
-
-
-// TODO(jelbourn): animations
-/**
- * Service to open Material Design modal dialogs.
- */
-var MdDialog = (function () {
-    function MdDialog(_overlay, _injector, _parentDialog) {
-        this._overlay = _overlay;
-        this._injector = _injector;
-        this._parentDialog = _parentDialog;
-        this._openDialogsAtThisLevel = [];
-        this._afterAllClosedAtThisLevel = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
-        this._afterOpenAtThisLevel = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
-        this._boundKeydown = this._handleKeydown.bind(this);
-        /** Gets an observable that is notified when a dialog has been opened. */
-        this.afterOpen = this._afterOpen.asObservable();
-        /** Gets an observable that is notified when all open dialog have finished closing. */
-        this.afterAllClosed = this._afterAllClosed.asObservable();
-    }
-    Object.defineProperty(MdDialog.prototype, "_openDialogs", {
-        /** Keeps track of the currently-open dialogs. */
-        get: function () {
-            return this._parentDialog ? this._parentDialog._openDialogs : this._openDialogsAtThisLevel;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDialog.prototype, "_afterOpen", {
-        /** Subject for notifying the user that all open dialogs have finished closing. */
-        get: function () {
-            return this._parentDialog ? this._parentDialog._afterOpen : this._afterOpenAtThisLevel;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDialog.prototype, "_afterAllClosed", {
-        /** Subject for notifying the user that a dialog has opened. */
-        get: function () {
-            return this._parentDialog ?
-                this._parentDialog._afterAllClosed : this._afterAllClosedAtThisLevel;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Opens a modal dialog containing the given component.
-     * @param componentOrTemplateRef Type of the component to load into the dialog,
-     *     or a TemplateRef to instantiate as the dialog content.
-     * @param config Extra configuration options.
-     * @returns Reference to the newly-opened dialog.
-     */
-    MdDialog.prototype.open = function (componentOrTemplateRef, config) {
-        var _this = this;
-        config = _applyConfigDefaults(config);
-        var overlayRef = this._createOverlay(config);
-        var dialogContainer = this._attachDialogContainer(overlayRef, config);
-        var dialogRef = this._attachDialogContent(componentOrTemplateRef, dialogContainer, overlayRef, config);
-        if (!this._openDialogs.length && !this._parentDialog) {
-            document.addEventListener('keydown', this._boundKeydown);
-        }
-        this._openDialogs.push(dialogRef);
-        dialogRef.afterClosed().subscribe(function () { return _this._removeOpenDialog(dialogRef); });
-        this._afterOpen.next(dialogRef);
-        return dialogRef;
-    };
-    /**
-     * Closes all of the currently-open dialogs.
-     */
-    MdDialog.prototype.closeAll = function () {
-        var i = this._openDialogs.length;
-        while (i--) {
-            // The `_openDialogs` property isn't updated after close until the rxjs subscription
-            // runs on the next microtask, in addition to modifying the array as we're going
-            // through it. We loop through all of them and call close without assuming that
-            // they'll be removed from the list instantaneously.
-            this._openDialogs[i].close();
-        }
-    };
-    /**
-     * Creates the overlay into which the dialog will be loaded.
-     * @param dialogConfig The dialog configuration.
-     * @returns A promise resolving to the OverlayRef for the created overlay.
-     */
-    MdDialog.prototype._createOverlay = function (dialogConfig) {
-        var overlayState = this._getOverlayState(dialogConfig);
-        return this._overlay.create(overlayState);
-    };
-    /**
-     * Attaches an MdDialogContainer to a dialog's already-created overlay.
-     * @param overlay Reference to the dialog's underlying overlay.
-     * @param config The dialog configuration.
-     * @returns A promise resolving to a ComponentRef for the attached container.
-     */
-    MdDialog.prototype._attachDialogContainer = function (overlay, config) {
-        var viewContainer = config ? config.viewContainerRef : null;
-        var containerPortal = new __WEBPACK_IMPORTED_MODULE_2__core__["a" /* ComponentPortal */](__WEBPACK_IMPORTED_MODULE_8__dialog_container__["a" /* MdDialogContainer */], viewContainer);
-        var containerRef = overlay.attach(containerPortal);
-        containerRef.instance.dialogConfig = config;
-        return containerRef.instance;
-    };
-    /**
-     * Attaches the user-provided component to the already-created MdDialogContainer.
-     * @param componentOrTemplateRef The type of component being loaded into the dialog,
-     *     or a TemplateRef to instantiate as the content.
-     * @param dialogContainer Reference to the wrapping MdDialogContainer.
-     * @param overlayRef Reference to the overlay in which the dialog resides.
-     * @param config The dialog configuration.
-     * @returns A promise resolving to the MdDialogRef that should be returned to the user.
-     */
-    MdDialog.prototype._attachDialogContent = function (componentOrTemplateRef, dialogContainer, overlayRef, config) {
-        // Create a reference to the dialog we're creating in order to give the user a handle
-        // to modify and close it.
-        var dialogRef = new __WEBPACK_IMPORTED_MODULE_7__dialog_ref__["a" /* MdDialogRef */](overlayRef, config);
-        if (!config.disableClose) {
-            // When the dialog backdrop is clicked, we want to close it.
-            overlayRef.backdropClick().first().subscribe(function () { return dialogRef.close(); });
-        }
-        // Set the dialogRef to the container so that it can use the ref to close the dialog.
-        dialogContainer.dialogRef = dialogRef;
-        // We create an injector specifically for the component we're instantiating so that it can
-        // inject the MdDialogRef. This allows a component loaded inside of a dialog to close itself
-        // and, optionally, to return a value.
-        var userInjector = config && config.viewContainerRef && config.viewContainerRef.injector;
-        var dialogInjector = new __WEBPACK_IMPORTED_MODULE_5__dialog_injector__["a" /* DialogInjector */](userInjector || this._injector, dialogRef, config.data);
-        if (componentOrTemplateRef instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* TemplateRef */]) {
-            dialogContainer.attachTemplatePortal(new __WEBPACK_IMPORTED_MODULE_9__core_portal_portal__["b" /* TemplatePortal */](componentOrTemplateRef, null));
-        }
-        else {
-            var contentRef = dialogContainer.attachComponentPortal(new __WEBPACK_IMPORTED_MODULE_2__core__["a" /* ComponentPortal */](componentOrTemplateRef, null, dialogInjector));
-            dialogRef.componentInstance = contentRef.instance;
-        }
-        return dialogRef;
-    };
-    /**
-     * Creates an overlay state from a dialog config.
-     * @param dialogConfig The dialog configuration.
-     * @returns The overlay configuration.
-     */
-    MdDialog.prototype._getOverlayState = function (dialogConfig) {
-        var state = new __WEBPACK_IMPORTED_MODULE_2__core__["b" /* OverlayState */]();
-        var strategy = this._overlay.position().global();
-        var position = dialogConfig.position;
-        state.hasBackdrop = true;
-        state.positionStrategy = strategy;
-        if (position && (position.left || position.right)) {
-            position.left ? strategy.left(position.left) : strategy.right(position.right);
-        }
-        else {
-            strategy.centerHorizontally();
-        }
-        if (position && (position.top || position.bottom)) {
-            position.top ? strategy.top(position.top) : strategy.bottom(position.bottom);
-        }
-        else {
-            strategy.centerVertically();
-        }
-        strategy.width(dialogConfig.width).height(dialogConfig.height);
-        return state;
-    };
-    /**
-     * Removes a dialog from the array of open dialogs.
-     * @param dialogRef Dialog to be removed.
-     */
-    MdDialog.prototype._removeOpenDialog = function (dialogRef) {
-        var index = this._openDialogs.indexOf(dialogRef);
-        if (index > -1) {
-            this._openDialogs.splice(index, 1);
-            // no open dialogs are left, call next on afterAllClosed Subject
-            if (!this._openDialogs.length) {
-                this._afterAllClosed.next();
-                document.removeEventListener('keydown', this._boundKeydown);
-            }
-        }
-    };
-    /**
-     * Handles global key presses while there are open dialogs. Closes the
-     * top dialog when the user presses escape.
-     */
-    MdDialog.prototype._handleKeydown = function (event) {
-        var topDialog = this._openDialogs[this._openDialogs.length - 1];
-        if (event.keyCode === __WEBPACK_IMPORTED_MODULE_4__core_keyboard_keycodes__["k" /* ESCAPE */] && topDialog && !topDialog.config.disableClose) {
-            topDialog.close();
-        }
-    };
-    MdDialog = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
-        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
-        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */])()), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_2__core__["c" /* Overlay */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* Injector */], MdDialog])
-    ], MdDialog);
-    return MdDialog;
-}());
-/**
- * Applies default options to the dialog config.
- * @param dialogConfig Config to be modified.
- * @returns The new configuration object.
- */
-function _applyConfigDefaults(dialogConfig) {
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__core_util_object_extend__["a" /* extendObject */])(new __WEBPACK_IMPORTED_MODULE_6__dialog_config__["a" /* MdDialogConfig */](), dialogConfig);
-}
-//# sourceMappingURL=dialog.js.map
-
-/***/ }),
-/* 160 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dialog__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dialog_container__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__ = __webpack_require__(157);
-/* unused harmony namespace reexport */
-/* unused harmony namespace reexport */
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dialog_config__ = __webpack_require__(156);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dialog_ref__ = __webpack_require__(54);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dialog_injector__ = __webpack_require__(158);
-/* unused harmony reexport MD_DIALOG_DATA */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdDialogModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var MdDialogModule = (function () {
-    function MdDialogModule() {
-    }
-    /** @deprecated */
-    MdDialogModule.forRoot = function () {
-        return {
-            ngModule: MdDialogModule,
-            providers: [],
-        };
-    };
-    MdDialogModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1__core__["d" /* OverlayModule */],
-                __WEBPACK_IMPORTED_MODULE_1__core__["o" /* PortalModule */],
-                __WEBPACK_IMPORTED_MODULE_1__core__["C" /* A11yModule */],
-                __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */],
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_3__dialog_container__["a" /* MdDialogContainer */],
-                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["a" /* MdDialogClose */],
-                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["b" /* MdDialogTitle */],
-                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["c" /* MdDialogContent */],
-                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["d" /* MdDialogActions */],
-                __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */],
-            ],
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__dialog_container__["a" /* MdDialogContainer */],
-                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["a" /* MdDialogClose */],
-                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["b" /* MdDialogTitle */],
-                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["d" /* MdDialogActions */],
-                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["c" /* MdDialogContent */],
-            ],
-            providers: [
-                __WEBPACK_IMPORTED_MODULE_2__dialog__["a" /* MdDialog */],
-            ],
-            entryComponents: [__WEBPACK_IMPORTED_MODULE_3__dialog_container__["a" /* MdDialogContainer */]],
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdDialogModule);
-    return MdDialogModule;
-}());
-
-
-
-
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 161 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["b"] = coerceToString;
-/* harmony export (immutable) */ __webpack_exports__["a"] = coerceToNumber;
-/**
- * Converts values into strings. Falsy values become empty strings.
- * @docs-private
- */
-function coerceToString(value) {
-    return "" + (value || '');
-}
-/**
- * Converts a value that might be a string into a number.
- * @docs-private
- */
-function coerceToNumber(value) {
-    return typeof value === 'string' ? parseInt(value, 10) : value;
-}
-//# sourceMappingURL=grid-list-measure.js.map
-
-/***/ }),
-/* 162 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__grid_list__ = __webpack_require__(267);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__grid_list__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 163 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin__ = __webpack_require__(397);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_observable_of__ = __webpack_require__(399);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_filter__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_filter__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_do__ = __webpack_require__(402);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_do__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_share__ = __webpack_require__(404);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_share__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_finally__ = __webpack_require__(403);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_finally___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_finally__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_add_operator_catch__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_rxjs_add_operator_catch__);
-/* unused harmony export MdIconNameNotFoundError */
-/* unused harmony export MdIconSvgTagNotFoundError */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdIconRegistry; });
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
- * Exception thrown when attempting to load an icon with a name that cannot be found.
- * @docs-private
- */
-var MdIconNameNotFoundError = (function (_super) {
-    __extends(MdIconNameNotFoundError, _super);
-    function MdIconNameNotFoundError(iconName) {
-        _super.call(this, "Unable to find icon with the name \"" + iconName + "\"");
-    }
-    return MdIconNameNotFoundError;
-}(__WEBPACK_IMPORTED_MODULE_3__core__["f" /* MdError */]));
-/**
- * Exception thrown when attempting to load SVG content that does not contain the expected
- * <svg> tag.
- * @docs-private
- */
-var MdIconSvgTagNotFoundError = (function (_super) {
-    __extends(MdIconSvgTagNotFoundError, _super);
-    function MdIconSvgTagNotFoundError() {
-        _super.call(this, '<svg> tag not found');
-    }
-    return MdIconSvgTagNotFoundError;
-}(__WEBPACK_IMPORTED_MODULE_3__core__["f" /* MdError */]));
-/**
- * Configuration for an icon, including the URL and possibly the cached SVG element.
- * @docs-private
- */
-var SvgIconConfig = (function () {
-    function SvgIconConfig(url) {
-        this.url = url;
-        this.svgElement = null;
-    }
-    return SvgIconConfig;
-}());
-/** Returns the cache key to use for an icon namespace and name. */
-var iconKey = function (namespace, name) { return namespace + ':' + name; };
-/**
- * Service to register and display icons used by the <md-icon> component.
- * - Registers icon URLs by namespace and name.
- * - Registers icon set URLs by namespace.
- * - Registers aliases for CSS classes, for use with icon fonts.
- * - Loads icons from URLs and extracts individual icons from icon sets.
- */
-var MdIconRegistry = (function () {
-    function MdIconRegistry(_http, _sanitizer) {
-        this._http = _http;
-        this._sanitizer = _sanitizer;
-        /**
-         * URLs and cached SVG elements for individual icons. Keys are of the format "[namespace]:[icon]".
-         */
-        this._svgIconConfigs = new Map();
-        /**
-         * SvgIconConfig objects and cached SVG elements for icon sets, keyed by namespace.
-         * Multiple icon sets can be registered under the same namespace.
-         */
-        this._iconSetConfigs = new Map();
-        /** Cache for icons loaded by direct URLs. */
-        this._cachedIconsByUrl = new Map();
-        /** In-progress icon fetches. Used to coalesce multiple requests to the same URL. */
-        this._inProgressUrlFetches = new Map();
-        /** Map from font identifiers to their CSS class names. Used for icon fonts. */
-        this._fontCssClassesByAlias = new Map();
-        /**
-         * The CSS class to apply when an <md-icon> component has no icon name, url, or font specified.
-         * The default 'material-icons' value assumes that the material icon font has been loaded as
-         * described at http://google.github.io/material-design-icons/#icon-font-for-the-web
-         */
-        this._defaultFontSetClass = 'material-icons';
-    }
-    /**
-     * Registers an icon by URL in the default namespace.
-     * @param iconName Name under which the icon should be registered.
-     * @param url
-     */
-    MdIconRegistry.prototype.addSvgIcon = function (iconName, url) {
-        return this.addSvgIconInNamespace('', iconName, url);
-    };
-    /**
-     * Registers an icon by URL in the specified namespace.
-     * @param namespace Namespace in which the icon should be registered.
-     * @param iconName Name under which the icon should be registered.
-     * @param url
-     */
-    MdIconRegistry.prototype.addSvgIconInNamespace = function (namespace, iconName, url) {
-        var key = iconKey(namespace, iconName);
-        this._svgIconConfigs.set(key, new SvgIconConfig(url));
-        return this;
-    };
-    /**
-     * Registers an icon set by URL in the default namespace.
-     * @param url
-     */
-    MdIconRegistry.prototype.addSvgIconSet = function (url) {
-        return this.addSvgIconSetInNamespace('', url);
-    };
-    /**
-     * Registers an icon set by URL in the specified namespace.
-     * @param namespace Namespace in which to register the icon set.
-     * @param url
-     */
-    MdIconRegistry.prototype.addSvgIconSetInNamespace = function (namespace, url) {
-        var config = new SvgIconConfig(url);
-        if (this._iconSetConfigs.has(namespace)) {
-            this._iconSetConfigs.get(namespace).push(config);
-        }
-        else {
-            this._iconSetConfigs.set(namespace, [config]);
-        }
-        return this;
-    };
-    /**
-     * Defines an alias for a CSS class name to be used for icon fonts. Creating an mdIcon
-     * component with the alias as the fontSet input will cause the class name to be applied
-     * to the <md-icon> element.
-     *
-     * @param alias Alias for the font.
-     * @param className Class name override to be used instead of the alias.
-     */
-    MdIconRegistry.prototype.registerFontClassAlias = function (alias, className) {
-        if (className === void 0) { className = alias; }
-        this._fontCssClassesByAlias.set(alias, className);
-        return this;
-    };
-    /**
-     * Returns the CSS class name associated with the alias by a previous call to
-     * registerFontClassAlias. If no CSS class has been associated, returns the alias unmodified.
-     */
-    MdIconRegistry.prototype.classNameForFontAlias = function (alias) {
-        return this._fontCssClassesByAlias.get(alias) || alias;
-    };
-    /**
-     * Sets the CSS class name to be used for icon fonts when an <md-icon> component does not
-     * have a fontSet input value, and is not loading an icon by name or URL.
-     *
-     * @param className
-     */
-    MdIconRegistry.prototype.setDefaultFontSetClass = function (className) {
-        this._defaultFontSetClass = className;
-        return this;
-    };
-    /**
-     * Returns the CSS class name to be used for icon fonts when an <md-icon> component does not
-     * have a fontSet input value, and is not loading an icon by name or URL.
-     */
-    MdIconRegistry.prototype.getDefaultFontSetClass = function () {
-        return this._defaultFontSetClass;
-    };
-    /**
-     * Returns an Observable that produces the icon (as an <svg> DOM element) from the given URL.
-     * The response from the URL may be cached so this will not always cause an HTTP request, but
-     * the produced element will always be a new copy of the originally fetched icon. (That is,
-     * it will not contain any modifications made to elements previously returned).
-     *
-     * @param safeUrl URL from which to fetch the SVG icon.
-     */
-    MdIconRegistry.prototype.getSvgIconFromUrl = function (safeUrl) {
-        var _this = this;
-        var url = this._sanitizer.sanitize(__WEBPACK_IMPORTED_MODULE_0__angular_core__["r" /* SecurityContext */].RESOURCE_URL, safeUrl);
-        if (this._cachedIconsByUrl.has(url)) {
-            return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].of(cloneSvg(this._cachedIconsByUrl.get(url)));
-        }
-        return this._loadSvgIconFromConfig(new SvgIconConfig(url))
-            .do(function (svg) { return _this._cachedIconsByUrl.set(url, svg); })
-            .map(function (svg) { return cloneSvg(svg); });
-    };
-    /**
-     * Returns an Observable that produces the icon (as an <svg> DOM element) with the given name
-     * and namespace. The icon must have been previously registered with addIcon or addIconSet;
-     * if not, the Observable will throw an MdIconNameNotFoundError.
-     *
-     * @param name Name of the icon to be retrieved.
-     * @param namespace Namespace in which to look for the icon.
-     */
-    MdIconRegistry.prototype.getNamedSvgIcon = function (name, namespace) {
-        if (namespace === void 0) { namespace = ''; }
-        // Return (copy of) cached icon if possible.
-        var key = iconKey(namespace, name);
-        if (this._svgIconConfigs.has(key)) {
-            return this._getSvgFromConfig(this._svgIconConfigs.get(key));
-        }
-        // See if we have any icon sets registered for the namespace.
-        var iconSetConfigs = this._iconSetConfigs.get(namespace);
-        if (iconSetConfigs) {
-            return this._getSvgFromIconSetConfigs(name, iconSetConfigs);
-        }
-        return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].throw(new MdIconNameNotFoundError(key));
-    };
-    /**
-     * Returns the cached icon for a SvgIconConfig if available, or fetches it from its URL if not.
-     */
-    MdIconRegistry.prototype._getSvgFromConfig = function (config) {
-        if (config.svgElement) {
-            // We already have the SVG element for this icon, return a copy.
-            return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].of(cloneSvg(config.svgElement));
-        }
-        else {
-            // Fetch the icon from the config's URL, cache it, and return a copy.
-            return this._loadSvgIconFromConfig(config)
-                .do(function (svg) { return config.svgElement = svg; })
-                .map(function (svg) { return cloneSvg(svg); });
-        }
-    };
-    /**
-     * Attempts to find an icon with the specified name in any of the SVG icon sets.
-     * First searches the available cached icons for a nested element with a matching name, and
-     * if found copies the element to a new <svg> element. If not found, fetches all icon sets
-     * that have not been cached, and searches again after all fetches are completed.
-     * The returned Observable produces the SVG element if possible, and throws
-     * MdIconNameNotFoundError if no icon with the specified name can be found.
-     */
-    MdIconRegistry.prototype._getSvgFromIconSetConfigs = function (name, iconSetConfigs) {
-        var _this = this;
-        // For all the icon set SVG elements we've fetched, see if any contain an icon with the
-        // requested name.
-        var namedIcon = this._extractIconWithNameFromAnySet(name, iconSetConfigs);
-        if (namedIcon) {
-            // We could cache namedIcon in _svgIconConfigs, but since we have to make a copy every
-            // time anyway, there's probably not much advantage compared to just always extracting
-            // it from the icon set.
-            return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].of(namedIcon);
-        }
-        // Not found in any cached icon sets. If there are icon sets with URLs that we haven't
-        // fetched, fetch them now and look for iconName in the results.
-        var iconSetFetchRequests = iconSetConfigs
-            .filter(function (iconSetConfig) { return !iconSetConfig.svgElement; })
-            .map(function (iconSetConfig) {
-            return _this._loadSvgIconSetFromConfig(iconSetConfig)
-                .catch(function (err, caught) {
-                var url = _this._sanitizer.sanitize(__WEBPACK_IMPORTED_MODULE_0__angular_core__["r" /* SecurityContext */].RESOURCE_URL, iconSetConfig.url);
-                // Swallow errors fetching individual URLs so the combined Observable won't
-                // necessarily fail.
-                console.log("Loading icon set URL: " + url + " failed: " + err);
-                return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].of(null);
-            })
-                .do(function (svg) {
-                // Cache SVG element.
-                if (svg) {
-                    iconSetConfig.svgElement = svg;
-                }
-            });
-        });
-        // Fetch all the icon set URLs. When the requests complete, every IconSet should have a
-        // cached SVG element (unless the request failed), and we can check again for the icon.
-        return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].forkJoin(iconSetFetchRequests)
-            .map(function (ignoredResults) {
-            var foundIcon = _this._extractIconWithNameFromAnySet(name, iconSetConfigs);
-            if (!foundIcon) {
-                throw new MdIconNameNotFoundError(name);
-            }
-            return foundIcon;
-        });
-    };
-    /**
-     * Searches the cached SVG elements for the given icon sets for a nested icon element whose "id"
-     * tag matches the specified name. If found, copies the nested element to a new SVG element and
-     * returns it. Returns null if no matching element is found.
-     */
-    MdIconRegistry.prototype._extractIconWithNameFromAnySet = function (iconName, iconSetConfigs) {
-        // Iterate backwards, so icon sets added later have precedence.
-        for (var i = iconSetConfigs.length - 1; i >= 0; i--) {
-            var config = iconSetConfigs[i];
-            if (config.svgElement) {
-                var foundIcon = this._extractSvgIconFromSet(config.svgElement, iconName);
-                if (foundIcon) {
-                    return foundIcon;
-                }
-            }
-        }
-        return null;
-    };
-    /**
-     * Loads the content of the icon URL specified in the SvgIconConfig and creates an SVG element
-     * from it.
-     */
-    MdIconRegistry.prototype._loadSvgIconFromConfig = function (config) {
-        var _this = this;
-        return this._fetchUrl(config.url)
-            .map(function (svgText) { return _this._createSvgElementForSingleIcon(svgText); });
-    };
-    /**
-     * Loads the content of the icon set URL specified in the SvgIconConfig and creates an SVG element
-     * from it.
-     */
-    MdIconRegistry.prototype._loadSvgIconSetFromConfig = function (config) {
-        var _this = this;
-        // TODO: Document that icons should only be loaded from trusted sources.
-        return this._fetchUrl(config.url)
-            .map(function (svgText) { return _this._svgElementFromString(svgText); });
-    };
-    /**
-     * Creates a DOM element from the given SVG string, and adds default attributes.
-     */
-    MdIconRegistry.prototype._createSvgElementForSingleIcon = function (responseText) {
-        var svg = this._svgElementFromString(responseText);
-        this._setSvgAttributes(svg);
-        return svg;
-    };
-    /**
-     * Searches the cached element of the given SvgIconConfig for a nested icon element whose "id"
-     * tag matches the specified name. If found, copies the nested element to a new SVG element and
-     * returns it. Returns null if no matching element is found.
-     */
-    MdIconRegistry.prototype._extractSvgIconFromSet = function (iconSet, iconName) {
-        var iconNode = iconSet.querySelector('#' + iconName);
-        if (!iconNode) {
-            return null;
-        }
-        // If the icon node is itself an <svg> node, clone and return it directly. If not, set it as
-        // the content of a new <svg> node.
-        if (iconNode.tagName.toLowerCase() == 'svg') {
-            return this._setSvgAttributes(iconNode.cloneNode(true));
-        }
-        // createElement('SVG') doesn't work as expected; the DOM ends up with
-        // the correct nodes, but the SVG content doesn't render. Instead we
-        // have to create an empty SVG node using innerHTML and append its content.
-        // Elements created using DOMParser.parseFromString have the same problem.
-        // http://stackoverflow.com/questions/23003278/svg-innerhtml-in-firefox-can-not-display
-        var svg = this._svgElementFromString('<svg></svg>');
-        // Clone the node so we don't remove it from the parent icon set element.
-        svg.appendChild(iconNode.cloneNode(true));
-        return this._setSvgAttributes(svg);
-    };
-    /**
-     * Creates a DOM element from the given SVG string.
-     */
-    MdIconRegistry.prototype._svgElementFromString = function (str) {
-        // TODO: Is there a better way than innerHTML? Renderer doesn't appear to have a method for
-        // creating an element from an HTML string.
-        var div = document.createElement('DIV');
-        div.innerHTML = str;
-        var svg = div.querySelector('svg');
-        if (!svg) {
-            throw new MdIconSvgTagNotFoundError();
-        }
-        return svg;
-    };
-    /**
-     * Sets the default attributes for an SVG element to be used as an icon.
-     */
-    MdIconRegistry.prototype._setSvgAttributes = function (svg) {
-        if (!svg.getAttribute('xmlns')) {
-            svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-        }
-        svg.setAttribute('fit', '');
-        svg.setAttribute('height', '100%');
-        svg.setAttribute('width', '100%');
-        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
-        svg.setAttribute('focusable', 'false'); // Disable IE11 default behavior to make SVGs focusable.
-        return svg;
-    };
-    /**
-     * Returns an Observable which produces the string contents of the given URL. Results may be
-     * cached, so future calls with the same URL may not cause another HTTP request.
-     */
-    MdIconRegistry.prototype._fetchUrl = function (safeUrl) {
-        var _this = this;
-        var url = this._sanitizer.sanitize(__WEBPACK_IMPORTED_MODULE_0__angular_core__["r" /* SecurityContext */].RESOURCE_URL, safeUrl);
-        // Store in-progress fetches to avoid sending a duplicate request for a URL when there is
-        // already a request in progress for that URL. It's necessary to call share() on the
-        // Observable returned by http.get() so that multiple subscribers don't cause multiple XHRs.
-        if (this._inProgressUrlFetches.has(url)) {
-            return this._inProgressUrlFetches.get(url);
-        }
-        // TODO(jelbourn): for some reason, the `finally` operator "loses" the generic type on the
-        // Observable. Figure out why and fix it.
-        var req = this._http.get(url)
-            .map(function (response) { return response.text(); })
-            .finally(function () {
-            _this._inProgressUrlFetches.delete(url);
-        })
-            .share();
-        this._inProgressUrlFetches.set(url, req);
-        return req;
-    };
-    MdIconRegistry = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_2__angular_http__["c" /* Http */], __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["d" /* DomSanitizer */]])
-    ], MdIconRegistry);
-    return MdIconRegistry;
-}());
-/** Clones an SVGElement while preserving type information. */
-function cloneSvg(svg) {
-    return svg.cloneNode(true);
-}
-//# sourceMappingURL=icon-registry.js.map
-
-/***/ }),
-/* 164 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__icon__ = __webpack_require__(271);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__icon__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 165 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTextareaAutosize; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-/**
- * Directive to automatically resize a textarea to fit its content.
- */
-var MdTextareaAutosize = (function () {
-    function MdTextareaAutosize(_elementRef) {
-        this._elementRef = _elementRef;
-    }
-    Object.defineProperty(MdTextareaAutosize.prototype, "mdAutosizeMinRows", {
-        get: function () {
-            return this.minRows;
-        },
-        set: function (value) {
-            this.minRows = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTextareaAutosize.prototype, "mdAutosizeMaxRows", {
-        get: function () {
-            return this.maxRows;
-        },
-        set: function (value) {
-            this.maxRows = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTextareaAutosize.prototype, "_minHeight", {
-        /** The minimum height of the textarea as determined by minRows. */
-        get: function () {
-            return this.minRows ? this.minRows * this._cachedLineHeight + "px" : null;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTextareaAutosize.prototype, "_maxHeight", {
-        /** The maximum height of the textarea as determined by maxRows. */
-        get: function () {
-            return this.maxRows ? this.maxRows * this._cachedLineHeight + "px" : null;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    MdTextareaAutosize.prototype.ngOnInit = function () {
-        this._cacheTextareaLineHeight();
-        this.resizeToFitContent();
-    };
-    /**
-     * Cache the height of a single-row textarea.
-     *
-     * We need to know how large a single "row" of a textarea is in order to apply minRows and
-     * maxRows. For the initial version, we will assume that the height of a single line in the
-     * textarea does not ever change.
-     */
-    MdTextareaAutosize.prototype._cacheTextareaLineHeight = function () {
-        var textarea = this._elementRef.nativeElement;
-        // Use a clone element because we have to override some styles.
-        var textareaClone = textarea.cloneNode(false);
-        textareaClone.rows = 1;
-        // Use `position: absolute` so that this doesn't cause a browser layout and use
-        // `visibility: hidden` so that nothing is rendered. Clear any other styles that
-        // would affect the height.
-        textareaClone.style.position = 'absolute';
-        textareaClone.style.visibility = 'hidden';
-        textareaClone.style.border = 'none';
-        textareaClone.style.padding = '';
-        textareaClone.style.height = '';
-        textareaClone.style.minHeight = '';
-        textareaClone.style.maxHeight = '';
-        textarea.parentNode.appendChild(textareaClone);
-        this._cachedLineHeight = textareaClone.offsetHeight;
-        textarea.parentNode.removeChild(textareaClone);
-    };
-    /** Resize the textarea to fit its content. */
-    MdTextareaAutosize.prototype.resizeToFitContent = function () {
-        var textarea = this._elementRef.nativeElement;
-        // Reset the textarea height to auto in order to shrink back to its default size.
-        textarea.style.height = 'auto';
-        // Use the scrollHeight to know how large the textarea *would* be if fit its entire value.
-        textarea.style.height = textarea.scrollHeight + "px";
-    };
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Number)
-    ], MdTextareaAutosize.prototype, "minRows", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Number)
-    ], MdTextareaAutosize.prototype, "mdAutosizeMinRows", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Number)
-    ], MdTextareaAutosize.prototype, "maxRows", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Number)
-    ], MdTextareaAutosize.prototype, "mdAutosizeMaxRows", null);
-    MdTextareaAutosize = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: 'textarea[md-autosize], textarea[mdTextareaAutosize],' +
-                'textarea[mat-autosize], textarea[matTextareaAutosize]',
-            exportAs: 'mdTextareaAutosize',
-            host: {
-                '(input)': 'resizeToFitContent()',
-                '[style.min-height]': '_minHeight',
-                '[style.max-height]': '_maxHeight',
-            },
-        }), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */]])
-    ], MdTextareaAutosize);
-    return MdTextareaAutosize;
-}());
-//# sourceMappingURL=autosize.js.map
-
-/***/ }),
-/* 166 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__input_container__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__autosize__ = __webpack_require__(165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_platform_index__ = __webpack_require__(52);
-/* unused harmony namespace reexport */
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__input_container_errors__ = __webpack_require__(167);
-/* unused harmony namespace reexport */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdInputModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-var MdInputModule = (function () {
-    function MdInputModule() {
-    }
-    /** @deprecated */
-    MdInputModule.forRoot = function () {
-        return {
-            ngModule: MdInputModule,
-            providers: [],
-        };
-    };
-    MdInputModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_1__input_container__["a" /* MdPlaceholder */],
-                __WEBPACK_IMPORTED_MODULE_1__input_container__["b" /* MdInputContainer */],
-                __WEBPACK_IMPORTED_MODULE_1__input_container__["c" /* MdHint */],
-                __WEBPACK_IMPORTED_MODULE_2__autosize__["a" /* MdTextareaAutosize */],
-                __WEBPACK_IMPORTED_MODULE_1__input_container__["d" /* MdInputDirective */]
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__angular_common__["c" /* CommonModule */],
-                __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormsModule */],
-                __WEBPACK_IMPORTED_MODULE_5__core_platform_index__["a" /* PlatformModule */],
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_1__input_container__["a" /* MdPlaceholder */],
-                __WEBPACK_IMPORTED_MODULE_1__input_container__["b" /* MdInputContainer */],
-                __WEBPACK_IMPORTED_MODULE_1__input_container__["c" /* MdHint */],
-                __WEBPACK_IMPORTED_MODULE_2__autosize__["a" /* MdTextareaAutosize */],
-                __WEBPACK_IMPORTED_MODULE_1__input_container__["d" /* MdInputDirective */]
-            ],
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdInputModule);
-    return MdInputModule;
-}());
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 167 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core_errors_error__ = __webpack_require__(75);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdInputContainerPlaceholderConflictError; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdInputContainerUnsupportedTypeError; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return MdInputContainerDuplicatedHintError; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdInputContainerMissingMdInputError; });
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-
-/** @docs-private */
-var MdInputContainerPlaceholderConflictError = (function (_super) {
-    __extends(MdInputContainerPlaceholderConflictError, _super);
-    function MdInputContainerPlaceholderConflictError() {
-        _super.call(this, 'Placeholder attribute and child element were both specified.');
-    }
-    return MdInputContainerPlaceholderConflictError;
-}(__WEBPACK_IMPORTED_MODULE_0__core_errors_error__["a" /* MdError */]));
-/** @docs-private */
-var MdInputContainerUnsupportedTypeError = (function (_super) {
-    __extends(MdInputContainerUnsupportedTypeError, _super);
-    function MdInputContainerUnsupportedTypeError(type) {
-        _super.call(this, "Input type \"" + type + "\" isn't supported by md-input-container.");
-    }
-    return MdInputContainerUnsupportedTypeError;
-}(__WEBPACK_IMPORTED_MODULE_0__core_errors_error__["a" /* MdError */]));
-/** @docs-private */
-var MdInputContainerDuplicatedHintError = (function (_super) {
-    __extends(MdInputContainerDuplicatedHintError, _super);
-    function MdInputContainerDuplicatedHintError(align) {
-        _super.call(this, "A hint was already declared for 'align=\"" + align + "\"'.");
-    }
-    return MdInputContainerDuplicatedHintError;
-}(__WEBPACK_IMPORTED_MODULE_0__core_errors_error__["a" /* MdError */]));
-/** @docs-private */
-var MdInputContainerMissingMdInputError = (function (_super) {
-    __extends(MdInputContainerMissingMdInputError, _super);
-    function MdInputContainerMissingMdInputError() {
-        _super.call(this, 'md-input-container must contain an mdInput directive. Did you forget to add mdInput ' +
-            'to the native input or textarea element?');
-    }
-    return MdInputContainerMissingMdInputError;
-}(__WEBPACK_IMPORTED_MODULE_0__core_errors_error__["a" /* MdError */]));
-//# sourceMappingURL=input-container-errors.js.map
-
-/***/ }),
-/* 168 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list__ = __webpack_require__(273);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__list__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 169 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__menu__ = __webpack_require__(274);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__menu__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__menu_trigger__ = __webpack_require__(85);
-/* unused harmony reexport MdMenuTrigger */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menu_animations__ = __webpack_require__(170);
-/* unused harmony reexport fadeInItems */
-/* unused harmony reexport transformMenu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_directive__ = __webpack_require__(84);
-/* unused harmony reexport MdMenu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_item__ = __webpack_require__(55);
-/* unused harmony reexport MdMenuItem */
-
-
-
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 170 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return transformMenu; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return fadeInItems; });
-
-/**
- * Below are all the animations for the md-menu component.
- * Animation duration and timing values are based on AngularJS Material.
- */
-/**
- * This animation controls the menu panel's entry and exit from the page.
- *
- * When the menu panel is added to the DOM, it scales in and fades in its border.
- *
- * When the menu panel is removed from the DOM, it simply fades out after a brief
- * delay to display the ripple.
- */
-// TODO(kara): switch to :enter and :leave once Mobile Safari is sorted out.
-var transformMenu = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('transformMenu', [
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('showing', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
-        opacity: 1,
-        transform: "scale(1)"
-    })),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => *', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
-            opacity: 0,
-            transform: "scale(0)"
-        }),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("200ms cubic-bezier(0.25, 0.8, 0.25, 1)")
-    ]),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('* => void', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('50ms 100ms linear', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 0 }))
-    ])
-]);
-/**
- * This animation fades in the background color and content of the menu panel
- * after its containing element is scaled in.
- */
-var fadeInItems = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('fadeInItems', [
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('showing', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 1 })),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => *', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 0 }),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("200ms 100ms cubic-bezier(0.55, 0, 0.55, 0.2)")
-    ])
-]);
-//# sourceMappingURL=menu-animations.js.map
-
-/***/ }),
-/* 171 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(2);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdMenuMissingError; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdMenuInvalidPositionX; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdMenuInvalidPositionY; });
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-
-/**
- * Exception thrown when menu trigger doesn't have a valid md-menu instance
- * @docs-private
- */
-var MdMenuMissingError = (function (_super) {
-    __extends(MdMenuMissingError, _super);
-    function MdMenuMissingError() {
-        _super.call(this, "md-menu-trigger: must pass in an md-menu instance.\n\n    Example:\n      <md-menu #menu=\"mdMenu\"></md-menu>\n      <button [mdMenuTriggerFor]=\"menu\"></button>\n    ");
-    }
-    return MdMenuMissingError;
-}(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* MdError */]));
-/**
- * Exception thrown when menu's x-position value isn't valid.
- * In other words, it doesn't match 'before' or 'after'.
- * @docs-private
- */
-var MdMenuInvalidPositionX = (function (_super) {
-    __extends(MdMenuInvalidPositionX, _super);
-    function MdMenuInvalidPositionX() {
-        _super.call(this, "x-position value must be either 'before' or after'.\n      Example: <md-menu x-position=\"before\" #menu=\"mdMenu\"></md-menu>\n    ");
-    }
-    return MdMenuInvalidPositionX;
-}(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* MdError */]));
-/**
- * Exception thrown when menu's y-position value isn't valid.
- * In other words, it doesn't match 'above' or 'below'.
- * @docs-private
- */
-var MdMenuInvalidPositionY = (function (_super) {
-    __extends(MdMenuInvalidPositionY, _super);
-    function MdMenuInvalidPositionY() {
-        _super.call(this, "y-position value must be either 'above' or below'.\n      Example: <md-menu y-position=\"above\" #menu=\"mdMenu\"></md-menu>\n    ");
-    }
-    return MdMenuInvalidPositionY;
-}(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* MdError */]));
-//# sourceMappingURL=menu-errors.js.map
-
-/***/ }),
-/* 172 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__progress_bar__ = __webpack_require__(276);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__progress_bar__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 173 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__progress_circle__ = __webpack_require__(277);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__progress_spinner__ = __webpack_require__(86);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__progress_spinner__["a"]; });
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 174 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__radio__ = __webpack_require__(278);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__radio__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 175 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_option_option__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core__ = __webpack_require__(2);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__select_animations__ = __webpack_require__(176);
-/* unused harmony reexport fadeInContent */
-/* unused harmony reexport transformPanel */
-/* unused harmony reexport transformPlaceholder */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSelectModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-var MdSelectModule = (function () {
-    function MdSelectModule() {
-    }
-    /** @deprecated */
-    MdSelectModule.forRoot = function () {
-        return {
-            ngModule: MdSelectModule,
-            providers: []
-        };
-    };
-    MdSelectModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-            imports: [__WEBPACK_IMPORTED_MODULE_1__angular_common__["c" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_4__core__["d" /* OverlayModule */], __WEBPACK_IMPORTED_MODULE_3__core_option_option__["a" /* MdOptionModule */], __WEBPACK_IMPORTED_MODULE_4__core__["e" /* CompatibilityModule */]],
-            exports: [__WEBPACK_IMPORTED_MODULE_2__select__["a" /* MdSelect */], __WEBPACK_IMPORTED_MODULE_3__core_option_option__["a" /* MdOptionModule */], __WEBPACK_IMPORTED_MODULE_4__core__["e" /* CompatibilityModule */]],
-            declarations: [__WEBPACK_IMPORTED_MODULE_2__select__["a" /* MdSelect */]],
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdSelectModule);
-    return MdSelectModule;
-}());
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 176 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return transformPlaceholder; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return transformPanel; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return fadeInContent; });
-
-/**
- * The following are all the animations for the md-select component, with each
- * const containing the metadata for one animation.
- *
- * The values below match the implementation of the AngularJS Material md-select animation.
- */
-/**
- * This animation shrinks the placeholder text to 75% of its normal size and translates
- * it to either the top left corner (ltr) or top right corner (rtl) of the trigger,
- * depending on the text direction of the application.
- */
-var transformPlaceholder = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('transformPlaceholder', [
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('floating-ltr', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
-        top: '-22px',
-        left: '-2px',
-        transform: "scale(0.75)"
-    })),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('floating-rtl', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
-        top: '-22px',
-        left: '2px',
-        transform: "scale(0.75)"
-    })),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('* => *', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("400ms cubic-bezier(0.25, 0.8, 0.25, 1)"))
-]);
-/**
- * This animation transforms the select's overlay panel on and off the page.
- *
- * When the panel is attached to the DOM, it expands its width 32px, scales it up to
- * 100% on the Y axis, fades in its border, and translates slightly up and to the
- * side to ensure the option text correctly overlaps the trigger text.
- *
- * When the panel is removed from the DOM, it simply fades out linearly.
- */
-var transformPanel = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('transformPanel', [
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('showing', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
-        opacity: 1,
-        minWidth: 'calc(100% + 32px)',
-        transform: "translate3d(0,0,0) scaleY(1)"
-    })),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => *', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
-            opacity: 0,
-            minWidth: '100%',
-            transform: "translate3d(0, 0, 0) scaleY(0)"
-        }),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("150ms cubic-bezier(0.25, 0.8, 0.25, 1)")
-    ]),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('* => void', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('250ms 100ms linear', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 0 }))
-    ])
-]);
-/**
- * This animation fades in the background color and text content of the
- * select's options. It is time delayed to occur 100ms after the overlay
- * panel has transformed in.
- */
-var fadeInContent = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('fadeInContent', [
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('showing', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 1 })),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => showing', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 0 }),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("150ms 100ms cubic-bezier(0.55, 0, 0.55, 0.2)")
-    ])
-]);
-//# sourceMappingURL=select-animations.js.map
-
-/***/ }),
-/* 177 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_option_option__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_keyboard_keycodes__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_a11y_focus_key_manager__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_rtl_dir__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__select_animations__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_forms__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_coercion_boolean_property__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__core_overlay_overlay_directives__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_overlay_position_viewport_ruler__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith__);
-/* unused harmony export SELECT_OPTION_HEIGHT */
-/* unused harmony export SELECT_PANEL_MAX_HEIGHT */
-/* unused harmony export SELECT_MAX_OPTIONS_DISPLAYED */
-/* unused harmony export SELECT_TRIGGER_HEIGHT */
-/* unused harmony export SELECT_OPTION_HEIGHT_ADJUSTMENT */
-/* unused harmony export SELECT_PANEL_PADDING_X */
-/* unused harmony export SELECT_PANEL_PADDING_Y */
-/* unused harmony export SELECT_PANEL_VIEWPORT_PADDING */
-/* unused harmony export MdSelectChange */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSelect; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-
-
-
-
-
-
-
-
-/**
- * The following style constants are necessary to save here in order
- * to properly calculate the alignment of the selected option over
- * the trigger element.
- */
-/** The fixed height of every option element. */
-var SELECT_OPTION_HEIGHT = 48;
-/** The max height of the select's overlay panel */
-var SELECT_PANEL_MAX_HEIGHT = 256;
-/** The max number of options visible at once in the select panel. */
-var SELECT_MAX_OPTIONS_DISPLAYED = 5;
-/** The fixed height of the select's trigger element. */
-var SELECT_TRIGGER_HEIGHT = 30;
-/**
- * Must adjust for the difference in height between the option and the trigger,
- * so the text will align on the y axis.
- * (SELECT_OPTION_HEIGHT (48) - SELECT_TRIGGER_HEIGHT (30)) / 2 = 9
- */
-var SELECT_OPTION_HEIGHT_ADJUSTMENT = 9;
-/** The panel's padding on the x-axis */
-var SELECT_PANEL_PADDING_X = 16;
-/**
- * The panel's padding on the y-axis. This padding indicates there are more
- * options available if you scroll.
- */
-var SELECT_PANEL_PADDING_Y = 16;
-/**
- * The select panel will only "fit" inside the viewport if it is positioned at
- * this value or more away from the viewport boundary.
- */
-var SELECT_PANEL_VIEWPORT_PADDING = 8;
-/** Change event object that is emitted when the select value has changed. */
-var MdSelectChange = (function () {
-    function MdSelectChange(source, value) {
-        this.source = source;
-        this.value = value;
-    }
-    return MdSelectChange;
-}());
-var MdSelect = (function () {
-    function MdSelect(_element, _renderer, _viewportRuler, _changeDetectorRef, _dir, _control) {
-        this._element = _element;
-        this._renderer = _renderer;
-        this._viewportRuler = _viewportRuler;
-        this._changeDetectorRef = _changeDetectorRef;
-        this._dir = _dir;
-        this._control = _control;
-        /** Whether or not the overlay panel is open. */
-        this._panelOpen = false;
-        /** Subscriptions to option events. */
-        this._subscriptions = [];
-        /** Whether filling out the select is required in the form.  */
-        this._required = false;
-        /** Whether the select is disabled.  */
-        this._disabled = false;
-        /** The scroll position of the overlay panel, calculated to center the selected option. */
-        this._scrollTop = 0;
-        /** The animation state of the placeholder. */
-        this._placeholderState = '';
-        /** View -> model callback called when value changes */
-        this._onChange = function (value) { };
-        /** View -> model callback called when select has been touched */
-        this._onTouched = function () { };
-        /** The IDs of child options to be passed to the aria-owns attribute. */
-        this._optionIds = '';
-        /** The value of the select panel's transform-origin property. */
-        this._transformOrigin = 'top';
-        /** Whether the panel's animation is done. */
-        this._panelDoneAnimating = false;
-        /**
-         * The x-offset of the overlay panel in relation to the trigger's top start corner.
-         * This must be adjusted to align the selected option text over the trigger text when
-         * the panel opens. Will change based on LTR or RTL text direction.
-         */
-        this._offsetX = 0;
-        /**
-         * The y-offset of the overlay panel in relation to the trigger's top start corner.
-         * This must be adjusted to align the selected option text over the trigger text.
-         * when the panel opens. Will change based on the y-position of the selected option.
-         */
-        this._offsetY = 0;
-        /**
-         * This position config ensures that the top "start" corner of the overlay
-         * is aligned with with the top "start" of the origin by default (overlapping
-         * the trigger completely). If the panel cannot fit below the trigger, it
-         * will fall back to a position above the trigger.
-         */
-        this._positions = [
-            {
-                originX: 'start',
-                originY: 'top',
-                overlayX: 'start',
-                overlayY: 'top',
-            },
-            {
-                originX: 'start',
-                originY: 'bottom',
-                overlayX: 'start',
-                overlayY: 'bottom',
-            },
-        ];
-        /** Event emitted when the select has been opened. */
-        this.onOpen = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-        /** Event emitted when the select has been closed. */
-        this.onClose = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-        /** Event emitted when the selected value has been changed by the user. */
-        this.change = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-        if (this._control) {
-            this._control.valueAccessor = this;
-        }
-    }
-    Object.defineProperty(MdSelect.prototype, "placeholder", {
-        /** Placeholder to be shown if no value has been selected. */
-        get: function () { return this._placeholder; },
-        set: function (value) {
-            var _this = this;
-            this._placeholder = value;
-            // Must wait to record the trigger width to ensure placeholder width is included.
-            Promise.resolve(null).then(function () { return _this._triggerWidth = _this._getWidth(); });
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdSelect.prototype, "disabled", {
-        /** Whether the component is disabled. */
-        get: function () { return this._disabled; },
-        set: function (value) {
-            this._disabled = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdSelect.prototype, "required", {
-        /** Whether the component is required. */
-        get: function () { return this._required; },
-        set: function (value) { this._required = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value); },
-        enumerable: true,
-        configurable: true
-    });
-    MdSelect.prototype.ngAfterContentInit = function () {
-        var _this = this;
-        this._initKeyManager();
-        this._changeSubscription = this.options.changes.startWith(null).subscribe(function () {
-            _this._resetOptions();
-            if (_this._control) {
-                // Defer setting the value in order to avoid the "Expression
-                // has changed after it was checked" errors from Angular.
-                Promise.resolve(null).then(function () { return _this._setSelectionByValue(_this._control.value); });
-            }
-        });
-    };
-    MdSelect.prototype.ngOnDestroy = function () {
-        this._dropSubscriptions();
-        if (this._changeSubscription) {
-            this._changeSubscription.unsubscribe();
-        }
-        if (this._tabSubscription) {
-            this._tabSubscription.unsubscribe();
-        }
-    };
-    /** Toggles the overlay panel open or closed. */
-    MdSelect.prototype.toggle = function () {
-        this.panelOpen ? this.close() : this.open();
-    };
-    /** Opens the overlay panel. */
-    MdSelect.prototype.open = function () {
-        if (this.disabled || !this.options.length) {
-            return;
-        }
-        this._calculateOverlayPosition();
-        this._placeholderState = this._isRtl() ? 'floating-rtl' : 'floating-ltr';
-        this._panelOpen = true;
-    };
-    /** Closes the overlay panel and focuses the host element. */
-    MdSelect.prototype.close = function () {
-        this._panelOpen = false;
-        if (!this._selected) {
-            this._placeholderState = '';
-        }
-        this._focusHost();
-    };
-    /**
-     * Sets the select's value. Part of the ControlValueAccessor interface
-     * required to integrate with Angular's core forms API.
-     *
-     * @param value New value to be written to the model.
-     */
-    MdSelect.prototype.writeValue = function (value) {
-        if (this.options) {
-            this._setSelectionByValue(value);
-            this._changeDetectorRef.markForCheck();
-        }
-    };
-    /**
-     * Saves a callback function to be invoked when the select's value
-     * changes from user input. Part of the ControlValueAccessor interface
-     * required to integrate with Angular's core forms API.
-     *
-     * @param fn Callback to be triggered when the value changes.
-     */
-    MdSelect.prototype.registerOnChange = function (fn) {
-        this._onChange = fn;
-    };
-    /**
-     * Saves a callback function to be invoked when the select is blurred
-     * by the user. Part of the ControlValueAccessor interface required
-     * to integrate with Angular's core forms API.
-     *
-     * @param fn Callback to be triggered when the component has been touched.
-     */
-    MdSelect.prototype.registerOnTouched = function (fn) {
-        this._onTouched = fn;
-    };
-    /**
-     * Disables the select. Part of the ControlValueAccessor interface required
-     * to integrate with Angular's core forms API.
-     *
-     * @param isDisabled Sets whether the component is disabled.
-     */
-    MdSelect.prototype.setDisabledState = function (isDisabled) {
-        this.disabled = isDisabled;
-    };
-    Object.defineProperty(MdSelect.prototype, "panelOpen", {
-        /** Whether or not the overlay panel is open. */
-        get: function () {
-            return this._panelOpen;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdSelect.prototype, "selected", {
-        /** The currently selected option. */
-        get: function () {
-            return this._selected;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    MdSelect.prototype._isRtl = function () {
-        return this._dir ? this._dir.value === 'rtl' : false;
-    };
-    /** The width of the trigger element. This is necessary to match
-     * the overlay width to the trigger width.
-     */
-    MdSelect.prototype._getWidth = function () {
-        return this._getTriggerRect().width;
-    };
-    /** Ensures the panel opens if activated by the keyboard. */
-    MdSelect.prototype._handleKeydown = function (event) {
-        if (event.keyCode === __WEBPACK_IMPORTED_MODULE_2__core_keyboard_keycodes__["a" /* ENTER */] || event.keyCode === __WEBPACK_IMPORTED_MODULE_2__core_keyboard_keycodes__["b" /* SPACE */]) {
-            this.open();
-        }
-    };
-    /**
-     * When the panel element is finished transforming in (though not fading in), it
-     * emits an event and focuses an option if the panel is open.
-     */
-    MdSelect.prototype._onPanelDone = function () {
-        if (this.panelOpen) {
-            this._focusCorrectOption();
-            this.onOpen.emit();
-        }
-        else {
-            this.onClose.emit();
-        }
-    };
-    /**
-     * When the panel content is done fading in, the _panelDoneAnimating property is
-     * set so the proper class can be added to the panel.
-     */
-    MdSelect.prototype._onFadeInDone = function () {
-        this._panelDoneAnimating = this.panelOpen;
-    };
-    /**
-     * Calls the touched callback only if the panel is closed. Otherwise, the trigger will
-     * "blur" to the panel when it opens, causing a false positive.
-     */
-    MdSelect.prototype._onBlur = function () {
-        if (!this.panelOpen) {
-            this._onTouched();
-        }
-    };
-    /** Returns the correct tabindex for the select depending on disabled state. */
-    MdSelect.prototype._getTabIndex = function () {
-        return this.disabled ? '-1' : '0';
-    };
-    /**
-     * Sets the scroll position of the scroll container. This must be called after
-     * the overlay pane is attached or the scroll container element will not yet be
-     * present in the DOM.
-     */
-    MdSelect.prototype._setScrollTop = function () {
-        var scrollContainer = this.overlayDir.overlayRef.overlayElement.querySelector('.mat-select-panel');
-        scrollContainer.scrollTop = this._scrollTop;
-    };
-    /**
-     * Sets the selected option based on a value. If no option can be
-     * found with the designated value, the select trigger is cleared.
-     */
-    MdSelect.prototype._setSelectionByValue = function (value) {
-        var options = this.options.toArray();
-        for (var i = 0; i < this.options.length; i++) {
-            if (options[i].value === value) {
-                options[i].select();
-                return;
-            }
-        }
-        // Clear selection if no item was selected.
-        this._clearSelection();
-    };
-    /** Clears the select trigger and deselects every option in the list. */
-    MdSelect.prototype._clearSelection = function () {
-        this._selected = null;
-        this._updateOptions();
-    };
-    MdSelect.prototype._getTriggerRect = function () {
-        return this.trigger.nativeElement.getBoundingClientRect();
-    };
-    /** Sets up a key manager to listen to keyboard events on the overlay panel. */
-    MdSelect.prototype._initKeyManager = function () {
-        var _this = this;
-        this._keyManager = new __WEBPACK_IMPORTED_MODULE_3__core_a11y_focus_key_manager__["a" /* FocusKeyManager */](this.options);
-        this._tabSubscription = this._keyManager.tabOut.subscribe(function () {
-            _this.close();
-        });
-    };
-    /** Drops current option subscriptions and IDs and resets from scratch. */
-    MdSelect.prototype._resetOptions = function () {
-        this._dropSubscriptions();
-        this._listenToOptions();
-        this._setOptionIds();
-    };
-    /** Listens to selection events on each option. */
-    MdSelect.prototype._listenToOptions = function () {
-        var _this = this;
-        this.options.forEach(function (option) {
-            var sub = option.onSelect.subscribe(function (event) {
-                if (event.isUserInput && _this._selected !== option) {
-                    _this._emitChangeEvent(option);
-                }
-                _this._onSelect(option);
-            });
-            _this._subscriptions.push(sub);
-        });
-    };
-    /** Unsubscribes from all option subscriptions. */
-    MdSelect.prototype._dropSubscriptions = function () {
-        this._subscriptions.forEach(function (sub) { return sub.unsubscribe(); });
-        this._subscriptions = [];
-    };
-    /** Emits an event when the user selects an option. */
-    MdSelect.prototype._emitChangeEvent = function (option) {
-        this._onChange(option.value);
-        this.change.emit(new MdSelectChange(this, option.value));
-    };
-    /** Records option IDs to pass to the aria-owns property. */
-    MdSelect.prototype._setOptionIds = function () {
-        this._optionIds = this.options.map(function (option) { return option.id; }).join(' ');
-    };
-    /** When a new option is selected, deselects the others and closes the panel. */
-    MdSelect.prototype._onSelect = function (option) {
-        this._selected = option;
-        this._updateOptions();
-        this._setValueWidth();
-        this._placeholderState = '';
-        if (this.panelOpen) {
-            this.close();
-        }
-    };
-    /** Deselect each option that doesn't match the current selection. */
-    MdSelect.prototype._updateOptions = function () {
-        var _this = this;
-        this.options.forEach(function (option) {
-            if (option !== _this.selected) {
-                option.deselect();
-            }
-        });
-    };
-    /**
-     * Must set the width of the selected option's value programmatically
-     * because it is absolutely positioned and otherwise will not clip
-     * overflow. The selection arrow is 9px wide, add 4px of padding = 13
-     */
-    MdSelect.prototype._setValueWidth = function () {
-        this._selectedValueWidth = this._triggerWidth - 13;
-    };
-    /** Focuses the selected item. If no option is selected, it will focus
-     * the first item instead.
-     */
-    MdSelect.prototype._focusCorrectOption = function () {
-        if (this.selected) {
-            this._keyManager.setActiveItem(this._getOptionIndex(this.selected));
-        }
-        else {
-            this._keyManager.setFirstItemActive();
-        }
-    };
-    /** Focuses the host element when the panel closes. */
-    MdSelect.prototype._focusHost = function () {
-        this._renderer.invokeElementMethod(this._element.nativeElement, 'focus');
-    };
-    /** Gets the index of the provided option in the option list. */
-    MdSelect.prototype._getOptionIndex = function (option) {
-        return this.options.reduce(function (result, current, index) {
-            return result === undefined ? (option === current ? index : undefined) : result;
-        }, undefined);
-    };
-    /** Calculates the scroll position and x- and y-offsets of the overlay panel. */
-    MdSelect.prototype._calculateOverlayPosition = function () {
-        this._offsetX = this._isRtl() ? SELECT_PANEL_PADDING_X : -SELECT_PANEL_PADDING_X;
-        var panelHeight = Math.min(this.options.length * SELECT_OPTION_HEIGHT, SELECT_PANEL_MAX_HEIGHT);
-        var scrollContainerHeight = this.options.length * SELECT_OPTION_HEIGHT;
-        // The farthest the panel can be scrolled before it hits the bottom
-        var maxScroll = scrollContainerHeight - panelHeight;
-        if (this.selected) {
-            var selectedIndex = this._getOptionIndex(this.selected);
-            // We must maintain a scroll buffer so the selected option will be scrolled to the
-            // center of the overlay panel rather than the top.
-            var scrollBuffer = panelHeight / 2;
-            this._scrollTop = this._calculateOverlayScroll(selectedIndex, scrollBuffer, maxScroll);
-            this._offsetY = this._calculateOverlayOffset(selectedIndex, scrollBuffer, maxScroll);
-        }
-        else {
-            // If no option is selected, the panel centers on the first option. In this case,
-            // we must only adjust for the height difference between the option element
-            // and the trigger element, then multiply it by -1 to ensure the panel moves
-            // in the correct direction up the page.
-            this._offsetY = (SELECT_OPTION_HEIGHT - SELECT_TRIGGER_HEIGHT) / 2 * -1;
-        }
-        this._checkOverlayWithinViewport(maxScroll);
-    };
-    /**
-     * Calculates the scroll position of the select's overlay panel.
-     *
-     * Attempts to center the selected option in the panel. If the option is
-     * too high or too low in the panel to be scrolled to the center, it clamps the
-     * scroll position to the min or max scroll positions respectively.
-     */
-    MdSelect.prototype._calculateOverlayScroll = function (selectedIndex, scrollBuffer, maxScroll) {
-        var optionOffsetFromScrollTop = SELECT_OPTION_HEIGHT * selectedIndex;
-        var halfOptionHeight = SELECT_OPTION_HEIGHT / 2;
-        // Starts at the optionOffsetFromScrollTop, which scrolls the option to the top of the
-        // scroll container, then subtracts the scroll buffer to scroll the option down to
-        // the center of the overlay panel. Half the option height must be re-added to the
-        // scrollTop so the option is centered based on its middle, not its top edge.
-        var optimalScrollPosition = optionOffsetFromScrollTop - scrollBuffer + halfOptionHeight;
-        return clampValue(0, optimalScrollPosition, maxScroll);
-    };
-    /**
-     * Calculates the y-offset of the select's overlay panel in relation to the
-     * top start corner of the trigger. It has to be adjusted in order for the
-     * selected option to be aligned over the trigger when the panel opens.
-     */
-    MdSelect.prototype._calculateOverlayOffset = function (selectedIndex, scrollBuffer, maxScroll) {
-        var optionOffsetFromPanelTop;
-        if (this._scrollTop === 0) {
-            optionOffsetFromPanelTop = selectedIndex * SELECT_OPTION_HEIGHT;
-        }
-        else if (this._scrollTop === maxScroll) {
-            var firstDisplayedIndex = this.options.length - SELECT_MAX_OPTIONS_DISPLAYED;
-            var selectedDisplayIndex = selectedIndex - firstDisplayedIndex;
-            // Because the panel height is longer than the height of the options alone,
-            // there is always extra padding at the top or bottom of the panel. When
-            // scrolled to the very bottom, this padding is at the top of the panel and
-            // must be added to the offset.
-            optionOffsetFromPanelTop =
-                selectedDisplayIndex * SELECT_OPTION_HEIGHT + SELECT_PANEL_PADDING_Y;
-        }
-        else {
-            // If the option was scrolled to the middle of the panel using a scroll buffer,
-            // its offset will be the scroll buffer minus the half height that was added to
-            // center it.
-            optionOffsetFromPanelTop = scrollBuffer - SELECT_OPTION_HEIGHT / 2;
-        }
-        // The final offset is the option's offset from the top, adjusted for the height
-        // difference, multiplied by -1 to ensure that the overlay moves in the correct
-        // direction up the page.
-        return optionOffsetFromPanelTop * -1 - SELECT_OPTION_HEIGHT_ADJUSTMENT;
-    };
-    /**
-     * Checks that the attempted overlay position will fit within the viewport.
-     * If it will not fit, tries to adjust the scroll position and the associated
-     * y-offset so the panel can open fully on-screen. If it still won't fit,
-     * sets the offset back to 0 to allow the fallback position to take over.
-     */
-    MdSelect.prototype._checkOverlayWithinViewport = function (maxScroll) {
-        var viewportRect = this._viewportRuler.getViewportRect();
-        var triggerRect = this._getTriggerRect();
-        var topSpaceAvailable = triggerRect.top - SELECT_PANEL_VIEWPORT_PADDING;
-        var bottomSpaceAvailable = viewportRect.height - triggerRect.bottom - SELECT_PANEL_VIEWPORT_PADDING;
-        var panelHeightTop = Math.abs(this._offsetY);
-        var totalPanelHeight = Math.min(this.options.length * SELECT_OPTION_HEIGHT, SELECT_PANEL_MAX_HEIGHT);
-        var panelHeightBottom = totalPanelHeight - panelHeightTop - triggerRect.height;
-        if (panelHeightBottom > bottomSpaceAvailable) {
-            this._adjustPanelUp(panelHeightBottom, bottomSpaceAvailable);
-        }
-        else if (panelHeightTop > topSpaceAvailable) {
-            this._adjustPanelDown(panelHeightTop, topSpaceAvailable, maxScroll);
-        }
-        else {
-            this._transformOrigin = this._getOriginBasedOnOption();
-        }
-    };
-    /** Adjusts the overlay panel up to fit in the viewport. */
-    MdSelect.prototype._adjustPanelUp = function (panelHeightBottom, bottomSpaceAvailable) {
-        var distanceBelowViewport = panelHeightBottom - bottomSpaceAvailable;
-        // Scrolls the panel up by the distance it was extending past the boundary, then
-        // adjusts the offset by that amount to move the panel up into the viewport.
-        this._scrollTop -= distanceBelowViewport;
-        this._offsetY -= distanceBelowViewport;
-        this._transformOrigin = this._getOriginBasedOnOption();
-        // If the panel is scrolled to the very top, it won't be able to fit the panel
-        // by scrolling, so set the offset to 0 to allow the fallback position to take
-        // effect.
-        if (this._scrollTop <= 0) {
-            this._scrollTop = 0;
-            this._offsetY = 0;
-            this._transformOrigin = "50% bottom 0px";
-        }
-    };
-    /** Adjusts the overlay panel down to fit in the viewport. */
-    MdSelect.prototype._adjustPanelDown = function (panelHeightTop, topSpaceAvailable, maxScroll) {
-        var distanceAboveViewport = panelHeightTop - topSpaceAvailable;
-        // Scrolls the panel down by the distance it was extending past the boundary, then
-        // adjusts the offset by that amount to move the panel down into the viewport.
-        this._scrollTop += distanceAboveViewport;
-        this._offsetY += distanceAboveViewport;
-        this._transformOrigin = this._getOriginBasedOnOption();
-        // If the panel is scrolled to the very bottom, it won't be able to fit the
-        // panel by scrolling, so set the offset to 0 to allow the fallback position
-        // to take effect.
-        if (this._scrollTop >= maxScroll) {
-            this._scrollTop = maxScroll;
-            this._offsetY = 0;
-            this._transformOrigin = "50% top 0px";
-            return;
-        }
-    };
-    /** Sets the transform origin point based on the selected option. */
-    MdSelect.prototype._getOriginBasedOnOption = function () {
-        var originY = Math.abs(this._offsetY) - SELECT_OPTION_HEIGHT_ADJUSTMENT + SELECT_OPTION_HEIGHT / 2;
-        return "50% " + originY + "px 0px";
-    };
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('trigger'), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */])
-    ], MdSelect.prototype, "trigger", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_8__core_overlay_overlay_directives__["b" /* ConnectedOverlayDirective */]), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_8__core_overlay_overlay_directives__["b" /* ConnectedOverlayDirective */])
-    ], MdSelect.prototype, "overlayDir", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ContentChildren */])(__WEBPACK_IMPORTED_MODULE_1__core_option_option__["b" /* MdOption */]), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* QueryList */])
-    ], MdSelect.prototype, "options", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Object)
-    ], MdSelect.prototype, "placeholder", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Object)
-    ], MdSelect.prototype, "disabled", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Object)
-    ], MdSelect.prototype, "required", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
-    ], MdSelect.prototype, "onOpen", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
-    ], MdSelect.prototype, "onClose", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
-    ], MdSelect.prototype, "change", void 0);
-    MdSelect = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({selector: 'md-select, mat-select',
-            template: "<div class=\"mat-select-trigger\" cdk-overlay-origin (click)=\"toggle()\" #origin=\"cdkOverlayOrigin\" #trigger><span class=\"mat-select-placeholder\" [class.mat-floating-placeholder]=\"this.selected\" [@transformPlaceholder]=\"_placeholderState\" [style.width.px]=\"_selectedValueWidth\">{{ placeholder }} </span><span class=\"mat-select-value\" *ngIf=\"selected\"><span class=\"mat-select-value-text\">{{ selected?.viewValue }}</span> </span><span class=\"mat-select-arrow\"></span> <span class=\"mat-select-underline\"></span></div><template cdk-connected-overlay [origin]=\"origin\" [open]=\"panelOpen\" hasBackdrop (backdropClick)=\"close()\" backdropClass=\"cdk-overlay-transparent-backdrop\" [positions]=\"_positions\" [minWidth]=\"_triggerWidth\" [offsetY]=\"_offsetY\" [offsetX]=\"_offsetX\" (attach)=\"_setScrollTop()\"><div class=\"mat-select-panel\" [@transformPanel]=\"'showing'\" (@transformPanel.done)=\"_onPanelDone()\" (keydown)=\"_keyManager.onKeydown($event)\" [style.transformOrigin]=\"_transformOrigin\" [class.mat-select-panel-done-animating]=\"_panelDoneAnimating\"><div class=\"mat-select-content\" [@fadeInContent]=\"'showing'\" (@fadeInContent.done)=\"_onFadeInDone()\"><ng-content></ng-content></div></div></template>",
-            styles: [".mat-select{display:inline-block;outline:0;font-family:Roboto,\"Helvetica Neue\",sans-serif}.mat-select-trigger{display:flex;align-items:center;height:30px;min-width:112px;cursor:pointer;position:relative;box-sizing:border-box;font-size:16px}[aria-disabled=true] .mat-select-trigger{cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.mat-select-underline{position:absolute;bottom:0;left:0;right:0;height:1px}[aria-disabled=true] .mat-select-underline{background-image:linear-gradient(to right,rgba(0,0,0,.26) 0,rgba(0,0,0,.26) 33%,transparent 0);background-size:4px 1px;background-repeat:repeat-x;background-color:transparent;background-position:0 bottom}.mat-select-placeholder{position:relative;padding:0 2px;transform-origin:left top;flex-grow:1}.mat-select-placeholder.mat-floating-placeholder{top:-22px;left:-2px;text-align:left;transform:scale(.75)}[dir=rtl] .mat-select-placeholder{transform-origin:right top}[dir=rtl] .mat-select-placeholder.mat-floating-placeholder{left:2px;text-align:right}[aria-required=true] .mat-select-placeholder::after{content:'*'}.mat-select-value{position:absolute;max-width:calc(100% - 18px);flex-grow:1;top:0;left:0;bottom:0;display:flex;align-items:center}[dir=rtl] .mat-select-value{left:auto;right:0}.mat-select-value-text{white-space:nowrap;overflow-x:hidden;text-overflow:ellipsis;line-height:30px}.mat-select-arrow{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid;margin:0 4px}.mat-select-panel{box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12);min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px}@media screen and (-ms-high-contrast:active){.mat-select-panel{outline:solid 1px}}"],
-            encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ViewEncapsulation */].None,
-            host: {
-                'role': 'listbox',
-                '[attr.tabindex]': '_getTabIndex()',
-                '[attr.aria-label]': 'placeholder',
-                '[attr.aria-required]': 'required.toString()',
-                '[attr.aria-disabled]': 'disabled.toString()',
-                '[attr.aria-invalid]': '_control?.invalid || "false"',
-                '[attr.aria-owns]': '_optionIds',
-                '[class.mat-select-disabled]': 'disabled',
-                '[class.mat-select]': 'true',
-                '(keydown)': '_handleKeydown($event)',
-                '(blur)': '_onBlur()'
-            },
-            animations: [
-                __WEBPACK_IMPORTED_MODULE_5__select_animations__["a" /* transformPlaceholder */],
-                __WEBPACK_IMPORTED_MODULE_5__select_animations__["b" /* transformPanel */],
-                __WEBPACK_IMPORTED_MODULE_5__select_animations__["c" /* fadeInContent */]
-            ],
-            exportAs: 'mdSelect',
-        }),
-        __param(4, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
-        __param(5, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Self */])()),
-        __param(5, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */], __WEBPACK_IMPORTED_MODULE_9__core_overlay_position_viewport_ruler__["a" /* ViewportRuler */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["X" /* ChangeDetectorRef */], __WEBPACK_IMPORTED_MODULE_4__core_rtl_dir__["a" /* Dir */], __WEBPACK_IMPORTED_MODULE_6__angular_forms__["c" /* NgControl */]])
-    ], MdSelect);
-    return MdSelect;
-}());
-/** Clamps a value n between min and max values. */
-function clampValue(min, n, max) {
-    return Math.min(Math.max(min, n), max);
-}
-//# sourceMappingURL=select.js.map
-
-/***/ }),
-/* 178 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sidenav__ = __webpack_require__(279);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__sidenav__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 179 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__slide_toggle__ = __webpack_require__(280);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__slide_toggle__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 180 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__slider__ = __webpack_require__(281);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__slider__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 181 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__snack_bar__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__snack_bar_container__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__ = __webpack_require__(87);
-/* unused harmony namespace reexport */
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__snack_bar_config__ = __webpack_require__(182);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__snack_bar_ref__ = __webpack_require__(183);
-/* unused harmony namespace reexport */
-/* unused harmony namespace reexport */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSnackBarModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var MdSnackBarModule = (function () {
-    function MdSnackBarModule() {
-    }
-    /** @deprecated */
-    MdSnackBarModule.forRoot = function () {
-        return {
-            ngModule: MdSnackBarModule,
-            providers: []
-        };
-    };
-    MdSnackBarModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-            imports: [__WEBPACK_IMPORTED_MODULE_1__core__["d" /* OverlayModule */], __WEBPACK_IMPORTED_MODULE_1__core__["o" /* PortalModule */], __WEBPACK_IMPORTED_MODULE_2__angular_common__["c" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */]],
-            exports: [__WEBPACK_IMPORTED_MODULE_4__snack_bar_container__["a" /* MdSnackBarContainer */], __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */]],
-            declarations: [__WEBPACK_IMPORTED_MODULE_4__snack_bar_container__["a" /* MdSnackBarContainer */], __WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__["a" /* SimpleSnackBar */]],
-            entryComponents: [__WEBPACK_IMPORTED_MODULE_4__snack_bar_container__["a" /* MdSnackBarContainer */], __WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__["a" /* SimpleSnackBar */]],
-            providers: [__WEBPACK_IMPORTED_MODULE_3__snack_bar__["a" /* MdSnackBar */], __WEBPACK_IMPORTED_MODULE_1__core__["p" /* LIVE_ANNOUNCER_PROVIDER */]]
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdSnackBarModule);
-    return MdSnackBarModule;
-}());
-
-
-
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 182 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSnackBarConfig; });
-/**
- * Configuration used when opening a snack-bar.
- */
-var MdSnackBarConfig = (function () {
-    function MdSnackBarConfig() {
-        /** The politeness level for the MdAriaLiveAnnouncer announcement. */
-        this.politeness = 'assertive';
-        /** Message to be announced by the MdAriaLiveAnnouncer */
-        this.announcementMessage = '';
-        /** The view container to place the overlay for the snack bar into. */
-        this.viewContainerRef = null;
-        /** The length of time in milliseconds to wait before automatically dismissing the snack bar. */
-        this.duration = 0;
-    }
-    return MdSnackBarConfig;
-}());
-//# sourceMappingURL=snack-bar-config.js.map
-
-/***/ }),
-/* 183 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSnackBarRef; });
-
-// TODO(josephperrott): Implement onAction observable.
-/**
- * Reference to a snack bar dispatched from the snack bar service.
- */
-var MdSnackBarRef = (function () {
-    function MdSnackBarRef(instance, containerInstance, _overlayRef) {
-        var _this = this;
-        this._overlayRef = _overlayRef;
-        /** Subject for notifying the user that the snack bar has closed. */
-        this._afterClosed = new __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__["Subject"]();
-        /** Subject for notifying the user that the snack bar action was called. */
-        this._onAction = new __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__["Subject"]();
-        // Sets the readonly instance of the snack bar content component.
-        this._instance = instance;
-        this.containerInstance = containerInstance;
-        // Dismiss snackbar on action.
-        this.onAction().subscribe(function () { return _this.dismiss(); });
-        containerInstance._onExit().subscribe(function () { return _this._finishDismiss(); });
-    }
-    Object.defineProperty(MdSnackBarRef.prototype, "instance", {
-        /** The instance of the component making up the content of the snack bar. */
-        get: function () {
-            return this._instance;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /** Dismisses the snack bar. */
-    MdSnackBarRef.prototype.dismiss = function () {
-        if (!this._afterClosed.closed) {
-            this.containerInstance.exit();
-        }
-    };
-    /** Marks the snackbar action clicked. */
-    MdSnackBarRef.prototype._action = function () {
-        if (!this._onAction.closed) {
-            this._onAction.next();
-            this._onAction.complete();
-        }
-    };
-    /** Marks the snackbar as opened */
-    MdSnackBarRef.prototype._open = function () {
-        if (!this._afterOpened.closed) {
-            this._afterOpened.next();
-            this._afterOpened.complete();
-        }
-    };
-    /** Cleans up the DOM after closing. */
-    MdSnackBarRef.prototype._finishDismiss = function () {
-        this._overlayRef.dispose();
-        this._afterClosed.next();
-        this._afterClosed.complete();
-    };
-    /** Gets an observable that is notified when the snack bar is finished closing. */
-    MdSnackBarRef.prototype.afterDismissed = function () {
-        return this._afterClosed.asObservable();
-    };
-    /** Gets an observable that is notified when the snack bar has opened and appeared. */
-    MdSnackBarRef.prototype.afterOpened = function () {
-        return this.containerInstance._onEnter();
-    };
-    /** Gets an observable that is notified when the snack bar action is called. */
-    MdSnackBarRef.prototype.onAction = function () {
-        return this._onAction.asObservable();
-    };
-    return MdSnackBarRef;
-}());
-//# sourceMappingURL=snack-bar-ref.js.map
-
-/***/ }),
-/* 184 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__snack_bar_config__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__snack_bar_ref__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__snack_bar_container__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_util_object_extend__ = __webpack_require__(155);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSnackBar; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-
-
-
-
-/**
- * Service to dispatch Material Design snack bar messages.
- */
-var MdSnackBar = (function () {
-    function MdSnackBar(_overlay, _live, _parentSnackBar) {
-        this._overlay = _overlay;
-        this._live = _live;
-        this._parentSnackBar = _parentSnackBar;
-    }
-    Object.defineProperty(MdSnackBar.prototype, "_openedSnackBarRef", {
-        /** Reference to the currently opened snackbar at *any* level. */
-        get: function () {
-            return this._parentSnackBar ?
-                this._parentSnackBar._openedSnackBarRef : this._snackBarRefAtThisLevel;
-        },
-        set: function (value) {
-            if (this._parentSnackBar) {
-                this._parentSnackBar._openedSnackBarRef = value;
-            }
-            else {
-                this._snackBarRefAtThisLevel = value;
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Creates and dispatches a snack bar with a custom component for the content, removing any
-     * currently opened snack bars.
-     *
-     * @param component Component to be instantiated.
-     * @param config Extra configuration for the snack bar.
-     */
-    MdSnackBar.prototype.openFromComponent = function (component, config) {
-        var _this = this;
-        config = _applyConfigDefaults(config);
-        var overlayRef = this._createOverlay();
-        var snackBarContainer = this._attachSnackBarContainer(overlayRef, config);
-        var snackBarRef = this._attachSnackbarContent(component, snackBarContainer, overlayRef);
-        // When the snackbar is dismissed, clear the reference to it.
-        snackBarRef.afterDismissed().subscribe(function () {
-            // Clear the snackbar ref if it hasn't already been replaced by a newer snackbar.
-            if (_this._openedSnackBarRef == snackBarRef) {
-                _this._openedSnackBarRef = null;
-            }
-        });
-        // If a snack bar is already in view, dismiss it and enter the new snack bar after exit
-        // animation is complete.
-        if (this._openedSnackBarRef) {
-            this._openedSnackBarRef.afterDismissed().subscribe(function () {
-                snackBarRef.containerInstance.enter();
-            });
-            this._openedSnackBarRef.dismiss();
-        }
-        else {
-            snackBarRef.containerInstance.enter();
-        }
-        // If a dismiss timeout is provided, set up dismiss based on after the snackbar is opened.
-        if (config.duration > 0) {
-            snackBarRef.afterOpened().subscribe(function () {
-                setTimeout(function () { return snackBarRef.dismiss(); }, config.duration);
-            });
-        }
-        this._live.announce(config.announcementMessage, config.politeness);
-        this._openedSnackBarRef = snackBarRef;
-        return this._openedSnackBarRef;
-    };
-    /**
-     * Opens a snackbar with a message and an optional action.
-     * @param message The message to show in the snackbar.
-     * @param action The label for the snackbar action.
-     * @param config Additional configuration options for the snackbar.
-     */
-    MdSnackBar.prototype.open = function (message, action, config) {
-        if (action === void 0) { action = ''; }
-        if (config === void 0) { config = {}; }
-        config.announcementMessage = message;
-        var simpleSnackBarRef = this.openFromComponent(__WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__["a" /* SimpleSnackBar */], config);
-        simpleSnackBarRef.instance.snackBarRef = simpleSnackBarRef;
-        simpleSnackBarRef.instance.message = message;
-        simpleSnackBarRef.instance.action = action;
-        return simpleSnackBarRef;
-    };
-    /**
-     * Attaches the snack bar container component to the overlay.
-     */
-    MdSnackBar.prototype._attachSnackBarContainer = function (overlayRef, config) {
-        var containerPortal = new __WEBPACK_IMPORTED_MODULE_1__core__["a" /* ComponentPortal */](__WEBPACK_IMPORTED_MODULE_4__snack_bar_container__["a" /* MdSnackBarContainer */], config.viewContainerRef);
-        var containerRef = overlayRef.attach(containerPortal);
-        containerRef.instance.snackBarConfig = config;
-        return containerRef.instance;
-    };
-    /**
-     * Places a new component as the content of the snack bar container.
-     */
-    MdSnackBar.prototype._attachSnackbarContent = function (component, container, overlayRef) {
-        var portal = new __WEBPACK_IMPORTED_MODULE_1__core__["a" /* ComponentPortal */](component);
-        var contentRef = container.attachComponentPortal(portal);
-        return new __WEBPACK_IMPORTED_MODULE_3__snack_bar_ref__["a" /* MdSnackBarRef */](contentRef.instance, container, overlayRef);
-    };
-    /**
-     * Creates a new overlay and places it in the correct location.
-     */
-    MdSnackBar.prototype._createOverlay = function () {
-        var state = new __WEBPACK_IMPORTED_MODULE_1__core__["b" /* OverlayState */]();
-        state.positionStrategy = this._overlay.position().global()
-            .centerHorizontally()
-            .bottom('0');
-        return this._overlay.create(state);
-    };
-    MdSnackBar = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
-        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
-        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */])()), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_1__core__["c" /* Overlay */], __WEBPACK_IMPORTED_MODULE_1__core__["q" /* LiveAnnouncer */], MdSnackBar])
-    ], MdSnackBar);
-    return MdSnackBar;
-}());
-/**
- * Applies default options to the snackbar config.
- * @param config The configuration to which the defaults will be applied.
- * @returns The new configuration object with defaults applied.
- */
-function _applyConfigDefaults(config) {
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__core_util_object_extend__["a" /* extendObject */])(new __WEBPACK_IMPORTED_MODULE_2__snack_bar_config__["a" /* MdSnackBarConfig */](), config);
-}
-//# sourceMappingURL=snack-bar.js.map
-
-/***/ }),
-/* 185 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tab_group__ = __webpack_require__(283);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__tab_group__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ink_bar__ = __webpack_require__(56);
-/* unused harmony reexport MdInkBar */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab_body__ = __webpack_require__(186);
-/* unused harmony reexport MdTabBody */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tab_header__ = __webpack_require__(187);
-/* unused harmony reexport MdTabHeader */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tab_label_wrapper__ = __webpack_require__(89);
-/* unused harmony reexport MdTabLabelWrapper */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tab__ = __webpack_require__(189);
-/* unused harmony reexport MdTab */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__tab_label__ = __webpack_require__(90);
-/* unused harmony reexport MdTabLabel */
-
-
-
-
-
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 186 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTabBody; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-/**
- * Wrapper for the contents of a tab.
- */
-var MdTabBody = (function () {
-    function MdTabBody(_dir, _elementRef, _changeDetectorRef) {
-        this._dir = _dir;
-        this._elementRef = _elementRef;
-        this._changeDetectorRef = _changeDetectorRef;
-        /** Event emitted when the tab begins to animate towards the center as the active tab. */
-        this.onCentering = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-        /** Event emitted when the tab completes its animation towards the center. */
-        this.onCentered = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */](true);
-        /** Whether the element is allowed to be animated. */
-        this._canBeAnimated = false;
-    }
-    Object.defineProperty(MdTabBody.prototype, "position", {
-        set: function (position) {
-            if (position < 0) {
-                this._position = this._getLayoutDirection() == 'ltr' ? 'left' : 'right';
-            }
-            else if (position > 0) {
-                this._position = this._getLayoutDirection() == 'ltr' ? 'right' : 'left';
-            }
-            else {
-                this._position = 'center';
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTabBody.prototype, "origin", {
-        /** The origin position from which this tab should appear when it is centered into view. */
-        set: function (origin) {
-            if (origin == null) {
-                return;
-            }
-            var dir = this._getLayoutDirection();
-            if ((dir == 'ltr' && origin <= 0) || (dir == 'rtl' && origin > 0)) {
-                this._origin = 'left';
-            }
-            else {
-                this._origin = 'right';
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * After initialized, check if the content is centered and has an origin. If so, set the
-     * special position states that transition the tab from the left or right before centering.
-     */
-    MdTabBody.prototype.ngOnInit = function () {
-        if (this._position == 'center' && this._origin) {
-            this._position = this._origin == 'left' ? 'left-origin-center' : 'right-origin-center';
-        }
-    };
-    /**
-     * After the view has been set, check if the tab content is set to the center and attach the
-     * content if it is not already attached.
-     */
-    MdTabBody.prototype.ngAfterViewChecked = function () {
-        if (this._isCenterPosition(this._position) && !this._portalHost.hasAttached()) {
-            this._portalHost.attach(this._content);
-        }
-    };
-    /**
-     * After the content has been checked, determines whether the element should be allowed to
-     * animate. This has to be limited, because under a specific set of circumstances (see #2151),
-     * the animations can be triggered too early, which either crashes Chrome by putting it into an
-     * infinite loop (with Angular < 2.3.0) or throws an error because the element doesn't have a
-     * computed style (with Angular > 2.3.0). This can alternatively be determined by checking the
-     * transform: canBeAnimated = getComputedStyle(element) !== '', however document.contains should
-     * be faster since it doesn't cause a reflow.
-     *
-     * TODO: This can safely be removed after we stop supporting Angular < 2.4.2. The fix landed via
-     * https://github.com/angular/angular/commit/21030e9a1cf30e8101399d8535ed72d847a23ba6
-     */
-    MdTabBody.prototype.ngAfterContentChecked = function () {
-        if (!this._canBeAnimated) {
-            this._canBeAnimated = document.body.contains(this._elementRef.nativeElement);
-            if (this._canBeAnimated) {
-                this._changeDetectorRef.markForCheck();
-            }
-        }
-    };
-    MdTabBody.prototype._onTranslateTabStarted = function (e) {
-        if (this._isCenterPosition(e.toState)) {
-            this.onCentering.emit(this._elementRef.nativeElement.clientHeight);
-        }
-    };
-    MdTabBody.prototype._onTranslateTabComplete = function (e) {
-        // If the end state is that the tab is not centered, then detach the content.
-        if (!this._isCenterPosition(e.toState) && !this._isCenterPosition(this._position)) {
-            this._portalHost.detach();
-        }
-        // If the transition to the center is complete, emit an event.
-        if (this._isCenterPosition(e.toState) && this._isCenterPosition(this._position)) {
-            this.onCentered.emit();
-        }
-    };
-    /** The text direction of the containing app. */
-    MdTabBody.prototype._getLayoutDirection = function () {
-        return this._dir && this._dir.value === 'rtl' ? 'rtl' : 'ltr';
-    };
-    /** Whether the provided position state is considered center, regardless of origin. */
-    MdTabBody.prototype._isCenterPosition = function (position) {
-        return position == 'center' ||
-            position == 'left-origin-center' ||
-            position == 'right-origin-center';
-    };
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1__core__["l" /* PortalHostDirective */]), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_1__core__["l" /* PortalHostDirective */])
-    ], MdTabBody.prototype, "_portalHost", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
-    ], MdTabBody.prototype, "onCentering", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
-    ], MdTabBody.prototype, "onCentered", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('content'), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_1__core__["m" /* TemplatePortal */])
-    ], MdTabBody.prototype, "_content", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('position'), 
-        __metadata('design:type', Number), 
-        __metadata('design:paramtypes', [Number])
-    ], MdTabBody.prototype, "position", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('origin'), 
-        __metadata('design:type', Number), 
-        __metadata('design:paramtypes', [Number])
-    ], MdTabBody.prototype, "origin", null);
-    MdTabBody = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({selector: 'md-tab-body, mat-tab-body',
-            template: "<div class=\"mat-tab-body-content\" #content [@translateTab]=\"_canBeAnimated ? _position : null\" (@translateTab.start)=\"_onTranslateTabStarted($event)\" (@translateTab.done)=\"_onTranslateTabComplete($event)\"><template cdkPortalHost></template></div>",
-            host: {
-                '[class.mat-tab-body]': 'true',
-            },
-            animations: [
-                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('translateTab', [
-                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('left', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(-100%, 0, 0)' })),
-                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('left-origin-center', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(0, 0, 0)' })),
-                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('right-origin-center', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(0, 0, 0)' })),
-                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('center', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(0, 0, 0)' })),
-                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('right', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(100%, 0, 0)' })),
-                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('* => left, * => right, left => center, right => center', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('500ms cubic-bezier(0.35, 0, 0.25, 1)')),
-                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => left-origin-center', [
-                        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(-100%, 0, 0)' }),
-                        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('500ms cubic-bezier(0.35, 0, 0.25, 1)')
-                    ]),
-                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => right-origin-center', [
-                        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(100%, 0, 0)' }),
-                        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('500ms cubic-bezier(0.35, 0, 0.25, 1)')
-                    ])
-                ])
-            ]
-        }),
-        __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_1__core__["k" /* Dir */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["X" /* ChangeDetectorRef */]])
-    ], MdTabBody);
-    return MdTabBody;
-}());
-//# sourceMappingURL=tab-body.js.map
-
-/***/ }),
-/* 187 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab_label_wrapper__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ink_bar__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_style_apply_transform__ = __webpack_require__(152);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTabHeader; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-
-
-
-/**
- * The distance in pixels that will be overshot when scrolling a tab label into view. This helps
- * provide a small affordance to the label next to it.
- */
-var EXAGGERATED_OVERSCROLL = 60;
-/**
- * The header of the tab group which displays a list of all the tabs in the tab group. Includes
- * an ink bar that follows the currently selected tab. When the tabs list's width exceeds the
- * width of the header container, then arrows will be displayed to allow the user to scroll
- * left and right across the header.
- */
-var MdTabHeader = (function () {
-    function MdTabHeader(_zone, _elementRef, _dir) {
-        this._zone = _zone;
-        this._elementRef = _elementRef;
-        this._dir = _dir;
-        /** The tab index that is focused. */
-        this._focusIndex = 0;
-        /** The distance in pixels that the tab labels should be translated to the left. */
-        this._scrollDistance = 0;
-        /** Whether the header should scroll to the selected index after the view has been checked. */
-        this._selectedIndexChanged = false;
-        /** Whether the controls for pagination should be displayed */
-        this._showPaginationControls = false;
-        /** Whether the tab list can be scrolled more towards the end of the tab label list. */
-        this._disableScrollAfter = true;
-        /** Whether the tab list can be scrolled more towards the beginning of the tab label list. */
-        this._disableScrollBefore = true;
-        this._selectedIndex = 0;
-        /** Event emitted when the option is selected. */
-        this.selectFocusedIndex = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-        /** Event emitted when a label is focused. */
-        this.indexFocused = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
-    }
-    Object.defineProperty(MdTabHeader.prototype, "selectedIndex", {
-        get: function () { return this._selectedIndex; },
-        /** The index of the active tab. */
-        set: function (value) {
-            this._selectedIndexChanged = this._selectedIndex != value;
-            this._selectedIndex = value;
-            this._focusIndex = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    MdTabHeader.prototype.ngAfterContentChecked = function () {
-        // If the number of tab labels have changed, check if scrolling should be enabled
-        if (this._tabLabelCount != this._labelWrappers.length) {
-            this._updatePagination();
-            this._tabLabelCount = this._labelWrappers.length;
-        }
-        // If the selected index has changed, scroll to the label and check if the scrolling controls
-        // should be disabled.
-        if (this._selectedIndexChanged) {
-            this._scrollToLabel(this._selectedIndex);
-            this._checkScrollingControls();
-            this._alignInkBarToSelectedTab();
-            this._selectedIndexChanged = false;
-        }
-        // If the scroll distance has been changed (tab selected, focused, scroll controls activated),
-        // then translate the header to reflect this.
-        if (this._scrollDistanceChanged) {
-            this._updateTabScrollPosition();
-            this._scrollDistanceChanged = false;
-        }
-    };
-    MdTabHeader.prototype._handleKeydown = function (event) {
-        switch (event.keyCode) {
-            case __WEBPACK_IMPORTED_MODULE_1__core__["h" /* RIGHT_ARROW */]:
-                this._focusNextTab();
-                break;
-            case __WEBPACK_IMPORTED_MODULE_1__core__["i" /* LEFT_ARROW */]:
-                this._focusPreviousTab();
-                break;
-            case __WEBPACK_IMPORTED_MODULE_1__core__["j" /* ENTER */]:
-                this.selectFocusedIndex.emit(this.focusIndex);
-                break;
-        }
-    };
-    /**
-     * Aligns the ink bar to the selected tab on load.
-     */
-    MdTabHeader.prototype.ngAfterContentInit = function () {
-        this._alignInkBarToSelectedTab();
-    };
-    /**
-     * Callback for when the MutationObserver detects that the content has changed.
-     */
-    MdTabHeader.prototype._onContentChanges = function () {
-        this._updatePagination();
-        this._alignInkBarToSelectedTab();
-    };
-    /**
-     * Updating the view whether pagination should be enabled or not
-     */
-    MdTabHeader.prototype._updatePagination = function () {
-        this._checkPaginationEnabled();
-        this._checkScrollingControls();
-        this._updateTabScrollPosition();
-    };
-    Object.defineProperty(MdTabHeader.prototype, "focusIndex", {
-        /** Tracks which element has focus; used for keyboard navigation */
-        get: function () { return this._focusIndex; },
-        /** When the focus index is set, we must manually send focus to the correct label */
-        set: function (value) {
-            if (!this._isValidIndex(value) || this._focusIndex == value) {
-                return;
-            }
-            this._focusIndex = value;
-            this.indexFocused.emit(value);
-            this._setTabFocus(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Determines if an index is valid.  If the tabs are not ready yet, we assume that the user is
-     * providing a valid index and return true.
-     */
-    MdTabHeader.prototype._isValidIndex = function (index) {
-        if (!this._labelWrappers) {
-            return true;
-        }
-        var tab = this._labelWrappers ? this._labelWrappers.toArray()[index] : null;
-        return tab && !tab.disabled;
-    };
-    /**
-     * Sets focus on the HTML element for the label wrapper and scrolls it into the view if
-     * scrolling is enabled.
-     */
-    MdTabHeader.prototype._setTabFocus = function (tabIndex) {
-        if (this._showPaginationControls) {
-            this._scrollToLabel(tabIndex);
-        }
-        if (this._labelWrappers && this._labelWrappers.length) {
-            this._labelWrappers.toArray()[tabIndex].focus();
-            // Do not let the browser manage scrolling to focus the element, this will be handled
-            // by using translation. In LTR, the scroll left should be 0. In RTL, the scroll width
-            // should be the full width minus the offset width.
-            var containerEl = this._tabListContainer.nativeElement;
-            var dir = this._getLayoutDirection();
-            if (dir == 'ltr') {
-                containerEl.scrollLeft = 0;
-            }
-            else {
-                containerEl.scrollLeft = containerEl.scrollWidth - containerEl.offsetWidth;
-            }
-        }
-    };
-    /**
-     * Moves the focus towards the beginning or the end of the list depending on the offset provided.
-     * Valid offsets are 1 and -1.
-     */
-    MdTabHeader.prototype._moveFocus = function (offset) {
-        if (this._labelWrappers) {
-            var tabs = this._labelWrappers.toArray();
-            for (var i = this.focusIndex + offset; i < tabs.length && i >= 0; i += offset) {
-                if (this._isValidIndex(i)) {
-                    this.focusIndex = i;
-                    return;
-                }
-            }
-        }
-    };
-    /** Increment the focus index by 1 until a valid tab is found. */
-    MdTabHeader.prototype._focusNextTab = function () {
-        this._moveFocus(this._getLayoutDirection() == 'ltr' ? 1 : -1);
-    };
-    /** Decrement the focus index by 1 until a valid tab is found. */
-    MdTabHeader.prototype._focusPreviousTab = function () {
-        this._moveFocus(this._getLayoutDirection() == 'ltr' ? -1 : 1);
-    };
-    /** The layout direction of the containing app. */
-    MdTabHeader.prototype._getLayoutDirection = function () {
-        return this._dir && this._dir.value === 'rtl' ? 'rtl' : 'ltr';
-    };
-    /** Performs the CSS transformation on the tab list that will cause the list to scroll. */
-    MdTabHeader.prototype._updateTabScrollPosition = function () {
-        var translateX = this.scrollDistance + 'px';
-        if (this._getLayoutDirection() == 'ltr') {
-            translateX = '-' + translateX;
-        }
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__core_style_apply_transform__["a" /* applyCssTransform */])(this._tabList.nativeElement, "translate3d(" + translateX + ", 0, 0)");
-    };
-    Object.defineProperty(MdTabHeader.prototype, "scrollDistance", {
-        get: function () { return this._scrollDistance; },
-        /** Sets the distance in pixels that the tab header should be transformed in the X-axis. */
-        set: function (v) {
-            this._scrollDistance = Math.max(0, Math.min(this._getMaxScrollDistance(), v));
-            // Mark that the scroll distance has changed so that after the view is checked, the CSS
-            // transformation can move the header.
-            this._scrollDistanceChanged = true;
-            this._checkScrollingControls();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Moves the tab list in the 'before' or 'after' direction (towards the beginning of the list or
-     * the end of the list, respectively). The distance to scroll is computed to be a third of the
-     * length of the tab list view window.
-     *
-     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
-     * should be called sparingly.
-     */
-    MdTabHeader.prototype._scrollHeader = function (scrollDir) {
-        var viewLength = this._tabListContainer.nativeElement.offsetWidth;
-        // Move the scroll distance one-third the length of the tab list's viewport.
-        this.scrollDistance += (scrollDir == 'before' ? -1 : 1) * viewLength / 3;
-    };
-    /**
-     * Moves the tab list such that the desired tab label (marked by index) is moved into view.
-     *
-     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
-     * should be called sparingly.
-     */
-    MdTabHeader.prototype._scrollToLabel = function (labelIndex) {
-        var selectedLabel = this._labelWrappers
-            ? this._labelWrappers.toArray()[labelIndex]
-            : null;
-        if (!selectedLabel) {
-            return;
-        }
-        // The view length is the visible width of the tab labels.
-        var viewLength = this._tabListContainer.nativeElement.offsetWidth;
-        var labelBeforePos, labelAfterPos;
-        if (this._getLayoutDirection() == 'ltr') {
-            labelBeforePos = selectedLabel.getOffsetLeft();
-            labelAfterPos = labelBeforePos + selectedLabel.getOffsetWidth();
-        }
-        else {
-            labelAfterPos = this._tabList.nativeElement.offsetWidth - selectedLabel.getOffsetLeft();
-            labelBeforePos = labelAfterPos - selectedLabel.getOffsetWidth();
-        }
-        var beforeVisiblePos = this.scrollDistance;
-        var afterVisiblePos = this.scrollDistance + viewLength;
-        if (labelBeforePos < beforeVisiblePos) {
-            // Scroll header to move label to the before direction
-            this.scrollDistance -= beforeVisiblePos - labelBeforePos + EXAGGERATED_OVERSCROLL;
-        }
-        else if (labelAfterPos > afterVisiblePos) {
-            // Scroll header to move label to the after direction
-            this.scrollDistance += labelAfterPos - afterVisiblePos + EXAGGERATED_OVERSCROLL;
-        }
-    };
-    /**
-     * Evaluate whether the pagination controls should be displayed. If the scroll width of the
-     * tab list is wider than the size of the header container, then the pagination controls should
-     * be shown.
-     *
-     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
-     * should be called sparingly.
-     */
-    MdTabHeader.prototype._checkPaginationEnabled = function () {
-        this._showPaginationControls =
-            this._tabList.nativeElement.scrollWidth > this._elementRef.nativeElement.offsetWidth;
-        if (!this._showPaginationControls) {
-            this.scrollDistance = 0;
-        }
-    };
-    /**
-     * Evaluate whether the before and after controls should be enabled or disabled.
-     * If the header is at the beginning of the list (scroll distance is equal to 0) then disable the
-     * before button. If the header is at the end of the list (scroll distance is equal to the
-     * maximum distance we can scroll), then disable the after button.
-     *
-     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
-     * should be called sparingly.
-     */
-    MdTabHeader.prototype._checkScrollingControls = function () {
-        // Check if the pagination arrows should be activated.
-        this._disableScrollBefore = this.scrollDistance == 0;
-        this._disableScrollAfter = this.scrollDistance == this._getMaxScrollDistance();
-    };
-    /**
-     * Determines what is the maximum length in pixels that can be set for the scroll distance. This
-     * is equal to the difference in width between the tab list container and tab header container.
-     *
-     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
-     * should be called sparingly.
-     */
-    MdTabHeader.prototype._getMaxScrollDistance = function () {
-        var lengthOfTabList = this._tabList.nativeElement.scrollWidth;
-        var viewLength = this._tabListContainer.nativeElement.offsetWidth;
-        return lengthOfTabList - viewLength;
-    };
-    /** Tells the ink-bar to align itself to the current label wrapper */
-    MdTabHeader.prototype._alignInkBarToSelectedTab = function () {
-        var _this = this;
-        var selectedLabelWrapper = this._labelWrappers && this._labelWrappers.length
-            ? this._labelWrappers.toArray()[this.selectedIndex].elementRef.nativeElement
-            : null;
-        this._zone.runOutsideAngular(function () {
-            requestAnimationFrame(function () {
-                _this._inkBar.alignToElement(selectedLabelWrapper);
-            });
-        });
-    };
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ContentChildren */])(__WEBPACK_IMPORTED_MODULE_2__tab_label_wrapper__["a" /* MdTabLabelWrapper */]), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* QueryList */])
-    ], MdTabHeader.prototype, "_labelWrappers", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_3__ink_bar__["a" /* MdInkBar */]), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_3__ink_bar__["a" /* MdInkBar */])
-    ], MdTabHeader.prototype, "_inkBar", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('tabListContainer'), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */])
-    ], MdTabHeader.prototype, "_tabListContainer", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('tabList'), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */])
-    ], MdTabHeader.prototype, "_tabList", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Number), 
-        __metadata('design:paramtypes', [Number])
-    ], MdTabHeader.prototype, "selectedIndex", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', Object)
-    ], MdTabHeader.prototype, "selectFocusedIndex", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
-        __metadata('design:type', Object)
-    ], MdTabHeader.prototype, "indexFocused", void 0);
-    MdTabHeader = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({selector: 'md-tab-header, mat-tab-header',
-            template: "<div class=\"mat-tab-header-pagination mat-tab-header-pagination-before mat-elevation-z4\" aria-hidden=\"true\" md-ripple [mdRippleDisabled]=\"_disableScrollBefore\" [class.mat-tab-header-pagination-disabled]=\"_disableScrollBefore\" (click)=\"_scrollHeader('before')\"><div class=\"mat-tab-header-pagination-chevron\"></div></div><div class=\"mat-tab-label-container\" #tabListContainer (keydown)=\"_handleKeydown($event)\"><div class=\"mat-tab-list\" #tabList role=\"tablist\" (cdkObserveContent)=\"_onContentChanges()\"><div class=\"mat-tab-labels\"><ng-content></ng-content></div><md-ink-bar></md-ink-bar></div></div><div class=\"mat-tab-header-pagination mat-tab-header-pagination-after mat-elevation-z4\" aria-hidden=\"true\" md-ripple [mdRippleDisabled]=\"_disableScrollAfter\" [class.mat-tab-header-pagination-disabled]=\"_disableScrollAfter\" (click)=\"_scrollHeader('after')\"><div class=\"mat-tab-header-pagination-chevron\"></div></div>",
-            styles: [".mat-tab-header{display:flex;overflow:hidden;position:relative;flex-shrink:0}.mat-tab-label{line-height:48px;height:48px;padding:0 12px;font-size:14px;font-family:Roboto,\"Helvetica Neue\",sans-serif;font-weight:500;cursor:pointer;box-sizing:border-box;color:currentColor;opacity:.6;min-width:160px;text-align:center;position:relative}.mat-tab-label:focus{outline:0;opacity:1}@media (max-width:600px){.mat-tab-label{min-width:72px}}.mat-ink-bar{position:absolute;bottom:0;height:2px;transition:.5s cubic-bezier(.35,0,.25,1)}.mat-tab-group-inverted-header .mat-ink-bar{bottom:auto;top:0}.mat-tab-header-pagination{position:relative;display:none;justify-content:center;align-items:center;min-width:32px;cursor:pointer;z-index:2}.mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination,.mat-tab-labels{display:flex}.mat-tab-header-pagination-before,.mat-tab-header-rtl .mat-tab-header-pagination-after{padding-left:4px}.mat-tab-header-pagination-before .mat-tab-header-pagination-chevron,.mat-tab-header-rtl .mat-tab-header-pagination-after .mat-tab-header-pagination-chevron{transform:rotate(-135deg)}.mat-tab-header-pagination-after,.mat-tab-header-rtl .mat-tab-header-pagination-before{padding-right:4px}.mat-tab-header-pagination-after .mat-tab-header-pagination-chevron,.mat-tab-header-rtl .mat-tab-header-pagination-before .mat-tab-header-pagination-chevron{transform:rotate(45deg)}.mat-tab-header-pagination-chevron{border-style:solid;border-width:2px 2px 0 0;content:'';height:8px;width:8px}.mat-tab-header-pagination-disabled{box-shadow:none;cursor:default}.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron{border-color:#ccc}.mat-tab-label-container{display:flex;flex-grow:1;overflow:hidden;z-index:1}.mat-tab-list{flex-grow:1;position:relative;transition:transform .5s cubic-bezier(.35,0,.25,1)}"],
-            encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ViewEncapsulation */].None,
-            host: {
-                'class': 'mat-tab-header',
-                '[class.mat-tab-header-pagination-controls-enabled]': '_showPaginationControls',
-                '[class.mat-tab-header-rtl]': "_getLayoutDirection() == 'rtl'",
-            }
-        }),
-        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* NgZone */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_1__core__["k" /* Dir */]])
-    ], MdTabHeader);
-    return MdTabHeader;
-}());
-//# sourceMappingURL=tab-header.js.map
-
-/***/ }),
-/* 188 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ink_bar__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_ripple_ripple__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_overlay_position_viewport_ruler__ = __webpack_require__(26);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTabNavBar; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdTabLink; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdTabLinkRipple; });
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Navigation component matching the styles of the tab group header.
- * Provides anchored navigation with animated ink bar.
- */
-var MdTabNavBar = (function () {
-    function MdTabNavBar() {
-    }
-    /** Notifies the component that the active link has been changed. */
-    MdTabNavBar.prototype.updateActiveLink = function (element) {
-        this._activeLinkChanged = this._activeLinkElement != element;
-        this._activeLinkElement = element;
-    };
-    /** Checks if the active link has been changed and, if so, will update the ink bar. */
-    MdTabNavBar.prototype.ngAfterContentChecked = function () {
-        if (this._activeLinkChanged) {
-            this._inkBar.alignToElement(this._activeLinkElement.nativeElement);
-            this._activeLinkChanged = false;
-        }
-    };
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1__ink_bar__["a" /* MdInkBar */]), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_1__ink_bar__["a" /* MdInkBar */])
-    ], MdTabNavBar.prototype, "_inkBar", void 0);
-    MdTabNavBar = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({selector: '[md-tab-nav-bar], [mat-tab-nav-bar]',
-            template: "<div class=\"mat-tab-links\"><ng-content></ng-content></div><md-ink-bar></md-ink-bar>",
-            styles: [".mat-tab-link,.mat-tab-nav-bar{position:relative;overflow:hidden}.mat-tab-nav-bar{flex-shrink:0}.mat-tab-links{display:flex;position:relative}.mat-tab-link{line-height:48px;height:48px;padding:0 12px;font-size:14px;font-family:Roboto,\"Helvetica Neue\",sans-serif;font-weight:500;cursor:pointer;box-sizing:border-box;color:currentColor;opacity:.6;min-width:160px;text-align:center;text-decoration:none}.mat-tab-link:focus{outline:0;opacity:1}@media (max-width:600px){.mat-tab-link{min-width:72px}}.mat-ink-bar{position:absolute;bottom:0;height:2px;transition:.5s cubic-bezier(.35,0,.25,1)}.mat-tab-group-inverted-header .mat-ink-bar{bottom:auto;top:0}"],
-            host: {
-                '[class.mat-tab-nav-bar]': 'true',
-            },
-            encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ViewEncapsulation */].None,
-        }), 
-        __metadata('design:paramtypes', [])
-    ], MdTabNavBar);
-    return MdTabNavBar;
-}());
-/**
- * Link inside of a `md-tab-nav-bar`.
- */
-var MdTabLink = (function () {
-    function MdTabLink(_mdTabNavBar, _elementRef) {
-        this._mdTabNavBar = _mdTabNavBar;
-        this._elementRef = _elementRef;
-        this._isActive = false;
-    }
-    Object.defineProperty(MdTabLink.prototype, "active", {
-        /** Whether the link is active. */
-        get: function () { return this._isActive; },
-        set: function (value) {
-            this._isActive = value;
-            if (value) {
-                this._mdTabNavBar.updateActiveLink(this._elementRef);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Boolean)
-    ], MdTabLink.prototype, "active", null);
-    MdTabLink = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: '[md-tab-link], [mat-tab-link]',
-            host: {
-                '[class.mat-tab-link]': 'true',
-            }
-        }), 
-        __metadata('design:paramtypes', [MdTabNavBar, __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */]])
-    ], MdTabLink);
-    return MdTabLink;
-}());
-/**
- * Simple directive that extends the ripple and matches the selector of the MdTabLink. This
- * adds the ripple behavior to nav bar labels.
- */
-var MdTabLinkRipple = (function (_super) {
-    __extends(MdTabLinkRipple, _super);
-    function MdTabLinkRipple(elementRef, ngZone, ruler) {
-        _super.call(this, elementRef, ngZone, ruler);
-    }
-    MdTabLinkRipple = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
-            selector: '[md-tab-link], [mat-tab-link]',
-            host: {
-                '[class.mat-tab-link]': 'true',
-            },
-        }), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* NgZone */], __WEBPACK_IMPORTED_MODULE_3__core_overlay_position_viewport_ruler__["a" /* ViewportRuler */]])
-    ], MdTabLinkRipple);
-    return MdTabLinkRipple;
-}(__WEBPACK_IMPORTED_MODULE_2__core_ripple_ripple__["b" /* MdRipple */]));
-//# sourceMappingURL=tab-nav-bar.js.map
-
-/***/ }),
-/* 189 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core_portal_portal__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_coercion_boolean_property__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tab_label__ = __webpack_require__(90);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTab; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var MdTab = (function () {
-    function MdTab(_viewContainerRef) {
-        this._viewContainerRef = _viewContainerRef;
-        /** The plain text label for the tab, used when there is no template label. */
-        this.textLabel = '';
-        /** The portal that will be the hosted content of the tab */
-        this._contentPortal = null;
-        /**
-         * The relatively indexed position where 0 represents the center, negative is left, and positive
-         * represents the right.
-         */
-        this.position = null;
-        /**
-         * The initial relatively index origin of the tab if it was created and selected after there
-         * was already a selected tab. Provides context of what position the tab should originate from.
-         */
-        this.origin = null;
-        this._disabled = false;
-    }
-    Object.defineProperty(MdTab.prototype, "content", {
-        get: function () { return this._contentPortal; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTab.prototype, "disabled", {
-        get: function () { return this._disabled; },
-        /** Whether the tab is disabled */
-        set: function (value) { this._disabled = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value); },
-        enumerable: true,
-        configurable: true
-    });
-    MdTab.prototype.ngOnInit = function () {
-        this._contentPortal = new __WEBPACK_IMPORTED_MODULE_0__core_portal_portal__["b" /* TemplatePortal */](this._content, this._viewContainerRef);
-    };
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ContentChild */])(__WEBPACK_IMPORTED_MODULE_3__tab_label__["a" /* MdTabLabel */]), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_3__tab_label__["a" /* MdTabLabel */])
-    ], MdTab.prototype, "templateLabel", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Q" /* TemplateRef */]), 
-        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_1__angular_core__["Q" /* TemplateRef */])
-    ], MdTab.prototype, "_content", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["M" /* Input */])('label'), 
-        __metadata('design:type', String)
-    ], MdTab.prototype, "textLabel", void 0);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["M" /* Input */])(), 
-        __metadata('design:type', Boolean), 
-        __metadata('design:paramtypes', [Boolean])
-    ], MdTab.prototype, "disabled", null);
-    MdTab = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Y" /* Component */])({selector: 'md-tab, mat-tab',
-            template: "<template><ng-content></ng-content></template>",
-        }), 
-        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_1__angular_core__["P" /* ViewContainerRef */]])
-    ], MdTab);
-    return MdTab;
-}());
-//# sourceMappingURL=tab.js.map
-
-/***/ }),
-/* 190 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toolbar__ = __webpack_require__(285);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__toolbar__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 191 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tooltip__ = __webpack_require__(287);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__tooltip__["a"]; });
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 192 */
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_BehaviorSubject__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_BehaviorSubject__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_BehaviorSubject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
@@ -45665,7 +38127,7 @@ var MdTab = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_every___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_every__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_first__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_operator_first__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_map__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_map__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_mergeMap__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_operator_mergeMap__);
@@ -45677,7 +38139,7 @@ var MdTab = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_rxjs_operator_catch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_operator_concatAll__ = __webpack_require__(417);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_rxjs_operator_concatAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_rxjs_operator_concatAll__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_util_EmptyError__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_util_EmptyError__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rxjs_util_EmptyError___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_rxjs_util_EmptyError__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_observable_fromPromise__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_rxjs_observable_fromPromise__);
@@ -45700,7 +38162,7 @@ var MdTab = (function () {
 /* unused harmony export RouteConfigLoadStart */
 /* unused harmony export RoutesRecognized */
 /* unused harmony export RouteReuseStrategy */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return Router; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Router; });
 /* unused harmony export ROUTES */
 /* unused harmony export ROUTER_CONFIGURATION */
 /* unused harmony export ROUTER_INITIALIZER */
@@ -45711,7 +38173,7 @@ var MdTab = (function () {
 /* unused harmony export PreloadAllModules */
 /* unused harmony export PreloadingStrategy */
 /* unused harmony export RouterPreloader */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ActivatedRoute; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return ActivatedRoute; });
 /* unused harmony export ActivatedRouteSnapshot */
 /* unused harmony export RouterState */
 /* unused harmony export RouterStateSnapshot */
@@ -51850,13 +44312,7551 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["d" /* Version */]
 
 
 /***/ }),
+/* 92 */,
+/* 93 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_marked__ = __webpack_require__(369);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_marked___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_marked__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MarkdownService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var MarkdownService = (function () {
+    function MarkdownService(http) {
+        this.http = http;
+        this.extendRenderer();
+        this.setMarkedOptions();
+    }
+    //get the content from remote resource
+    MarkdownService.prototype.getContent = function (path) {
+        return this.http.get(path)
+            .map(this.extractData)
+            .catch(this.handleError);
+    };
+    // handle data
+    MarkdownService.prototype.extractData = function (res) {
+        return res.text() || '';
+    };
+    //handle error
+    MarkdownService.prototype.handleError = function (error) {
+        var errMsg;
+        if (error instanceof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Response */]) {
+            var body = error.json() || '';
+            var err = body.error || JSON.stringify(body);
+            errMsg = error.status + " - " + (error.statusText || '') + " " + err;
+        }
+        else {
+            errMsg = error.message ? error.message : error.toString();
+        }
+        console.error(errMsg);
+        return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].throw(errMsg);
+    };
+    // extend marked render to support todo checkbox
+    MarkdownService.prototype.extendRenderer = function () {
+        this.renderer = new __WEBPACK_IMPORTED_MODULE_3_marked__["Renderer"]();
+        this.renderer.listitem = function (text) {
+            if (/^\s*\[[x ]\]\s*/.test(text)) {
+                text = text
+                    .replace(/^\s*\[ \]\s*/, '<input type="checkbox" style=" vertical-align: middle; margin: 0 0.2em 0.25em -1.6em; font-size: 16px; " disabled> ')
+                    .replace(/^\s*\[x\]\s*/, '<input type="checkbox" style=" vertical-align: middle; margin: 0 0.2em 0.25em -1.6em; font-size: 16px; " checked disabled> ');
+                return '<li style="list-style: none">' + text + '</li>';
+            }
+            else {
+                return '<li>' + text + '</li>';
+            }
+        };
+    };
+    MarkdownService.prototype.setMarkedOptions = function () {
+        __WEBPACK_IMPORTED_MODULE_3_marked__["setOptions"]({
+            renderer: this.renderer,
+            gfm: true,
+            tables: true,
+            breaks: false,
+            pedantic: false,
+            sanitize: false,
+            smartLists: true,
+            smartypants: false
+        });
+    };
+    // comple markdown to html
+    MarkdownService.prototype.compile = function (data) {
+        return __WEBPACK_IMPORTED_MODULE_3_marked__(data);
+    };
+    return MarkdownService;
+}());
+MarkdownService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */]])
+], MarkdownService);
+
+//# sourceMappingURL=markdown.service.js.map
+
+/***/ }),
+/* 94 */,
+/* 95 */,
+/* 96 */,
+/* 97 */,
+/* 98 */,
+/* 99 */,
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var Subject_1 = __webpack_require__(6);
+var ObjectUnsubscribedError_1 = __webpack_require__(221);
+/**
+ * @class BehaviorSubject<T>
+ */
+var BehaviorSubject = (function (_super) {
+    __extends(BehaviorSubject, _super);
+    function BehaviorSubject(_value) {
+        _super.call(this);
+        this._value = _value;
+    }
+    Object.defineProperty(BehaviorSubject.prototype, "value", {
+        get: function () {
+            return this.getValue();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    BehaviorSubject.prototype._subscribe = function (subscriber) {
+        var subscription = _super.prototype._subscribe.call(this, subscriber);
+        if (subscription && !subscription.closed) {
+            subscriber.next(this._value);
+        }
+        return subscription;
+    };
+    BehaviorSubject.prototype.getValue = function () {
+        if (this.hasError) {
+            throw this.thrownError;
+        }
+        else if (this.closed) {
+            throw new ObjectUnsubscribedError_1.ObjectUnsubscribedError();
+        }
+        else {
+            return this._value;
+        }
+    };
+    BehaviorSubject.prototype.next = function (value) {
+        _super.prototype.next.call(this, this._value = value);
+    };
+    return BehaviorSubject;
+}(Subject_1.Subject));
+exports.BehaviorSubject = BehaviorSubject;
+//# sourceMappingURL=BehaviorSubject.js.map
+
+/***/ }),
+/* 111 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(1);
+var first_1 = __webpack_require__(218);
+Observable_1.Observable.prototype.first = first_1.first;
+//# sourceMappingURL=first.js.map
+
+/***/ }),
+/* 112 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var Observable_1 = __webpack_require__(1);
+/**
+ * We need this JSDoc comment for affecting ESDoc.
+ * @extends {Ignored}
+ * @hide true
+ */
+var ScalarObservable = (function (_super) {
+    __extends(ScalarObservable, _super);
+    function ScalarObservable(value, scheduler) {
+        _super.call(this);
+        this.value = value;
+        this.scheduler = scheduler;
+        this._isScalar = true;
+        if (scheduler) {
+            this._isScalar = false;
+        }
+    }
+    ScalarObservable.create = function (value, scheduler) {
+        return new ScalarObservable(value, scheduler);
+    };
+    ScalarObservable.dispatch = function (state) {
+        var done = state.done, value = state.value, subscriber = state.subscriber;
+        if (done) {
+            subscriber.complete();
+            return;
+        }
+        subscriber.next(value);
+        if (subscriber.closed) {
+            return;
+        }
+        state.done = true;
+        this.schedule(state);
+    };
+    ScalarObservable.prototype._subscribe = function (subscriber) {
+        var value = this.value;
+        var scheduler = this.scheduler;
+        if (scheduler) {
+            return scheduler.schedule(ScalarObservable.dispatch, 0, {
+                done: false, value: value, subscriber: subscriber
+            });
+        }
+        else {
+            subscriber.next(value);
+            if (!subscriber.closed) {
+                subscriber.complete();
+            }
+        }
+    };
+    return ScalarObservable;
+}(Observable_1.Observable));
+exports.ScalarObservable = ScalarObservable;
+//# sourceMappingURL=ScalarObservable.js.map
+
+/***/ }),
+/* 113 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var Subscriber_1 = __webpack_require__(8);
+/**
+ * Applies a given `project` function to each value emitted by the source
+ * Observable, and emits the resulting values as an Observable.
+ *
+ * <span class="informal">Like [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map),
+ * it passes each source value through a transformation function to get
+ * corresponding output values.</span>
+ *
+ * <img src="./img/map.png" width="100%">
+ *
+ * Similar to the well known `Array.prototype.map` function, this operator
+ * applies a projection to each value and emits that projection in the output
+ * Observable.
+ *
+ * @example <caption>Map every every click to the clientX position of that click</caption>
+ * var clicks = Rx.Observable.fromEvent(document, 'click');
+ * var positions = clicks.map(ev => ev.clientX);
+ * positions.subscribe(x => console.log(x));
+ *
+ * @see {@link mapTo}
+ * @see {@link pluck}
+ *
+ * @param {function(value: T, index: number): R} project The function to apply
+ * to each `value` emitted by the source Observable. The `index` parameter is
+ * the number `i` for the i-th emission that has happened since the
+ * subscription, starting from the number `0`.
+ * @param {any} [thisArg] An optional argument to define what `this` is in the
+ * `project` function.
+ * @return {Observable<R>} An Observable that emits the values from the source
+ * Observable transformed by the given `project` function.
+ * @method map
+ * @owner Observable
+ */
+function map(project, thisArg) {
+    if (typeof project !== 'function') {
+        throw new TypeError('argument is not a function. Are you looking for `mapTo()`?');
+    }
+    return this.lift(new MapOperator(project, thisArg));
+}
+exports.map = map;
+var MapOperator = (function () {
+    function MapOperator(project, thisArg) {
+        this.project = project;
+        this.thisArg = thisArg;
+    }
+    MapOperator.prototype.call = function (subscriber, source) {
+        return source.subscribe(new MapSubscriber(subscriber, this.project, this.thisArg));
+    };
+    return MapOperator;
+}());
+exports.MapOperator = MapOperator;
+/**
+ * We need this JSDoc comment for affecting ESDoc.
+ * @ignore
+ * @extends {Ignored}
+ */
+var MapSubscriber = (function (_super) {
+    __extends(MapSubscriber, _super);
+    function MapSubscriber(destination, project, thisArg) {
+        _super.call(this, destination);
+        this.project = project;
+        this.count = 0;
+        this.thisArg = thisArg || this;
+    }
+    // NOTE: This looks unoptimized, but it's actually purposefully NOT
+    // using try/catch optimizations.
+    MapSubscriber.prototype._next = function (value) {
+        var result;
+        try {
+            result = this.project.call(this.thisArg, value, this.count++);
+        }
+        catch (err) {
+            this.destination.error(err);
+            return;
+        }
+        this.destination.next(result);
+    };
+    return MapSubscriber;
+}(Subscriber_1.Subscriber));
+//# sourceMappingURL=map.js.map
+
+/***/ }),
+/* 114 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var root_1 = __webpack_require__(24);
+function symbolIteratorPonyfill(root) {
+    var Symbol = root.Symbol;
+    if (typeof Symbol === 'function') {
+        if (!Symbol.iterator) {
+            Symbol.iterator = Symbol('iterator polyfill');
+        }
+        return Symbol.iterator;
+    }
+    else {
+        // [for Mozilla Gecko 27-35:](https://mzl.la/2ewE1zC)
+        var Set_1 = root.Set;
+        if (Set_1 && typeof new Set_1()['@@iterator'] === 'function') {
+            return '@@iterator';
+        }
+        var Map_1 = root.Map;
+        // required for compatability with es6-shim
+        if (Map_1) {
+            var keys = Object.getOwnPropertyNames(Map_1.prototype);
+            for (var i = 0; i < keys.length; ++i) {
+                var key = keys[i];
+                // according to spec, Map.prototype[@@iterator] and Map.orototype.entries must be equal.
+                if (key !== 'entries' && key !== 'size' && Map_1.prototype[key] === Map_1.prototype['entries']) {
+                    return key;
+                }
+            }
+        }
+        return '@@iterator';
+    }
+}
+exports.symbolIteratorPonyfill = symbolIteratorPonyfill;
+exports.$$iterator = symbolIteratorPonyfill(root_1.root);
+//# sourceMappingURL=iterator.js.map
+
+/***/ }),
+/* 115 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var root_1 = __webpack_require__(24);
+function getSymbolObservable(context) {
+    var $$observable;
+    var Symbol = context.Symbol;
+    if (typeof Symbol === 'function') {
+        if (Symbol.observable) {
+            $$observable = Symbol.observable;
+        }
+        else {
+            $$observable = Symbol('observable');
+            Symbol.observable = $$observable;
+        }
+    }
+    else {
+        $$observable = '@@observable';
+    }
+    return $$observable;
+}
+exports.getSymbolObservable = getSymbolObservable;
+exports.$$observable = getSymbolObservable(root_1.root);
+//# sourceMappingURL=observable.js.map
+
+/***/ }),
+/* 116 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var root_1 = __webpack_require__(24);
+var Symbol = root_1.root.Symbol;
+exports.$$rxSubscriber = (typeof Symbol === 'function' && typeof Symbol.for === 'function') ?
+    Symbol.for('rxSubscriber') : '@@rxSubscriber';
+//# sourceMappingURL=rxSubscriber.js.map
+
+/***/ }),
+/* 117 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+/**
+ * An error thrown when an Observable or a sequence was queried but has no
+ * elements.
+ *
+ * @see {@link first}
+ * @see {@link last}
+ * @see {@link single}
+ *
+ * @class EmptyError
+ */
+var EmptyError = (function (_super) {
+    __extends(EmptyError, _super);
+    function EmptyError() {
+        var err = _super.call(this, 'no elements in sequence');
+        this.name = err.name = 'EmptyError';
+        this.stack = err.stack;
+        this.message = err.message;
+    }
+    return EmptyError;
+}(Error));
+exports.EmptyError = EmptyError;
+//# sourceMappingURL=EmptyError.js.map
+
+/***/ }),
+/* 118 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// typeof any so that it we don't have to cast when comparing a result to the error object
+exports.errorObject = { e: {} };
+//# sourceMappingURL=errorObject.js.map
+
+/***/ }),
+/* 119 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+exports.isArray = Array.isArray || (function (x) { return x && typeof x.length === 'number'; });
+//# sourceMappingURL=isArray.js.map
+
+/***/ }),
+/* 120 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function isFunction(x) {
+    return typeof x === 'function';
+}
+exports.isFunction = isFunction;
+//# sourceMappingURL=isFunction.js.map
+
+/***/ }),
+/* 121 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__base__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__layout__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__media_query_media_monitor__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_layout_validator__ = __webpack_require__(34);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LayoutWrapDirective; });
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+
+
+
+
+/**
+ * @deprecated
+ * This functionality is now part of the `fxLayout` API
+ *
+ * 'layout-wrap' flexbox styling directive
+ * Defines wrapping of child elements in layout container
+ * Optional values: reverse, wrap-reverse, none, nowrap, wrap (default)]
+ *
+ *
+ * @see https://css-tricks.com/almanac/properties/f/flex-wrap/
+ */
+var LayoutWrapDirective = (function (_super) {
+    __extends(LayoutWrapDirective, _super);
+    /* tslint:enable */
+    function LayoutWrapDirective(monitor, elRef, renderer, container) {
+        var _this = _super.call(this, monitor, elRef, renderer) || this;
+        _this._layout = 'row'; // default flex-direction
+        if (container) {
+            _this._layoutWatcher = container.layout$.subscribe(_this._onLayoutChange.bind(_this));
+        }
+        return _this;
+    }
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrap", {
+        /* tslint:disable */
+        set: function (val) { this._cacheInput("wrap", val); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapXs", {
+        set: function (val) { this._cacheInput('wrapXs', val); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapSm", {
+        set: function (val) { this._cacheInput('wrapSm', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapMd", {
+        set: function (val) { this._cacheInput('wrapMd', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLg", {
+        set: function (val) { this._cacheInput('wrapLg', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapXl", {
+        set: function (val) { this._cacheInput('wrapXl', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapGtXs", {
+        set: function (val) { this._cacheInput('wrapGtXs', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapGtSm", {
+        set: function (val) { this._cacheInput('wrapGtSm', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapGtMd", {
+        set: function (val) { this._cacheInput('wrapGtMd', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapGtLg", {
+        set: function (val) { this._cacheInput('wrapGtLg', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLtSm", {
+        set: function (val) { this._cacheInput('wrapLtSm', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLtMd", {
+        set: function (val) { this._cacheInput('wrapLtMd', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLtLg", {
+        set: function (val) { this._cacheInput('wrapLtLg', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(LayoutWrapDirective.prototype, "wrapLtXl", {
+        set: function (val) { this._cacheInput('wrapLtXl', val); },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    // *********************************************
+    // Lifecycle Methods
+    // *********************************************
+    LayoutWrapDirective.prototype.ngOnChanges = function (changes) {
+        if (changes['wrap'] != null || this._mqActivation) {
+            this._updateWithValue();
+        }
+    };
+    /**
+     * After the initial onChanges, build an mqActivation object that bridges
+     * mql change events to onMediaQueryChange handlers
+     */
+    LayoutWrapDirective.prototype.ngOnInit = function () {
+        var _this = this;
+        this._listenForMediaQueryChanges('wrap', 'wrap', function (changes) {
+            _this._updateWithValue(changes.value);
+        });
+        this._updateWithValue();
+    };
+    LayoutWrapDirective.prototype.ngOnDestroy = function () {
+        _super.prototype.ngOnDestroy.call(this);
+        if (this._layoutWatcher) {
+            this._layoutWatcher.unsubscribe();
+        }
+    };
+    // *********************************************
+    // Protected methods
+    // *********************************************
+    /**
+     * Cache the parent container 'flex-direction' and update the 'flex' styles
+     */
+    LayoutWrapDirective.prototype._onLayoutChange = function (direction) {
+        var _this = this;
+        this._layout = (direction || '').toLowerCase().replace('-reverse', '');
+        if (!__WEBPACK_IMPORTED_MODULE_4__utils_layout_validator__["b" /* LAYOUT_VALUES */].find(function (x) { return x === _this._layout; })) {
+            this._layout = 'row';
+        }
+        this._updateWithValue();
+    };
+    LayoutWrapDirective.prototype._updateWithValue = function (value) {
+        value = value || this._queryInput("wrap");
+        if (this._mqActivation) {
+            value = this._mqActivation.activatedInput;
+        }
+        value = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__utils_layout_validator__["c" /* validateWrapValue */])(value || 'wrap');
+        this._applyStyleToElement(this._buildCSS(value));
+    };
+    /**
+     * Build the CSS that should be assigned to the element instance
+     */
+    LayoutWrapDirective.prototype._buildCSS = function (value) {
+        return {
+            'display': 'flex',
+            'flex-wrap': value,
+            'flex-direction': this.flowDirection
+        };
+    };
+    Object.defineProperty(LayoutWrapDirective.prototype, "flowDirection", {
+        get: function () {
+            var _this = this;
+            var computeFlowDirection = function () { return _this._getFlowDirection(_this._elementRef.nativeElement); };
+            return this._layoutWatcher ? this._layout : computeFlowDirection();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return LayoutWrapDirective;
+}(__WEBPACK_IMPORTED_MODULE_1__base__["a" /* BaseFxDirective */]));
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrap", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.xs'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapXs", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.sm'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapSm", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.md'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapMd", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lg'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapLg", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.xl'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapXl", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.gt-xs'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapGtXs", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.gt-sm'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapGtSm", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.gt-md'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapGtMd", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.gt-lg'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapGtLg", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lt-sm'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapLtSm", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lt-md'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapLtMd", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lt-lg'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapLtLg", null);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('fxLayoutWrap.lt-xl'),
+    __metadata("design:type", Object),
+    __metadata("design:paramtypes", [Object])
+], LayoutWrapDirective.prototype, "wrapLtXl", null);
+LayoutWrapDirective = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({ selector: "\n  [fxLayoutWrap], [fxLayoutWrap.xs], [fxLayoutWrap.sm], [fxLayoutWrap.lg], [fxLayoutWrap.xl],\n  [fxLayoutWrap.gt-xs], [fxLayoutWrap.gt-sm], [fxLayoutWrap.gt-md], [fxLayoutWrap.gt-lg],\n  [fxLayoutWrap.lt-xs], [fxLayoutWrap.lt-sm], [fxLayoutWrap.lt-md], [fxLayoutWrap.lt-lg]\n" }),
+    __param(3, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()), __param(3, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Self */])()),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__media_query_media_monitor__["a" /* MediaMonitor */],
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */],
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */],
+        __WEBPACK_IMPORTED_MODULE_2__layout__["a" /* LayoutDirective */]])
+], LayoutWrapDirective);
+
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/flexbox/api/layout-wrap.js.map
+
+/***/ }),
+/* 122 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_filter__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_filter__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_object_extend__ = __webpack_require__(20);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return KeyOptions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ResponsiveActivation; });
+
+
+
+var KeyOptions = (function () {
+    function KeyOptions(baseKey, defaultValue, inputKeys) {
+        this.baseKey = baseKey;
+        this.defaultValue = defaultValue;
+        this.inputKeys = inputKeys;
+    }
+    return KeyOptions;
+}());
+
+/**
+ * ResponsiveActivation acts as a proxy between the MonitorMedia service (which emits mediaQuery
+ * changes) and the fx API directives. The MQA proxies mediaQuery change events and notifies the
+ * directive via the specified callback.
+ *
+ * - The MQA also determines which directive property should be used to determine the
+ *   current change 'value'... BEFORE the original `onMediaQueryChanges()` method is called.
+ * - The `ngOnDestroy()` method is also head-hooked to enable auto-unsubscribe from the
+ *   MediaQueryServices.
+ *
+ * NOTE: these interceptions enables the logic in the fx API directives to remain terse and clean.
+ */
+var ResponsiveActivation = (function () {
+    /**
+     * Constructor
+     */
+    function ResponsiveActivation(_options, _mediaMonitor, _onMediaChanges) {
+        this._options = _options;
+        this._mediaMonitor = _mediaMonitor;
+        this._onMediaChanges = _onMediaChanges;
+        this._subscribers = [];
+        this._subscribers = this._configureChangeObservers();
+    }
+    Object.defineProperty(ResponsiveActivation.prototype, "mediaMonitor", {
+        /**
+         * Accessor to the DI'ed directive property
+         * Each directive instance has a reference to the MediaMonitor which is
+         * used HERE to subscribe to mediaQuery change notifications.
+         */
+        get: function () {
+            return this._mediaMonitor;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ResponsiveActivation.prototype, "activatedInputKey", {
+        /**
+         * Determine which directive @Input() property is currently active (for the viewport size):
+         * The key must be defined (in use) or fallback to the 'closest' overlapping property key
+         * that is defined; otherwise the default property key will be used.
+         * e.g.
+         *      if `<div fxHide fxHide.gt-sm="false">` is used but the current activated mediaQuery alias
+         *      key is `.md` then `.gt-sm` should be used instead
+         */
+        get: function () {
+            return this._activatedInputKey || this._options.baseKey;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ResponsiveActivation.prototype, "activatedInput", {
+        /**
+         * Get the currently activated @Input value or the fallback default @Input value
+         */
+        get: function () {
+            var key = this.activatedInputKey;
+            return this.hasKeyValue(key) ? this._lookupKeyValue(key) : this._options.defaultValue;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Fast validator for presence of attribute on the host element
+     */
+    ResponsiveActivation.prototype.hasKeyValue = function (key) {
+        var value = this._options.inputKeys[key];
+        return typeof value !== 'undefined';
+    };
+    /**
+     * Remove interceptors, restore original functions, and forward the onDestroy() call
+     */
+    ResponsiveActivation.prototype.destroy = function () {
+        this._subscribers.forEach(function (link) {
+            link.unsubscribe();
+        });
+        this._subscribers = [];
+    };
+    /**
+     * For each *defined* API property, register a callback to `_onMonitorEvents( )`
+     * Cache 1..n subscriptions for internal auto-unsubscribes when the the directive destructs
+     */
+    ResponsiveActivation.prototype._configureChangeObservers = function () {
+        var _this = this;
+        var subscriptions = [];
+        this._buildRegistryMap().forEach(function (bp) {
+            if (_this._keyInUse(bp.key)) {
+                // Inject directive default property key name: to let onMediaChange() calls
+                // know which property is being triggered...
+                var buildChanges = function (change) {
+                    change = change.clone();
+                    change.property = _this._options.baseKey;
+                    return change;
+                };
+                subscriptions.push(_this.mediaMonitor.observe(bp.alias)
+                    .map(buildChanges)
+                    .subscribe(function (change) {
+                    _this._onMonitorEvents(change);
+                }));
+            }
+        });
+        return subscriptions;
+    };
+    /**
+     * Build mediaQuery key-hashmap; only for the directive properties that are actually defined/used
+     * in the HTML markup
+     */
+    ResponsiveActivation.prototype._buildRegistryMap = function () {
+        var _this = this;
+        return this.mediaMonitor.breakpoints
+            .map(function (bp) {
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils_object_extend__["a" /* extendObject */])({}, bp, {
+                baseKey: _this._options.baseKey,
+                key: _this._options.baseKey + bp.suffix // e.g.  layoutGtSm, layoutMd, layoutGtLg
+            });
+        })
+            .filter(function (bp) { return _this._keyInUse(bp.key); });
+    };
+    /**
+     * Synchronizes change notifications with the current mq-activated @Input and calculates the
+     * mq-activated input value or the default value
+     */
+    ResponsiveActivation.prototype._onMonitorEvents = function (change) {
+        if (change.property == this._options.baseKey) {
+            change.value = this._calculateActivatedValue(change);
+            this._onMediaChanges(change);
+        }
+    };
+    /**
+     * Has the key been specified in the HTML markup and thus is intended
+     * to participate in activation processes.
+     */
+    ResponsiveActivation.prototype._keyInUse = function (key) {
+        return this._lookupKeyValue(key) !== undefined;
+    };
+    /**
+     *  Map input key associated with mediaQuery activation to closest defined input key
+     *  then return the values associated with the targeted input property
+     *
+     *  !! change events may arrive out-of-order (activate before deactivate)
+     *     so make sure the deactivate is used ONLY when the keys match
+     *     (since a different activate may be in use)
+     */
+    ResponsiveActivation.prototype._calculateActivatedValue = function (current) {
+        var currentKey = this._options.baseKey + current.suffix; // e.g. suffix == 'GtSm',
+        var newKey = this._activatedInputKey; // e.g. newKey == hideGtSm
+        newKey = current.matches ? currentKey : ((newKey == currentKey) ? null : newKey);
+        this._activatedInputKey = this._validateInputKey(newKey);
+        return this.activatedInput;
+    };
+    /**
+     * For the specified input property key, validate it is defined (used in the markup)
+     * If not see if a overlapping mediaQuery-related input key fallback has been defined
+     *
+     * NOTE: scans in the order defined by activeOverLaps (largest viewport ranges -> smallest ranges)
+     */
+    ResponsiveActivation.prototype._validateInputKey = function (inputKey) {
+        var _this = this;
+        var items = this.mediaMonitor.activeOverlaps;
+        var isMissingKey = function (key) { return !_this._keyInUse(key); };
+        if (isMissingKey(inputKey)) {
+            items.some(function (bp) {
+                var key = _this._options.baseKey + bp.suffix;
+                if (!isMissingKey(key)) {
+                    inputKey = key;
+                    return true; // exit .some()
+                }
+                return false;
+            });
+        }
+        return inputKey;
+    };
+    /**
+     * Get the value (if any) for the directive instances @Input property (aka key)
+     */
+    ResponsiveActivation.prototype._lookupKeyValue = function (key) {
+        return this._options.inputKeys[key];
+    };
+    return ResponsiveActivation;
+}());
+
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/flexbox/responsive/responsive-activation.js.map
+
+/***/ }),
+/* 123 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__match_media__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__media_monitor__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__observable_media_provider__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__breakpoints_break_points_provider__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__breakpoints_break_point_registry__ = __webpack_require__(25);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MediaQueriesModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+
+
+
+
+
+/**
+ * *****************************************************************
+ * Define module for the MediaQuery API
+ * *****************************************************************
+ */
+var MediaQueriesModule = (function () {
+    function MediaQueriesModule() {
+    }
+    return MediaQueriesModule;
+}());
+MediaQueriesModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_4__breakpoints_break_points_provider__["a" /* DEFAULT_BREAKPOINTS_PROVIDER */],
+            __WEBPACK_IMPORTED_MODULE_5__breakpoints_break_point_registry__["a" /* BreakPointRegistry */],
+            __WEBPACK_IMPORTED_MODULE_1__match_media__["a" /* MatchMedia */],
+            __WEBPACK_IMPORTED_MODULE_2__media_monitor__["a" /* MediaMonitor */],
+            __WEBPACK_IMPORTED_MODULE_3__observable_media_provider__["a" /* OBSERVABLE_MEDIA_PROVIDER */] // easy subscription injectable `media$` matchMedia observable
+        ]
+    })
+], MediaQueriesModule);
+
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/_module.js.map
+
+/***/ }),
+/* 124 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export RESPONSIVE_ALIASES */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DEFAULT_BREAKPOINTS; });
+var RESPONSIVE_ALIASES = [
+    'xs', 'gt-xs', 'sm', 'gt-sm', 'md', 'gt-md', 'lg', 'gt-lg', 'xl'
+];
+var DEFAULT_BREAKPOINTS = [
+    {
+        alias: 'xs',
+        mediaQuery: 'screen and (max-width: 599px)'
+    },
+    {
+        alias: 'gt-xs',
+        overlapping: true,
+        mediaQuery: 'screen and (min-width: 600px)'
+    },
+    {
+        alias: 'lt-sm',
+        overlapping: true,
+        mediaQuery: 'screen and (max-width: 599px)'
+    },
+    {
+        alias: 'sm',
+        mediaQuery: 'screen and (min-width: 600px) and (max-width: 959px)'
+    },
+    {
+        alias: 'gt-sm',
+        overlapping: true,
+        mediaQuery: 'screen and (min-width: 960px)'
+    },
+    {
+        alias: 'lt-md',
+        overlapping: true,
+        mediaQuery: 'screen and (max-width: 959px)'
+    },
+    {
+        alias: 'md',
+        mediaQuery: 'screen and (min-width: 960px) and (max-width: 1279px)'
+    },
+    {
+        alias: 'gt-md',
+        overlapping: true,
+        mediaQuery: 'screen and (min-width: 1280px)'
+    },
+    {
+        alias: 'lt-lg',
+        overlapping: true,
+        mediaQuery: 'screen and (max-width: 1279px)'
+    },
+    {
+        alias: 'lg',
+        mediaQuery: 'screen and (min-width: 1280px) and (max-width: 1919px)'
+    },
+    {
+        alias: 'gt-lg',
+        overlapping: true,
+        mediaQuery: 'screen and (min-width: 1920px)'
+    },
+    {
+        alias: 'lt-xl',
+        overlapping: true,
+        mediaQuery: 'screen and (max-width: 1920px)'
+    },
+    {
+        alias: 'xl',
+        mediaQuery: 'screen and (min-width: 1920px) and (max-width: 5000px)'
+    }
+];
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/breakpoints/data/break-points.js.map
+
+/***/ }),
+/* 125 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export ScreenTypes */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ORIENTATION_BREAKPOINTS; });
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/* tslint:disable */
+var HANDSET_PORTRAIT = '(orientations: portrait) and (max-width: 599px)';
+var HANDSET_LANDSCAPE = '(orientations: landscape) and (max-width: 959px)';
+var TABLET_LANDSCAPE = '(orientations: landscape) and (min-width: 960px) and (max-width: 1279px)';
+var TABLET_PORTRAIT = '(orientations: portrait) and (min-width: 600px) and (max-width: 839px)';
+var WEB_PORTRAIT = '(orientations: portrait) and (min-width: 840px)';
+var WEB_LANDSCAPE = '(orientations: landscape) and (min-width: 1280px)';
+var ScreenTypes = {
+    'HANDSET': HANDSET_PORTRAIT + ", " + HANDSET_LANDSCAPE,
+    'TABLET': TABLET_PORTRAIT + " , " + TABLET_LANDSCAPE,
+    'WEB': WEB_PORTRAIT + ", " + WEB_LANDSCAPE + " ",
+    'HANDSET_PORTRAIT': "" + HANDSET_PORTRAIT,
+    'TABLET_PORTRAIT': TABLET_PORTRAIT + " ",
+    'WEB_PORTRAIT': "" + WEB_PORTRAIT,
+    'HANDSET_LANDSCAPE': HANDSET_LANDSCAPE + "]",
+    'TABLET_LANDSCAPE': "" + TABLET_LANDSCAPE,
+    'WEB_LANDSCAPE': "" + WEB_LANDSCAPE
+};
+/**
+ * Extended Breakpoints for handset/tablets with landscape or portrait orientations
+ */
+var ORIENTATION_BREAKPOINTS = [
+    { 'alias': 'handset', 'mediaQuery': ScreenTypes.HANDSET },
+    { 'alias': 'handset.landscape', 'mediaQuery': ScreenTypes.HANDSET_LANDSCAPE },
+    { 'alias': 'handset.portrait', 'mediaQuery': ScreenTypes.HANDSET_PORTRAIT },
+    { 'alias': 'tablet', 'mediaQuery': ScreenTypes.TABLET },
+    { 'alias': 'tablet.landscape', 'mediaQuery': ScreenTypes.TABLET },
+    { 'alias': 'tablet.portrait', 'mediaQuery': ScreenTypes.TABLET_PORTRAIT },
+    { 'alias': 'web', 'mediaQuery': ScreenTypes.WEB, overlapping: true },
+    { 'alias': 'web.landscape', 'mediaQuery': ScreenTypes.WEB_LANDSCAPE, overlapping: true },
+    { 'alias': 'web.portrait', 'mediaQuery': ScreenTypes.WEB_PORTRAIT, overlapping: true }
+];
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/breakpoints/data/orientation-break-points.js.map
+
+/***/ }),
+/* 126 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MediaChange; });
+/**
+ * Class instances emitted [to observers] for each mql notification
+ */
+var MediaChange = (function () {
+    function MediaChange(matches, // Is the mq currently activated
+        mediaQuery, // e.g.   (min-width: 600px) and (max-width: 959px)
+        mqAlias, // e.g.   gt-sm, md, gt-lg
+        suffix // e.g.   GtSM, Md, GtLg
+    ) {
+        if (matches === void 0) { matches = false; }
+        if (mediaQuery === void 0) { mediaQuery = 'all'; }
+        if (mqAlias === void 0) { mqAlias = ''; }
+        if (suffix === void 0) { suffix = ''; } // e.g.   GtSM, Md, GtLg
+        this.matches = matches;
+        this.mediaQuery = mediaQuery;
+        this.mqAlias = mqAlias;
+        this.suffix = suffix; // e.g.   GtSM, Md, GtLg
+    }
+    MediaChange.prototype.clone = function () {
+        return new MediaChange(this.matches, this.mediaQuery, this.mqAlias, this.suffix);
+    };
+    return MediaChange;
+}());
+
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/media-change.js.map
+
+/***/ }),
+/* 127 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__media_monitor__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__match_media__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__ = __webpack_require__(25);
+/* unused harmony export MEDIA_MONITOR_PROVIDER_FACTORY */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MEDIA_MONITOR_PROVIDER; });
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+
+
+
+/**
+ * Ensure a single global service provider
+ */
+function MEDIA_MONITOR_PROVIDER_FACTORY(parentMonitor, breakpoints, matchMedia) {
+    return parentMonitor || new __WEBPACK_IMPORTED_MODULE_1__media_monitor__["a" /* MediaMonitor */](breakpoints, matchMedia);
+}
+/**
+ * Export provider that uses a global service factory (above)
+ */
+var MEDIA_MONITOR_PROVIDER = {
+    provide: __WEBPACK_IMPORTED_MODULE_1__media_monitor__["a" /* MediaMonitor */],
+    deps: [
+        [new __WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */](), __WEBPACK_IMPORTED_MODULE_1__media_monitor__["a" /* MediaMonitor */]],
+        __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__["a" /* BreakPointRegistry */],
+        __WEBPACK_IMPORTED_MODULE_2__match_media__["a" /* MatchMedia */],
+    ],
+    useFactory: MEDIA_MONITOR_PROVIDER_FACTORY
+};
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/media-monitor-provider.js.map
+
+/***/ }),
+/* 128 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__match_media__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_add_alias__ = __webpack_require__(69);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ObservableMedia; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MediaService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+
+
+
+
+
+/**
+ * Base class for MediaService and pseudo-token for
+ */
+var ObservableMedia = (function () {
+    function ObservableMedia() {
+    }
+    return ObservableMedia;
+}());
+
+/**
+ * Class internalizes a MatchMedia service and exposes an Subscribable and Observable interface.
+
+ * This an Observable with that exposes a feature to subscribe to mediaQuery
+ * changes and a validator method (`isActive(<alias>)`) to test if a mediaQuery (or alias) is
+ * currently active.
+ *
+ * !! Only mediaChange activations (not de-activations) are announced by the ObservableMedia
+ *
+ * This class uses the BreakPoint Registry to inject alias information into the raw MediaChange
+ * notification. For custom mediaQuery notifications, alias information will not be injected and
+ * those fields will be ''.
+ *
+ * !! This is not an actual Observable. It is a wrapper of an Observable used to publish additional
+ * methods like `isActive(<alias>). To access the Observable and use RxJS operators, use
+ * `.asObservable()` with syntax like media.asObservable().map(....).
+ *
+ *  @usage
+ *
+ *  // RxJS
+ *  import 'rxjs/add/operator/filter';
+ *  import { ObservableMedia } from '@angular/flex-layout';
+ *
+ *  @Component({ ... })
+ *  export class AppComponent {
+ *    status : string = '';
+ *
+ *    constructor(  media:ObservableMedia ) {
+ *      let onChange = (change:MediaChange) => {
+ *        this.status = change ? `'${change.mqAlias}' = (${change.mediaQuery})` : "";
+ *      };
+ *
+ *      // Subscribe directly or access observable to use filter/map operators
+ *      // e.g.
+ *      //      media.subscribe(onChange);
+ *
+ *      media.asObservable()
+ *        .filter((change:MediaChange) => true)   // silly noop filter
+ *        .subscribe(onChange);
+ *    }
+ *  }
+ */
+var MediaService = (function () {
+    function MediaService(mediaWatcher, breakpoints) {
+        this.mediaWatcher = mediaWatcher;
+        this.breakpoints = breakpoints;
+        /**
+         * Should we announce gt-<xxx> breakpoint activations ?
+         */
+        this.filterOverlaps = true;
+        this.observable$ = this._buildObservable();
+        this._registerBreakPoints();
+    }
+    /**
+     * Test if specified query/alias is active.
+     */
+    MediaService.prototype.isActive = function (alias) {
+        var query = this._toMediaQuery(alias);
+        return this.mediaWatcher.isActive(query);
+    };
+    ;
+    /**
+     * Proxy to the Observable subscribe method
+     */
+    MediaService.prototype.subscribe = function (next, error, complete) {
+        return this.observable$.subscribe(next, error, complete);
+    };
+    ;
+    /**
+     * Access to observable for use with operators like
+     * .filter(), .map(), etc.
+     */
+    MediaService.prototype.asObservable = function () {
+        return this.observable$;
+    };
+    // ************************************************
+    // Internal Methods
+    // ************************************************
+    /**
+     * Register all the mediaQueries registered in the BreakPointRegistry
+     * This is needed so subscribers can be auto-notified of all standard, registered
+     * mediaQuery activations
+     */
+    MediaService.prototype._registerBreakPoints = function () {
+        var _this = this;
+        this.breakpoints.items.forEach(function (bp) {
+            _this.mediaWatcher.registerQuery(bp.mediaQuery);
+            return bp;
+        });
+    };
+    /**
+     * Prepare internal observable
+     * NOTE: the raw MediaChange events [from MatchMedia] do not contain important alias information
+     * these must be injected into the MediaChange
+     */
+    MediaService.prototype._buildObservable = function () {
+        var _this = this;
+        var self = this;
+        // Only pass/announce activations (not de-activations)
+        // Inject associated (if any) alias information into the MediaChange event
+        // Exclude mediaQuery activations for overlapping mQs. List bounded mQ ranges only
+        var activationsOnly = function (change) {
+            return change.matches === true;
+        };
+        var addAliasInformation = function (change) {
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_add_alias__["a" /* mergeAlias */])(change, _this._findByQuery(change.mediaQuery));
+        };
+        var excludeOverlaps = function (change) {
+            var bp = _this.breakpoints.findByQuery(change.mediaQuery);
+            return !bp ? true : !(self.filterOverlaps && bp.overlapping);
+        };
+        return this.mediaWatcher.observe()
+            .filter(activationsOnly)
+            .map(addAliasInformation)
+            .filter(excludeOverlaps);
+    };
+    /**
+     * Breakpoint locator by alias
+     */
+    MediaService.prototype._findByAlias = function (alias) {
+        return this.breakpoints.findByAlias(alias);
+    };
+    /**
+     * Breakpoint locator by mediaQuery
+     */
+    MediaService.prototype._findByQuery = function (query) {
+        return this.breakpoints.findByQuery(query);
+    };
+    ;
+    /**
+     * Find associated breakpoint (if any)
+     */
+    MediaService.prototype._toMediaQuery = function (query) {
+        var bp = this._findByAlias(query) || this._findByQuery(query);
+        return bp ? bp.mediaQuery : query;
+    };
+    ;
+    return MediaService;
+}());
+MediaService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__match_media__["a" /* MatchMedia */],
+        __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__["a" /* BreakPointRegistry */]])
+], MediaService);
+
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/media-query/observable-media.js.map
+
+/***/ }),
+/* 129 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = applyCssPrefixes;
+/* unused harmony export toAlignContentValue */
+/* unused harmony export toBoxValue */
+/* unused harmony export toBoxOrient */
+/* unused harmony export toBoxDirection */
+/* unused harmony export toBoxOrdinal */
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/** Applies CSS prefixes to appropriate style keys.*/
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */ function applyCssPrefixes(target) {
+    for (var key in target) {
+        var value = target[key];
+        switch (key) {
+            case 'display':
+                target['display'] = value;
+                // also need 'display : -webkit-box' and 'display : -ms-flexbox;'
+                break;
+            case 'flex':
+                target['-ms-flex'] = value;
+                target['-webkit-box-flex'] = value.split(" ")[0];
+                break;
+            case 'flex-direction':
+                value = value || "row";
+                target['flex-direction'] = value;
+                target['-ms-flex-direction'] = value;
+                target['-webkit-box-orient'] = toBoxOrient(value);
+                target['-webkit-box-direction'] = toBoxDirection(value);
+                break;
+            case 'flex-wrap':
+                target['-ms-flex-wrap'] = value;
+                break;
+            case 'order':
+                if (isNaN(value)) {
+                    value = "0";
+                }
+                target['order'] = value;
+                target['-ms-flex-order'] = value;
+                target['-webkit-box-ordinal-group'] = toBoxOrdinal(value);
+                break;
+            case 'justify-content':
+                target['-ms-flex-pack'] = toBoxValue(value);
+                target['-webkit-box-pack'] = toBoxValue(value);
+                break;
+            case 'align-items':
+                target['-ms-flex-align'] = toBoxValue(value);
+                target['-webkit-box-align'] = toBoxValue(value);
+                break;
+            case 'align-self':
+                target['-ms-flex-item-align'] = toBoxValue(value);
+                break;
+            case 'align-content':
+                target['-ms-align-content'] = toAlignContentValue(value);
+                target['-ms-flex-line-pack'] = toAlignContentValue(value);
+                break;
+        }
+    }
+    return target;
+}
+function toAlignContentValue(value) {
+    switch (value) {
+        case "space-between":
+            return "justify";
+        case "space-around":
+            return "distribute";
+        default:
+            return toBoxValue(value);
+    }
+}
+/** Convert flex values flex-start, flex-end to start, end. */
+function toBoxValue(value) {
+    if (value === void 0) { value = ""; }
+    return (value == 'flex-start') ? 'start' : ((value == 'flex-end') ? 'end' : value);
+}
+/** Convert flex Direction to Box orientations */
+function toBoxOrient(flexDirection) {
+    if (flexDirection === void 0) { flexDirection = 'row'; }
+    return flexDirection.indexOf('column') === -1 ? 'horizontal' : 'vertical';
+}
+/** Convert flex Direction to Box direction type */
+function toBoxDirection(flexDirection) {
+    if (flexDirection === void 0) { flexDirection = 'row'; }
+    return flexDirection.indexOf('reverse') !== -1 ? 'reverse' : 'normal';
+}
+/** Convert flex order to Box ordinal group */
+function toBoxOrdinal(order) {
+    if (order === void 0) { order = '0'; }
+    var value = order ? parseInt(order) + 1 : 1;
+    return isNaN(value) ? "0" : value.toString();
+}
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/utils/auto-prefixer.js.map
+
+/***/ }),
+/* 130 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = validateBasis;
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+* The flex API permits 3 or 1 parts of the value:
+*    - `flex-grow flex-shrink flex-basis`, or
+*    - `flex-basis`
+*/
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */ function validateBasis(basis, grow, shrink) {
+    if (grow === void 0) { grow = "1"; }
+    if (shrink === void 0) { shrink = "1"; }
+    var parts = [grow, shrink, basis];
+    var j = basis.indexOf('calc');
+    if (j > 0) {
+        parts[2] = _validateCalcValue(basis.substring(j).trim());
+        var matches = basis.substr(0, j).trim().split(" ");
+        if (matches.length == 2) {
+            parts[0] = matches[0];
+            parts[1] = matches[1];
+        }
+    }
+    else if (j == 0) {
+        parts[2] = _validateCalcValue(basis.trim());
+    }
+    else {
+        var matches = basis.split(" ");
+        parts = (matches.length === 3) ? matches : [
+            grow, shrink, basis
+        ];
+    }
+    return parts;
+}
+/**
+ * Calc expressions require whitespace before & after any expression operators
+ * This is a simple, crude whitespace padding solution.
+ *   - "3 3 calc(15em + 20px)"
+ *   - calc(100% / 7 * 2)
+ *   - "calc(15em + 20px)"
+ *   - "calc(15em+20px)"
+ *   - "37px"
+ *   = "43%"
+ */
+function _validateCalcValue(calc) {
+    return calc.replace(/[\s]/g, "").replace(/[\/\*\+\-]/g, " $& ");
+}
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/utils/basis-validator.js.map
+
+/***/ }),
+/* 131 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__object_extend__ = __webpack_require__(20);
+/* harmony export (immutable) */ __webpack_exports__["b"] = validateSuffixes;
+/* harmony export (immutable) */ __webpack_exports__["a"] = mergeByAlias;
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+var ALIAS_DELIMITERS = /(\.|-|_)/g;
+function firstUpperCase(part) {
+    var first = part.length > 0 ? part.charAt(0) : "";
+    var remainder = (part.length > 1) ? part.slice(1) : "";
+    return first.toUpperCase() + remainder;
+}
+/**
+ * Converts snake-case to SnakeCase.
+ * @param name Text to UpperCamelCase
+ */
+function camelCase(name) {
+    return name
+        .replace(ALIAS_DELIMITERS, "|")
+        .split("|")
+        .map(firstUpperCase)
+        .join("");
+}
+/**
+ * For each breakpoint, ensure that a Suffix is defined;
+ * fallback to UpperCamelCase the unique Alias value
+ */
+function validateSuffixes(list) {
+    list.forEach(function (bp) {
+        if (!bp.suffix || bp.suffix === "") {
+            bp.suffix = camelCase(bp.alias); // create Suffix value based on alias
+            bp.overlapping = bp.overlapping || false; // ensure default value
+        }
+    });
+    return list;
+}
+/**
+ * Merge a custom breakpoint list with the default list based on unique alias values
+ *  - Items are added if the alias is not in the default list
+ *  - Items are merged with the custom override if the alias exists in the default list
+ */
+function mergeByAlias(defaults, custom) {
+    if (custom === void 0) { custom = []; }
+    var merged = defaults.map(function (bp) { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__object_extend__["a" /* extendObject */])({}, bp); });
+    var findByAlias = function (alias) { return merged.reduce(function (result, bp) {
+        return result || ((bp.alias === alias) ? bp : null);
+    }, null); };
+    // Merge custom breakpoints
+    custom.forEach(function (bp) {
+        var target = findByAlias(bp.alias);
+        if (target) {
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__object_extend__["a" /* extendObject */])(target, bp);
+        }
+        else {
+            merged.push(bp);
+        }
+    });
+    return validateSuffixes(merged);
+}
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/utils/breakpoint-tools.js.map
+
+/***/ }),
+/* 132 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export NgStyleKeyValue */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ngStyleUtils; });
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * NgStyle allowed inputs
+ */
+var NgStyleKeyValue = (function () {
+    function NgStyleKeyValue(key, value, noQuotes) {
+        if (noQuotes === void 0) { noQuotes = true; }
+        this.key = key;
+        this.value = value;
+        this.key = noQuotes ? key.replace(/['"]/g, "").trim() : key.trim();
+        this.value = noQuotes ? value.replace(/['"]/g, "").trim() : value.trim();
+        this.value = this.value.replace(/;/, "");
+    }
+    return NgStyleKeyValue;
+}());
+
+/**
+ * Transform Operators for @angular/flex-layout NgStyle Directive
+ */
+var ngStyleUtils = {
+    getType: getType,
+    buildRawList: buildRawList,
+    buildMapFromList: buildMapFromList,
+    buildMapFromSet: buildMapFromSet
+};
+function getType(target) {
+    var what = typeof target;
+    if (what === 'object') {
+        return (target.constructor === Array) ? 'array' :
+            (target.constructor === Set) ? 'set' : 'object';
+    }
+    return what;
+}
+/**
+ * Split string of key:value pairs into Array of k-v pairs
+ * e.g.  'key:value; key:value; key:value;' -> ['key:value',...]
+ */
+function buildRawList(source, delimiter) {
+    if (delimiter === void 0) { delimiter = ";"; }
+    return String(source)
+        .trim()
+        .split(delimiter)
+        .map(function (val) { return val.trim(); })
+        .filter(function (val) { return val !== ""; });
+}
+/**
+ * Convert array of key:value strings to a iterable map object
+ */
+function buildMapFromList(styles, sanitize) {
+    var sanitizeValue = function (it) {
+        if (sanitize) {
+            it.value = sanitize(it.value);
+        }
+        return it;
+    };
+    return styles
+        .map(stringToKeyValue)
+        .filter(function (entry) { return !!entry; })
+        .map(sanitizeValue)
+        .reduce(keyValuesToMap, {});
+}
+;
+/**
+ * Convert Set<string> or raw Object to an iterable NgStyleMap
+ */
+function buildMapFromSet(source, sanitize) {
+    var list = new Array();
+    if (getType(source) == 'set') {
+        source.forEach(function (entry) { return list.push(entry); });
+    }
+    else {
+        Object.keys(source).forEach(function (key) {
+            list.push(key + ":" + source[key]);
+        });
+    }
+    return buildMapFromList(list, sanitize);
+}
+/**
+ * Convert "key:value" -> [key, value]
+ */
+function stringToKeyValue(it) {
+    var _a = it.split(":"), key = _a[0], val = _a[1];
+    return val ? new NgStyleKeyValue(key, val) : null;
+}
+;
+/**
+ * Convert [ [key,value] ] -> { key : value }
+ */
+function keyValuesToMap(map, entry) {
+    if (!!entry.key) {
+        map[entry.key] = entry.value;
+    }
+    return map;
+}
+//# sourceMappingURL=/usr/local/google/home/tinagao/WebstormProjects/caretaker/flex-layout/src/lib/utils/style-transforms.js.map
+
+/***/ }),
+/* 133 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__autocomplete__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_a11y_activedescendant_key_manager__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_keyboard_keycodes__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_rtl_dir__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_Subject__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_Subject__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_observable_merge__ = __webpack_require__(398);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_add_observable_merge__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_switchMap__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_switchMap__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__input_input_container__ = __webpack_require__(83);
+/* unused harmony export AUTOCOMPLETE_OPTION_HEIGHT */
+/* unused harmony export AUTOCOMPLETE_PANEL_HEIGHT */
+/* unused harmony export MD_AUTOCOMPLETE_VALUE_ACCESSOR */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdAutocompleteTrigger; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * The following style constants are necessary to save here in order
+ * to properly calculate the scrollTop of the panel. Because we are not
+ * actually focusing the active item, scroll must be handled manually.
+ */
+/** The height of each autocomplete option. */
+var AUTOCOMPLETE_OPTION_HEIGHT = 48;
+/** The total height of the autocomplete panel. */
+var AUTOCOMPLETE_PANEL_HEIGHT = 256;
+/**
+ * Provider that allows the autocomplete to register as a ControlValueAccessor.
+ * @docs-private
+ */
+var MD_AUTOCOMPLETE_VALUE_ACCESSOR = {
+    provide: __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* NG_VALUE_ACCESSOR */],
+    useExisting: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* forwardRef */])(function () { return MdAutocompleteTrigger; }),
+    multi: true
+};
+var MdAutocompleteTrigger = (function () {
+    function MdAutocompleteTrigger(_element, _overlay, _viewContainerRef, _dir, _zone, _inputContainer) {
+        this._element = _element;
+        this._overlay = _overlay;
+        this._viewContainerRef = _viewContainerRef;
+        this._dir = _dir;
+        this._zone = _zone;
+        this._inputContainer = _inputContainer;
+        this._panelOpen = false;
+        /** Stream of blur events that should close the panel. */
+        this._blurStream = new __WEBPACK_IMPORTED_MODULE_8_rxjs_Subject__["Subject"]();
+        /** View -> model callback called when value changes */
+        this._onChange = function (value) { };
+        /** View -> model callback called when autocomplete has been touched */
+        this._onTouched = function () { };
+    }
+    Object.defineProperty(MdAutocompleteTrigger.prototype, "_matAutocomplete", {
+        /** Property with mat- prefix for no-conflict mode. */
+        get: function () {
+            return this.autocomplete;
+        },
+        set: function (autocomplete) {
+            this.autocomplete = autocomplete;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MdAutocompleteTrigger.prototype.ngAfterContentInit = function () {
+        this._keyManager = new __WEBPACK_IMPORTED_MODULE_5__core_a11y_activedescendant_key_manager__["a" /* ActiveDescendantKeyManager */](this.autocomplete.options).withWrap();
+    };
+    MdAutocompleteTrigger.prototype.ngOnDestroy = function () {
+        if (this._panelPositionSubscription) {
+            this._panelPositionSubscription.unsubscribe();
+        }
+        this._destroyPanel();
+    };
+    Object.defineProperty(MdAutocompleteTrigger.prototype, "panelOpen", {
+        /* Whether or not the autocomplete panel is open. */
+        get: function () {
+            return this._panelOpen;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /** Opens the autocomplete suggestion panel. */
+    MdAutocompleteTrigger.prototype.openPanel = function () {
+        if (!this._overlayRef) {
+            this._createOverlay();
+        }
+        if (!this._overlayRef.hasAttached()) {
+            this._overlayRef.attach(this._portal);
+            this._subscribeToClosingActions();
+        }
+        this._panelOpen = true;
+        this._floatPlaceholder('always');
+    };
+    /** Closes the autocomplete suggestion panel. */
+    MdAutocompleteTrigger.prototype.closePanel = function () {
+        if (this._overlayRef && this._overlayRef.hasAttached()) {
+            this._overlayRef.detach();
+        }
+        this._panelOpen = false;
+        this._floatPlaceholder('auto');
+    };
+    Object.defineProperty(MdAutocompleteTrigger.prototype, "panelClosingActions", {
+        /**
+         * A stream of actions that should close the autocomplete panel, including
+         * when an option is selected, on blur, and when TAB is pressed.
+         */
+        get: function () {
+            return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].merge.apply(__WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"], this.optionSelections.concat([this._blurStream.asObservable(), this._keyManager.tabOut]));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdAutocompleteTrigger.prototype, "optionSelections", {
+        /** Stream of autocomplete option selections. */
+        get: function () {
+            return this.autocomplete.options.map(function (option) { return option.onSelect; });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdAutocompleteTrigger.prototype, "activeOption", {
+        /** The currently active option, coerced to MdOption type. */
+        get: function () {
+            return this._keyManager.activeItem;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Sets the autocomplete's value. Part of the ControlValueAccessor interface
+     * required to integrate with Angular's core forms API.
+     *
+     * @param value New value to be written to the model.
+     */
+    MdAutocompleteTrigger.prototype.writeValue = function (value) {
+        var _this = this;
+        Promise.resolve(null).then(function () { return _this._setTriggerValue(value); });
+    };
+    /**
+     * Saves a callback function to be invoked when the autocomplete's value
+     * changes from user input. Part of the ControlValueAccessor interface
+     * required to integrate with Angular's core forms API.
+     *
+     * @param fn Callback to be triggered when the value changes.
+     */
+    MdAutocompleteTrigger.prototype.registerOnChange = function (fn) {
+        this._onChange = fn;
+    };
+    /**
+     * Saves a callback function to be invoked when the autocomplete is blurred
+     * by the user. Part of the ControlValueAccessor interface required
+     * to integrate with Angular's core forms API.
+     *
+     * @param fn Callback to be triggered when the component has been touched.
+     */
+    MdAutocompleteTrigger.prototype.registerOnTouched = function (fn) {
+        this._onTouched = fn;
+    };
+    MdAutocompleteTrigger.prototype._handleKeydown = function (event) {
+        if (this.activeOption && event.keyCode === __WEBPACK_IMPORTED_MODULE_6__core_keyboard_keycodes__["a" /* ENTER */]) {
+            this.activeOption._selectViaInteraction();
+        }
+        else {
+            this._keyManager.onKeydown(event);
+            if (event.keyCode === __WEBPACK_IMPORTED_MODULE_6__core_keyboard_keycodes__["i" /* UP_ARROW */] || event.keyCode === __WEBPACK_IMPORTED_MODULE_6__core_keyboard_keycodes__["j" /* DOWN_ARROW */]) {
+                this.openPanel();
+                this._scrollToOption();
+            }
+        }
+    };
+    MdAutocompleteTrigger.prototype._handleInput = function (value) {
+        this._onChange(value);
+        this.openPanel();
+    };
+    MdAutocompleteTrigger.prototype._handleBlur = function (newlyFocusedTag) {
+        this._onTouched();
+        // Only emit blur event if the new focus is *not* on an option.
+        if (newlyFocusedTag !== 'MD-OPTION') {
+            this._blurStream.next(null);
+        }
+    };
+    /**
+     * In "auto" mode, the placeholder will animate down as soon as focus is lost.
+     * This causes the value to jump when selecting an option with the mouse.
+     * This method manually floats the placeholder until the panel can be closed.
+     */
+    MdAutocompleteTrigger.prototype._floatPlaceholder = function (state) {
+        if (this._inputContainer) {
+            this._inputContainer.floatPlaceholder = state;
+        }
+    };
+    /**
+     * Given that we are not actually focusing active options, we must manually adjust scroll
+     * to reveal options below the fold. First, we find the offset of the option from the top
+     * of the panel. The new scrollTop will be that offset - the panel height + the option
+     * height, so the active option will be just visible at the bottom of the panel.
+     */
+    MdAutocompleteTrigger.prototype._scrollToOption = function () {
+        var optionOffset = this._keyManager.activeItemIndex * AUTOCOMPLETE_OPTION_HEIGHT;
+        var newScrollTop = Math.max(0, optionOffset - AUTOCOMPLETE_PANEL_HEIGHT + AUTOCOMPLETE_OPTION_HEIGHT);
+        this.autocomplete._setScrollTop(newScrollTop);
+    };
+    /**
+     * This method listens to a stream of panel closing actions and resets the
+     * stream every time the option list changes.
+     */
+    MdAutocompleteTrigger.prototype._subscribeToClosingActions = function () {
+        var _this = this;
+        // When the zone is stable initially, and when the option list changes...
+        __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].merge(this._zone.onStable.first(), this.autocomplete.options.changes)
+            .switchMap(function () {
+            _this._resetPanel();
+            return _this.panelClosingActions;
+        })
+            .first()
+            .subscribe(function (event) { return _this._setValueAndClose(event); });
+    };
+    /** Destroys the autocomplete suggestion panel. */
+    MdAutocompleteTrigger.prototype._destroyPanel = function () {
+        if (this._overlayRef) {
+            this.closePanel();
+            this._overlayRef.dispose();
+            this._overlayRef = null;
+        }
+    };
+    MdAutocompleteTrigger.prototype._setTriggerValue = function (value) {
+        this._element.nativeElement.value =
+            this.autocomplete.displayWith ? this.autocomplete.displayWith(value) : value;
+    };
+    /**
+    * This method closes the panel, and if a value is specified, also sets the associated
+    * control to that value. It will also mark the control as dirty if this interaction
+    * stemmed from the user.
+    */
+    MdAutocompleteTrigger.prototype._setValueAndClose = function (event) {
+        if (event) {
+            this._setTriggerValue(event.source.value);
+            this._onChange(event.source.value);
+        }
+        this.closePanel();
+    };
+    MdAutocompleteTrigger.prototype._createOverlay = function () {
+        this._portal = new __WEBPACK_IMPORTED_MODULE_2__core__["m" /* TemplatePortal */](this.autocomplete.template, this._viewContainerRef);
+        this._overlayRef = this._overlay.create(this._getOverlayConfig());
+    };
+    MdAutocompleteTrigger.prototype._getOverlayConfig = function () {
+        var overlayState = new __WEBPACK_IMPORTED_MODULE_2__core__["b" /* OverlayState */]();
+        overlayState.positionStrategy = this._getOverlayPosition();
+        overlayState.width = this._getHostWidth();
+        overlayState.direction = this._dir ? this._dir.value : 'ltr';
+        return overlayState;
+    };
+    MdAutocompleteTrigger.prototype._getOverlayPosition = function () {
+        this._positionStrategy = this._overlay.position().connectedTo(this._element, { originX: 'start', originY: 'bottom' }, { overlayX: 'start', overlayY: 'top' })
+            .withFallbackPosition({ originX: 'start', originY: 'top' }, { overlayX: 'start', overlayY: 'bottom' });
+        this._subscribeToPositionChanges(this._positionStrategy);
+        return this._positionStrategy;
+    };
+    /**
+     * This method subscribes to position changes in the autocomplete panel, so the panel's
+     * y-offset can be adjusted to match the new position.
+     */
+    MdAutocompleteTrigger.prototype._subscribeToPositionChanges = function (strategy) {
+        var _this = this;
+        this._panelPositionSubscription = strategy.onPositionChange.subscribe(function (change) {
+            _this.autocomplete.positionY = change.connectionPair.originY === 'top' ? 'above' : 'below';
+        });
+    };
+    /** Returns the width of the input element, so the panel width can match it. */
+    MdAutocompleteTrigger.prototype._getHostWidth = function () {
+        return this._element.nativeElement.getBoundingClientRect().width;
+    };
+    /** Reset active item to null so arrow events will activate the correct options.*/
+    MdAutocompleteTrigger.prototype._resetActiveItem = function () {
+        this._keyManager.setActiveItem(null);
+    };
+    /**
+     * Resets the active item and re-calculates alignment of the panel in case its size
+     * has changed due to fewer or greater number of options.
+     */
+    MdAutocompleteTrigger.prototype._resetPanel = function () {
+        this._resetActiveItem();
+        this._positionStrategy.recalculateLastPosition();
+        this.autocomplete._setVisibility();
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('mdAutocomplete'), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_3__autocomplete__["a" /* MdAutocomplete */])
+    ], MdAutocompleteTrigger.prototype, "autocomplete", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('matAutocomplete'), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_3__autocomplete__["a" /* MdAutocomplete */])
+    ], MdAutocompleteTrigger.prototype, "_matAutocomplete", null);
+    MdAutocompleteTrigger = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: 'input[mdAutocomplete], input[matAutocomplete]',
+            host: {
+                'role': 'combobox',
+                'autocomplete': 'off',
+                'aria-autocomplete': 'list',
+                'aria-multiline': 'false',
+                '[attr.aria-activedescendant]': 'activeOption?.id',
+                '[attr.aria-expanded]': 'panelOpen.toString()',
+                '[attr.aria-owns]': 'autocomplete?.id',
+                '(focus)': 'openPanel()',
+                '(blur)': '_handleBlur($event.relatedTarget?.tagName)',
+                '(input)': '_handleInput($event.target.value)',
+                '(keydown)': '_handleKeydown($event)',
+            },
+            providers: [MD_AUTOCOMPLETE_VALUE_ACCESSOR]
+        }),
+        __param(3, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
+        __param(5, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
+        __param(5, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Host */])()), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_2__core__["c" /* Overlay */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_7__core_rtl_dir__["a" /* Dir */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* NgZone */], __WEBPACK_IMPORTED_MODULE_12__input_input_container__["b" /* MdInputContainer */]])
+    ], MdAutocompleteTrigger);
+    return MdAutocompleteTrigger;
+}());
+//# sourceMappingURL=autocomplete-trigger.js.map
+
+/***/ }),
+/* 134 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__autocomplete__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__autocomplete_trigger__ = __webpack_require__(133);
+/* unused harmony namespace reexport */
+/* unused harmony namespace reexport */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdAutocompleteModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var MdAutocompleteModule = (function () {
+    function MdAutocompleteModule() {
+    }
+    /** @deprecated */
+    MdAutocompleteModule.forRoot = function () {
+        return {
+            ngModule: MdAutocompleteModule,
+            providers: [__WEBPACK_IMPORTED_MODULE_1__core__["D" /* OVERLAY_PROVIDERS */]]
+        };
+    };
+    MdAutocompleteModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+            imports: [__WEBPACK_IMPORTED_MODULE_1__core__["E" /* MdOptionModule */], __WEBPACK_IMPORTED_MODULE_1__core__["d" /* OverlayModule */], __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */], __WEBPACK_IMPORTED_MODULE_2__angular_common__["c" /* CommonModule */]],
+            exports: [__WEBPACK_IMPORTED_MODULE_3__autocomplete__["a" /* MdAutocomplete */], __WEBPACK_IMPORTED_MODULE_1__core__["E" /* MdOptionModule */], __WEBPACK_IMPORTED_MODULE_4__autocomplete_trigger__["a" /* MdAutocompleteTrigger */], __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */]],
+            declarations: [__WEBPACK_IMPORTED_MODULE_3__autocomplete__["a" /* MdAutocomplete */], __WEBPACK_IMPORTED_MODULE_4__autocomplete_trigger__["a" /* MdAutocompleteTrigger */]],
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdAutocompleteModule);
+    return MdAutocompleteModule;
+}());
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 135 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button_toggle__ = __webpack_require__(248);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__button_toggle__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 136 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button__ = __webpack_require__(249);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__button__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 137 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__card__ = __webpack_require__(250);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__card__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 138 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__checkbox__ = __webpack_require__(251);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__checkbox__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 139 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_coercion_boolean_property__ = __webpack_require__(12);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdChip; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Material design styled Chip component. Used inside the MdChipList component.
+ */
+var MdChip = (function () {
+    function MdChip(_renderer, _elementRef) {
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        /** Whether or not the chip is disabled. Disabled chips cannot be focused. */
+        this._disabled = null;
+        /** Whether or not the chip is selected. */
+        this._selected = false;
+        /** The palette color of selected chips. */
+        this._color = 'primary';
+        /** Emitted when the chip is focused. */
+        this.onFocus = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+        /** Emitted when the chip is selected. */
+        this.select = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+        /** Emitted when the chip is deselected. */
+        this.deselect = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+        /** Emitted when the chip is destroyed. */
+        this.destroy = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+    }
+    MdChip.prototype.ngOnInit = function () {
+        this._addDefaultCSSClass();
+        this._updateColor(this._color);
+    };
+    MdChip.prototype.ngOnDestroy = function () {
+        this.destroy.emit({ chip: this });
+    };
+    Object.defineProperty(MdChip.prototype, "disabled", {
+        /** Whether or not the chip is disabled. */
+        get: function () {
+            return this._disabled;
+        },
+        /** Sets the disabled state of the chip. */
+        set: function (value) {
+            this._disabled = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value) ? true : null;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChip.prototype, "_isAriaDisabled", {
+        /** A String representation of the current disabled state. */
+        get: function () {
+            return String(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(this.disabled));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChip.prototype, "selected", {
+        /** Whether or not this chip is selected. */
+        get: function () {
+            return this._selected;
+        },
+        set: function (value) {
+            this._selected = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value);
+            if (this._selected) {
+                this.select.emit({ chip: this });
+            }
+            else {
+                this.deselect.emit({ chip: this });
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Toggles the current selected state of this chip.
+     * @return Whether the chip is selected.
+     */
+    MdChip.prototype.toggleSelected = function () {
+        this.selected = !this.selected;
+        return this.selected;
+    };
+    Object.defineProperty(MdChip.prototype, "color", {
+        /** The color of the chip. Can be `primary`, `accent`, or `warn`. */
+        get: function () {
+            return this._color;
+        },
+        set: function (value) {
+            this._updateColor(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /** Allows for programmatic focusing of the chip. */
+    MdChip.prototype.focus = function () {
+        this._renderer.invokeElementMethod(this._elementRef.nativeElement, 'focus');
+        this.onFocus.emit({ chip: this });
+    };
+    /** Ensures events fire properly upon click. */
+    MdChip.prototype._handleClick = function (event) {
+        // Check disabled
+        if (this.disabled) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        else {
+            this.focus();
+        }
+    };
+    /** Initializes the appropriate CSS classes based on the chip type (basic or standard). */
+    MdChip.prototype._addDefaultCSSClass = function () {
+        var el = this._elementRef.nativeElement;
+        // Always add the `mat-chip` class
+        el.classList.add('mat-chip');
+        // If we are a basic chip, also add the `mat-basic-chip` class for :not() targeting
+        if (el.nodeName.toLowerCase() == 'mat-basic-chip' || el.hasAttribute('mat-basic-chip') ||
+            el.nodeName.toLowerCase() == 'md-basic-chip' || el.hasAttribute('md-basic-chip')) {
+            el.classList.add('mat-basic-chip');
+        }
+    };
+    /** Updates the private _color variable and the native element. */
+    MdChip.prototype._updateColor = function (newColor) {
+        this._setElementColor(this._color, false);
+        this._setElementColor(newColor, true);
+        this._color = newColor;
+    };
+    /** Sets the mat-color on the native element. */
+    MdChip.prototype._setElementColor = function (color, isAdd) {
+        if (color != null && color != '') {
+            this._renderer.setElementClass(this._elementRef.nativeElement, "mat-" + color, isAdd);
+        }
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', Object)
+    ], MdChip.prototype, "select", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', Object)
+    ], MdChip.prototype, "deselect", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', Object)
+    ], MdChip.prototype, "destroy", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Boolean)
+    ], MdChip.prototype, "disabled", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Boolean)
+    ], MdChip.prototype, "selected", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', String)
+    ], MdChip.prototype, "color", null);
+    MdChip = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+            selector: "md-basic-chip, [md-basic-chip], md-chip, [md-chip],\n             mat-basic-chip, [mat-basic-chip], mat-chip, [mat-chip]",
+            template: "<ng-content></ng-content>",
+            host: {
+                '[class.mat-chip]': 'true',
+                'tabindex': '-1',
+                'role': 'option',
+                '[class.mat-chip-selected]': 'selected',
+                '[attr.disabled]': 'disabled',
+                '[attr.aria-disabled]': '_isAriaDisabled',
+                '(click)': '_handleClick($event)'
+            }
+        }), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */]])
+    ], MdChip);
+    return MdChip;
+}());
+//# sourceMappingURL=chip.js.map
+
+/***/ }),
+/* 140 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chip_list__ = __webpack_require__(252);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__chip_list__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__chip__ = __webpack_require__(139);
+/* unused harmony namespace reexport */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 141 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListKeyManager; });
+
+
+/**
+ * This class manages keyboard events for selectable lists. If you pass it a query list
+ * of items, it will set the active item correctly when arrow events occur.
+ */
+var ListKeyManager = (function () {
+    function ListKeyManager(_items) {
+        this._items = _items;
+        this._tabOut = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
+        this._wrap = false;
+    }
+    /**
+     * Turns on wrapping mode, which ensures that the active item will wrap to
+     * the other end of list when there are no more items in the given direction.
+     *
+     * @returns The ListKeyManager that the method was called on.
+     */
+    ListKeyManager.prototype.withWrap = function () {
+        this._wrap = true;
+        return this;
+    };
+    /**
+     * Sets the active item to the item at the index specified.
+     *
+     * @param index The index of the item to be set as active.
+     */
+    ListKeyManager.prototype.setActiveItem = function (index) {
+        this._activeItemIndex = index;
+        this._activeItem = this._items.toArray()[index];
+    };
+    /**
+     * Sets the active item depending on the key event passed in.
+     * @param event Keyboard event to be used for determining which element should be active.
+     */
+    ListKeyManager.prototype.onKeydown = function (event) {
+        switch (event.keyCode) {
+            case __WEBPACK_IMPORTED_MODULE_0__core__["v" /* DOWN_ARROW */]:
+                this.setNextItemActive();
+                break;
+            case __WEBPACK_IMPORTED_MODULE_0__core__["w" /* UP_ARROW */]:
+                this.setPreviousItemActive();
+                break;
+            case __WEBPACK_IMPORTED_MODULE_0__core__["x" /* HOME */]:
+                this.setFirstItemActive();
+                break;
+            case __WEBPACK_IMPORTED_MODULE_0__core__["y" /* END */]:
+                this.setLastItemActive();
+                break;
+            case __WEBPACK_IMPORTED_MODULE_0__core__["z" /* TAB */]:
+                // Note that we shouldn't prevent the default action on tab.
+                this._tabOut.next(null);
+                return;
+            default:
+                return;
+        }
+        event.preventDefault();
+    };
+    Object.defineProperty(ListKeyManager.prototype, "activeItemIndex", {
+        /** Returns the index of the currently active item. */
+        get: function () {
+            return this._activeItemIndex;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ListKeyManager.prototype, "activeItem", {
+        /** Returns the currently active item. */
+        get: function () {
+            return this._activeItem;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /** Sets the active item to the first enabled item in the list. */
+    ListKeyManager.prototype.setFirstItemActive = function () {
+        this._setActiveItemByIndex(0, 1);
+    };
+    /** Sets the active item to the last enabled item in the list. */
+    ListKeyManager.prototype.setLastItemActive = function () {
+        this._setActiveItemByIndex(this._items.length - 1, -1);
+    };
+    /** Sets the active item to the next enabled item in the list. */
+    ListKeyManager.prototype.setNextItemActive = function () {
+        this._activeItemIndex === null ? this.setFirstItemActive() : this._setActiveItemByDelta(1);
+    };
+    /** Sets the active item to a previous enabled item in the list. */
+    ListKeyManager.prototype.setPreviousItemActive = function () {
+        this._activeItemIndex === null && this._wrap ? this.setLastItemActive()
+            : this._setActiveItemByDelta(-1);
+    };
+    /**
+     * Allows setting of the activeItemIndex without any other effects.
+     * @param index The new activeItemIndex.
+     */
+    ListKeyManager.prototype.updateActiveItemIndex = function (index) {
+        this._activeItemIndex = index;
+    };
+    Object.defineProperty(ListKeyManager.prototype, "tabOut", {
+        /**
+         * Observable that emits any time the TAB key is pressed, so components can react
+         * when focus is shifted off of the list.
+         */
+        get: function () {
+            return this._tabOut.asObservable();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * This method sets the active item, given a list of items and the delta between the
+     * currently active item and the new active item. It will calculate differently
+     * depending on whether wrap mode is turned on.
+     */
+    ListKeyManager.prototype._setActiveItemByDelta = function (delta, items) {
+        if (items === void 0) { items = this._items.toArray(); }
+        this._wrap ? this._setActiveInWrapMode(delta, items)
+            : this._setActiveInDefaultMode(delta, items);
+    };
+    /**
+     * Sets the active item properly given "wrap" mode. In other words, it will continue to move
+     * down the list until it finds an item that is not disabled, and it will wrap if it
+     * encounters either end of the list.
+     */
+    ListKeyManager.prototype._setActiveInWrapMode = function (delta, items) {
+        // when active item would leave menu, wrap to beginning or end
+        this._activeItemIndex =
+            (this._activeItemIndex + delta + items.length) % items.length;
+        // skip all disabled menu items recursively until an enabled one is reached
+        if (items[this._activeItemIndex].disabled) {
+            this._setActiveInWrapMode(delta, items);
+        }
+        else {
+            this.setActiveItem(this._activeItemIndex);
+        }
+    };
+    /**
+     * Sets the active item properly given the default mode. In other words, it will
+     * continue to move down the list until it finds an item that is not disabled. If
+     * it encounters either end of the list, it will stop and not wrap.
+     */
+    ListKeyManager.prototype._setActiveInDefaultMode = function (delta, items) {
+        this._setActiveItemByIndex(this._activeItemIndex + delta, delta, items);
+    };
+    /**
+     * Sets the active item to the first enabled item starting at the index specified. If the
+     * item is disabled, it will move in the fallbackDelta direction until it either
+     * finds an enabled item or encounters the end of the list.
+     */
+    ListKeyManager.prototype._setActiveItemByIndex = function (index, fallbackDelta, items) {
+        if (items === void 0) { items = this._items.toArray(); }
+        if (!items[index]) {
+            return;
+        }
+        while (items[index].disabled) {
+            index += fallbackDelta;
+            if (!items[index]) {
+                return;
+            }
+        }
+        this.setActiveItem(index);
+    };
+    return ListKeyManager;
+}());
+//# sourceMappingURL=list-key-manager.js.map
+
+/***/ }),
+/* 142 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UniqueSelectionDispatcher; });
+/* unused harmony export UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return UNIQUE_SELECTION_DISPATCHER_PROVIDER; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Class to coordinate unique selection based on name.
+ * Intended to be consumed as an Angular service.
+ * This service is needed because native radio change events are only fired on the item currently
+ * being selected, and we still need to uncheck the previous selection.
+ *
+ * This service does not *store* any IDs and names because they may change at any time, so it is
+ * less error-prone if they are simply passed through when the events occur.
+ */
+var UniqueSelectionDispatcher = (function () {
+    function UniqueSelectionDispatcher() {
+        this._listeners = [];
+    }
+    /**
+     * Notify other items that selection for the given name has been set.
+     * @param id ID of the item.
+     * @param name Name of the item.
+     */
+    UniqueSelectionDispatcher.prototype.notify = function (id, name) {
+        for (var _i = 0, _a = this._listeners; _i < _a.length; _i++) {
+            var listener = _a[_i];
+            listener(id, name);
+        }
+    };
+    /** Listen for future changes to item selection. */
+    UniqueSelectionDispatcher.prototype.listen = function (listener) {
+        this._listeners.push(listener);
+    };
+    UniqueSelectionDispatcher = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(), 
+        __metadata('design:paramtypes', [])
+    ], UniqueSelectionDispatcher);
+    return UniqueSelectionDispatcher;
+}());
+function UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY(parentDispatcher) {
+    return parentDispatcher || new UniqueSelectionDispatcher();
+}
+var UNIQUE_SELECTION_DISPATCHER_PROVIDER = {
+    // If there is already a dispatcher available, use that. Otherwise, provide a new one.
+    provide: UniqueSelectionDispatcher,
+    deps: [[new __WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */](), UniqueSelectionDispatcher]],
+    useFactory: UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY
+};
+//# sourceMappingURL=unique-selection-dispatcher.js.map
+
+/***/ }),
+/* 143 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__line_line__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rtl_dir__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__observe_content_observe_content__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__option_option__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ripple_ripple__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__overlay_overlay_directives__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__a11y_index__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__selection_index__ = __webpack_require__(151);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_2__rtl_dir__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_2__rtl_dir__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_3__observe_content_observe_content__["a"]; });
+/* unused harmony reexport ObserveContent */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_4__option_option__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_4__option_option__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__portal_portal__ = __webpack_require__(36);
+/* unused harmony reexport Portal */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_10__portal_portal__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_10__portal_portal__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__portal_portal__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__portal_dom_portal_host__ = __webpack_require__(150);
+/* unused harmony reexport DomPortalHost */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__projection_projection__ = __webpack_require__(263);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_12__projection_projection__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__platform_index__ = __webpack_require__(52);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__platform_platform__ = __webpack_require__(53);
+/* unused harmony reexport MdPlatform */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__overlay_overlay__ = __webpack_require__(147);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_15__overlay_overlay__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_15__overlay_overlay__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__overlay_overlay_container__ = __webpack_require__(77);
+/* unused harmony reexport OverlayContainer */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__overlay_fullscreen_overlay_container__ = __webpack_require__(258);
+/* unused harmony reexport FullscreenOverlayContainer */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__overlay_overlay_ref__ = __webpack_require__(146);
+/* unused harmony reexport OverlayRef */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__overlay_overlay_state__ = __webpack_require__(78);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_19__overlay_overlay_state__["a"]; });
+/* unused harmony reexport ConnectedOverlayDirective */
+/* unused harmony reexport OverlayOrigin */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_7__overlay_overlay_directives__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__overlay_position_connected_position_strategy__ = __webpack_require__(148);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__overlay_position_connected_position__ = __webpack_require__(79);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__overlay_scroll_scroll_dispatcher__ = __webpack_require__(27);
+/* unused harmony reexport ScrollDispatcher */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__gestures_gesture_config__ = __webpack_require__(257);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_23__gestures_gesture_config__["a"]; });
+/* unused harmony reexport MdRipple */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_5__ripple_ripple__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__a11y_live_announcer__ = __webpack_require__(74);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_24__a11y_live_announcer__["b"]; });
+/* unused harmony reexport LIVE_ANNOUNCER_ELEMENT_TOKEN */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_24__a11y_live_announcer__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__selection_selection__ = __webpack_require__(265);
+/* unused harmony namespace reexport */
+/* unused harmony reexport MdLiveAnnouncer */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__a11y_focus_trap__ = __webpack_require__(49);
+/* unused harmony reexport FocusTrap */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__a11y_interactivity_checker__ = __webpack_require__(73);
+/* unused harmony reexport InteractivityChecker */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__a11y_fake_mousedown__ = __webpack_require__(254);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_28__a11y_fake_mousedown__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_8__a11y_index__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__coordination_unique_selection_dispatcher__ = __webpack_require__(142);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_29__coordination_unique_selection_dispatcher__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_29__coordination_unique_selection_dispatcher__["b"]; });
+/* unused harmony reexport MdUniqueSelectionDispatcher */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_1__line_line__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_1__line_line__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_1__line_line__["c"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__style_index__ = __webpack_require__(155);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_30__style_index__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__errors_error__ = __webpack_require__(75);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_31__errors_error__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__ = __webpack_require__(21);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["c"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["d"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["j"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["i"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["h"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["g"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_32__keyboard_keycodes__["l"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__compatibility_compatibility__ = __webpack_require__(40);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__animation_animation__ = __webpack_require__(255);
+/* unused harmony namespace reexport */
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__coercion_boolean_property__ = __webpack_require__(12);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_35__coercion_boolean_property__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__coercion_number_property__ = __webpack_require__(256);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_36__coercion_number_property__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_33__compatibility_compatibility__["a"]; });
+/* unused harmony reexport NoConflictStyleCompatibilityMode */
+/* unused harmony export MdCoreModule */
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+// RTL
+
+// Mutation Observer
+
+
+// Portals
+
+
+
+// Projection
+
+// Platform
+
+/** @deprecated */
+
+// Overlay
+
+
+
+
+
+
+
+
+
+// Gestures
+
+// Explicitly specify the interfaces which should be re-exported, because if everything
+// is re-exported, module bundlers may run into issues with treeshaking.
+// Ripple
+
+// a11y
+
+// Selection
+
+/** @deprecated */
+
+
+
+
+
+
+/** @deprecated */
+
+
+// Style
+
+// Error
+
+// Misc
+// Keybindings
+
+
+// Animation
+
+// Selection
+
+// Coercion
+
+
+// Compatibility
+
+var MdCoreModule = (function () {
+    function MdCoreModule() {
+    }
+    /** @deprecated */
+    MdCoreModule.forRoot = function () {
+        return {
+            ngModule: MdCoreModule,
+            providers: [],
+        };
+    };
+    MdCoreModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__line_line__["a" /* MdLineModule */],
+                __WEBPACK_IMPORTED_MODULE_2__rtl_dir__["b" /* RtlModule */],
+                __WEBPACK_IMPORTED_MODULE_5__ripple_ripple__["a" /* MdRippleModule */],
+                __WEBPACK_IMPORTED_MODULE_3__observe_content_observe_content__["a" /* ObserveContentModule */],
+                __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["a" /* PortalModule */],
+                __WEBPACK_IMPORTED_MODULE_7__overlay_overlay_directives__["a" /* OverlayModule */],
+                __WEBPACK_IMPORTED_MODULE_8__a11y_index__["a" /* A11yModule */],
+                __WEBPACK_IMPORTED_MODULE_4__option_option__["a" /* MdOptionModule */],
+                __WEBPACK_IMPORTED_MODULE_9__selection_index__["a" /* MdSelectionModule */],
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_1__line_line__["a" /* MdLineModule */],
+                __WEBPACK_IMPORTED_MODULE_2__rtl_dir__["b" /* RtlModule */],
+                __WEBPACK_IMPORTED_MODULE_5__ripple_ripple__["a" /* MdRippleModule */],
+                __WEBPACK_IMPORTED_MODULE_3__observe_content_observe_content__["a" /* ObserveContentModule */],
+                __WEBPACK_IMPORTED_MODULE_6__portal_portal_directives__["a" /* PortalModule */],
+                __WEBPACK_IMPORTED_MODULE_7__overlay_overlay_directives__["a" /* OverlayModule */],
+                __WEBPACK_IMPORTED_MODULE_8__a11y_index__["a" /* A11yModule */],
+                __WEBPACK_IMPORTED_MODULE_4__option_option__["a" /* MdOptionModule */],
+                __WEBPACK_IMPORTED_MODULE_9__selection_index__["a" /* MdSelectionModule */],
+            ],
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdCoreModule);
+    return MdCoreModule;
+}());
+//# sourceMappingURL=core.js.map
+
+/***/ }),
+/* 144 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(143);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["c"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["d"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["e"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["f"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["g"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["h"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["i"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["j"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["k"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["l"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["m"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["n"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["o"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["p"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["q"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["r"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["s"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["t"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["u"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["A"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["B"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["C"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["D"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["E"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["F"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["G"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["H"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["I"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["J"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["K"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["L"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["M"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["N"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 145 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__compatibility_compatibility__ = __webpack_require__(40);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdLine; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdLineSetter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdLineModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Shared directive to count lines inside a text area, such as a list item.
+ * Line elements can be extracted with a @ContentChildren(MdLine) query, then
+ * counted by checking the query list's length.
+ */
+var MdLine = (function () {
+    function MdLine() {
+    }
+    MdLine = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: '[md-line], [mat-line]',
+            host: {
+                '[class.mat-line]': 'true'
+            }
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdLine);
+    return MdLine;
+}());
+/**
+ * Helper that takes a query list of lines and sets the correct class on the host.
+ * @docs-private
+ */
+var MdLineSetter = (function () {
+    function MdLineSetter(_lines, _renderer, _element) {
+        var _this = this;
+        this._lines = _lines;
+        this._renderer = _renderer;
+        this._element = _element;
+        this._setLineClass(this._lines.length);
+        this._lines.changes.subscribe(function () {
+            _this._setLineClass(_this._lines.length);
+        });
+    }
+    MdLineSetter.prototype._setLineClass = function (count) {
+        this._resetClasses();
+        if (count === 2 || count === 3) {
+            this._setClass("mat-" + count + "-line", true);
+        }
+        else if (count > 3) {
+            this._setClass("mat-multi-line", true);
+        }
+    };
+    MdLineSetter.prototype._resetClasses = function () {
+        this._setClass('mat-2-line', false);
+        this._setClass('mat-3-line', false);
+        this._setClass('mat-multi-line', false);
+    };
+    MdLineSetter.prototype._setClass = function (className, bool) {
+        this._renderer.setElementClass(this._element.nativeElement, className, bool);
+    };
+    return MdLineSetter;
+}());
+var MdLineModule = (function () {
+    function MdLineModule() {
+    }
+    MdLineModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+            imports: [__WEBPACK_IMPORTED_MODULE_1__compatibility_compatibility__["a" /* CompatibilityModule */]],
+            exports: [MdLine, __WEBPACK_IMPORTED_MODULE_1__compatibility_compatibility__["a" /* CompatibilityModule */]],
+            declarations: [MdLine],
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdLineModule);
+    return MdLineModule;
+}());
+//# sourceMappingURL=line.js.map
+
+/***/ }),
+/* 146 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OverlayRef; });
+
+/**
+ * Reference to an overlay that has been created with the Overlay service.
+ * Used to manipulate or dispose of said overlay.
+ */
+var OverlayRef = (function () {
+    function OverlayRef(_portalHost, _pane, _state, _ngZone) {
+        this._portalHost = _portalHost;
+        this._pane = _pane;
+        this._state = _state;
+        this._ngZone = _ngZone;
+        this._backdropElement = null;
+        this._backdropClick = new __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__["Subject"]();
+    }
+    Object.defineProperty(OverlayRef.prototype, "overlayElement", {
+        /** The overlay's HTML element */
+        get: function () {
+            return this._pane;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Attaches the overlay to a portal instance and adds the backdrop.
+     * @param portal Portal instance to which to attach the overlay.
+     * @returns The portal attachment result.
+     */
+    OverlayRef.prototype.attach = function (portal) {
+        if (this._state.hasBackdrop) {
+            this._attachBackdrop();
+        }
+        var attachResult = this._portalHost.attach(portal);
+        // Update the pane element with the given state configuration.
+        this.updateSize();
+        this.updateDirection();
+        this.updatePosition();
+        // Enable pointer events for the overlay pane element.
+        this._togglePointerEvents(true);
+        return attachResult;
+    };
+    /**
+     * Detaches an overlay from a portal.
+     * @returns Resolves when the overlay has been detached.
+     */
+    OverlayRef.prototype.detach = function () {
+        this._detachBackdrop();
+        // When the overlay is detached, the pane element should disable pointer events.
+        // This is necessary because otherwise the pane element will cover the page and disable
+        // pointer events therefore. Depends on the position strategy and the applied pane boundaries.
+        this._togglePointerEvents(false);
+        return this._portalHost.detach();
+    };
+    /**
+     * Cleans up the overlay from the DOM.
+     */
+    OverlayRef.prototype.dispose = function () {
+        if (this._state.positionStrategy) {
+            this._state.positionStrategy.dispose();
+        }
+        this._detachBackdrop();
+        this._portalHost.dispose();
+    };
+    /**
+     * Checks whether the overlay has been attached.
+     */
+    OverlayRef.prototype.hasAttached = function () {
+        return this._portalHost.hasAttached();
+    };
+    /**
+     * Returns an observable that emits when the backdrop has been clicked.
+     */
+    OverlayRef.prototype.backdropClick = function () {
+        return this._backdropClick.asObservable();
+    };
+    /**
+     * Gets the current state config of the overlay.
+     */
+    OverlayRef.prototype.getState = function () {
+        return this._state;
+    };
+    /** Updates the position of the overlay based on the position strategy. */
+    OverlayRef.prototype.updatePosition = function () {
+        if (this._state.positionStrategy) {
+            this._state.positionStrategy.apply(this._pane);
+        }
+    };
+    /** Updates the text direction of the overlay panel. **/
+    OverlayRef.prototype.updateDirection = function () {
+        this._pane.setAttribute('dir', this._state.direction);
+    };
+    /** Updates the size of the overlay based on the overlay config. */
+    OverlayRef.prototype.updateSize = function () {
+        if (this._state.width || this._state.width === 0) {
+            this._pane.style.width = formatCssUnit(this._state.width);
+        }
+        if (this._state.height || this._state.height === 0) {
+            this._pane.style.height = formatCssUnit(this._state.height);
+        }
+        if (this._state.minWidth || this._state.minWidth === 0) {
+            this._pane.style.minWidth = formatCssUnit(this._state.minWidth);
+        }
+        if (this._state.minHeight || this._state.minHeight === 0) {
+            this._pane.style.minHeight = formatCssUnit(this._state.minHeight);
+        }
+    };
+    /** Toggles the pointer events for the overlay pane element. */
+    OverlayRef.prototype._togglePointerEvents = function (enablePointer) {
+        this._pane.style.pointerEvents = enablePointer ? 'auto' : 'none';
+    };
+    /** Attaches a backdrop for this overlay. */
+    OverlayRef.prototype._attachBackdrop = function () {
+        var _this = this;
+        this._backdropElement = document.createElement('div');
+        this._backdropElement.classList.add('cdk-overlay-backdrop');
+        this._backdropElement.classList.add(this._state.backdropClass);
+        // Insert the backdrop before the pane in the DOM order,
+        // in order to handle stacked overlays properly.
+        this._pane.parentElement.insertBefore(this._backdropElement, this._pane);
+        // Forward backdrop clicks such that the consumer of the overlay can perform whatever
+        // action desired when such a click occurs (usually closing the overlay).
+        this._backdropElement.addEventListener('click', function () { return _this._backdropClick.next(null); });
+        // Add class to fade-in the backdrop after one frame.
+        requestAnimationFrame(function () {
+            if (_this._backdropElement) {
+                _this._backdropElement.classList.add('cdk-overlay-backdrop-showing');
+            }
+        });
+    };
+    /** Detaches the backdrop (if any) associated with the overlay. */
+    OverlayRef.prototype._detachBackdrop = function () {
+        var _this = this;
+        var backdropToDetach = this._backdropElement;
+        if (backdropToDetach) {
+            var finishDetach_1 = function () {
+                // It may not be attached to anything in certain cases (e.g. unit tests).
+                if (backdropToDetach && backdropToDetach.parentNode) {
+                    backdropToDetach.parentNode.removeChild(backdropToDetach);
+                }
+                // It is possible that a new portal has been attached to this overlay since we started
+                // removing the backdrop. If that is the case, only clear the backdrop reference if it
+                // is still the same instance that we started to remove.
+                if (_this._backdropElement == backdropToDetach) {
+                    _this._backdropElement = null;
+                }
+            };
+            backdropToDetach.classList.remove('cdk-overlay-backdrop-showing');
+            backdropToDetach.classList.remove(this._state.backdropClass);
+            backdropToDetach.addEventListener('transitionend', finishDetach_1);
+            // If the backdrop doesn't have a transition, the `transitionend` event won't fire.
+            // In this case we make it unclickable and we try to remove it after a delay.
+            backdropToDetach.style.pointerEvents = 'none';
+            // Run this outside the Angular zone because there's nothing that Angular cares about.
+            // If it were to run inside the Angular zone, every test that used Overlay would have to be
+            // either async or fakeAsync.
+            this._ngZone.runOutsideAngular(function () {
+                setTimeout(finishDetach_1, 500);
+            });
+        }
+    };
+    return OverlayRef;
+}());
+function formatCssUnit(value) {
+    return typeof value === 'string' ? value : value + "px";
+}
+//# sourceMappingURL=overlay-ref.js.map
+
+/***/ }),
+/* 147 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__overlay_state__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__portal_dom_portal_host__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__overlay_ref__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__position_overlay_position_builder__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__position_viewport_ruler__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__overlay_container__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scroll_scroll_dispatcher__ = __webpack_require__(27);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Overlay; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return OVERLAY_PROVIDERS; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/** Next overlay unique ID. */
+var nextUniqueId = 0;
+/** The default state for newly created overlays. */
+var defaultState = new __WEBPACK_IMPORTED_MODULE_1__overlay_state__["a" /* OverlayState */]();
+/**
+ * Service to create Overlays. Overlays are dynamically added pieces of floating UI, meant to be
+ * used as a low-level building building block for other components. Dialogs, tooltips, menus,
+ * selects, etc. can all be built using overlays. The service should primarily be used by authors
+ * of re-usable components rather than developers building end-user applications.
+ *
+ * An overlay *is* a PortalHost, so any kind of Portal can be loaded into one.
+ */
+var Overlay = (function () {
+    function Overlay(_overlayContainer, _componentFactoryResolver, _positionBuilder, _appRef, _injector, _ngZone) {
+        this._overlayContainer = _overlayContainer;
+        this._componentFactoryResolver = _componentFactoryResolver;
+        this._positionBuilder = _positionBuilder;
+        this._appRef = _appRef;
+        this._injector = _injector;
+        this._ngZone = _ngZone;
+    }
+    /**
+     * Creates an overlay.
+     * @param state State to apply to the overlay.
+     * @returns Reference to the created overlay.
+     */
+    Overlay.prototype.create = function (state) {
+        if (state === void 0) { state = defaultState; }
+        return this._createOverlayRef(this._createPaneElement(), state);
+    };
+    /**
+     * Returns a position builder that can be used, via fluent API,
+     * to construct and configure a position strategy.
+     */
+    Overlay.prototype.position = function () {
+        return this._positionBuilder;
+    };
+    /**
+     * Creates the DOM element for an overlay and appends it to the overlay container.
+     * @returns Newly-created pane element
+     */
+    Overlay.prototype._createPaneElement = function () {
+        var pane = document.createElement('div');
+        pane.id = "cdk-overlay-" + nextUniqueId++;
+        pane.classList.add('cdk-overlay-pane');
+        this._overlayContainer.getContainerElement().appendChild(pane);
+        return pane;
+    };
+    /**
+     * Create a DomPortalHost into which the overlay content can be loaded.
+     * @param pane The DOM element to turn into a portal host.
+     * @returns A portal host for the given DOM element.
+     */
+    Overlay.prototype._createPortalHost = function (pane) {
+        return new __WEBPACK_IMPORTED_MODULE_2__portal_dom_portal_host__["a" /* DomPortalHost */](pane, this._componentFactoryResolver, this._appRef, this._injector);
+    };
+    /**
+     * Creates an OverlayRef for an overlay in the given DOM element.
+     * @param pane DOM element for the overlay
+     * @param state
+     */
+    Overlay.prototype._createOverlayRef = function (pane, state) {
+        return new __WEBPACK_IMPORTED_MODULE_3__overlay_ref__["a" /* OverlayRef */](this._createPortalHost(pane), pane, state, this._ngZone);
+    };
+    Overlay = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_6__overlay_container__["a" /* OverlayContainer */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* ComponentFactoryResolver */], __WEBPACK_IMPORTED_MODULE_4__position_overlay_position_builder__["a" /* OverlayPositionBuilder */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ApplicationRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* Injector */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* NgZone */]])
+    ], Overlay);
+    return Overlay;
+}());
+/** Providers for Overlay and its related injectables. */
+var OVERLAY_PROVIDERS = [
+    Overlay,
+    __WEBPACK_IMPORTED_MODULE_4__position_overlay_position_builder__["a" /* OverlayPositionBuilder */],
+    __WEBPACK_IMPORTED_MODULE_5__position_viewport_ruler__["b" /* VIEWPORT_RULER_PROVIDER */],
+    __WEBPACK_IMPORTED_MODULE_7__scroll_scroll_dispatcher__["b" /* SCROLL_DISPATCHER_PROVIDER */],
+    __WEBPACK_IMPORTED_MODULE_6__overlay_container__["b" /* OVERLAY_CONTAINER_PROVIDER */],
+];
+//# sourceMappingURL=overlay.js.map
+
+/***/ }),
+/* 148 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__connected_position__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConnectedPositionStrategy; });
+
+
+/**
+ * A strategy for positioning overlays. Using this strategy, an overlay is given an
+ * implicit position relative some origin element. The relative position is defined in terms of
+ * a point on the origin element that is connected to a point on the overlay element. For example,
+ * a basic dropdown is connecting the bottom-left corner of the origin to the top-left corner
+ * of the overlay.
+ */
+var ConnectedPositionStrategy = (function () {
+    function ConnectedPositionStrategy(_connectedTo, _originPos, _overlayPos, _viewportRuler) {
+        this._connectedTo = _connectedTo;
+        this._originPos = _originPos;
+        this._overlayPos = _overlayPos;
+        this._viewportRuler = _viewportRuler;
+        this._dir = 'ltr';
+        /** The offset in pixels for the overlay connection point on the x-axis */
+        this._offsetX = 0;
+        /** The offset in pixels for the overlay connection point on the y-axis */
+        this._offsetY = 0;
+        /** The Scrollable containers used to check scrollable view properties on position change. */
+        this.scrollables = [];
+        /** Ordered list of preferred positions, from most to least desirable. */
+        this._preferredPositions = [];
+        this._onPositionChange = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
+        this._origin = this._connectedTo.nativeElement;
+        this.withFallbackPosition(_originPos, _overlayPos);
+    }
+    Object.defineProperty(ConnectedPositionStrategy.prototype, "_isRtl", {
+        /** Whether the we're dealing with an RTL context */
+        get: function () {
+            return this._dir === 'rtl';
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ConnectedPositionStrategy.prototype, "onPositionChange", {
+        /** Emits an event when the connection point changes. */
+        get: function () {
+            return this._onPositionChange.asObservable();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ConnectedPositionStrategy.prototype, "positions", {
+        /** Ordered list of preferred positions, from most to least desirable. */
+        get: function () {
+            return this._preferredPositions;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * To be used to for any cleanup after the element gets destroyed.
+     */
+    ConnectedPositionStrategy.prototype.dispose = function () { };
+    /**
+     * Updates the position of the overlay element, using whichever preferred position relative
+     * to the origin fits on-screen.
+     * @docs-private
+     *
+     * @param element Element to which to apply the CSS styles.
+     * @returns Resolves when the styles have been applied.
+     */
+    ConnectedPositionStrategy.prototype.apply = function (element) {
+        // Cache the overlay pane element in case re-calculating position is necessary
+        this._pane = element;
+        // We need the bounding rects for the origin and the overlay to determine how to position
+        // the overlay relative to the origin.
+        var originRect = this._origin.getBoundingClientRect();
+        var overlayRect = element.getBoundingClientRect();
+        // We use the viewport rect to determine whether a position would go off-screen.
+        var viewportRect = this._viewportRuler.getViewportRect();
+        // Fallback point if none of the fallbacks fit into the viewport.
+        var fallbackPoint = null;
+        // We want to place the overlay in the first of the preferred positions such that the
+        // overlay fits on-screen.
+        for (var _i = 0, _a = this._preferredPositions; _i < _a.length; _i++) {
+            var pos = _a[_i];
+            // Get the (x, y) point of connection on the origin, and then use that to get the
+            // (top, left) coordinate for the overlay at `pos`.
+            var originPoint = this._getOriginConnectionPoint(originRect, pos);
+            var overlayPoint = this._getOverlayPoint(originPoint, overlayRect, viewportRect, pos);
+            // If the overlay in the calculated position fits on-screen, put it there and we're done.
+            if (overlayPoint.fitsInViewport) {
+                this._setElementPosition(element, overlayPoint);
+                // Save the last connected position in case the position needs to be re-calculated.
+                this._lastConnectedPosition = pos;
+                // Notify that the position has been changed along with its change properties.
+                var scrollableViewProperties = this.getScrollableViewProperties(element);
+                var positionChange = new __WEBPACK_IMPORTED_MODULE_0__connected_position__["a" /* ConnectedOverlayPositionChange */](pos, scrollableViewProperties);
+                this._onPositionChange.next(positionChange);
+                return Promise.resolve(null);
+            }
+            else if (!fallbackPoint || fallbackPoint.visibleArea < overlayPoint.visibleArea) {
+                fallbackPoint = overlayPoint;
+            }
+        }
+        // If none of the preferred positions were in the viewport, take the one
+        // with the largest visible area.
+        this._setElementPosition(element, fallbackPoint);
+        return Promise.resolve(null);
+    };
+    /**
+     * This re-aligns the overlay element with the trigger in its last calculated position,
+     * even if a position higher in the "preferred positions" list would now fit. This
+     * allows one to re-align the panel without changing the orientation of the panel.
+     */
+    ConnectedPositionStrategy.prototype.recalculateLastPosition = function () {
+        var originRect = this._origin.getBoundingClientRect();
+        var overlayRect = this._pane.getBoundingClientRect();
+        var viewportRect = this._viewportRuler.getViewportRect();
+        var originPoint = this._getOriginConnectionPoint(originRect, this._lastConnectedPosition);
+        var overlayPoint = this._getOverlayPoint(originPoint, overlayRect, viewportRect, this._lastConnectedPosition);
+        this._setElementPosition(this._pane, overlayPoint);
+    };
+    /**
+     * Sets the list of Scrollable containers that host the origin element so that
+     * on reposition we can evaluate if it or the overlay has been clipped or outside view. Every
+     * Scrollable must be an ancestor element of the strategy's origin element.
+     */
+    ConnectedPositionStrategy.prototype.withScrollableContainers = function (scrollables) {
+        this.scrollables = scrollables;
+    };
+    /**
+     * Adds a new preferred fallback position.
+     * @param originPos
+     * @param overlayPos
+     */
+    ConnectedPositionStrategy.prototype.withFallbackPosition = function (originPos, overlayPos) {
+        this._preferredPositions.push(new __WEBPACK_IMPORTED_MODULE_0__connected_position__["b" /* ConnectionPositionPair */](originPos, overlayPos));
+        return this;
+    };
+    /**
+     * Sets the layout direction so the overlay's position can be adjusted to match.
+     * @param dir New layout direction.
+     */
+    ConnectedPositionStrategy.prototype.withDirection = function (dir) {
+        this._dir = dir;
+        return this;
+    };
+    /**
+     * Sets an offset for the overlay's connection point on the x-axis
+     * @param offset New offset in the X axis.
+     */
+    ConnectedPositionStrategy.prototype.withOffsetX = function (offset) {
+        this._offsetX = offset;
+        return this;
+    };
+    /**
+     * Sets an offset for the overlay's connection point on the y-axis
+     * @param  offset New offset in the Y axis.
+     */
+    ConnectedPositionStrategy.prototype.withOffsetY = function (offset) {
+        this._offsetY = offset;
+        return this;
+    };
+    /**
+     * Gets the horizontal (x) "start" dimension based on whether the overlay is in an RTL context.
+     * @param rect
+     */
+    ConnectedPositionStrategy.prototype._getStartX = function (rect) {
+        return this._isRtl ? rect.right : rect.left;
+    };
+    /**
+     * Gets the horizontal (x) "end" dimension based on whether the overlay is in an RTL context.
+     * @param rect
+     */
+    ConnectedPositionStrategy.prototype._getEndX = function (rect) {
+        return this._isRtl ? rect.left : rect.right;
+    };
+    /**
+     * Gets the (x, y) coordinate of a connection point on the origin based on a relative position.
+     * @param originRect
+     * @param pos
+     */
+    ConnectedPositionStrategy.prototype._getOriginConnectionPoint = function (originRect, pos) {
+        var originStartX = this._getStartX(originRect);
+        var originEndX = this._getEndX(originRect);
+        var x;
+        if (pos.originX == 'center') {
+            x = originStartX + (originRect.width / 2);
+        }
+        else {
+            x = pos.originX == 'start' ? originStartX : originEndX;
+        }
+        var y;
+        if (pos.originY == 'center') {
+            y = originRect.top + (originRect.height / 2);
+        }
+        else {
+            y = pos.originY == 'top' ? originRect.top : originRect.bottom;
+        }
+        return { x: x, y: y };
+    };
+    /**
+     * Gets the (x, y) coordinate of the top-left corner of the overlay given a given position and
+     * origin point to which the overlay should be connected, as well as how much of the element
+     * would be inside the viewport at that position.
+     */
+    ConnectedPositionStrategy.prototype._getOverlayPoint = function (originPoint, overlayRect, viewportRect, pos) {
+        // Calculate the (overlayStartX, overlayStartY), the start of the potential overlay position
+        // relative to the origin point.
+        var overlayStartX;
+        if (pos.overlayX == 'center') {
+            overlayStartX = -overlayRect.width / 2;
+        }
+        else if (pos.overlayX === 'start') {
+            overlayStartX = this._isRtl ? -overlayRect.width : 0;
+        }
+        else {
+            overlayStartX = this._isRtl ? 0 : -overlayRect.width;
+        }
+        var overlayStartY;
+        if (pos.overlayY == 'center') {
+            overlayStartY = -overlayRect.height / 2;
+        }
+        else {
+            overlayStartY = pos.overlayY == 'top' ? 0 : -overlayRect.height;
+        }
+        // The (x, y) coordinates of the overlay.
+        var x = originPoint.x + overlayStartX + this._offsetX;
+        var y = originPoint.y + overlayStartY + this._offsetY;
+        // How much the overlay would overflow at this position, on each side.
+        var leftOverflow = 0 - x;
+        var rightOverflow = (x + overlayRect.width) - viewportRect.width;
+        var topOverflow = 0 - y;
+        var bottomOverflow = (y + overlayRect.height) - viewportRect.height;
+        // Visible parts of the element on each axis.
+        var visibleWidth = this._subtractOverflows(overlayRect.width, leftOverflow, rightOverflow);
+        var visibleHeight = this._subtractOverflows(overlayRect.height, topOverflow, bottomOverflow);
+        // The area of the element that's within the viewport.
+        var visibleArea = visibleWidth * visibleHeight;
+        var fitsInViewport = (overlayRect.width * overlayRect.height) === visibleArea;
+        return { x: x, y: y, fitsInViewport: fitsInViewport, visibleArea: visibleArea };
+    };
+    /**
+     * Gets the view properties of the trigger and overlay, including whether they are clipped
+     * or completely outside the view of any of the strategy's scrollables.
+     */
+    ConnectedPositionStrategy.prototype.getScrollableViewProperties = function (overlay) {
+        var _this = this;
+        var originBounds = this._getElementBounds(this._origin);
+        var overlayBounds = this._getElementBounds(overlay);
+        var scrollContainerBounds = this.scrollables.map(function (scrollable) {
+            return _this._getElementBounds(scrollable.getElementRef().nativeElement);
+        });
+        return {
+            isOriginClipped: this.isElementClipped(originBounds, scrollContainerBounds),
+            isOriginOutsideView: this.isElementOutsideView(originBounds, scrollContainerBounds),
+            isOverlayClipped: this.isElementClipped(overlayBounds, scrollContainerBounds),
+            isOverlayOutsideView: this.isElementOutsideView(overlayBounds, scrollContainerBounds),
+        };
+    };
+    /** Whether the element is completely out of the view of any of the containers. */
+    ConnectedPositionStrategy.prototype.isElementOutsideView = function (elementBounds, containersBounds) {
+        return containersBounds.some(function (containerBounds) {
+            var outsideAbove = elementBounds.bottom < containerBounds.top;
+            var outsideBelow = elementBounds.top > containerBounds.bottom;
+            var outsideLeft = elementBounds.right < containerBounds.left;
+            var outsideRight = elementBounds.left > containerBounds.right;
+            return outsideAbove || outsideBelow || outsideLeft || outsideRight;
+        });
+    };
+    /** Whether the element is clipped by any of the containers. */
+    ConnectedPositionStrategy.prototype.isElementClipped = function (elementBounds, containersBounds) {
+        return containersBounds.some(function (containerBounds) {
+            var clippedAbove = elementBounds.top < containerBounds.top;
+            var clippedBelow = elementBounds.bottom > containerBounds.bottom;
+            var clippedLeft = elementBounds.left < containerBounds.left;
+            var clippedRight = elementBounds.right > containerBounds.right;
+            return clippedAbove || clippedBelow || clippedLeft || clippedRight;
+        });
+    };
+    /**
+     * Physically positions the overlay element to the given coordinate.
+     * @param element
+     * @param overlayPoint
+     */
+    ConnectedPositionStrategy.prototype._setElementPosition = function (element, overlayPoint) {
+        element.style.left = overlayPoint.x + 'px';
+        element.style.top = overlayPoint.y + 'px';
+    };
+    /** Returns the bounding positions of the provided element with respect to the viewport. */
+    ConnectedPositionStrategy.prototype._getElementBounds = function (element) {
+        var boundingClientRect = element.getBoundingClientRect();
+        return {
+            top: boundingClientRect.top,
+            right: boundingClientRect.left + boundingClientRect.width,
+            bottom: boundingClientRect.top + boundingClientRect.height,
+            left: boundingClientRect.left
+        };
+    };
+    /**
+     * Subtracts the amount that an element is overflowing on an axis from it's length.
+     */
+    ConnectedPositionStrategy.prototype._subtractOverflows = function (length) {
+        var overflows = [];
+        for (var _i = 1; _i < arguments.length; _i++) {
+            overflows[_i - 1] = arguments[_i];
+        }
+        return overflows.reduce(function (currentValue, currentOverflow) {
+            return currentValue - Math.max(currentOverflow, 0);
+        }, length);
+    };
+    return ConnectedPositionStrategy;
+}());
+//# sourceMappingURL=connected-position-strategy.js.map
+
+/***/ }),
+/* 149 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = getSupportedInputTypes;
+var supportedInputTypes;
+/** @returns The input types supported by this browser. */
+function getSupportedInputTypes() {
+    if (!supportedInputTypes) {
+        var featureTestInput_1 = document.createElement('input');
+        supportedInputTypes = new Set([
+            // `color` must come first. Chrome 56 shows a warning if we change the type to `color` after
+            // first changing it to something else:
+            // The specified value "" does not conform to the required format.
+            // The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.
+            'color',
+            'button',
+            'checkbox',
+            'date',
+            'datetime-local',
+            'email',
+            'file',
+            'hidden',
+            'image',
+            'month',
+            'number',
+            'password',
+            'radio',
+            'range',
+            'reset',
+            'search',
+            'submit',
+            'tel',
+            'text',
+            'time',
+            'url',
+            'week',
+        ].filter(function (value) {
+            featureTestInput_1.setAttribute('type', value);
+            return featureTestInput_1.type === value;
+        }));
+    }
+    return supportedInputTypes;
+}
+//# sourceMappingURL=features.js.map
+
+/***/ }),
+/* 150 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__portal__ = __webpack_require__(36);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DomPortalHost; });
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+
+/**
+ * A PortalHost for attaching portals to an arbitrary DOM element outside of the Angular
+ * application context.
+ *
+ * This is the only part of the portal core that directly touches the DOM.
+ */
+var DomPortalHost = (function (_super) {
+    __extends(DomPortalHost, _super);
+    function DomPortalHost(_hostDomElement, _componentFactoryResolver, _appRef, _defaultInjector) {
+        _super.call(this);
+        this._hostDomElement = _hostDomElement;
+        this._componentFactoryResolver = _componentFactoryResolver;
+        this._appRef = _appRef;
+        this._defaultInjector = _defaultInjector;
+    }
+    /**
+     * Attach the given ComponentPortal to DOM element using the ComponentFactoryResolver.
+     * @param portal Portal to be attached
+     */
+    DomPortalHost.prototype.attachComponentPortal = function (portal) {
+        var _this = this;
+        var componentFactory = this._componentFactoryResolver.resolveComponentFactory(portal.component);
+        var componentRef;
+        // If the portal specifies a ViewContainerRef, we will use that as the attachment point
+        // for the component (in terms of Angular's component tree, not rendering).
+        // When the ViewContainerRef is missing, we use the factory to create the component directly
+        // and then manually attach the view to the application.
+        if (portal.viewContainerRef) {
+            componentRef = portal.viewContainerRef.createComponent(componentFactory, portal.viewContainerRef.length, portal.injector || portal.viewContainerRef.parentInjector);
+            this.setDisposeFn(function () { return componentRef.destroy(); });
+        }
+        else {
+            componentRef = componentFactory.create(portal.injector || this._defaultInjector);
+            this._appRef.attachView(componentRef.hostView);
+            this.setDisposeFn(function () {
+                _this._appRef.detachView(componentRef.hostView);
+                componentRef.destroy();
+            });
+        }
+        // At this point the component has been instantiated, so we move it to the location in the DOM
+        // where we want it to be rendered.
+        this._hostDomElement.appendChild(this._getComponentRootNode(componentRef));
+        return componentRef;
+    };
+    /**
+     * Attaches a template portal to the DOM as an embedded view.
+     * @param portal Portal to be attached.
+     */
+    DomPortalHost.prototype.attachTemplatePortal = function (portal) {
+        var _this = this;
+        var viewContainer = portal.viewContainerRef;
+        var viewRef = viewContainer.createEmbeddedView(portal.templateRef);
+        // The method `createEmbeddedView` will add the view as a child of the viewContainer.
+        // But for the DomPortalHost the view can be added everywhere in the DOM (e.g Overlay Container)
+        // To move the view to the specified host element. We just re-append the existing root nodes.
+        viewRef.rootNodes.forEach(function (rootNode) { return _this._hostDomElement.appendChild(rootNode); });
+        this.setDisposeFn((function () {
+            var index = viewContainer.indexOf(viewRef);
+            if (index !== -1) {
+                viewContainer.remove(index);
+            }
+        }));
+        // TODO(jelbourn): Return locals from view.
+        return new Map();
+    };
+    /**
+     * Clears out a portal from the DOM.
+     */
+    DomPortalHost.prototype.dispose = function () {
+        _super.prototype.dispose.call(this);
+        if (this._hostDomElement.parentNode != null) {
+            this._hostDomElement.parentNode.removeChild(this._hostDomElement);
+        }
+    };
+    /** Gets the root HTMLElement for an instantiated component. */
+    DomPortalHost.prototype._getComponentRootNode = function (componentRef) {
+        return componentRef.hostView.rootNodes[0];
+    };
+    return DomPortalHost;
+}(__WEBPACK_IMPORTED_MODULE_0__portal__["c" /* BasePortalHost */]));
+//# sourceMappingURL=dom-portal-host.js.map
+
+/***/ }),
+/* 151 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pseudo_checkbox_pseudo_checkbox__ = __webpack_require__(152);
+/* unused harmony namespace reexport */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSelectionModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var MdSelectionModule = (function () {
+    function MdSelectionModule() {
+    }
+    MdSelectionModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+            exports: [__WEBPACK_IMPORTED_MODULE_1__pseudo_checkbox_pseudo_checkbox__["a" /* MdPseudoCheckbox */]],
+            declarations: [__WEBPACK_IMPORTED_MODULE_1__pseudo_checkbox_pseudo_checkbox__["a" /* MdPseudoCheckbox */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdSelectionModule);
+    return MdSelectionModule;
+}());
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 152 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdPseudoCheckbox; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Component that shows a simplified checkbox without including any kind of "real" checkbox.
+ * Meant to be used when the checkbox is purely decorative and a large number of them will be
+ * included, such as for the options in a multi-select. Uses no SVGs or complex animations.
+ *
+ * Note that this component will be completely invisible to screen-reader users. This is *not*
+ * interchangeable with <md-checkbox> and should *not* be used if the user would directly interact
+ * with the checkbox. The pseudo-checkbox should only be used as an implementation detail of
+ * more complex components that appropriately handle selected / checked state.
+ * @docs-private
+ */
+var MdPseudoCheckbox = (function () {
+    function MdPseudoCheckbox(_elementRef, _renderer) {
+        this._elementRef = _elementRef;
+        this._renderer = _renderer;
+        /** Display state of the checkbox. */
+        this.state = 'unchecked';
+        /** Whether the checkbox is disabled. */
+        this.disabled = false;
+        this.color = 'accent';
+    }
+    Object.defineProperty(MdPseudoCheckbox.prototype, "color", {
+        /** Color of the checkbox. */
+        get: function () { return this._color; },
+        set: function (value) {
+            if (value) {
+                var nativeElement = this._elementRef.nativeElement;
+                this._renderer.setElementClass(nativeElement, "mat-" + this.color, false);
+                this._renderer.setElementClass(nativeElement, "mat-" + value, true);
+                this._color = value;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', String)
+    ], MdPseudoCheckbox.prototype, "state", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Boolean)
+    ], MdPseudoCheckbox.prototype, "disabled", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', String)
+    ], MdPseudoCheckbox.prototype, "color", null);
+    MdPseudoCheckbox = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ViewEncapsulation */].None,
+            selector: 'md-pseudo-checkbox, mat-pseudo-checkbox',
+            styles: [".mat-pseudo-checkbox{width:20px;height:20px;border:2px solid;border-radius:2px;cursor:pointer;display:inline-block;vertical-align:middle;box-sizing:border-box;position:relative;transition:border-color 90ms cubic-bezier(0,0,.2,.1),background-color 90ms cubic-bezier(0,0,.2,.1)}.mat-pseudo-checkbox::after{position:absolute;opacity:0;content:'';border-bottom:2px solid currentColor;transition:opacity 90ms cubic-bezier(0,0,.2,.1)}.mat-pseudo-checkbox-disabled{cursor:default}.mat-pseudo-checkbox-indeterminate::after{top:9px;left:2px;width:16px;opacity:1}.mat-pseudo-checkbox-checked::after{top:5px;left:3px;width:12px;height:5px;border-left:2px solid currentColor;transform:rotate(-45deg);opacity:1}"],
+            template: '',
+            host: {
+                '[class.mat-pseudo-checkbox]': 'true',
+                '[class.mat-pseudo-checkbox-indeterminate]': 'state === "indeterminate"',
+                '[class.mat-pseudo-checkbox-checked]': 'state === "checked"',
+                '[class.mat-pseudo-checkbox-disabled]': 'disabled',
+            },
+        }), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */]])
+    ], MdPseudoCheckbox);
+    return MdPseudoCheckbox;
+}());
+//# sourceMappingURL=pseudo-checkbox.js.map
+
+/***/ }),
+/* 153 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = applyCssTransform;
+/**
+ * Applies a CSS transform to an element, including browser-prefixed properties.
+ * @param element
+ * @param transformValue
+ */
+function applyCssTransform(element, transformValue) {
+    // It's important to trim the result, because the browser will ignore the set operation
+    // if the string contains only whitespace.
+    var value = transformValue.trim();
+    element.style.transform = value;
+    element.style.webkitTransform = value;
+}
+//# sourceMappingURL=apply-transform.js.map
+
+/***/ }),
+/* 154 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
+/* unused harmony export TOUCH_BUFFER_MS */
+/* unused harmony export FocusOriginMonitor */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CdkFocusClasses; });
+/* unused harmony export FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return FOCUS_ORIGIN_MONITOR_PROVIDER; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+// This is the value used by AngularJS Material. Through trial and error (on iPhone 6S) they found
+// that a value of around 650ms seems appropriate.
+var TOUCH_BUFFER_MS = 650;
+/** Monitors mouse and keyboard events to determine the cause of focus events. */
+var FocusOriginMonitor = (function () {
+    function FocusOriginMonitor() {
+        // Note: we listen to events in the capture phase so we can detect them even if the user stops
+        // propagation.
+        var _this = this;
+        /** The focus origin that the next focus event is a result of. */
+        this._origin = null;
+        /** Whether the window has just been focused. */
+        this._windowFocused = false;
+        // On keydown record the origin and clear any touch event that may be in progress.
+        document.addEventListener('keydown', function () {
+            _this._lastTouchTarget = null;
+            _this._setOriginForCurrentEventQueue('keyboard');
+        }, true);
+        // On mousedown record the origin only if there is not touch target, since a mousedown can
+        // happen as a result of a touch event.
+        document.addEventListener('mousedown', function () {
+            if (!_this._lastTouchTarget) {
+                _this._setOriginForCurrentEventQueue('mouse');
+            }
+        }, true);
+        // When the touchstart event fires the focus event is not yet in the event queue. This means we
+        // can't rely on the trick used above (setting timeout of 0ms). Instead we wait 650ms to see if
+        // a focus happens.
+        document.addEventListener('touchstart', function (event) {
+            if (_this._touchTimeout != null) {
+                clearTimeout(_this._touchTimeout);
+            }
+            _this._lastTouchTarget = event.target;
+            _this._touchTimeout = setTimeout(function () { return _this._lastTouchTarget = null; }, TOUCH_BUFFER_MS);
+        }, true);
+        // Make a note of when the window regains focus, so we can restore the origin info for the
+        // focused element.
+        window.addEventListener('focus', function () {
+            _this._windowFocused = true;
+            setTimeout(function () { return _this._windowFocused = false; }, 0);
+        });
+    }
+    /** Register an element to receive focus classes. */
+    FocusOriginMonitor.prototype.registerElementForFocusClasses = function (element, renderer) {
+        var _this = this;
+        var subject = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
+        renderer.listen(element, 'focus', function (event) { return _this._onFocus(event, element, renderer, subject); });
+        renderer.listen(element, 'blur', function () { return _this._onBlur(element, renderer, subject); });
+        return subject.asObservable();
+    };
+    /** Focuses the element via the specified focus origin. */
+    FocusOriginMonitor.prototype.focusVia = function (element, renderer, origin) {
+        this._setOriginForCurrentEventQueue(origin);
+        renderer.invokeElementMethod(element, 'focus');
+    };
+    /** Sets the origin and schedules an async function to clear it at the end of the event queue. */
+    FocusOriginMonitor.prototype._setOriginForCurrentEventQueue = function (origin) {
+        var _this = this;
+        this._origin = origin;
+        setTimeout(function () { return _this._origin = null; }, 0);
+    };
+    /** Checks whether the given focus event was caused by a touchstart event. */
+    FocusOriginMonitor.prototype._wasCausedByTouch = function (event) {
+        // Note(mmalerba): This implementation is not quite perfect, there is a small edge case.
+        // Consider the following dom structure:
+        //
+        // <div #parent tabindex="0" cdkFocusClasses>
+        //   <div #child (click)="#parent.focus()"></div>
+        // </div>
+        //
+        // If the user touches the #child element and the #parent is programmatically focused as a
+        // result, this code will still consider it to have been caused by the touch event and will
+        // apply the cdk-touch-focused class rather than the cdk-program-focused class. This is a
+        // relatively small edge-case that can be worked around by using
+        // focusVia(parentEl, renderer,  'program') to focus the parent element.
+        //
+        // If we decide that we absolutely must handle this case correctly, we can do so by listening
+        // for the first focus event after the touchstart, and then the first blur event after that
+        // focus event. When that blur event fires we know that whatever follows is not a result of the
+        // touchstart.
+        var focusTarget = event.target;
+        return this._lastTouchTarget instanceof Node && focusTarget instanceof Node &&
+            (focusTarget == this._lastTouchTarget || focusTarget.contains(this._lastTouchTarget));
+    };
+    /** Handles focus events on a registered element. */
+    FocusOriginMonitor.prototype._onFocus = function (event, element, renderer, subject) {
+        // If we couldn't detect a cause for the focus event, it's due to one of two reasons:
+        // 1) The window has just regained focus, in which case we want to restore the focused state of
+        //    the element from before the window blurred.
+        // 2) It was caused by a touch event, in which case we mark the origin as 'touch'.
+        // 3) The element was programmatically focused, in which case we should mark the origin as
+        //    'program'.
+        if (!this._origin) {
+            if (this._windowFocused && this._lastFocusOrigin) {
+                this._origin = this._lastFocusOrigin;
+            }
+            else if (this._wasCausedByTouch(event)) {
+                this._origin = 'touch';
+            }
+            else {
+                this._origin = 'program';
+            }
+        }
+        renderer.setElementClass(element, 'cdk-focused', true);
+        renderer.setElementClass(element, 'cdk-touch-focused', this._origin == 'touch');
+        renderer.setElementClass(element, 'cdk-keyboard-focused', this._origin == 'keyboard');
+        renderer.setElementClass(element, 'cdk-mouse-focused', this._origin == 'mouse');
+        renderer.setElementClass(element, 'cdk-program-focused', this._origin == 'program');
+        subject.next(this._origin);
+        this._lastFocusOrigin = this._origin;
+        this._origin = null;
+    };
+    /** Handles blur events on a registered element. */
+    FocusOriginMonitor.prototype._onBlur = function (element, renderer, subject) {
+        renderer.setElementClass(element, 'cdk-focused', false);
+        renderer.setElementClass(element, 'cdk-touch-focused', false);
+        renderer.setElementClass(element, 'cdk-keyboard-focused', false);
+        renderer.setElementClass(element, 'cdk-mouse-focused', false);
+        renderer.setElementClass(element, 'cdk-program-focused', false);
+        subject.next(null);
+    };
+    FocusOriginMonitor = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(), 
+        __metadata('design:paramtypes', [])
+    ], FocusOriginMonitor);
+    return FocusOriginMonitor;
+}());
+/**
+ * Directive that determines how a particular element was focused (via keyboard, mouse, or
+ * programmatically) and adds corresponding classes to the element.
+ */
+var CdkFocusClasses = (function () {
+    function CdkFocusClasses(elementRef, focusOriginMonitor, renderer) {
+        this.changes =
+            focusOriginMonitor.registerElementForFocusClasses(elementRef.nativeElement, renderer);
+    }
+    CdkFocusClasses = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: '[cdkFocusClasses]',
+        }), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], FocusOriginMonitor, __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */]])
+    ], CdkFocusClasses);
+    return CdkFocusClasses;
+}());
+function FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY(parentDispatcher) {
+    return parentDispatcher || new FocusOriginMonitor();
+}
+var FOCUS_ORIGIN_MONITOR_PROVIDER = {
+    // If there is already a FocusOriginMonitor available, use that. Otherwise, provide a new one.
+    provide: FocusOriginMonitor,
+    deps: [[new __WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */](), FocusOriginMonitor]],
+    useFactory: FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY
+};
+//# sourceMappingURL=focus-classes.js.map
+
+/***/ }),
+/* 155 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__focus_classes__ = __webpack_require__(154);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__apply_transform__ = __webpack_require__(153);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__apply_transform__["a"]; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return StyleModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var StyleModule = (function () {
+    function StyleModule() {
+    }
+    StyleModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+            declarations: [__WEBPACK_IMPORTED_MODULE_1__focus_classes__["a" /* CdkFocusClasses */]],
+            exports: [__WEBPACK_IMPORTED_MODULE_1__focus_classes__["a" /* CdkFocusClasses */]],
+            providers: [__WEBPACK_IMPORTED_MODULE_1__focus_classes__["b" /* FOCUS_ORIGIN_MONITOR_PROVIDER */]],
+        }), 
+        __metadata('design:paramtypes', [])
+    ], StyleModule);
+    return StyleModule;
+}());
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 156 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = extendObject;
+/**
+ * Extends an object with the *enumerable* and *own* properties of one or more source objects,
+ * similar to Object.assign.
+ *
+ * @param dest The object which will have properties copied to it.
+ * @param sources The source objects from which properties will be copied.
+ */
+function extendObject(dest) {
+    var sources = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        sources[_i - 1] = arguments[_i];
+    }
+    if (dest == null) {
+        throw TypeError('Cannot convert undefined or null to object');
+    }
+    for (var _a = 0, sources_1 = sources; _a < sources_1.length; _a++) {
+        var source = sources_1[_a];
+        if (source != null) {
+            for (var key in source) {
+                if (source.hasOwnProperty(key)) {
+                    dest[key] = source[key];
+                }
+            }
+        }
+    }
+    return dest;
+}
+//# sourceMappingURL=object-extend.js.map
+
+/***/ }),
+/* 157 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdDialogConfig; });
+;
+/**
+ * Configuration for opening a modal dialog with the MdDialog service.
+ */
+var MdDialogConfig = (function () {
+    function MdDialogConfig() {
+        /** The ARIA role of the dialog element. */
+        this.role = 'dialog';
+        /** Whether the user can use escape or clicking outside to close a modal. */
+        this.disableClose = false;
+        /** Width of the dialog. */
+        this.width = '';
+        /** Height of the dialog. */
+        this.height = '';
+    }
+    return MdDialogConfig;
+}());
+//# sourceMappingURL=dialog-config.js.map
+
+/***/ }),
+/* 158 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dialog_ref__ = __webpack_require__(54);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdDialogClose; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdDialogTitle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdDialogContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return MdDialogActions; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Button that will close the current dialog.
+ */
+var MdDialogClose = (function () {
+    function MdDialogClose(dialogRef) {
+        this.dialogRef = dialogRef;
+        /** Screenreader label for the button. */
+        this.ariaLabel = 'Close dialog';
+    }
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('aria-label'), 
+        __metadata('design:type', String)
+    ], MdDialogClose.prototype, "ariaLabel", void 0);
+    MdDialogClose = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: 'button[md-dialog-close], button[mat-dialog-close]',
+            host: {
+                '(click)': 'dialogRef.close()',
+                '[attr.aria-label]': 'ariaLabel',
+                'type': 'button',
+            }
+        }), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_1__dialog_ref__["a" /* MdDialogRef */]])
+    ], MdDialogClose);
+    return MdDialogClose;
+}());
+/**
+ * Title of a dialog element. Stays fixed to the top of the dialog when scrolling.
+ */
+var MdDialogTitle = (function () {
+    function MdDialogTitle() {
+    }
+    MdDialogTitle = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: '[md-dialog-title], [mat-dialog-title]',
+            host: {
+                '[class.mat-dialog-title]': 'true'
+            }
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdDialogTitle);
+    return MdDialogTitle;
+}());
+/**
+ * Scrollable content container of a dialog.
+ */
+var MdDialogContent = (function () {
+    function MdDialogContent() {
+    }
+    MdDialogContent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: '[md-dialog-content], md-dialog-content, [mat-dialog-content], mat-dialog-content',
+            host: {
+                '[class.mat-dialog-content]': 'true'
+            }
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdDialogContent);
+    return MdDialogContent;
+}());
+/**
+ * Container for the bottom action buttons in a dialog.
+ * Stays fixed to the bottom when scrolling.
+ */
+var MdDialogActions = (function () {
+    function MdDialogActions() {
+    }
+    MdDialogActions = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: '[md-dialog-actions], md-dialog-actions, [mat-dialog-actions], mat-dialog-actions',
+            host: {
+                '[class.mat-dialog-actions]': 'true'
+            }
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdDialogActions);
+    return MdDialogActions;
+}());
+//# sourceMappingURL=dialog-content-directives.js.map
+
+/***/ }),
+/* 159 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dialog_ref__ = __webpack_require__(54);
+/* unused harmony export MD_DIALOG_DATA */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DialogInjector; });
+
+
+var MD_DIALOG_DATA = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* OpaqueToken */]('MdDialogData');
+/** Custom injector type specifically for instantiating components with a dialog. */
+var DialogInjector = (function () {
+    function DialogInjector(_parentInjector, _dialogRef, _data) {
+        this._parentInjector = _parentInjector;
+        this._dialogRef = _dialogRef;
+        this._data = _data;
+    }
+    DialogInjector.prototype.get = function (token, notFoundValue) {
+        if (token === __WEBPACK_IMPORTED_MODULE_1__dialog_ref__["a" /* MdDialogRef */]) {
+            return this._dialogRef;
+        }
+        if (token === MD_DIALOG_DATA && this._data) {
+            return this._data;
+        }
+        return this._parentInjector.get(token, notFoundValue);
+    };
+    return DialogInjector;
+}());
+//# sourceMappingURL=dialog-injector.js.map
+
+/***/ }),
+/* 160 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_util_object_extend__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_keyboard_keycodes__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dialog_injector__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dialog_config__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dialog_ref__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dialog_container__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_portal_portal__ = __webpack_require__(36);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdDialog; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+
+
+// TODO(jelbourn): animations
+/**
+ * Service to open Material Design modal dialogs.
+ */
+var MdDialog = (function () {
+    function MdDialog(_overlay, _injector, _parentDialog) {
+        this._overlay = _overlay;
+        this._injector = _injector;
+        this._parentDialog = _parentDialog;
+        this._openDialogsAtThisLevel = [];
+        this._afterAllClosedAtThisLevel = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
+        this._afterOpenAtThisLevel = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
+        this._boundKeydown = this._handleKeydown.bind(this);
+        /** Gets an observable that is notified when a dialog has been opened. */
+        this.afterOpen = this._afterOpen.asObservable();
+        /** Gets an observable that is notified when all open dialog have finished closing. */
+        this.afterAllClosed = this._afterAllClosed.asObservable();
+    }
+    Object.defineProperty(MdDialog.prototype, "_openDialogs", {
+        /** Keeps track of the currently-open dialogs. */
+        get: function () {
+            return this._parentDialog ? this._parentDialog._openDialogs : this._openDialogsAtThisLevel;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDialog.prototype, "_afterOpen", {
+        /** Subject for notifying the user that all open dialogs have finished closing. */
+        get: function () {
+            return this._parentDialog ? this._parentDialog._afterOpen : this._afterOpenAtThisLevel;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDialog.prototype, "_afterAllClosed", {
+        /** Subject for notifying the user that a dialog has opened. */
+        get: function () {
+            return this._parentDialog ?
+                this._parentDialog._afterAllClosed : this._afterAllClosedAtThisLevel;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Opens a modal dialog containing the given component.
+     * @param componentOrTemplateRef Type of the component to load into the dialog,
+     *     or a TemplateRef to instantiate as the dialog content.
+     * @param config Extra configuration options.
+     * @returns Reference to the newly-opened dialog.
+     */
+    MdDialog.prototype.open = function (componentOrTemplateRef, config) {
+        var _this = this;
+        config = _applyConfigDefaults(config);
+        var overlayRef = this._createOverlay(config);
+        var dialogContainer = this._attachDialogContainer(overlayRef, config);
+        var dialogRef = this._attachDialogContent(componentOrTemplateRef, dialogContainer, overlayRef, config);
+        if (!this._openDialogs.length && !this._parentDialog) {
+            document.addEventListener('keydown', this._boundKeydown);
+        }
+        this._openDialogs.push(dialogRef);
+        dialogRef.afterClosed().subscribe(function () { return _this._removeOpenDialog(dialogRef); });
+        this._afterOpen.next(dialogRef);
+        return dialogRef;
+    };
+    /**
+     * Closes all of the currently-open dialogs.
+     */
+    MdDialog.prototype.closeAll = function () {
+        var i = this._openDialogs.length;
+        while (i--) {
+            // The `_openDialogs` property isn't updated after close until the rxjs subscription
+            // runs on the next microtask, in addition to modifying the array as we're going
+            // through it. We loop through all of them and call close without assuming that
+            // they'll be removed from the list instantaneously.
+            this._openDialogs[i].close();
+        }
+    };
+    /**
+     * Creates the overlay into which the dialog will be loaded.
+     * @param dialogConfig The dialog configuration.
+     * @returns A promise resolving to the OverlayRef for the created overlay.
+     */
+    MdDialog.prototype._createOverlay = function (dialogConfig) {
+        var overlayState = this._getOverlayState(dialogConfig);
+        return this._overlay.create(overlayState);
+    };
+    /**
+     * Attaches an MdDialogContainer to a dialog's already-created overlay.
+     * @param overlay Reference to the dialog's underlying overlay.
+     * @param config The dialog configuration.
+     * @returns A promise resolving to a ComponentRef for the attached container.
+     */
+    MdDialog.prototype._attachDialogContainer = function (overlay, config) {
+        var viewContainer = config ? config.viewContainerRef : null;
+        var containerPortal = new __WEBPACK_IMPORTED_MODULE_2__core__["a" /* ComponentPortal */](__WEBPACK_IMPORTED_MODULE_8__dialog_container__["a" /* MdDialogContainer */], viewContainer);
+        var containerRef = overlay.attach(containerPortal);
+        containerRef.instance.dialogConfig = config;
+        return containerRef.instance;
+    };
+    /**
+     * Attaches the user-provided component to the already-created MdDialogContainer.
+     * @param componentOrTemplateRef The type of component being loaded into the dialog,
+     *     or a TemplateRef to instantiate as the content.
+     * @param dialogContainer Reference to the wrapping MdDialogContainer.
+     * @param overlayRef Reference to the overlay in which the dialog resides.
+     * @param config The dialog configuration.
+     * @returns A promise resolving to the MdDialogRef that should be returned to the user.
+     */
+    MdDialog.prototype._attachDialogContent = function (componentOrTemplateRef, dialogContainer, overlayRef, config) {
+        // Create a reference to the dialog we're creating in order to give the user a handle
+        // to modify and close it.
+        var dialogRef = new __WEBPACK_IMPORTED_MODULE_7__dialog_ref__["a" /* MdDialogRef */](overlayRef, config);
+        if (!config.disableClose) {
+            // When the dialog backdrop is clicked, we want to close it.
+            overlayRef.backdropClick().first().subscribe(function () { return dialogRef.close(); });
+        }
+        // Set the dialogRef to the container so that it can use the ref to close the dialog.
+        dialogContainer.dialogRef = dialogRef;
+        // We create an injector specifically for the component we're instantiating so that it can
+        // inject the MdDialogRef. This allows a component loaded inside of a dialog to close itself
+        // and, optionally, to return a value.
+        var userInjector = config && config.viewContainerRef && config.viewContainerRef.injector;
+        var dialogInjector = new __WEBPACK_IMPORTED_MODULE_5__dialog_injector__["a" /* DialogInjector */](userInjector || this._injector, dialogRef, config.data);
+        if (componentOrTemplateRef instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* TemplateRef */]) {
+            dialogContainer.attachTemplatePortal(new __WEBPACK_IMPORTED_MODULE_9__core_portal_portal__["b" /* TemplatePortal */](componentOrTemplateRef, null));
+        }
+        else {
+            var contentRef = dialogContainer.attachComponentPortal(new __WEBPACK_IMPORTED_MODULE_2__core__["a" /* ComponentPortal */](componentOrTemplateRef, null, dialogInjector));
+            dialogRef.componentInstance = contentRef.instance;
+        }
+        return dialogRef;
+    };
+    /**
+     * Creates an overlay state from a dialog config.
+     * @param dialogConfig The dialog configuration.
+     * @returns The overlay configuration.
+     */
+    MdDialog.prototype._getOverlayState = function (dialogConfig) {
+        var state = new __WEBPACK_IMPORTED_MODULE_2__core__["b" /* OverlayState */]();
+        var strategy = this._overlay.position().global();
+        var position = dialogConfig.position;
+        state.hasBackdrop = true;
+        state.positionStrategy = strategy;
+        if (position && (position.left || position.right)) {
+            position.left ? strategy.left(position.left) : strategy.right(position.right);
+        }
+        else {
+            strategy.centerHorizontally();
+        }
+        if (position && (position.top || position.bottom)) {
+            position.top ? strategy.top(position.top) : strategy.bottom(position.bottom);
+        }
+        else {
+            strategy.centerVertically();
+        }
+        strategy.width(dialogConfig.width).height(dialogConfig.height);
+        return state;
+    };
+    /**
+     * Removes a dialog from the array of open dialogs.
+     * @param dialogRef Dialog to be removed.
+     */
+    MdDialog.prototype._removeOpenDialog = function (dialogRef) {
+        var index = this._openDialogs.indexOf(dialogRef);
+        if (index > -1) {
+            this._openDialogs.splice(index, 1);
+            // no open dialogs are left, call next on afterAllClosed Subject
+            if (!this._openDialogs.length) {
+                this._afterAllClosed.next();
+                document.removeEventListener('keydown', this._boundKeydown);
+            }
+        }
+    };
+    /**
+     * Handles global key presses while there are open dialogs. Closes the
+     * top dialog when the user presses escape.
+     */
+    MdDialog.prototype._handleKeydown = function (event) {
+        var topDialog = this._openDialogs[this._openDialogs.length - 1];
+        if (event.keyCode === __WEBPACK_IMPORTED_MODULE_4__core_keyboard_keycodes__["k" /* ESCAPE */] && topDialog && !topDialog.config.disableClose) {
+            topDialog.close();
+        }
+    };
+    MdDialog = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
+        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */])()), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_2__core__["c" /* Overlay */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* Injector */], MdDialog])
+    ], MdDialog);
+    return MdDialog;
+}());
+/**
+ * Applies default options to the dialog config.
+ * @param dialogConfig Config to be modified.
+ * @returns The new configuration object.
+ */
+function _applyConfigDefaults(dialogConfig) {
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__core_util_object_extend__["a" /* extendObject */])(new __WEBPACK_IMPORTED_MODULE_6__dialog_config__["a" /* MdDialogConfig */](), dialogConfig);
+}
+//# sourceMappingURL=dialog.js.map
+
+/***/ }),
+/* 161 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dialog__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dialog_container__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__ = __webpack_require__(158);
+/* unused harmony namespace reexport */
+/* unused harmony namespace reexport */
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dialog_config__ = __webpack_require__(157);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dialog_ref__ = __webpack_require__(54);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dialog_injector__ = __webpack_require__(159);
+/* unused harmony reexport MD_DIALOG_DATA */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdDialogModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MdDialogModule = (function () {
+    function MdDialogModule() {
+    }
+    /** @deprecated */
+    MdDialogModule.forRoot = function () {
+        return {
+            ngModule: MdDialogModule,
+            providers: [],
+        };
+    };
+    MdDialogModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__core__["d" /* OverlayModule */],
+                __WEBPACK_IMPORTED_MODULE_1__core__["o" /* PortalModule */],
+                __WEBPACK_IMPORTED_MODULE_1__core__["C" /* A11yModule */],
+                __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */],
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_3__dialog_container__["a" /* MdDialogContainer */],
+                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["a" /* MdDialogClose */],
+                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["b" /* MdDialogTitle */],
+                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["c" /* MdDialogContent */],
+                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["d" /* MdDialogActions */],
+                __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */],
+            ],
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__dialog_container__["a" /* MdDialogContainer */],
+                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["a" /* MdDialogClose */],
+                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["b" /* MdDialogTitle */],
+                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["d" /* MdDialogActions */],
+                __WEBPACK_IMPORTED_MODULE_4__dialog_content_directives__["c" /* MdDialogContent */],
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_2__dialog__["a" /* MdDialog */],
+            ],
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_3__dialog_container__["a" /* MdDialogContainer */]],
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdDialogModule);
+    return MdDialogModule;
+}());
+
+
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 162 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["b"] = coerceToString;
+/* harmony export (immutable) */ __webpack_exports__["a"] = coerceToNumber;
+/**
+ * Converts values into strings. Falsy values become empty strings.
+ * @docs-private
+ */
+function coerceToString(value) {
+    return "" + (value || '');
+}
+/**
+ * Converts a value that might be a string into a number.
+ * @docs-private
+ */
+function coerceToNumber(value) {
+    return typeof value === 'string' ? parseInt(value, 10) : value;
+}
+//# sourceMappingURL=grid-list-measure.js.map
+
+/***/ }),
+/* 163 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__grid_list__ = __webpack_require__(267);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__grid_list__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 164 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin__ = __webpack_require__(397);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_observable_forkJoin__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_observable_of__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_observable_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_filter__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_filter__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_do__ = __webpack_require__(402);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_do__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_share__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_share__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_finally__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_finally___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_finally__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_add_operator_catch__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_rxjs_add_operator_catch__);
+/* unused harmony export MdIconNameNotFoundError */
+/* unused harmony export MdIconSvgTagNotFoundError */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdIconRegistry; });
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Exception thrown when attempting to load an icon with a name that cannot be found.
+ * @docs-private
+ */
+var MdIconNameNotFoundError = (function (_super) {
+    __extends(MdIconNameNotFoundError, _super);
+    function MdIconNameNotFoundError(iconName) {
+        _super.call(this, "Unable to find icon with the name \"" + iconName + "\"");
+    }
+    return MdIconNameNotFoundError;
+}(__WEBPACK_IMPORTED_MODULE_3__core__["f" /* MdError */]));
+/**
+ * Exception thrown when attempting to load SVG content that does not contain the expected
+ * <svg> tag.
+ * @docs-private
+ */
+var MdIconSvgTagNotFoundError = (function (_super) {
+    __extends(MdIconSvgTagNotFoundError, _super);
+    function MdIconSvgTagNotFoundError() {
+        _super.call(this, '<svg> tag not found');
+    }
+    return MdIconSvgTagNotFoundError;
+}(__WEBPACK_IMPORTED_MODULE_3__core__["f" /* MdError */]));
+/**
+ * Configuration for an icon, including the URL and possibly the cached SVG element.
+ * @docs-private
+ */
+var SvgIconConfig = (function () {
+    function SvgIconConfig(url) {
+        this.url = url;
+        this.svgElement = null;
+    }
+    return SvgIconConfig;
+}());
+/** Returns the cache key to use for an icon namespace and name. */
+var iconKey = function (namespace, name) { return namespace + ':' + name; };
+/**
+ * Service to register and display icons used by the <md-icon> component.
+ * - Registers icon URLs by namespace and name.
+ * - Registers icon set URLs by namespace.
+ * - Registers aliases for CSS classes, for use with icon fonts.
+ * - Loads icons from URLs and extracts individual icons from icon sets.
+ */
+var MdIconRegistry = (function () {
+    function MdIconRegistry(_http, _sanitizer) {
+        this._http = _http;
+        this._sanitizer = _sanitizer;
+        /**
+         * URLs and cached SVG elements for individual icons. Keys are of the format "[namespace]:[icon]".
+         */
+        this._svgIconConfigs = new Map();
+        /**
+         * SvgIconConfig objects and cached SVG elements for icon sets, keyed by namespace.
+         * Multiple icon sets can be registered under the same namespace.
+         */
+        this._iconSetConfigs = new Map();
+        /** Cache for icons loaded by direct URLs. */
+        this._cachedIconsByUrl = new Map();
+        /** In-progress icon fetches. Used to coalesce multiple requests to the same URL. */
+        this._inProgressUrlFetches = new Map();
+        /** Map from font identifiers to their CSS class names. Used for icon fonts. */
+        this._fontCssClassesByAlias = new Map();
+        /**
+         * The CSS class to apply when an <md-icon> component has no icon name, url, or font specified.
+         * The default 'material-icons' value assumes that the material icon font has been loaded as
+         * described at http://google.github.io/material-design-icons/#icon-font-for-the-web
+         */
+        this._defaultFontSetClass = 'material-icons';
+    }
+    /**
+     * Registers an icon by URL in the default namespace.
+     * @param iconName Name under which the icon should be registered.
+     * @param url
+     */
+    MdIconRegistry.prototype.addSvgIcon = function (iconName, url) {
+        return this.addSvgIconInNamespace('', iconName, url);
+    };
+    /**
+     * Registers an icon by URL in the specified namespace.
+     * @param namespace Namespace in which the icon should be registered.
+     * @param iconName Name under which the icon should be registered.
+     * @param url
+     */
+    MdIconRegistry.prototype.addSvgIconInNamespace = function (namespace, iconName, url) {
+        var key = iconKey(namespace, iconName);
+        this._svgIconConfigs.set(key, new SvgIconConfig(url));
+        return this;
+    };
+    /**
+     * Registers an icon set by URL in the default namespace.
+     * @param url
+     */
+    MdIconRegistry.prototype.addSvgIconSet = function (url) {
+        return this.addSvgIconSetInNamespace('', url);
+    };
+    /**
+     * Registers an icon set by URL in the specified namespace.
+     * @param namespace Namespace in which to register the icon set.
+     * @param url
+     */
+    MdIconRegistry.prototype.addSvgIconSetInNamespace = function (namespace, url) {
+        var config = new SvgIconConfig(url);
+        if (this._iconSetConfigs.has(namespace)) {
+            this._iconSetConfigs.get(namespace).push(config);
+        }
+        else {
+            this._iconSetConfigs.set(namespace, [config]);
+        }
+        return this;
+    };
+    /**
+     * Defines an alias for a CSS class name to be used for icon fonts. Creating an mdIcon
+     * component with the alias as the fontSet input will cause the class name to be applied
+     * to the <md-icon> element.
+     *
+     * @param alias Alias for the font.
+     * @param className Class name override to be used instead of the alias.
+     */
+    MdIconRegistry.prototype.registerFontClassAlias = function (alias, className) {
+        if (className === void 0) { className = alias; }
+        this._fontCssClassesByAlias.set(alias, className);
+        return this;
+    };
+    /**
+     * Returns the CSS class name associated with the alias by a previous call to
+     * registerFontClassAlias. If no CSS class has been associated, returns the alias unmodified.
+     */
+    MdIconRegistry.prototype.classNameForFontAlias = function (alias) {
+        return this._fontCssClassesByAlias.get(alias) || alias;
+    };
+    /**
+     * Sets the CSS class name to be used for icon fonts when an <md-icon> component does not
+     * have a fontSet input value, and is not loading an icon by name or URL.
+     *
+     * @param className
+     */
+    MdIconRegistry.prototype.setDefaultFontSetClass = function (className) {
+        this._defaultFontSetClass = className;
+        return this;
+    };
+    /**
+     * Returns the CSS class name to be used for icon fonts when an <md-icon> component does not
+     * have a fontSet input value, and is not loading an icon by name or URL.
+     */
+    MdIconRegistry.prototype.getDefaultFontSetClass = function () {
+        return this._defaultFontSetClass;
+    };
+    /**
+     * Returns an Observable that produces the icon (as an <svg> DOM element) from the given URL.
+     * The response from the URL may be cached so this will not always cause an HTTP request, but
+     * the produced element will always be a new copy of the originally fetched icon. (That is,
+     * it will not contain any modifications made to elements previously returned).
+     *
+     * @param safeUrl URL from which to fetch the SVG icon.
+     */
+    MdIconRegistry.prototype.getSvgIconFromUrl = function (safeUrl) {
+        var _this = this;
+        var url = this._sanitizer.sanitize(__WEBPACK_IMPORTED_MODULE_0__angular_core__["r" /* SecurityContext */].RESOURCE_URL, safeUrl);
+        if (this._cachedIconsByUrl.has(url)) {
+            return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].of(cloneSvg(this._cachedIconsByUrl.get(url)));
+        }
+        return this._loadSvgIconFromConfig(new SvgIconConfig(url))
+            .do(function (svg) { return _this._cachedIconsByUrl.set(url, svg); })
+            .map(function (svg) { return cloneSvg(svg); });
+    };
+    /**
+     * Returns an Observable that produces the icon (as an <svg> DOM element) with the given name
+     * and namespace. The icon must have been previously registered with addIcon or addIconSet;
+     * if not, the Observable will throw an MdIconNameNotFoundError.
+     *
+     * @param name Name of the icon to be retrieved.
+     * @param namespace Namespace in which to look for the icon.
+     */
+    MdIconRegistry.prototype.getNamedSvgIcon = function (name, namespace) {
+        if (namespace === void 0) { namespace = ''; }
+        // Return (copy of) cached icon if possible.
+        var key = iconKey(namespace, name);
+        if (this._svgIconConfigs.has(key)) {
+            return this._getSvgFromConfig(this._svgIconConfigs.get(key));
+        }
+        // See if we have any icon sets registered for the namespace.
+        var iconSetConfigs = this._iconSetConfigs.get(namespace);
+        if (iconSetConfigs) {
+            return this._getSvgFromIconSetConfigs(name, iconSetConfigs);
+        }
+        return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].throw(new MdIconNameNotFoundError(key));
+    };
+    /**
+     * Returns the cached icon for a SvgIconConfig if available, or fetches it from its URL if not.
+     */
+    MdIconRegistry.prototype._getSvgFromConfig = function (config) {
+        if (config.svgElement) {
+            // We already have the SVG element for this icon, return a copy.
+            return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].of(cloneSvg(config.svgElement));
+        }
+        else {
+            // Fetch the icon from the config's URL, cache it, and return a copy.
+            return this._loadSvgIconFromConfig(config)
+                .do(function (svg) { return config.svgElement = svg; })
+                .map(function (svg) { return cloneSvg(svg); });
+        }
+    };
+    /**
+     * Attempts to find an icon with the specified name in any of the SVG icon sets.
+     * First searches the available cached icons for a nested element with a matching name, and
+     * if found copies the element to a new <svg> element. If not found, fetches all icon sets
+     * that have not been cached, and searches again after all fetches are completed.
+     * The returned Observable produces the SVG element if possible, and throws
+     * MdIconNameNotFoundError if no icon with the specified name can be found.
+     */
+    MdIconRegistry.prototype._getSvgFromIconSetConfigs = function (name, iconSetConfigs) {
+        var _this = this;
+        // For all the icon set SVG elements we've fetched, see if any contain an icon with the
+        // requested name.
+        var namedIcon = this._extractIconWithNameFromAnySet(name, iconSetConfigs);
+        if (namedIcon) {
+            // We could cache namedIcon in _svgIconConfigs, but since we have to make a copy every
+            // time anyway, there's probably not much advantage compared to just always extracting
+            // it from the icon set.
+            return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].of(namedIcon);
+        }
+        // Not found in any cached icon sets. If there are icon sets with URLs that we haven't
+        // fetched, fetch them now and look for iconName in the results.
+        var iconSetFetchRequests = iconSetConfigs
+            .filter(function (iconSetConfig) { return !iconSetConfig.svgElement; })
+            .map(function (iconSetConfig) {
+            return _this._loadSvgIconSetFromConfig(iconSetConfig)
+                .catch(function (err, caught) {
+                var url = _this._sanitizer.sanitize(__WEBPACK_IMPORTED_MODULE_0__angular_core__["r" /* SecurityContext */].RESOURCE_URL, iconSetConfig.url);
+                // Swallow errors fetching individual URLs so the combined Observable won't
+                // necessarily fail.
+                console.log("Loading icon set URL: " + url + " failed: " + err);
+                return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].of(null);
+            })
+                .do(function (svg) {
+                // Cache SVG element.
+                if (svg) {
+                    iconSetConfig.svgElement = svg;
+                }
+            });
+        });
+        // Fetch all the icon set URLs. When the requests complete, every IconSet should have a
+        // cached SVG element (unless the request failed), and we can check again for the icon.
+        return __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__["Observable"].forkJoin(iconSetFetchRequests)
+            .map(function (ignoredResults) {
+            var foundIcon = _this._extractIconWithNameFromAnySet(name, iconSetConfigs);
+            if (!foundIcon) {
+                throw new MdIconNameNotFoundError(name);
+            }
+            return foundIcon;
+        });
+    };
+    /**
+     * Searches the cached SVG elements for the given icon sets for a nested icon element whose "id"
+     * tag matches the specified name. If found, copies the nested element to a new SVG element and
+     * returns it. Returns null if no matching element is found.
+     */
+    MdIconRegistry.prototype._extractIconWithNameFromAnySet = function (iconName, iconSetConfigs) {
+        // Iterate backwards, so icon sets added later have precedence.
+        for (var i = iconSetConfigs.length - 1; i >= 0; i--) {
+            var config = iconSetConfigs[i];
+            if (config.svgElement) {
+                var foundIcon = this._extractSvgIconFromSet(config.svgElement, iconName);
+                if (foundIcon) {
+                    return foundIcon;
+                }
+            }
+        }
+        return null;
+    };
+    /**
+     * Loads the content of the icon URL specified in the SvgIconConfig and creates an SVG element
+     * from it.
+     */
+    MdIconRegistry.prototype._loadSvgIconFromConfig = function (config) {
+        var _this = this;
+        return this._fetchUrl(config.url)
+            .map(function (svgText) { return _this._createSvgElementForSingleIcon(svgText); });
+    };
+    /**
+     * Loads the content of the icon set URL specified in the SvgIconConfig and creates an SVG element
+     * from it.
+     */
+    MdIconRegistry.prototype._loadSvgIconSetFromConfig = function (config) {
+        var _this = this;
+        // TODO: Document that icons should only be loaded from trusted sources.
+        return this._fetchUrl(config.url)
+            .map(function (svgText) { return _this._svgElementFromString(svgText); });
+    };
+    /**
+     * Creates a DOM element from the given SVG string, and adds default attributes.
+     */
+    MdIconRegistry.prototype._createSvgElementForSingleIcon = function (responseText) {
+        var svg = this._svgElementFromString(responseText);
+        this._setSvgAttributes(svg);
+        return svg;
+    };
+    /**
+     * Searches the cached element of the given SvgIconConfig for a nested icon element whose "id"
+     * tag matches the specified name. If found, copies the nested element to a new SVG element and
+     * returns it. Returns null if no matching element is found.
+     */
+    MdIconRegistry.prototype._extractSvgIconFromSet = function (iconSet, iconName) {
+        var iconNode = iconSet.querySelector('#' + iconName);
+        if (!iconNode) {
+            return null;
+        }
+        // If the icon node is itself an <svg> node, clone and return it directly. If not, set it as
+        // the content of a new <svg> node.
+        if (iconNode.tagName.toLowerCase() == 'svg') {
+            return this._setSvgAttributes(iconNode.cloneNode(true));
+        }
+        // createElement('SVG') doesn't work as expected; the DOM ends up with
+        // the correct nodes, but the SVG content doesn't render. Instead we
+        // have to create an empty SVG node using innerHTML and append its content.
+        // Elements created using DOMParser.parseFromString have the same problem.
+        // http://stackoverflow.com/questions/23003278/svg-innerhtml-in-firefox-can-not-display
+        var svg = this._svgElementFromString('<svg></svg>');
+        // Clone the node so we don't remove it from the parent icon set element.
+        svg.appendChild(iconNode.cloneNode(true));
+        return this._setSvgAttributes(svg);
+    };
+    /**
+     * Creates a DOM element from the given SVG string.
+     */
+    MdIconRegistry.prototype._svgElementFromString = function (str) {
+        // TODO: Is there a better way than innerHTML? Renderer doesn't appear to have a method for
+        // creating an element from an HTML string.
+        var div = document.createElement('DIV');
+        div.innerHTML = str;
+        var svg = div.querySelector('svg');
+        if (!svg) {
+            throw new MdIconSvgTagNotFoundError();
+        }
+        return svg;
+    };
+    /**
+     * Sets the default attributes for an SVG element to be used as an icon.
+     */
+    MdIconRegistry.prototype._setSvgAttributes = function (svg) {
+        if (!svg.getAttribute('xmlns')) {
+            svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+        }
+        svg.setAttribute('fit', '');
+        svg.setAttribute('height', '100%');
+        svg.setAttribute('width', '100%');
+        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        svg.setAttribute('focusable', 'false'); // Disable IE11 default behavior to make SVGs focusable.
+        return svg;
+    };
+    /**
+     * Returns an Observable which produces the string contents of the given URL. Results may be
+     * cached, so future calls with the same URL may not cause another HTTP request.
+     */
+    MdIconRegistry.prototype._fetchUrl = function (safeUrl) {
+        var _this = this;
+        var url = this._sanitizer.sanitize(__WEBPACK_IMPORTED_MODULE_0__angular_core__["r" /* SecurityContext */].RESOURCE_URL, safeUrl);
+        // Store in-progress fetches to avoid sending a duplicate request for a URL when there is
+        // already a request in progress for that URL. It's necessary to call share() on the
+        // Observable returned by http.get() so that multiple subscribers don't cause multiple XHRs.
+        if (this._inProgressUrlFetches.has(url)) {
+            return this._inProgressUrlFetches.get(url);
+        }
+        // TODO(jelbourn): for some reason, the `finally` operator "loses" the generic type on the
+        // Observable. Figure out why and fix it.
+        var req = this._http.get(url)
+            .map(function (response) { return response.text(); })
+            .finally(function () {
+            _this._inProgressUrlFetches.delete(url);
+        })
+            .share();
+        this._inProgressUrlFetches.set(url, req);
+        return req;
+    };
+    MdIconRegistry = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_2__angular_http__["c" /* Http */], __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["d" /* DomSanitizer */]])
+    ], MdIconRegistry);
+    return MdIconRegistry;
+}());
+/** Clones an SVGElement while preserving type information. */
+function cloneSvg(svg) {
+    return svg.cloneNode(true);
+}
+//# sourceMappingURL=icon-registry.js.map
+
+/***/ }),
+/* 165 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__icon__ = __webpack_require__(271);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__icon__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 166 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTextareaAutosize; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Directive to automatically resize a textarea to fit its content.
+ */
+var MdTextareaAutosize = (function () {
+    function MdTextareaAutosize(_elementRef) {
+        this._elementRef = _elementRef;
+    }
+    Object.defineProperty(MdTextareaAutosize.prototype, "mdAutosizeMinRows", {
+        get: function () {
+            return this.minRows;
+        },
+        set: function (value) {
+            this.minRows = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTextareaAutosize.prototype, "mdAutosizeMaxRows", {
+        get: function () {
+            return this.maxRows;
+        },
+        set: function (value) {
+            this.maxRows = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTextareaAutosize.prototype, "_minHeight", {
+        /** The minimum height of the textarea as determined by minRows. */
+        get: function () {
+            return this.minRows ? this.minRows * this._cachedLineHeight + "px" : null;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTextareaAutosize.prototype, "_maxHeight", {
+        /** The maximum height of the textarea as determined by maxRows. */
+        get: function () {
+            return this.maxRows ? this.maxRows * this._cachedLineHeight + "px" : null;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MdTextareaAutosize.prototype.ngOnInit = function () {
+        this._cacheTextareaLineHeight();
+        this.resizeToFitContent();
+    };
+    /**
+     * Cache the height of a single-row textarea.
+     *
+     * We need to know how large a single "row" of a textarea is in order to apply minRows and
+     * maxRows. For the initial version, we will assume that the height of a single line in the
+     * textarea does not ever change.
+     */
+    MdTextareaAutosize.prototype._cacheTextareaLineHeight = function () {
+        var textarea = this._elementRef.nativeElement;
+        // Use a clone element because we have to override some styles.
+        var textareaClone = textarea.cloneNode(false);
+        textareaClone.rows = 1;
+        // Use `position: absolute` so that this doesn't cause a browser layout and use
+        // `visibility: hidden` so that nothing is rendered. Clear any other styles that
+        // would affect the height.
+        textareaClone.style.position = 'absolute';
+        textareaClone.style.visibility = 'hidden';
+        textareaClone.style.border = 'none';
+        textareaClone.style.padding = '';
+        textareaClone.style.height = '';
+        textareaClone.style.minHeight = '';
+        textareaClone.style.maxHeight = '';
+        textarea.parentNode.appendChild(textareaClone);
+        this._cachedLineHeight = textareaClone.offsetHeight;
+        textarea.parentNode.removeChild(textareaClone);
+    };
+    /** Resize the textarea to fit its content. */
+    MdTextareaAutosize.prototype.resizeToFitContent = function () {
+        var textarea = this._elementRef.nativeElement;
+        // Reset the textarea height to auto in order to shrink back to its default size.
+        textarea.style.height = 'auto';
+        // Use the scrollHeight to know how large the textarea *would* be if fit its entire value.
+        textarea.style.height = textarea.scrollHeight + "px";
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Number)
+    ], MdTextareaAutosize.prototype, "minRows", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Number)
+    ], MdTextareaAutosize.prototype, "mdAutosizeMinRows", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Number)
+    ], MdTextareaAutosize.prototype, "maxRows", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Number)
+    ], MdTextareaAutosize.prototype, "mdAutosizeMaxRows", null);
+    MdTextareaAutosize = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: 'textarea[md-autosize], textarea[mdTextareaAutosize],' +
+                'textarea[mat-autosize], textarea[matTextareaAutosize]',
+            exportAs: 'mdTextareaAutosize',
+            host: {
+                '(input)': 'resizeToFitContent()',
+                '[style.min-height]': '_minHeight',
+                '[style.max-height]': '_maxHeight',
+            },
+        }), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */]])
+    ], MdTextareaAutosize);
+    return MdTextareaAutosize;
+}());
+//# sourceMappingURL=autosize.js.map
+
+/***/ }),
+/* 167 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__input_container__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__autosize__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_platform_index__ = __webpack_require__(52);
+/* unused harmony namespace reexport */
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__input_container_errors__ = __webpack_require__(168);
+/* unused harmony namespace reexport */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdInputModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+var MdInputModule = (function () {
+    function MdInputModule() {
+    }
+    /** @deprecated */
+    MdInputModule.forRoot = function () {
+        return {
+            ngModule: MdInputModule,
+            providers: [],
+        };
+    };
+    MdInputModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_1__input_container__["a" /* MdPlaceholder */],
+                __WEBPACK_IMPORTED_MODULE_1__input_container__["b" /* MdInputContainer */],
+                __WEBPACK_IMPORTED_MODULE_1__input_container__["c" /* MdHint */],
+                __WEBPACK_IMPORTED_MODULE_2__autosize__["a" /* MdTextareaAutosize */],
+                __WEBPACK_IMPORTED_MODULE_1__input_container__["d" /* MdInputDirective */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__angular_common__["c" /* CommonModule */],
+                __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__core_platform_index__["a" /* PlatformModule */],
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_1__input_container__["a" /* MdPlaceholder */],
+                __WEBPACK_IMPORTED_MODULE_1__input_container__["b" /* MdInputContainer */],
+                __WEBPACK_IMPORTED_MODULE_1__input_container__["c" /* MdHint */],
+                __WEBPACK_IMPORTED_MODULE_2__autosize__["a" /* MdTextareaAutosize */],
+                __WEBPACK_IMPORTED_MODULE_1__input_container__["d" /* MdInputDirective */]
+            ],
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdInputModule);
+    return MdInputModule;
+}());
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 168 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core_errors_error__ = __webpack_require__(75);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdInputContainerPlaceholderConflictError; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdInputContainerUnsupportedTypeError; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return MdInputContainerDuplicatedHintError; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdInputContainerMissingMdInputError; });
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+
+/** @docs-private */
+var MdInputContainerPlaceholderConflictError = (function (_super) {
+    __extends(MdInputContainerPlaceholderConflictError, _super);
+    function MdInputContainerPlaceholderConflictError() {
+        _super.call(this, 'Placeholder attribute and child element were both specified.');
+    }
+    return MdInputContainerPlaceholderConflictError;
+}(__WEBPACK_IMPORTED_MODULE_0__core_errors_error__["a" /* MdError */]));
+/** @docs-private */
+var MdInputContainerUnsupportedTypeError = (function (_super) {
+    __extends(MdInputContainerUnsupportedTypeError, _super);
+    function MdInputContainerUnsupportedTypeError(type) {
+        _super.call(this, "Input type \"" + type + "\" isn't supported by md-input-container.");
+    }
+    return MdInputContainerUnsupportedTypeError;
+}(__WEBPACK_IMPORTED_MODULE_0__core_errors_error__["a" /* MdError */]));
+/** @docs-private */
+var MdInputContainerDuplicatedHintError = (function (_super) {
+    __extends(MdInputContainerDuplicatedHintError, _super);
+    function MdInputContainerDuplicatedHintError(align) {
+        _super.call(this, "A hint was already declared for 'align=\"" + align + "\"'.");
+    }
+    return MdInputContainerDuplicatedHintError;
+}(__WEBPACK_IMPORTED_MODULE_0__core_errors_error__["a" /* MdError */]));
+/** @docs-private */
+var MdInputContainerMissingMdInputError = (function (_super) {
+    __extends(MdInputContainerMissingMdInputError, _super);
+    function MdInputContainerMissingMdInputError() {
+        _super.call(this, 'md-input-container must contain an mdInput directive. Did you forget to add mdInput ' +
+            'to the native input or textarea element?');
+    }
+    return MdInputContainerMissingMdInputError;
+}(__WEBPACK_IMPORTED_MODULE_0__core_errors_error__["a" /* MdError */]));
+//# sourceMappingURL=input-container-errors.js.map
+
+/***/ }),
+/* 169 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list__ = __webpack_require__(273);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__list__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 170 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__menu__ = __webpack_require__(274);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__menu__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__menu_trigger__ = __webpack_require__(85);
+/* unused harmony reexport MdMenuTrigger */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menu_animations__ = __webpack_require__(171);
+/* unused harmony reexport fadeInItems */
+/* unused harmony reexport transformMenu */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_directive__ = __webpack_require__(84);
+/* unused harmony reexport MdMenu */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_item__ = __webpack_require__(55);
+/* unused harmony reexport MdMenuItem */
+
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 171 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return transformMenu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return fadeInItems; });
+
+/**
+ * Below are all the animations for the md-menu component.
+ * Animation duration and timing values are based on AngularJS Material.
+ */
+/**
+ * This animation controls the menu panel's entry and exit from the page.
+ *
+ * When the menu panel is added to the DOM, it scales in and fades in its border.
+ *
+ * When the menu panel is removed from the DOM, it simply fades out after a brief
+ * delay to display the ripple.
+ */
+// TODO(kara): switch to :enter and :leave once Mobile Safari is sorted out.
+var transformMenu = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('transformMenu', [
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('showing', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
+        opacity: 1,
+        transform: "scale(1)"
+    })),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => *', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
+            opacity: 0,
+            transform: "scale(0)"
+        }),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("200ms cubic-bezier(0.25, 0.8, 0.25, 1)")
+    ]),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('* => void', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('50ms 100ms linear', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 0 }))
+    ])
+]);
+/**
+ * This animation fades in the background color and content of the menu panel
+ * after its containing element is scaled in.
+ */
+var fadeInItems = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('fadeInItems', [
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('showing', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 1 })),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => *', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 0 }),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("200ms 100ms cubic-bezier(0.55, 0, 0.55, 0.2)")
+    ])
+]);
+//# sourceMappingURL=menu-animations.js.map
+
+/***/ }),
+/* 172 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(2);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdMenuMissingError; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdMenuInvalidPositionX; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdMenuInvalidPositionY; });
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+
+/**
+ * Exception thrown when menu trigger doesn't have a valid md-menu instance
+ * @docs-private
+ */
+var MdMenuMissingError = (function (_super) {
+    __extends(MdMenuMissingError, _super);
+    function MdMenuMissingError() {
+        _super.call(this, "md-menu-trigger: must pass in an md-menu instance.\n\n    Example:\n      <md-menu #menu=\"mdMenu\"></md-menu>\n      <button [mdMenuTriggerFor]=\"menu\"></button>\n    ");
+    }
+    return MdMenuMissingError;
+}(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* MdError */]));
+/**
+ * Exception thrown when menu's x-position value isn't valid.
+ * In other words, it doesn't match 'before' or 'after'.
+ * @docs-private
+ */
+var MdMenuInvalidPositionX = (function (_super) {
+    __extends(MdMenuInvalidPositionX, _super);
+    function MdMenuInvalidPositionX() {
+        _super.call(this, "x-position value must be either 'before' or after'.\n      Example: <md-menu x-position=\"before\" #menu=\"mdMenu\"></md-menu>\n    ");
+    }
+    return MdMenuInvalidPositionX;
+}(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* MdError */]));
+/**
+ * Exception thrown when menu's y-position value isn't valid.
+ * In other words, it doesn't match 'above' or 'below'.
+ * @docs-private
+ */
+var MdMenuInvalidPositionY = (function (_super) {
+    __extends(MdMenuInvalidPositionY, _super);
+    function MdMenuInvalidPositionY() {
+        _super.call(this, "y-position value must be either 'above' or below'.\n      Example: <md-menu y-position=\"above\" #menu=\"mdMenu\"></md-menu>\n    ");
+    }
+    return MdMenuInvalidPositionY;
+}(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* MdError */]));
+//# sourceMappingURL=menu-errors.js.map
+
+/***/ }),
+/* 173 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__progress_bar__ = __webpack_require__(276);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__progress_bar__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 174 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__progress_circle__ = __webpack_require__(277);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__progress_spinner__ = __webpack_require__(86);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__progress_spinner__["a"]; });
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 175 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__radio__ = __webpack_require__(278);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__radio__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 176 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_option_option__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core__ = __webpack_require__(2);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__select_animations__ = __webpack_require__(177);
+/* unused harmony reexport fadeInContent */
+/* unused harmony reexport transformPanel */
+/* unused harmony reexport transformPlaceholder */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSelectModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var MdSelectModule = (function () {
+    function MdSelectModule() {
+    }
+    /** @deprecated */
+    MdSelectModule.forRoot = function () {
+        return {
+            ngModule: MdSelectModule,
+            providers: []
+        };
+    };
+    MdSelectModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+            imports: [__WEBPACK_IMPORTED_MODULE_1__angular_common__["c" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_4__core__["d" /* OverlayModule */], __WEBPACK_IMPORTED_MODULE_3__core_option_option__["a" /* MdOptionModule */], __WEBPACK_IMPORTED_MODULE_4__core__["e" /* CompatibilityModule */]],
+            exports: [__WEBPACK_IMPORTED_MODULE_2__select__["a" /* MdSelect */], __WEBPACK_IMPORTED_MODULE_3__core_option_option__["a" /* MdOptionModule */], __WEBPACK_IMPORTED_MODULE_4__core__["e" /* CompatibilityModule */]],
+            declarations: [__WEBPACK_IMPORTED_MODULE_2__select__["a" /* MdSelect */]],
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdSelectModule);
+    return MdSelectModule;
+}());
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 177 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return transformPlaceholder; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return transformPanel; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return fadeInContent; });
+
+/**
+ * The following are all the animations for the md-select component, with each
+ * const containing the metadata for one animation.
+ *
+ * The values below match the implementation of the AngularJS Material md-select animation.
+ */
+/**
+ * This animation shrinks the placeholder text to 75% of its normal size and translates
+ * it to either the top left corner (ltr) or top right corner (rtl) of the trigger,
+ * depending on the text direction of the application.
+ */
+var transformPlaceholder = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('transformPlaceholder', [
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('floating-ltr', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
+        top: '-22px',
+        left: '-2px',
+        transform: "scale(0.75)"
+    })),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('floating-rtl', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
+        top: '-22px',
+        left: '2px',
+        transform: "scale(0.75)"
+    })),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('* => *', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("400ms cubic-bezier(0.25, 0.8, 0.25, 1)"))
+]);
+/**
+ * This animation transforms the select's overlay panel on and off the page.
+ *
+ * When the panel is attached to the DOM, it expands its width 32px, scales it up to
+ * 100% on the Y axis, fades in its border, and translates slightly up and to the
+ * side to ensure the option text correctly overlaps the trigger text.
+ *
+ * When the panel is removed from the DOM, it simply fades out linearly.
+ */
+var transformPanel = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('transformPanel', [
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('showing', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
+        opacity: 1,
+        minWidth: 'calc(100% + 32px)',
+        transform: "translate3d(0,0,0) scaleY(1)"
+    })),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => *', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({
+            opacity: 0,
+            minWidth: '100%',
+            transform: "translate3d(0, 0, 0) scaleY(0)"
+        }),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("150ms cubic-bezier(0.25, 0.8, 0.25, 1)")
+    ]),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('* => void', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('250ms 100ms linear', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 0 }))
+    ])
+]);
+/**
+ * This animation fades in the background color and text content of the
+ * select's options. It is time delayed to occur 100ms after the overlay
+ * panel has transformed in.
+ */
+var fadeInContent = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('fadeInContent', [
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('showing', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 1 })),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => showing', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ opacity: 0 }),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])("150ms 100ms cubic-bezier(0.55, 0, 0.55, 0.2)")
+    ])
+]);
+//# sourceMappingURL=select-animations.js.map
+
+/***/ }),
+/* 178 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_option_option__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_keyboard_keycodes__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_a11y_focus_key_manager__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_rtl_dir__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__select_animations__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_forms__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_coercion_boolean_property__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__core_overlay_overlay_directives__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_overlay_position_viewport_ruler__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs_add_operator_startWith__);
+/* unused harmony export SELECT_OPTION_HEIGHT */
+/* unused harmony export SELECT_PANEL_MAX_HEIGHT */
+/* unused harmony export SELECT_MAX_OPTIONS_DISPLAYED */
+/* unused harmony export SELECT_TRIGGER_HEIGHT */
+/* unused harmony export SELECT_OPTION_HEIGHT_ADJUSTMENT */
+/* unused harmony export SELECT_PANEL_PADDING_X */
+/* unused harmony export SELECT_PANEL_PADDING_Y */
+/* unused harmony export SELECT_PANEL_VIEWPORT_PADDING */
+/* unused harmony export MdSelectChange */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSelect; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * The following style constants are necessary to save here in order
+ * to properly calculate the alignment of the selected option over
+ * the trigger element.
+ */
+/** The fixed height of every option element. */
+var SELECT_OPTION_HEIGHT = 48;
+/** The max height of the select's overlay panel */
+var SELECT_PANEL_MAX_HEIGHT = 256;
+/** The max number of options visible at once in the select panel. */
+var SELECT_MAX_OPTIONS_DISPLAYED = 5;
+/** The fixed height of the select's trigger element. */
+var SELECT_TRIGGER_HEIGHT = 30;
+/**
+ * Must adjust for the difference in height between the option and the trigger,
+ * so the text will align on the y axis.
+ * (SELECT_OPTION_HEIGHT (48) - SELECT_TRIGGER_HEIGHT (30)) / 2 = 9
+ */
+var SELECT_OPTION_HEIGHT_ADJUSTMENT = 9;
+/** The panel's padding on the x-axis */
+var SELECT_PANEL_PADDING_X = 16;
+/**
+ * The panel's padding on the y-axis. This padding indicates there are more
+ * options available if you scroll.
+ */
+var SELECT_PANEL_PADDING_Y = 16;
+/**
+ * The select panel will only "fit" inside the viewport if it is positioned at
+ * this value or more away from the viewport boundary.
+ */
+var SELECT_PANEL_VIEWPORT_PADDING = 8;
+/** Change event object that is emitted when the select value has changed. */
+var MdSelectChange = (function () {
+    function MdSelectChange(source, value) {
+        this.source = source;
+        this.value = value;
+    }
+    return MdSelectChange;
+}());
+var MdSelect = (function () {
+    function MdSelect(_element, _renderer, _viewportRuler, _changeDetectorRef, _dir, _control) {
+        this._element = _element;
+        this._renderer = _renderer;
+        this._viewportRuler = _viewportRuler;
+        this._changeDetectorRef = _changeDetectorRef;
+        this._dir = _dir;
+        this._control = _control;
+        /** Whether or not the overlay panel is open. */
+        this._panelOpen = false;
+        /** Subscriptions to option events. */
+        this._subscriptions = [];
+        /** Whether filling out the select is required in the form.  */
+        this._required = false;
+        /** Whether the select is disabled.  */
+        this._disabled = false;
+        /** The scroll position of the overlay panel, calculated to center the selected option. */
+        this._scrollTop = 0;
+        /** The animation state of the placeholder. */
+        this._placeholderState = '';
+        /** View -> model callback called when value changes */
+        this._onChange = function (value) { };
+        /** View -> model callback called when select has been touched */
+        this._onTouched = function () { };
+        /** The IDs of child options to be passed to the aria-owns attribute. */
+        this._optionIds = '';
+        /** The value of the select panel's transform-origin property. */
+        this._transformOrigin = 'top';
+        /** Whether the panel's animation is done. */
+        this._panelDoneAnimating = false;
+        /**
+         * The x-offset of the overlay panel in relation to the trigger's top start corner.
+         * This must be adjusted to align the selected option text over the trigger text when
+         * the panel opens. Will change based on LTR or RTL text direction.
+         */
+        this._offsetX = 0;
+        /**
+         * The y-offset of the overlay panel in relation to the trigger's top start corner.
+         * This must be adjusted to align the selected option text over the trigger text.
+         * when the panel opens. Will change based on the y-position of the selected option.
+         */
+        this._offsetY = 0;
+        /**
+         * This position config ensures that the top "start" corner of the overlay
+         * is aligned with with the top "start" of the origin by default (overlapping
+         * the trigger completely). If the panel cannot fit below the trigger, it
+         * will fall back to a position above the trigger.
+         */
+        this._positions = [
+            {
+                originX: 'start',
+                originY: 'top',
+                overlayX: 'start',
+                overlayY: 'top',
+            },
+            {
+                originX: 'start',
+                originY: 'bottom',
+                overlayX: 'start',
+                overlayY: 'bottom',
+            },
+        ];
+        /** Event emitted when the select has been opened. */
+        this.onOpen = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+        /** Event emitted when the select has been closed. */
+        this.onClose = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+        /** Event emitted when the selected value has been changed by the user. */
+        this.change = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+        if (this._control) {
+            this._control.valueAccessor = this;
+        }
+    }
+    Object.defineProperty(MdSelect.prototype, "placeholder", {
+        /** Placeholder to be shown if no value has been selected. */
+        get: function () { return this._placeholder; },
+        set: function (value) {
+            var _this = this;
+            this._placeholder = value;
+            // Must wait to record the trigger width to ensure placeholder width is included.
+            Promise.resolve(null).then(function () { return _this._triggerWidth = _this._getWidth(); });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdSelect.prototype, "disabled", {
+        /** Whether the component is disabled. */
+        get: function () { return this._disabled; },
+        set: function (value) {
+            this._disabled = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdSelect.prototype, "required", {
+        /** Whether the component is required. */
+        get: function () { return this._required; },
+        set: function (value) { this._required = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value); },
+        enumerable: true,
+        configurable: true
+    });
+    MdSelect.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        this._initKeyManager();
+        this._changeSubscription = this.options.changes.startWith(null).subscribe(function () {
+            _this._resetOptions();
+            if (_this._control) {
+                // Defer setting the value in order to avoid the "Expression
+                // has changed after it was checked" errors from Angular.
+                Promise.resolve(null).then(function () { return _this._setSelectionByValue(_this._control.value); });
+            }
+        });
+    };
+    MdSelect.prototype.ngOnDestroy = function () {
+        this._dropSubscriptions();
+        if (this._changeSubscription) {
+            this._changeSubscription.unsubscribe();
+        }
+        if (this._tabSubscription) {
+            this._tabSubscription.unsubscribe();
+        }
+    };
+    /** Toggles the overlay panel open or closed. */
+    MdSelect.prototype.toggle = function () {
+        this.panelOpen ? this.close() : this.open();
+    };
+    /** Opens the overlay panel. */
+    MdSelect.prototype.open = function () {
+        if (this.disabled || !this.options.length) {
+            return;
+        }
+        this._calculateOverlayPosition();
+        this._placeholderState = this._isRtl() ? 'floating-rtl' : 'floating-ltr';
+        this._panelOpen = true;
+    };
+    /** Closes the overlay panel and focuses the host element. */
+    MdSelect.prototype.close = function () {
+        this._panelOpen = false;
+        if (!this._selected) {
+            this._placeholderState = '';
+        }
+        this._focusHost();
+    };
+    /**
+     * Sets the select's value. Part of the ControlValueAccessor interface
+     * required to integrate with Angular's core forms API.
+     *
+     * @param value New value to be written to the model.
+     */
+    MdSelect.prototype.writeValue = function (value) {
+        if (this.options) {
+            this._setSelectionByValue(value);
+            this._changeDetectorRef.markForCheck();
+        }
+    };
+    /**
+     * Saves a callback function to be invoked when the select's value
+     * changes from user input. Part of the ControlValueAccessor interface
+     * required to integrate with Angular's core forms API.
+     *
+     * @param fn Callback to be triggered when the value changes.
+     */
+    MdSelect.prototype.registerOnChange = function (fn) {
+        this._onChange = fn;
+    };
+    /**
+     * Saves a callback function to be invoked when the select is blurred
+     * by the user. Part of the ControlValueAccessor interface required
+     * to integrate with Angular's core forms API.
+     *
+     * @param fn Callback to be triggered when the component has been touched.
+     */
+    MdSelect.prototype.registerOnTouched = function (fn) {
+        this._onTouched = fn;
+    };
+    /**
+     * Disables the select. Part of the ControlValueAccessor interface required
+     * to integrate with Angular's core forms API.
+     *
+     * @param isDisabled Sets whether the component is disabled.
+     */
+    MdSelect.prototype.setDisabledState = function (isDisabled) {
+        this.disabled = isDisabled;
+    };
+    Object.defineProperty(MdSelect.prototype, "panelOpen", {
+        /** Whether or not the overlay panel is open. */
+        get: function () {
+            return this._panelOpen;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdSelect.prototype, "selected", {
+        /** The currently selected option. */
+        get: function () {
+            return this._selected;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MdSelect.prototype._isRtl = function () {
+        return this._dir ? this._dir.value === 'rtl' : false;
+    };
+    /** The width of the trigger element. This is necessary to match
+     * the overlay width to the trigger width.
+     */
+    MdSelect.prototype._getWidth = function () {
+        return this._getTriggerRect().width;
+    };
+    /** Ensures the panel opens if activated by the keyboard. */
+    MdSelect.prototype._handleKeydown = function (event) {
+        if (event.keyCode === __WEBPACK_IMPORTED_MODULE_2__core_keyboard_keycodes__["a" /* ENTER */] || event.keyCode === __WEBPACK_IMPORTED_MODULE_2__core_keyboard_keycodes__["b" /* SPACE */]) {
+            this.open();
+        }
+    };
+    /**
+     * When the panel element is finished transforming in (though not fading in), it
+     * emits an event and focuses an option if the panel is open.
+     */
+    MdSelect.prototype._onPanelDone = function () {
+        if (this.panelOpen) {
+            this._focusCorrectOption();
+            this.onOpen.emit();
+        }
+        else {
+            this.onClose.emit();
+        }
+    };
+    /**
+     * When the panel content is done fading in, the _panelDoneAnimating property is
+     * set so the proper class can be added to the panel.
+     */
+    MdSelect.prototype._onFadeInDone = function () {
+        this._panelDoneAnimating = this.panelOpen;
+    };
+    /**
+     * Calls the touched callback only if the panel is closed. Otherwise, the trigger will
+     * "blur" to the panel when it opens, causing a false positive.
+     */
+    MdSelect.prototype._onBlur = function () {
+        if (!this.panelOpen) {
+            this._onTouched();
+        }
+    };
+    /** Returns the correct tabindex for the select depending on disabled state. */
+    MdSelect.prototype._getTabIndex = function () {
+        return this.disabled ? '-1' : '0';
+    };
+    /**
+     * Sets the scroll position of the scroll container. This must be called after
+     * the overlay pane is attached or the scroll container element will not yet be
+     * present in the DOM.
+     */
+    MdSelect.prototype._setScrollTop = function () {
+        var scrollContainer = this.overlayDir.overlayRef.overlayElement.querySelector('.mat-select-panel');
+        scrollContainer.scrollTop = this._scrollTop;
+    };
+    /**
+     * Sets the selected option based on a value. If no option can be
+     * found with the designated value, the select trigger is cleared.
+     */
+    MdSelect.prototype._setSelectionByValue = function (value) {
+        var options = this.options.toArray();
+        for (var i = 0; i < this.options.length; i++) {
+            if (options[i].value === value) {
+                options[i].select();
+                return;
+            }
+        }
+        // Clear selection if no item was selected.
+        this._clearSelection();
+    };
+    /** Clears the select trigger and deselects every option in the list. */
+    MdSelect.prototype._clearSelection = function () {
+        this._selected = null;
+        this._updateOptions();
+    };
+    MdSelect.prototype._getTriggerRect = function () {
+        return this.trigger.nativeElement.getBoundingClientRect();
+    };
+    /** Sets up a key manager to listen to keyboard events on the overlay panel. */
+    MdSelect.prototype._initKeyManager = function () {
+        var _this = this;
+        this._keyManager = new __WEBPACK_IMPORTED_MODULE_3__core_a11y_focus_key_manager__["a" /* FocusKeyManager */](this.options);
+        this._tabSubscription = this._keyManager.tabOut.subscribe(function () {
+            _this.close();
+        });
+    };
+    /** Drops current option subscriptions and IDs and resets from scratch. */
+    MdSelect.prototype._resetOptions = function () {
+        this._dropSubscriptions();
+        this._listenToOptions();
+        this._setOptionIds();
+    };
+    /** Listens to selection events on each option. */
+    MdSelect.prototype._listenToOptions = function () {
+        var _this = this;
+        this.options.forEach(function (option) {
+            var sub = option.onSelect.subscribe(function (event) {
+                if (event.isUserInput && _this._selected !== option) {
+                    _this._emitChangeEvent(option);
+                }
+                _this._onSelect(option);
+            });
+            _this._subscriptions.push(sub);
+        });
+    };
+    /** Unsubscribes from all option subscriptions. */
+    MdSelect.prototype._dropSubscriptions = function () {
+        this._subscriptions.forEach(function (sub) { return sub.unsubscribe(); });
+        this._subscriptions = [];
+    };
+    /** Emits an event when the user selects an option. */
+    MdSelect.prototype._emitChangeEvent = function (option) {
+        this._onChange(option.value);
+        this.change.emit(new MdSelectChange(this, option.value));
+    };
+    /** Records option IDs to pass to the aria-owns property. */
+    MdSelect.prototype._setOptionIds = function () {
+        this._optionIds = this.options.map(function (option) { return option.id; }).join(' ');
+    };
+    /** When a new option is selected, deselects the others and closes the panel. */
+    MdSelect.prototype._onSelect = function (option) {
+        this._selected = option;
+        this._updateOptions();
+        this._setValueWidth();
+        this._placeholderState = '';
+        if (this.panelOpen) {
+            this.close();
+        }
+    };
+    /** Deselect each option that doesn't match the current selection. */
+    MdSelect.prototype._updateOptions = function () {
+        var _this = this;
+        this.options.forEach(function (option) {
+            if (option !== _this.selected) {
+                option.deselect();
+            }
+        });
+    };
+    /**
+     * Must set the width of the selected option's value programmatically
+     * because it is absolutely positioned and otherwise will not clip
+     * overflow. The selection arrow is 9px wide, add 4px of padding = 13
+     */
+    MdSelect.prototype._setValueWidth = function () {
+        this._selectedValueWidth = this._triggerWidth - 13;
+    };
+    /** Focuses the selected item. If no option is selected, it will focus
+     * the first item instead.
+     */
+    MdSelect.prototype._focusCorrectOption = function () {
+        if (this.selected) {
+            this._keyManager.setActiveItem(this._getOptionIndex(this.selected));
+        }
+        else {
+            this._keyManager.setFirstItemActive();
+        }
+    };
+    /** Focuses the host element when the panel closes. */
+    MdSelect.prototype._focusHost = function () {
+        this._renderer.invokeElementMethod(this._element.nativeElement, 'focus');
+    };
+    /** Gets the index of the provided option in the option list. */
+    MdSelect.prototype._getOptionIndex = function (option) {
+        return this.options.reduce(function (result, current, index) {
+            return result === undefined ? (option === current ? index : undefined) : result;
+        }, undefined);
+    };
+    /** Calculates the scroll position and x- and y-offsets of the overlay panel. */
+    MdSelect.prototype._calculateOverlayPosition = function () {
+        this._offsetX = this._isRtl() ? SELECT_PANEL_PADDING_X : -SELECT_PANEL_PADDING_X;
+        var panelHeight = Math.min(this.options.length * SELECT_OPTION_HEIGHT, SELECT_PANEL_MAX_HEIGHT);
+        var scrollContainerHeight = this.options.length * SELECT_OPTION_HEIGHT;
+        // The farthest the panel can be scrolled before it hits the bottom
+        var maxScroll = scrollContainerHeight - panelHeight;
+        if (this.selected) {
+            var selectedIndex = this._getOptionIndex(this.selected);
+            // We must maintain a scroll buffer so the selected option will be scrolled to the
+            // center of the overlay panel rather than the top.
+            var scrollBuffer = panelHeight / 2;
+            this._scrollTop = this._calculateOverlayScroll(selectedIndex, scrollBuffer, maxScroll);
+            this._offsetY = this._calculateOverlayOffset(selectedIndex, scrollBuffer, maxScroll);
+        }
+        else {
+            // If no option is selected, the panel centers on the first option. In this case,
+            // we must only adjust for the height difference between the option element
+            // and the trigger element, then multiply it by -1 to ensure the panel moves
+            // in the correct direction up the page.
+            this._offsetY = (SELECT_OPTION_HEIGHT - SELECT_TRIGGER_HEIGHT) / 2 * -1;
+        }
+        this._checkOverlayWithinViewport(maxScroll);
+    };
+    /**
+     * Calculates the scroll position of the select's overlay panel.
+     *
+     * Attempts to center the selected option in the panel. If the option is
+     * too high or too low in the panel to be scrolled to the center, it clamps the
+     * scroll position to the min or max scroll positions respectively.
+     */
+    MdSelect.prototype._calculateOverlayScroll = function (selectedIndex, scrollBuffer, maxScroll) {
+        var optionOffsetFromScrollTop = SELECT_OPTION_HEIGHT * selectedIndex;
+        var halfOptionHeight = SELECT_OPTION_HEIGHT / 2;
+        // Starts at the optionOffsetFromScrollTop, which scrolls the option to the top of the
+        // scroll container, then subtracts the scroll buffer to scroll the option down to
+        // the center of the overlay panel. Half the option height must be re-added to the
+        // scrollTop so the option is centered based on its middle, not its top edge.
+        var optimalScrollPosition = optionOffsetFromScrollTop - scrollBuffer + halfOptionHeight;
+        return clampValue(0, optimalScrollPosition, maxScroll);
+    };
+    /**
+     * Calculates the y-offset of the select's overlay panel in relation to the
+     * top start corner of the trigger. It has to be adjusted in order for the
+     * selected option to be aligned over the trigger when the panel opens.
+     */
+    MdSelect.prototype._calculateOverlayOffset = function (selectedIndex, scrollBuffer, maxScroll) {
+        var optionOffsetFromPanelTop;
+        if (this._scrollTop === 0) {
+            optionOffsetFromPanelTop = selectedIndex * SELECT_OPTION_HEIGHT;
+        }
+        else if (this._scrollTop === maxScroll) {
+            var firstDisplayedIndex = this.options.length - SELECT_MAX_OPTIONS_DISPLAYED;
+            var selectedDisplayIndex = selectedIndex - firstDisplayedIndex;
+            // Because the panel height is longer than the height of the options alone,
+            // there is always extra padding at the top or bottom of the panel. When
+            // scrolled to the very bottom, this padding is at the top of the panel and
+            // must be added to the offset.
+            optionOffsetFromPanelTop =
+                selectedDisplayIndex * SELECT_OPTION_HEIGHT + SELECT_PANEL_PADDING_Y;
+        }
+        else {
+            // If the option was scrolled to the middle of the panel using a scroll buffer,
+            // its offset will be the scroll buffer minus the half height that was added to
+            // center it.
+            optionOffsetFromPanelTop = scrollBuffer - SELECT_OPTION_HEIGHT / 2;
+        }
+        // The final offset is the option's offset from the top, adjusted for the height
+        // difference, multiplied by -1 to ensure that the overlay moves in the correct
+        // direction up the page.
+        return optionOffsetFromPanelTop * -1 - SELECT_OPTION_HEIGHT_ADJUSTMENT;
+    };
+    /**
+     * Checks that the attempted overlay position will fit within the viewport.
+     * If it will not fit, tries to adjust the scroll position and the associated
+     * y-offset so the panel can open fully on-screen. If it still won't fit,
+     * sets the offset back to 0 to allow the fallback position to take over.
+     */
+    MdSelect.prototype._checkOverlayWithinViewport = function (maxScroll) {
+        var viewportRect = this._viewportRuler.getViewportRect();
+        var triggerRect = this._getTriggerRect();
+        var topSpaceAvailable = triggerRect.top - SELECT_PANEL_VIEWPORT_PADDING;
+        var bottomSpaceAvailable = viewportRect.height - triggerRect.bottom - SELECT_PANEL_VIEWPORT_PADDING;
+        var panelHeightTop = Math.abs(this._offsetY);
+        var totalPanelHeight = Math.min(this.options.length * SELECT_OPTION_HEIGHT, SELECT_PANEL_MAX_HEIGHT);
+        var panelHeightBottom = totalPanelHeight - panelHeightTop - triggerRect.height;
+        if (panelHeightBottom > bottomSpaceAvailable) {
+            this._adjustPanelUp(panelHeightBottom, bottomSpaceAvailable);
+        }
+        else if (panelHeightTop > topSpaceAvailable) {
+            this._adjustPanelDown(panelHeightTop, topSpaceAvailable, maxScroll);
+        }
+        else {
+            this._transformOrigin = this._getOriginBasedOnOption();
+        }
+    };
+    /** Adjusts the overlay panel up to fit in the viewport. */
+    MdSelect.prototype._adjustPanelUp = function (panelHeightBottom, bottomSpaceAvailable) {
+        var distanceBelowViewport = panelHeightBottom - bottomSpaceAvailable;
+        // Scrolls the panel up by the distance it was extending past the boundary, then
+        // adjusts the offset by that amount to move the panel up into the viewport.
+        this._scrollTop -= distanceBelowViewport;
+        this._offsetY -= distanceBelowViewport;
+        this._transformOrigin = this._getOriginBasedOnOption();
+        // If the panel is scrolled to the very top, it won't be able to fit the panel
+        // by scrolling, so set the offset to 0 to allow the fallback position to take
+        // effect.
+        if (this._scrollTop <= 0) {
+            this._scrollTop = 0;
+            this._offsetY = 0;
+            this._transformOrigin = "50% bottom 0px";
+        }
+    };
+    /** Adjusts the overlay panel down to fit in the viewport. */
+    MdSelect.prototype._adjustPanelDown = function (panelHeightTop, topSpaceAvailable, maxScroll) {
+        var distanceAboveViewport = panelHeightTop - topSpaceAvailable;
+        // Scrolls the panel down by the distance it was extending past the boundary, then
+        // adjusts the offset by that amount to move the panel down into the viewport.
+        this._scrollTop += distanceAboveViewport;
+        this._offsetY += distanceAboveViewport;
+        this._transformOrigin = this._getOriginBasedOnOption();
+        // If the panel is scrolled to the very bottom, it won't be able to fit the
+        // panel by scrolling, so set the offset to 0 to allow the fallback position
+        // to take effect.
+        if (this._scrollTop >= maxScroll) {
+            this._scrollTop = maxScroll;
+            this._offsetY = 0;
+            this._transformOrigin = "50% top 0px";
+            return;
+        }
+    };
+    /** Sets the transform origin point based on the selected option. */
+    MdSelect.prototype._getOriginBasedOnOption = function () {
+        var originY = Math.abs(this._offsetY) - SELECT_OPTION_HEIGHT_ADJUSTMENT + SELECT_OPTION_HEIGHT / 2;
+        return "50% " + originY + "px 0px";
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('trigger'), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */])
+    ], MdSelect.prototype, "trigger", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_8__core_overlay_overlay_directives__["b" /* ConnectedOverlayDirective */]), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_8__core_overlay_overlay_directives__["b" /* ConnectedOverlayDirective */])
+    ], MdSelect.prototype, "overlayDir", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ContentChildren */])(__WEBPACK_IMPORTED_MODULE_1__core_option_option__["b" /* MdOption */]), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* QueryList */])
+    ], MdSelect.prototype, "options", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Object)
+    ], MdSelect.prototype, "placeholder", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Object)
+    ], MdSelect.prototype, "disabled", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Object)
+    ], MdSelect.prototype, "required", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
+    ], MdSelect.prototype, "onOpen", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
+    ], MdSelect.prototype, "onClose", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
+    ], MdSelect.prototype, "change", void 0);
+    MdSelect = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({selector: 'md-select, mat-select',
+            template: "<div class=\"mat-select-trigger\" cdk-overlay-origin (click)=\"toggle()\" #origin=\"cdkOverlayOrigin\" #trigger><span class=\"mat-select-placeholder\" [class.mat-floating-placeholder]=\"this.selected\" [@transformPlaceholder]=\"_placeholderState\" [style.width.px]=\"_selectedValueWidth\">{{ placeholder }} </span><span class=\"mat-select-value\" *ngIf=\"selected\"><span class=\"mat-select-value-text\">{{ selected?.viewValue }}</span> </span><span class=\"mat-select-arrow\"></span> <span class=\"mat-select-underline\"></span></div><template cdk-connected-overlay [origin]=\"origin\" [open]=\"panelOpen\" hasBackdrop (backdropClick)=\"close()\" backdropClass=\"cdk-overlay-transparent-backdrop\" [positions]=\"_positions\" [minWidth]=\"_triggerWidth\" [offsetY]=\"_offsetY\" [offsetX]=\"_offsetX\" (attach)=\"_setScrollTop()\"><div class=\"mat-select-panel\" [@transformPanel]=\"'showing'\" (@transformPanel.done)=\"_onPanelDone()\" (keydown)=\"_keyManager.onKeydown($event)\" [style.transformOrigin]=\"_transformOrigin\" [class.mat-select-panel-done-animating]=\"_panelDoneAnimating\"><div class=\"mat-select-content\" [@fadeInContent]=\"'showing'\" (@fadeInContent.done)=\"_onFadeInDone()\"><ng-content></ng-content></div></div></template>",
+            styles: [".mat-select{display:inline-block;outline:0;font-family:Roboto,\"Helvetica Neue\",sans-serif}.mat-select-trigger{display:flex;align-items:center;height:30px;min-width:112px;cursor:pointer;position:relative;box-sizing:border-box;font-size:16px}[aria-disabled=true] .mat-select-trigger{cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.mat-select-underline{position:absolute;bottom:0;left:0;right:0;height:1px}[aria-disabled=true] .mat-select-underline{background-image:linear-gradient(to right,rgba(0,0,0,.26) 0,rgba(0,0,0,.26) 33%,transparent 0);background-size:4px 1px;background-repeat:repeat-x;background-color:transparent;background-position:0 bottom}.mat-select-placeholder{position:relative;padding:0 2px;transform-origin:left top;flex-grow:1}.mat-select-placeholder.mat-floating-placeholder{top:-22px;left:-2px;text-align:left;transform:scale(.75)}[dir=rtl] .mat-select-placeholder{transform-origin:right top}[dir=rtl] .mat-select-placeholder.mat-floating-placeholder{left:2px;text-align:right}[aria-required=true] .mat-select-placeholder::after{content:'*'}.mat-select-value{position:absolute;max-width:calc(100% - 18px);flex-grow:1;top:0;left:0;bottom:0;display:flex;align-items:center}[dir=rtl] .mat-select-value{left:auto;right:0}.mat-select-value-text{white-space:nowrap;overflow-x:hidden;text-overflow:ellipsis;line-height:30px}.mat-select-arrow{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid;margin:0 4px}.mat-select-panel{box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12);min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px}@media screen and (-ms-high-contrast:active){.mat-select-panel{outline:solid 1px}}"],
+            encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ViewEncapsulation */].None,
+            host: {
+                'role': 'listbox',
+                '[attr.tabindex]': '_getTabIndex()',
+                '[attr.aria-label]': 'placeholder',
+                '[attr.aria-required]': 'required.toString()',
+                '[attr.aria-disabled]': 'disabled.toString()',
+                '[attr.aria-invalid]': '_control?.invalid || "false"',
+                '[attr.aria-owns]': '_optionIds',
+                '[class.mat-select-disabled]': 'disabled',
+                '[class.mat-select]': 'true',
+                '(keydown)': '_handleKeydown($event)',
+                '(blur)': '_onBlur()'
+            },
+            animations: [
+                __WEBPACK_IMPORTED_MODULE_5__select_animations__["a" /* transformPlaceholder */],
+                __WEBPACK_IMPORTED_MODULE_5__select_animations__["b" /* transformPanel */],
+                __WEBPACK_IMPORTED_MODULE_5__select_animations__["c" /* fadeInContent */]
+            ],
+            exportAs: 'mdSelect',
+        }),
+        __param(4, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
+        __param(5, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Self */])()),
+        __param(5, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Renderer */], __WEBPACK_IMPORTED_MODULE_9__core_overlay_position_viewport_ruler__["a" /* ViewportRuler */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["X" /* ChangeDetectorRef */], __WEBPACK_IMPORTED_MODULE_4__core_rtl_dir__["a" /* Dir */], __WEBPACK_IMPORTED_MODULE_6__angular_forms__["c" /* NgControl */]])
+    ], MdSelect);
+    return MdSelect;
+}());
+/** Clamps a value n between min and max values. */
+function clampValue(min, n, max) {
+    return Math.min(Math.max(min, n), max);
+}
+//# sourceMappingURL=select.js.map
+
+/***/ }),
+/* 179 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sidenav__ = __webpack_require__(279);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__sidenav__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 180 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__slide_toggle__ = __webpack_require__(280);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__slide_toggle__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 181 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__slider__ = __webpack_require__(281);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__slider__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 182 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__snack_bar__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__snack_bar_container__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__ = __webpack_require__(87);
+/* unused harmony namespace reexport */
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__snack_bar_config__ = __webpack_require__(183);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__snack_bar_ref__ = __webpack_require__(184);
+/* unused harmony namespace reexport */
+/* unused harmony namespace reexport */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSnackBarModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var MdSnackBarModule = (function () {
+    function MdSnackBarModule() {
+    }
+    /** @deprecated */
+    MdSnackBarModule.forRoot = function () {
+        return {
+            ngModule: MdSnackBarModule,
+            providers: []
+        };
+    };
+    MdSnackBarModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+            imports: [__WEBPACK_IMPORTED_MODULE_1__core__["d" /* OverlayModule */], __WEBPACK_IMPORTED_MODULE_1__core__["o" /* PortalModule */], __WEBPACK_IMPORTED_MODULE_2__angular_common__["c" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */]],
+            exports: [__WEBPACK_IMPORTED_MODULE_4__snack_bar_container__["a" /* MdSnackBarContainer */], __WEBPACK_IMPORTED_MODULE_1__core__["e" /* CompatibilityModule */]],
+            declarations: [__WEBPACK_IMPORTED_MODULE_4__snack_bar_container__["a" /* MdSnackBarContainer */], __WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__["a" /* SimpleSnackBar */]],
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_4__snack_bar_container__["a" /* MdSnackBarContainer */], __WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__["a" /* SimpleSnackBar */]],
+            providers: [__WEBPACK_IMPORTED_MODULE_3__snack_bar__["a" /* MdSnackBar */], __WEBPACK_IMPORTED_MODULE_1__core__["p" /* LIVE_ANNOUNCER_PROVIDER */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdSnackBarModule);
+    return MdSnackBarModule;
+}());
+
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 183 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSnackBarConfig; });
+/**
+ * Configuration used when opening a snack-bar.
+ */
+var MdSnackBarConfig = (function () {
+    function MdSnackBarConfig() {
+        /** The politeness level for the MdAriaLiveAnnouncer announcement. */
+        this.politeness = 'assertive';
+        /** Message to be announced by the MdAriaLiveAnnouncer */
+        this.announcementMessage = '';
+        /** The view container to place the overlay for the snack bar into. */
+        this.viewContainerRef = null;
+        /** The length of time in milliseconds to wait before automatically dismissing the snack bar. */
+        this.duration = 0;
+    }
+    return MdSnackBarConfig;
+}());
+//# sourceMappingURL=snack-bar-config.js.map
+
+/***/ }),
+/* 184 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSnackBarRef; });
+
+// TODO(josephperrott): Implement onAction observable.
+/**
+ * Reference to a snack bar dispatched from the snack bar service.
+ */
+var MdSnackBarRef = (function () {
+    function MdSnackBarRef(instance, containerInstance, _overlayRef) {
+        var _this = this;
+        this._overlayRef = _overlayRef;
+        /** Subject for notifying the user that the snack bar has closed. */
+        this._afterClosed = new __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__["Subject"]();
+        /** Subject for notifying the user that the snack bar action was called. */
+        this._onAction = new __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__["Subject"]();
+        // Sets the readonly instance of the snack bar content component.
+        this._instance = instance;
+        this.containerInstance = containerInstance;
+        // Dismiss snackbar on action.
+        this.onAction().subscribe(function () { return _this.dismiss(); });
+        containerInstance._onExit().subscribe(function () { return _this._finishDismiss(); });
+    }
+    Object.defineProperty(MdSnackBarRef.prototype, "instance", {
+        /** The instance of the component making up the content of the snack bar. */
+        get: function () {
+            return this._instance;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /** Dismisses the snack bar. */
+    MdSnackBarRef.prototype.dismiss = function () {
+        if (!this._afterClosed.closed) {
+            this.containerInstance.exit();
+        }
+    };
+    /** Marks the snackbar action clicked. */
+    MdSnackBarRef.prototype._action = function () {
+        if (!this._onAction.closed) {
+            this._onAction.next();
+            this._onAction.complete();
+        }
+    };
+    /** Marks the snackbar as opened */
+    MdSnackBarRef.prototype._open = function () {
+        if (!this._afterOpened.closed) {
+            this._afterOpened.next();
+            this._afterOpened.complete();
+        }
+    };
+    /** Cleans up the DOM after closing. */
+    MdSnackBarRef.prototype._finishDismiss = function () {
+        this._overlayRef.dispose();
+        this._afterClosed.next();
+        this._afterClosed.complete();
+    };
+    /** Gets an observable that is notified when the snack bar is finished closing. */
+    MdSnackBarRef.prototype.afterDismissed = function () {
+        return this._afterClosed.asObservable();
+    };
+    /** Gets an observable that is notified when the snack bar has opened and appeared. */
+    MdSnackBarRef.prototype.afterOpened = function () {
+        return this.containerInstance._onEnter();
+    };
+    /** Gets an observable that is notified when the snack bar action is called. */
+    MdSnackBarRef.prototype.onAction = function () {
+        return this._onAction.asObservable();
+    };
+    return MdSnackBarRef;
+}());
+//# sourceMappingURL=snack-bar-ref.js.map
+
+/***/ }),
+/* 185 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__snack_bar_config__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__snack_bar_ref__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__snack_bar_container__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_util_object_extend__ = __webpack_require__(156);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdSnackBar; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+/**
+ * Service to dispatch Material Design snack bar messages.
+ */
+var MdSnackBar = (function () {
+    function MdSnackBar(_overlay, _live, _parentSnackBar) {
+        this._overlay = _overlay;
+        this._live = _live;
+        this._parentSnackBar = _parentSnackBar;
+    }
+    Object.defineProperty(MdSnackBar.prototype, "_openedSnackBarRef", {
+        /** Reference to the currently opened snackbar at *any* level. */
+        get: function () {
+            return this._parentSnackBar ?
+                this._parentSnackBar._openedSnackBarRef : this._snackBarRefAtThisLevel;
+        },
+        set: function (value) {
+            if (this._parentSnackBar) {
+                this._parentSnackBar._openedSnackBarRef = value;
+            }
+            else {
+                this._snackBarRefAtThisLevel = value;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Creates and dispatches a snack bar with a custom component for the content, removing any
+     * currently opened snack bars.
+     *
+     * @param component Component to be instantiated.
+     * @param config Extra configuration for the snack bar.
+     */
+    MdSnackBar.prototype.openFromComponent = function (component, config) {
+        var _this = this;
+        config = _applyConfigDefaults(config);
+        var overlayRef = this._createOverlay();
+        var snackBarContainer = this._attachSnackBarContainer(overlayRef, config);
+        var snackBarRef = this._attachSnackbarContent(component, snackBarContainer, overlayRef);
+        // When the snackbar is dismissed, clear the reference to it.
+        snackBarRef.afterDismissed().subscribe(function () {
+            // Clear the snackbar ref if it hasn't already been replaced by a newer snackbar.
+            if (_this._openedSnackBarRef == snackBarRef) {
+                _this._openedSnackBarRef = null;
+            }
+        });
+        // If a snack bar is already in view, dismiss it and enter the new snack bar after exit
+        // animation is complete.
+        if (this._openedSnackBarRef) {
+            this._openedSnackBarRef.afterDismissed().subscribe(function () {
+                snackBarRef.containerInstance.enter();
+            });
+            this._openedSnackBarRef.dismiss();
+        }
+        else {
+            snackBarRef.containerInstance.enter();
+        }
+        // If a dismiss timeout is provided, set up dismiss based on after the snackbar is opened.
+        if (config.duration > 0) {
+            snackBarRef.afterOpened().subscribe(function () {
+                setTimeout(function () { return snackBarRef.dismiss(); }, config.duration);
+            });
+        }
+        this._live.announce(config.announcementMessage, config.politeness);
+        this._openedSnackBarRef = snackBarRef;
+        return this._openedSnackBarRef;
+    };
+    /**
+     * Opens a snackbar with a message and an optional action.
+     * @param message The message to show in the snackbar.
+     * @param action The label for the snackbar action.
+     * @param config Additional configuration options for the snackbar.
+     */
+    MdSnackBar.prototype.open = function (message, action, config) {
+        if (action === void 0) { action = ''; }
+        if (config === void 0) { config = {}; }
+        config.announcementMessage = message;
+        var simpleSnackBarRef = this.openFromComponent(__WEBPACK_IMPORTED_MODULE_5__simple_snack_bar__["a" /* SimpleSnackBar */], config);
+        simpleSnackBarRef.instance.snackBarRef = simpleSnackBarRef;
+        simpleSnackBarRef.instance.message = message;
+        simpleSnackBarRef.instance.action = action;
+        return simpleSnackBarRef;
+    };
+    /**
+     * Attaches the snack bar container component to the overlay.
+     */
+    MdSnackBar.prototype._attachSnackBarContainer = function (overlayRef, config) {
+        var containerPortal = new __WEBPACK_IMPORTED_MODULE_1__core__["a" /* ComponentPortal */](__WEBPACK_IMPORTED_MODULE_4__snack_bar_container__["a" /* MdSnackBarContainer */], config.viewContainerRef);
+        var containerRef = overlayRef.attach(containerPortal);
+        containerRef.instance.snackBarConfig = config;
+        return containerRef.instance;
+    };
+    /**
+     * Places a new component as the content of the snack bar container.
+     */
+    MdSnackBar.prototype._attachSnackbarContent = function (component, container, overlayRef) {
+        var portal = new __WEBPACK_IMPORTED_MODULE_1__core__["a" /* ComponentPortal */](component);
+        var contentRef = container.attachComponentPortal(portal);
+        return new __WEBPACK_IMPORTED_MODULE_3__snack_bar_ref__["a" /* MdSnackBarRef */](contentRef.instance, container, overlayRef);
+    };
+    /**
+     * Creates a new overlay and places it in the correct location.
+     */
+    MdSnackBar.prototype._createOverlay = function () {
+        var state = new __WEBPACK_IMPORTED_MODULE_1__core__["b" /* OverlayState */]();
+        state.positionStrategy = this._overlay.position().global()
+            .centerHorizontally()
+            .bottom('0');
+        return this._overlay.create(state);
+    };
+    MdSnackBar = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()),
+        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* SkipSelf */])()), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_1__core__["c" /* Overlay */], __WEBPACK_IMPORTED_MODULE_1__core__["q" /* LiveAnnouncer */], MdSnackBar])
+    ], MdSnackBar);
+    return MdSnackBar;
+}());
+/**
+ * Applies default options to the snackbar config.
+ * @param config The configuration to which the defaults will be applied.
+ * @returns The new configuration object with defaults applied.
+ */
+function _applyConfigDefaults(config) {
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__core_util_object_extend__["a" /* extendObject */])(new __WEBPACK_IMPORTED_MODULE_2__snack_bar_config__["a" /* MdSnackBarConfig */](), config);
+}
+//# sourceMappingURL=snack-bar.js.map
+
+/***/ }),
+/* 186 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tab_group__ = __webpack_require__(283);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__tab_group__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ink_bar__ = __webpack_require__(56);
+/* unused harmony reexport MdInkBar */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab_body__ = __webpack_require__(187);
+/* unused harmony reexport MdTabBody */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tab_header__ = __webpack_require__(188);
+/* unused harmony reexport MdTabHeader */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tab_label_wrapper__ = __webpack_require__(89);
+/* unused harmony reexport MdTabLabelWrapper */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tab__ = __webpack_require__(190);
+/* unused harmony reexport MdTab */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__tab_label__ = __webpack_require__(90);
+/* unused harmony reexport MdTabLabel */
+
+
+
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 187 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTabBody; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+/**
+ * Wrapper for the contents of a tab.
+ */
+var MdTabBody = (function () {
+    function MdTabBody(_dir, _elementRef, _changeDetectorRef) {
+        this._dir = _dir;
+        this._elementRef = _elementRef;
+        this._changeDetectorRef = _changeDetectorRef;
+        /** Event emitted when the tab begins to animate towards the center as the active tab. */
+        this.onCentering = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+        /** Event emitted when the tab completes its animation towards the center. */
+        this.onCentered = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */](true);
+        /** Whether the element is allowed to be animated. */
+        this._canBeAnimated = false;
+    }
+    Object.defineProperty(MdTabBody.prototype, "position", {
+        set: function (position) {
+            if (position < 0) {
+                this._position = this._getLayoutDirection() == 'ltr' ? 'left' : 'right';
+            }
+            else if (position > 0) {
+                this._position = this._getLayoutDirection() == 'ltr' ? 'right' : 'left';
+            }
+            else {
+                this._position = 'center';
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTabBody.prototype, "origin", {
+        /** The origin position from which this tab should appear when it is centered into view. */
+        set: function (origin) {
+            if (origin == null) {
+                return;
+            }
+            var dir = this._getLayoutDirection();
+            if ((dir == 'ltr' && origin <= 0) || (dir == 'rtl' && origin > 0)) {
+                this._origin = 'left';
+            }
+            else {
+                this._origin = 'right';
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * After initialized, check if the content is centered and has an origin. If so, set the
+     * special position states that transition the tab from the left or right before centering.
+     */
+    MdTabBody.prototype.ngOnInit = function () {
+        if (this._position == 'center' && this._origin) {
+            this._position = this._origin == 'left' ? 'left-origin-center' : 'right-origin-center';
+        }
+    };
+    /**
+     * After the view has been set, check if the tab content is set to the center and attach the
+     * content if it is not already attached.
+     */
+    MdTabBody.prototype.ngAfterViewChecked = function () {
+        if (this._isCenterPosition(this._position) && !this._portalHost.hasAttached()) {
+            this._portalHost.attach(this._content);
+        }
+    };
+    /**
+     * After the content has been checked, determines whether the element should be allowed to
+     * animate. This has to be limited, because under a specific set of circumstances (see #2151),
+     * the animations can be triggered too early, which either crashes Chrome by putting it into an
+     * infinite loop (with Angular < 2.3.0) or throws an error because the element doesn't have a
+     * computed style (with Angular > 2.3.0). This can alternatively be determined by checking the
+     * transform: canBeAnimated = getComputedStyle(element) !== '', however document.contains should
+     * be faster since it doesn't cause a reflow.
+     *
+     * TODO: This can safely be removed after we stop supporting Angular < 2.4.2. The fix landed via
+     * https://github.com/angular/angular/commit/21030e9a1cf30e8101399d8535ed72d847a23ba6
+     */
+    MdTabBody.prototype.ngAfterContentChecked = function () {
+        if (!this._canBeAnimated) {
+            this._canBeAnimated = document.body.contains(this._elementRef.nativeElement);
+            if (this._canBeAnimated) {
+                this._changeDetectorRef.markForCheck();
+            }
+        }
+    };
+    MdTabBody.prototype._onTranslateTabStarted = function (e) {
+        if (this._isCenterPosition(e.toState)) {
+            this.onCentering.emit(this._elementRef.nativeElement.clientHeight);
+        }
+    };
+    MdTabBody.prototype._onTranslateTabComplete = function (e) {
+        // If the end state is that the tab is not centered, then detach the content.
+        if (!this._isCenterPosition(e.toState) && !this._isCenterPosition(this._position)) {
+            this._portalHost.detach();
+        }
+        // If the transition to the center is complete, emit an event.
+        if (this._isCenterPosition(e.toState) && this._isCenterPosition(this._position)) {
+            this.onCentered.emit();
+        }
+    };
+    /** The text direction of the containing app. */
+    MdTabBody.prototype._getLayoutDirection = function () {
+        return this._dir && this._dir.value === 'rtl' ? 'rtl' : 'ltr';
+    };
+    /** Whether the provided position state is considered center, regardless of origin. */
+    MdTabBody.prototype._isCenterPosition = function (position) {
+        return position == 'center' ||
+            position == 'left-origin-center' ||
+            position == 'right-origin-center';
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1__core__["l" /* PortalHostDirective */]), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_1__core__["l" /* PortalHostDirective */])
+    ], MdTabBody.prototype, "_portalHost", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
+    ], MdTabBody.prototype, "onCentering", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */])
+    ], MdTabBody.prototype, "onCentered", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('content'), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_1__core__["m" /* TemplatePortal */])
+    ], MdTabBody.prototype, "_content", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('position'), 
+        __metadata('design:type', Number), 
+        __metadata('design:paramtypes', [Number])
+    ], MdTabBody.prototype, "position", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])('origin'), 
+        __metadata('design:type', Number), 
+        __metadata('design:paramtypes', [Number])
+    ], MdTabBody.prototype, "origin", null);
+    MdTabBody = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({selector: 'md-tab-body, mat-tab-body',
+            template: "<div class=\"mat-tab-body-content\" #content [@translateTab]=\"_canBeAnimated ? _position : null\" (@translateTab.start)=\"_onTranslateTabStarted($event)\" (@translateTab.done)=\"_onTranslateTabComplete($event)\"><template cdkPortalHost></template></div>",
+            host: {
+                '[class.mat-tab-body]': 'true',
+            },
+            animations: [
+                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* trigger */])('translateTab', [
+                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('left', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(-100%, 0, 0)' })),
+                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('left-origin-center', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(0, 0, 0)' })),
+                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('right-origin-center', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(0, 0, 0)' })),
+                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('center', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(0, 0, 0)' })),
+                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* state */])('right', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(100%, 0, 0)' })),
+                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('* => left, * => right, left => center, right => center', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('500ms cubic-bezier(0.35, 0, 0.25, 1)')),
+                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => left-origin-center', [
+                        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(-100%, 0, 0)' }),
+                        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('500ms cubic-bezier(0.35, 0, 0.25, 1)')
+                    ]),
+                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* transition */])('void => right-origin-center', [
+                        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* style */])({ transform: 'translate3d(100%, 0, 0)' }),
+                        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* animate */])('500ms cubic-bezier(0.35, 0, 0.25, 1)')
+                    ])
+                ])
+            ]
+        }),
+        __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_1__core__["k" /* Dir */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["X" /* ChangeDetectorRef */]])
+    ], MdTabBody);
+    return MdTabBody;
+}());
+//# sourceMappingURL=tab-body.js.map
+
+/***/ }),
+/* 188 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab_label_wrapper__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ink_bar__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_style_apply_transform__ = __webpack_require__(153);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTabHeader; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+/**
+ * The distance in pixels that will be overshot when scrolling a tab label into view. This helps
+ * provide a small affordance to the label next to it.
+ */
+var EXAGGERATED_OVERSCROLL = 60;
+/**
+ * The header of the tab group which displays a list of all the tabs in the tab group. Includes
+ * an ink bar that follows the currently selected tab. When the tabs list's width exceeds the
+ * width of the header container, then arrows will be displayed to allow the user to scroll
+ * left and right across the header.
+ */
+var MdTabHeader = (function () {
+    function MdTabHeader(_zone, _elementRef, _dir) {
+        this._zone = _zone;
+        this._elementRef = _elementRef;
+        this._dir = _dir;
+        /** The tab index that is focused. */
+        this._focusIndex = 0;
+        /** The distance in pixels that the tab labels should be translated to the left. */
+        this._scrollDistance = 0;
+        /** Whether the header should scroll to the selected index after the view has been checked. */
+        this._selectedIndexChanged = false;
+        /** Whether the controls for pagination should be displayed */
+        this._showPaginationControls = false;
+        /** Whether the tab list can be scrolled more towards the end of the tab label list. */
+        this._disableScrollAfter = true;
+        /** Whether the tab list can be scrolled more towards the beginning of the tab label list. */
+        this._disableScrollBefore = true;
+        this._selectedIndex = 0;
+        /** Event emitted when the option is selected. */
+        this.selectFocusedIndex = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+        /** Event emitted when a label is focused. */
+        this.indexFocused = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* EventEmitter */]();
+    }
+    Object.defineProperty(MdTabHeader.prototype, "selectedIndex", {
+        get: function () { return this._selectedIndex; },
+        /** The index of the active tab. */
+        set: function (value) {
+            this._selectedIndexChanged = this._selectedIndex != value;
+            this._selectedIndex = value;
+            this._focusIndex = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    MdTabHeader.prototype.ngAfterContentChecked = function () {
+        // If the number of tab labels have changed, check if scrolling should be enabled
+        if (this._tabLabelCount != this._labelWrappers.length) {
+            this._updatePagination();
+            this._tabLabelCount = this._labelWrappers.length;
+        }
+        // If the selected index has changed, scroll to the label and check if the scrolling controls
+        // should be disabled.
+        if (this._selectedIndexChanged) {
+            this._scrollToLabel(this._selectedIndex);
+            this._checkScrollingControls();
+            this._alignInkBarToSelectedTab();
+            this._selectedIndexChanged = false;
+        }
+        // If the scroll distance has been changed (tab selected, focused, scroll controls activated),
+        // then translate the header to reflect this.
+        if (this._scrollDistanceChanged) {
+            this._updateTabScrollPosition();
+            this._scrollDistanceChanged = false;
+        }
+    };
+    MdTabHeader.prototype._handleKeydown = function (event) {
+        switch (event.keyCode) {
+            case __WEBPACK_IMPORTED_MODULE_1__core__["h" /* RIGHT_ARROW */]:
+                this._focusNextTab();
+                break;
+            case __WEBPACK_IMPORTED_MODULE_1__core__["i" /* LEFT_ARROW */]:
+                this._focusPreviousTab();
+                break;
+            case __WEBPACK_IMPORTED_MODULE_1__core__["j" /* ENTER */]:
+                this.selectFocusedIndex.emit(this.focusIndex);
+                break;
+        }
+    };
+    /**
+     * Aligns the ink bar to the selected tab on load.
+     */
+    MdTabHeader.prototype.ngAfterContentInit = function () {
+        this._alignInkBarToSelectedTab();
+    };
+    /**
+     * Callback for when the MutationObserver detects that the content has changed.
+     */
+    MdTabHeader.prototype._onContentChanges = function () {
+        this._updatePagination();
+        this._alignInkBarToSelectedTab();
+    };
+    /**
+     * Updating the view whether pagination should be enabled or not
+     */
+    MdTabHeader.prototype._updatePagination = function () {
+        this._checkPaginationEnabled();
+        this._checkScrollingControls();
+        this._updateTabScrollPosition();
+    };
+    Object.defineProperty(MdTabHeader.prototype, "focusIndex", {
+        /** Tracks which element has focus; used for keyboard navigation */
+        get: function () { return this._focusIndex; },
+        /** When the focus index is set, we must manually send focus to the correct label */
+        set: function (value) {
+            if (!this._isValidIndex(value) || this._focusIndex == value) {
+                return;
+            }
+            this._focusIndex = value;
+            this.indexFocused.emit(value);
+            this._setTabFocus(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Determines if an index is valid.  If the tabs are not ready yet, we assume that the user is
+     * providing a valid index and return true.
+     */
+    MdTabHeader.prototype._isValidIndex = function (index) {
+        if (!this._labelWrappers) {
+            return true;
+        }
+        var tab = this._labelWrappers ? this._labelWrappers.toArray()[index] : null;
+        return tab && !tab.disabled;
+    };
+    /**
+     * Sets focus on the HTML element for the label wrapper and scrolls it into the view if
+     * scrolling is enabled.
+     */
+    MdTabHeader.prototype._setTabFocus = function (tabIndex) {
+        if (this._showPaginationControls) {
+            this._scrollToLabel(tabIndex);
+        }
+        if (this._labelWrappers && this._labelWrappers.length) {
+            this._labelWrappers.toArray()[tabIndex].focus();
+            // Do not let the browser manage scrolling to focus the element, this will be handled
+            // by using translation. In LTR, the scroll left should be 0. In RTL, the scroll width
+            // should be the full width minus the offset width.
+            var containerEl = this._tabListContainer.nativeElement;
+            var dir = this._getLayoutDirection();
+            if (dir == 'ltr') {
+                containerEl.scrollLeft = 0;
+            }
+            else {
+                containerEl.scrollLeft = containerEl.scrollWidth - containerEl.offsetWidth;
+            }
+        }
+    };
+    /**
+     * Moves the focus towards the beginning or the end of the list depending on the offset provided.
+     * Valid offsets are 1 and -1.
+     */
+    MdTabHeader.prototype._moveFocus = function (offset) {
+        if (this._labelWrappers) {
+            var tabs = this._labelWrappers.toArray();
+            for (var i = this.focusIndex + offset; i < tabs.length && i >= 0; i += offset) {
+                if (this._isValidIndex(i)) {
+                    this.focusIndex = i;
+                    return;
+                }
+            }
+        }
+    };
+    /** Increment the focus index by 1 until a valid tab is found. */
+    MdTabHeader.prototype._focusNextTab = function () {
+        this._moveFocus(this._getLayoutDirection() == 'ltr' ? 1 : -1);
+    };
+    /** Decrement the focus index by 1 until a valid tab is found. */
+    MdTabHeader.prototype._focusPreviousTab = function () {
+        this._moveFocus(this._getLayoutDirection() == 'ltr' ? -1 : 1);
+    };
+    /** The layout direction of the containing app. */
+    MdTabHeader.prototype._getLayoutDirection = function () {
+        return this._dir && this._dir.value === 'rtl' ? 'rtl' : 'ltr';
+    };
+    /** Performs the CSS transformation on the tab list that will cause the list to scroll. */
+    MdTabHeader.prototype._updateTabScrollPosition = function () {
+        var translateX = this.scrollDistance + 'px';
+        if (this._getLayoutDirection() == 'ltr') {
+            translateX = '-' + translateX;
+        }
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__core_style_apply_transform__["a" /* applyCssTransform */])(this._tabList.nativeElement, "translate3d(" + translateX + ", 0, 0)");
+    };
+    Object.defineProperty(MdTabHeader.prototype, "scrollDistance", {
+        get: function () { return this._scrollDistance; },
+        /** Sets the distance in pixels that the tab header should be transformed in the X-axis. */
+        set: function (v) {
+            this._scrollDistance = Math.max(0, Math.min(this._getMaxScrollDistance(), v));
+            // Mark that the scroll distance has changed so that after the view is checked, the CSS
+            // transformation can move the header.
+            this._scrollDistanceChanged = true;
+            this._checkScrollingControls();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Moves the tab list in the 'before' or 'after' direction (towards the beginning of the list or
+     * the end of the list, respectively). The distance to scroll is computed to be a third of the
+     * length of the tab list view window.
+     *
+     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
+     * should be called sparingly.
+     */
+    MdTabHeader.prototype._scrollHeader = function (scrollDir) {
+        var viewLength = this._tabListContainer.nativeElement.offsetWidth;
+        // Move the scroll distance one-third the length of the tab list's viewport.
+        this.scrollDistance += (scrollDir == 'before' ? -1 : 1) * viewLength / 3;
+    };
+    /**
+     * Moves the tab list such that the desired tab label (marked by index) is moved into view.
+     *
+     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
+     * should be called sparingly.
+     */
+    MdTabHeader.prototype._scrollToLabel = function (labelIndex) {
+        var selectedLabel = this._labelWrappers
+            ? this._labelWrappers.toArray()[labelIndex]
+            : null;
+        if (!selectedLabel) {
+            return;
+        }
+        // The view length is the visible width of the tab labels.
+        var viewLength = this._tabListContainer.nativeElement.offsetWidth;
+        var labelBeforePos, labelAfterPos;
+        if (this._getLayoutDirection() == 'ltr') {
+            labelBeforePos = selectedLabel.getOffsetLeft();
+            labelAfterPos = labelBeforePos + selectedLabel.getOffsetWidth();
+        }
+        else {
+            labelAfterPos = this._tabList.nativeElement.offsetWidth - selectedLabel.getOffsetLeft();
+            labelBeforePos = labelAfterPos - selectedLabel.getOffsetWidth();
+        }
+        var beforeVisiblePos = this.scrollDistance;
+        var afterVisiblePos = this.scrollDistance + viewLength;
+        if (labelBeforePos < beforeVisiblePos) {
+            // Scroll header to move label to the before direction
+            this.scrollDistance -= beforeVisiblePos - labelBeforePos + EXAGGERATED_OVERSCROLL;
+        }
+        else if (labelAfterPos > afterVisiblePos) {
+            // Scroll header to move label to the after direction
+            this.scrollDistance += labelAfterPos - afterVisiblePos + EXAGGERATED_OVERSCROLL;
+        }
+    };
+    /**
+     * Evaluate whether the pagination controls should be displayed. If the scroll width of the
+     * tab list is wider than the size of the header container, then the pagination controls should
+     * be shown.
+     *
+     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
+     * should be called sparingly.
+     */
+    MdTabHeader.prototype._checkPaginationEnabled = function () {
+        this._showPaginationControls =
+            this._tabList.nativeElement.scrollWidth > this._elementRef.nativeElement.offsetWidth;
+        if (!this._showPaginationControls) {
+            this.scrollDistance = 0;
+        }
+    };
+    /**
+     * Evaluate whether the before and after controls should be enabled or disabled.
+     * If the header is at the beginning of the list (scroll distance is equal to 0) then disable the
+     * before button. If the header is at the end of the list (scroll distance is equal to the
+     * maximum distance we can scroll), then disable the after button.
+     *
+     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
+     * should be called sparingly.
+     */
+    MdTabHeader.prototype._checkScrollingControls = function () {
+        // Check if the pagination arrows should be activated.
+        this._disableScrollBefore = this.scrollDistance == 0;
+        this._disableScrollAfter = this.scrollDistance == this._getMaxScrollDistance();
+    };
+    /**
+     * Determines what is the maximum length in pixels that can be set for the scroll distance. This
+     * is equal to the difference in width between the tab list container and tab header container.
+     *
+     * This is an expensive call that forces a layout reflow to compute box and scroll metrics and
+     * should be called sparingly.
+     */
+    MdTabHeader.prototype._getMaxScrollDistance = function () {
+        var lengthOfTabList = this._tabList.nativeElement.scrollWidth;
+        var viewLength = this._tabListContainer.nativeElement.offsetWidth;
+        return lengthOfTabList - viewLength;
+    };
+    /** Tells the ink-bar to align itself to the current label wrapper */
+    MdTabHeader.prototype._alignInkBarToSelectedTab = function () {
+        var _this = this;
+        var selectedLabelWrapper = this._labelWrappers && this._labelWrappers.length
+            ? this._labelWrappers.toArray()[this.selectedIndex].elementRef.nativeElement
+            : null;
+        this._zone.runOutsideAngular(function () {
+            requestAnimationFrame(function () {
+                _this._inkBar.alignToElement(selectedLabelWrapper);
+            });
+        });
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ContentChildren */])(__WEBPACK_IMPORTED_MODULE_2__tab_label_wrapper__["a" /* MdTabLabelWrapper */]), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* QueryList */])
+    ], MdTabHeader.prototype, "_labelWrappers", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_3__ink_bar__["a" /* MdInkBar */]), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_3__ink_bar__["a" /* MdInkBar */])
+    ], MdTabHeader.prototype, "_inkBar", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('tabListContainer'), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */])
+    ], MdTabHeader.prototype, "_tabListContainer", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('tabList'), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */])
+    ], MdTabHeader.prototype, "_tabList", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Number), 
+        __metadata('design:paramtypes', [Number])
+    ], MdTabHeader.prototype, "selectedIndex", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', Object)
+    ], MdTabHeader.prototype, "selectFocusedIndex", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Output */])(), 
+        __metadata('design:type', Object)
+    ], MdTabHeader.prototype, "indexFocused", void 0);
+    MdTabHeader = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({selector: 'md-tab-header, mat-tab-header',
+            template: "<div class=\"mat-tab-header-pagination mat-tab-header-pagination-before mat-elevation-z4\" aria-hidden=\"true\" md-ripple [mdRippleDisabled]=\"_disableScrollBefore\" [class.mat-tab-header-pagination-disabled]=\"_disableScrollBefore\" (click)=\"_scrollHeader('before')\"><div class=\"mat-tab-header-pagination-chevron\"></div></div><div class=\"mat-tab-label-container\" #tabListContainer (keydown)=\"_handleKeydown($event)\"><div class=\"mat-tab-list\" #tabList role=\"tablist\" (cdkObserveContent)=\"_onContentChanges()\"><div class=\"mat-tab-labels\"><ng-content></ng-content></div><md-ink-bar></md-ink-bar></div></div><div class=\"mat-tab-header-pagination mat-tab-header-pagination-after mat-elevation-z4\" aria-hidden=\"true\" md-ripple [mdRippleDisabled]=\"_disableScrollAfter\" [class.mat-tab-header-pagination-disabled]=\"_disableScrollAfter\" (click)=\"_scrollHeader('after')\"><div class=\"mat-tab-header-pagination-chevron\"></div></div>",
+            styles: [".mat-tab-header{display:flex;overflow:hidden;position:relative;flex-shrink:0}.mat-tab-label{line-height:48px;height:48px;padding:0 12px;font-size:14px;font-family:Roboto,\"Helvetica Neue\",sans-serif;font-weight:500;cursor:pointer;box-sizing:border-box;color:currentColor;opacity:.6;min-width:160px;text-align:center;position:relative}.mat-tab-label:focus{outline:0;opacity:1}@media (max-width:600px){.mat-tab-label{min-width:72px}}.mat-ink-bar{position:absolute;bottom:0;height:2px;transition:.5s cubic-bezier(.35,0,.25,1)}.mat-tab-group-inverted-header .mat-ink-bar{bottom:auto;top:0}.mat-tab-header-pagination{position:relative;display:none;justify-content:center;align-items:center;min-width:32px;cursor:pointer;z-index:2}.mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination,.mat-tab-labels{display:flex}.mat-tab-header-pagination-before,.mat-tab-header-rtl .mat-tab-header-pagination-after{padding-left:4px}.mat-tab-header-pagination-before .mat-tab-header-pagination-chevron,.mat-tab-header-rtl .mat-tab-header-pagination-after .mat-tab-header-pagination-chevron{transform:rotate(-135deg)}.mat-tab-header-pagination-after,.mat-tab-header-rtl .mat-tab-header-pagination-before{padding-right:4px}.mat-tab-header-pagination-after .mat-tab-header-pagination-chevron,.mat-tab-header-rtl .mat-tab-header-pagination-before .mat-tab-header-pagination-chevron{transform:rotate(45deg)}.mat-tab-header-pagination-chevron{border-style:solid;border-width:2px 2px 0 0;content:'';height:8px;width:8px}.mat-tab-header-pagination-disabled{box-shadow:none;cursor:default}.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron{border-color:#ccc}.mat-tab-label-container{display:flex;flex-grow:1;overflow:hidden;z-index:1}.mat-tab-list{flex-grow:1;position:relative;transition:transform .5s cubic-bezier(.35,0,.25,1)}"],
+            encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ViewEncapsulation */].None,
+            host: {
+                'class': 'mat-tab-header',
+                '[class.mat-tab-header-pagination-controls-enabled]': '_showPaginationControls',
+                '[class.mat-tab-header-rtl]': "_getLayoutDirection() == 'rtl'",
+            }
+        }),
+        __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Optional */])()), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* NgZone */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_1__core__["k" /* Dir */]])
+    ], MdTabHeader);
+    return MdTabHeader;
+}());
+//# sourceMappingURL=tab-header.js.map
+
+/***/ }),
+/* 189 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ink_bar__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_ripple_ripple__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_overlay_position_viewport_ruler__ = __webpack_require__(26);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTabNavBar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdTabLink; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return MdTabLinkRipple; });
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Navigation component matching the styles of the tab group header.
+ * Provides anchored navigation with animated ink bar.
+ */
+var MdTabNavBar = (function () {
+    function MdTabNavBar() {
+    }
+    /** Notifies the component that the active link has been changed. */
+    MdTabNavBar.prototype.updateActiveLink = function (element) {
+        this._activeLinkChanged = this._activeLinkElement != element;
+        this._activeLinkElement = element;
+    };
+    /** Checks if the active link has been changed and, if so, will update the ink bar. */
+    MdTabNavBar.prototype.ngAfterContentChecked = function () {
+        if (this._activeLinkChanged) {
+            this._inkBar.alignToElement(this._activeLinkElement.nativeElement);
+            this._activeLinkChanged = false;
+        }
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1__ink_bar__["a" /* MdInkBar */]), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_1__ink_bar__["a" /* MdInkBar */])
+    ], MdTabNavBar.prototype, "_inkBar", void 0);
+    MdTabNavBar = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({selector: '[md-tab-nav-bar], [mat-tab-nav-bar]',
+            template: "<div class=\"mat-tab-links\"><ng-content></ng-content></div><md-ink-bar></md-ink-bar>",
+            styles: [".mat-tab-link,.mat-tab-nav-bar{position:relative;overflow:hidden}.mat-tab-nav-bar{flex-shrink:0}.mat-tab-links{display:flex;position:relative}.mat-tab-link{line-height:48px;height:48px;padding:0 12px;font-size:14px;font-family:Roboto,\"Helvetica Neue\",sans-serif;font-weight:500;cursor:pointer;box-sizing:border-box;color:currentColor;opacity:.6;min-width:160px;text-align:center;text-decoration:none}.mat-tab-link:focus{outline:0;opacity:1}@media (max-width:600px){.mat-tab-link{min-width:72px}}.mat-ink-bar{position:absolute;bottom:0;height:2px;transition:.5s cubic-bezier(.35,0,.25,1)}.mat-tab-group-inverted-header .mat-ink-bar{bottom:auto;top:0}"],
+            host: {
+                '[class.mat-tab-nav-bar]': 'true',
+            },
+            encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ViewEncapsulation */].None,
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MdTabNavBar);
+    return MdTabNavBar;
+}());
+/**
+ * Link inside of a `md-tab-nav-bar`.
+ */
+var MdTabLink = (function () {
+    function MdTabLink(_mdTabNavBar, _elementRef) {
+        this._mdTabNavBar = _mdTabNavBar;
+        this._elementRef = _elementRef;
+        this._isActive = false;
+    }
+    Object.defineProperty(MdTabLink.prototype, "active", {
+        /** Whether the link is active. */
+        get: function () { return this._isActive; },
+        set: function (value) {
+            this._isActive = value;
+            if (value) {
+                this._mdTabNavBar.updateActiveLink(this._elementRef);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Boolean)
+    ], MdTabLink.prototype, "active", null);
+    MdTabLink = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: '[md-tab-link], [mat-tab-link]',
+            host: {
+                '[class.mat-tab-link]': 'true',
+            }
+        }), 
+        __metadata('design:paramtypes', [MdTabNavBar, __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */]])
+    ], MdTabLink);
+    return MdTabLink;
+}());
+/**
+ * Simple directive that extends the ripple and matches the selector of the MdTabLink. This
+ * adds the ripple behavior to nav bar labels.
+ */
+var MdTabLinkRipple = (function (_super) {
+    __extends(MdTabLinkRipple, _super);
+    function MdTabLinkRipple(elementRef, ngZone, ruler) {
+        _super.call(this, elementRef, ngZone, ruler);
+    }
+    MdTabLinkRipple = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* Directive */])({
+            selector: '[md-tab-link], [mat-tab-link]',
+            host: {
+                '[class.mat-tab-link]': 'true',
+            },
+        }), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* NgZone */], __WEBPACK_IMPORTED_MODULE_3__core_overlay_position_viewport_ruler__["a" /* ViewportRuler */]])
+    ], MdTabLinkRipple);
+    return MdTabLinkRipple;
+}(__WEBPACK_IMPORTED_MODULE_2__core_ripple_ripple__["b" /* MdRipple */]));
+//# sourceMappingURL=tab-nav-bar.js.map
+
+/***/ }),
+/* 190 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core_portal_portal__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_coercion_boolean_property__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tab_label__ = __webpack_require__(90);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdTab; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var MdTab = (function () {
+    function MdTab(_viewContainerRef) {
+        this._viewContainerRef = _viewContainerRef;
+        /** The plain text label for the tab, used when there is no template label. */
+        this.textLabel = '';
+        /** The portal that will be the hosted content of the tab */
+        this._contentPortal = null;
+        /**
+         * The relatively indexed position where 0 represents the center, negative is left, and positive
+         * represents the right.
+         */
+        this.position = null;
+        /**
+         * The initial relatively index origin of the tab if it was created and selected after there
+         * was already a selected tab. Provides context of what position the tab should originate from.
+         */
+        this.origin = null;
+        this._disabled = false;
+    }
+    Object.defineProperty(MdTab.prototype, "content", {
+        get: function () { return this._contentPortal; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTab.prototype, "disabled", {
+        get: function () { return this._disabled; },
+        /** Whether the tab is disabled */
+        set: function (value) { this._disabled = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__core_coercion_boolean_property__["a" /* coerceBooleanProperty */])(value); },
+        enumerable: true,
+        configurable: true
+    });
+    MdTab.prototype.ngOnInit = function () {
+        this._contentPortal = new __WEBPACK_IMPORTED_MODULE_0__core_portal_portal__["b" /* TemplatePortal */](this._content, this._viewContainerRef);
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ContentChild */])(__WEBPACK_IMPORTED_MODULE_3__tab_label__["a" /* MdTabLabel */]), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_3__tab_label__["a" /* MdTabLabel */])
+    ], MdTab.prototype, "templateLabel", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_7" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Q" /* TemplateRef */]), 
+        __metadata('design:type', __WEBPACK_IMPORTED_MODULE_1__angular_core__["Q" /* TemplateRef */])
+    ], MdTab.prototype, "_content", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["M" /* Input */])('label'), 
+        __metadata('design:type', String)
+    ], MdTab.prototype, "textLabel", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["M" /* Input */])(), 
+        __metadata('design:type', Boolean), 
+        __metadata('design:paramtypes', [Boolean])
+    ], MdTab.prototype, "disabled", null);
+    MdTab = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Y" /* Component */])({selector: 'md-tab, mat-tab',
+            template: "<template><ng-content></ng-content></template>",
+        }), 
+        __metadata('design:paramtypes', [__WEBPACK_IMPORTED_MODULE_1__angular_core__["P" /* ViewContainerRef */]])
+    ], MdTab);
+    return MdTab;
+}());
+//# sourceMappingURL=tab.js.map
+
+/***/ }),
+/* 191 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toolbar__ = __webpack_require__(285);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__toolbar__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 192 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tooltip__ = __webpack_require__(287);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__tooltip__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
 /* 193 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_service__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_service__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__prism_languages__ = __webpack_require__(304);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MarkdownComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -52485,7 +52485,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(8);
-var EmptyError_1 = __webpack_require__(116);
+var EmptyError_1 = __webpack_require__(117);
 /**
  * Emits only the first value (or the first value that meets some condition)
  * emitted by the source Observable.
@@ -52910,7 +52910,7 @@ exports.isPromise = isPromise;
 
 "use strict";
 
-var errorObject_1 = __webpack_require__(117);
+var errorObject_1 = __webpack_require__(118);
 var tryCatchTarget;
 function tryCatcher() {
     try {
@@ -82393,9 +82393,9 @@ var ImportResolver = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__media_query_module__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__media_query_module__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__media_query_breakpoints_break_points_provider__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__media_query_media_monitor_provider__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__media_query_media_monitor_provider__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__media_query_observable_media_provider__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__api_flex__ = __webpack_require__(239);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__api_layout__ = __webpack_require__(32);
@@ -82405,7 +82405,7 @@ var ImportResolver = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__api_flex_offset__ = __webpack_require__(237);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__api_flex_order__ = __webpack_require__(238);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__api_layout_align__ = __webpack_require__(240);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__api_layout_wrap__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__api_layout_wrap__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__api_layout_gap__ = __webpack_require__(241);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__api_class__ = __webpack_require__(234);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__api_style__ = __webpack_require__(243);
@@ -83781,8 +83781,8 @@ FlexOrderDirective = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__base__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__media_query_media_monitor__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__layout__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__layout_wrap__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils_basis_validator__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__layout_wrap__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils_basis_validator__ = __webpack_require__(130);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FlexDirective; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -85341,7 +85341,7 @@ ShowHideDirective = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__media_query_media_monitor__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_object_extend__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_style_transforms__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_style_transforms__ = __webpack_require__(132);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StyleDirective; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -85825,7 +85825,7 @@ StyleDirective = __decorate([
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__api_base_adapter__ = __webpack_require__(65);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__responsive_responsive_activation__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__responsive_responsive_activation__ = __webpack_require__(122);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__module__ = __webpack_require__(233);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__module__["a"]; });
@@ -85870,19 +85870,19 @@ StyleDirective = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__breakpoints_data_break_points__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__breakpoints_data_break_points__ = __webpack_require__(124);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__breakpoints_data_orientation_break_points__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__breakpoints_data_orientation_break_points__ = __webpack_require__(125);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__breakpoints_break_points_token__ = __webpack_require__(67);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__breakpoints_break_point_registry__ = __webpack_require__(25);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__observable_media__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__observable_media__ = __webpack_require__(128);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__match_media__ = __webpack_require__(33);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__media_change__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__media_change__ = __webpack_require__(126);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__media_monitor__ = __webpack_require__(7);
 /* unused harmony namespace reexport */
@@ -85890,9 +85890,9 @@ StyleDirective = __decorate([
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__observable_media_provider__ = __webpack_require__(68);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__media_monitor_provider__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__media_monitor_provider__ = __webpack_require__(127);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__module__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__module__ = __webpack_require__(123);
 /* unused harmony namespace reexport */
 /**
  * @license
@@ -85922,17 +85922,17 @@ StyleDirective = __decorate([
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__add_alias__ = __webpack_require__(69);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auto_prefixer__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auto_prefixer__ = __webpack_require__(129);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basis_validator__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basis_validator__ = __webpack_require__(130);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__layout_validator__ = __webpack_require__(34);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__breakpoint_tools__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__breakpoint_tools__ = __webpack_require__(131);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__object_extend__ = __webpack_require__(20);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__style_transforms__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__style_transforms__ = __webpack_require__(132);
 /* unused harmony namespace reexport */
 /**
  * @license
@@ -87601,7 +87601,7 @@ var MdCheckboxModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__chip__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__chip__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_a11y_focus_key_manager__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_coercion_boolean_property__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_keyboard_keycodes__ = __webpack_require__(21);
@@ -87823,7 +87823,7 @@ var MdChipsModule = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list_key_manager__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list_key_manager__ = __webpack_require__(141);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActiveDescendantKeyManager; });
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -88254,7 +88254,7 @@ var GlobalPositionStrategy = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__viewport_ruler__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__connected_position_strategy__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__connected_position_strategy__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__global_position_strategy__ = __webpack_require__(259);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OverlayPositionBuilder; });
@@ -88884,7 +88884,7 @@ var MdDialogContentAlreadyAttachedError = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tile_styler__ = __webpack_require__(270);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__grid_list_errors__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__grid_list_measure__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__grid_list_measure__ = __webpack_require__(162);
 /* unused harmony export MdGridList */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdGridListModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -89070,7 +89070,7 @@ var MdGridListModule = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__grid_list_measure__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__grid_list_measure__ = __webpack_require__(162);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdGridTile; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MdGridTileText; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return MdGridAvatarCssMatStyler; });
@@ -89578,7 +89578,7 @@ function normalizeUnits(value) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__icon_registry__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__icon_registry__ = __webpack_require__(164);
 /* unused harmony reexport MdIconRegistry */
 /* unused harmony export MdIconInvalidNameError */
 /* unused harmony export MdIcon */
@@ -89873,53 +89873,53 @@ var MdIconModule = (function () {
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__module__ = __webpack_require__(275);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__module__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__autocomplete_index__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__autocomplete_index__ = __webpack_require__(134);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__button_index__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__button_index__ = __webpack_require__(136);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__button_toggle_index__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__button_toggle_index__ = __webpack_require__(135);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_index__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_index__ = __webpack_require__(137);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__chips_index__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__chips_index__ = __webpack_require__(140);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__checkbox_index__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__checkbox_index__ = __webpack_require__(138);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dialog_index__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dialog_index__ = __webpack_require__(161);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__grid_list_index__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__grid_list_index__ = __webpack_require__(163);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__icon_index__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__icon_index__ = __webpack_require__(165);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__input_index__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__input_index__ = __webpack_require__(167);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__list_index__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__list_index__ = __webpack_require__(169);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__menu_index__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__menu_index__ = __webpack_require__(170);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__progress_bar_index__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__progress_bar_index__ = __webpack_require__(173);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__progress_spinner_index__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__progress_spinner_index__ = __webpack_require__(174);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__radio_index__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__radio_index__ = __webpack_require__(175);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__select_index__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__select_index__ = __webpack_require__(176);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidenav_index__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidenav_index__ = __webpack_require__(179);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__slider_index__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__slider_index__ = __webpack_require__(181);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__slide_toggle_index__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__slide_toggle_index__ = __webpack_require__(180);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__snack_bar_index__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__snack_bar_index__ = __webpack_require__(182);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__tabs_index__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__tabs_index__ = __webpack_require__(186);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__tabs_tab_nav_bar_index__ = __webpack_require__(284);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__toolbar_index__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__toolbar_index__ = __webpack_require__(191);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__tooltip_index__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__tooltip_index__ = __webpack_require__(192);
 /* unused harmony namespace reexport */
 
 
@@ -90254,32 +90254,32 @@ var MdMenuModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_index__ = __webpack_require__(143);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_toggle_index__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__button_index__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__checkbox_index__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__radio_index__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__select_index__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__slide_toggle_index__ = __webpack_require__(179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__slider_index__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__sidenav_index__ = __webpack_require__(178);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__list_index__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__grid_list_index__ = __webpack_require__(162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__card_index__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__chips_index__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__icon_index__ = __webpack_require__(164);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__progress_spinner_index__ = __webpack_require__(173);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__progress_bar_index__ = __webpack_require__(172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__input_index__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__snack_bar_index__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__tabs_index__ = __webpack_require__(185);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__toolbar_index__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__tooltip_index__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__menu_index__ = __webpack_require__(169);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__dialog_index__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_index__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_toggle_index__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__button_index__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__checkbox_index__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__radio_index__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__select_index__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__slide_toggle_index__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__slider_index__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__sidenav_index__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__list_index__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__grid_list_index__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__card_index__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__chips_index__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__icon_index__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__progress_spinner_index__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__progress_bar_index__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__input_index__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__snack_bar_index__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__tabs_index__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__toolbar_index__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__tooltip_index__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__menu_index__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__dialog_index__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__core_platform_index__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__autocomplete_index__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__core_style_index__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__autocomplete_index__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__core_style_index__ = __webpack_require__(155);
 /* unused harmony export MaterialRootModule */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MaterialModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -91150,7 +91150,7 @@ var MdRadioModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_a11y_focus_trap__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_keyboard_keycodes__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_overlay_overlay_directives__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_first__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_first__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_first__);
 /* unused harmony export MdDuplicatedSidenavError */
 /* unused harmony export MdSidenavToggleResult */
@@ -92893,7 +92893,7 @@ var MdSnackBarContentAlreadyAttached = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tab_label__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tab_label_wrapper__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tab_nav_bar_tab_nav_bar__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tab_nav_bar_tab_nav_bar__ = __webpack_require__(189);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ink_bar__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_Observable__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_Observable__);
@@ -92901,10 +92901,10 @@ var MdSnackBarContentAlreadyAttached = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_ripple_ripple__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_observe_content_observe_content__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__tab__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__tab_body__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__tab__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__tab_body__ = __webpack_require__(187);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__core_overlay_position_viewport_ruler__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__tab_header__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__tab_header__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__core_overlay_scroll_scroll_dispatcher__ = __webpack_require__(27);
 /* unused harmony export MdTabChangeEvent */
 /* unused harmony export MdTabGroup */
@@ -93164,7 +93164,7 @@ var MdTabsModule = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tab_nav_bar__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tab_nav_bar__ = __webpack_require__(189);
 /* unused harmony namespace reexport */
 
 //# sourceMappingURL=index.js.map
@@ -93308,7 +93308,7 @@ var MdTooltipInvalidPositionError = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_rtl_dir__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_overlay_scroll_scroll_dispatcher__ = __webpack_require__(27);
 /* unused harmony export TOUCHEND_HIDE_DELAY */
@@ -94486,7 +94486,7 @@ NoopAnimationsModule.ctorParameters = function () { return []; };
 /* unused harmony reexport MarkdownComponent */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_module__ = __webpack_require__(303);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__markdown_module__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_service__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_service__ = __webpack_require__(93);
 /* unused harmony reexport MarkdownService */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_config__ = __webpack_require__(194);
 /* unused harmony reexport MarkdownConfig */
@@ -94505,7 +94505,7 @@ NoopAnimationsModule.ctorParameters = function () { return []; };
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_component__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_service__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_service__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_config__ = __webpack_require__(194);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MarkdownModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -100503,7 +100503,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(1);
-var ScalarObservable_1 = __webpack_require__(111);
+var ScalarObservable_1 = __webpack_require__(112);
 var EmptyObservable_1 = __webpack_require__(62);
 /**
  * We need this JSDoc comment for affecting ESDoc.
@@ -100836,7 +100836,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(1);
 var EmptyObservable_1 = __webpack_require__(62);
-var isArray_1 = __webpack_require__(118);
+var isArray_1 = __webpack_require__(119);
 var subscribeToResult_1 = __webpack_require__(48);
 var OuterSubscriber_1 = __webpack_require__(46);
 /**
@@ -100954,8 +100954,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(1);
 var tryCatch_1 = __webpack_require__(225);
-var isFunction_1 = __webpack_require__(119);
-var errorObject_1 = __webpack_require__(117);
+var isFunction_1 = __webpack_require__(120);
+var errorObject_1 = __webpack_require__(118);
 var Subscription_1 = __webpack_require__(31);
 var toString = Object.prototype.toString;
 function isNodeStyleEventEmitter(sourceObj) {
@@ -101098,17 +101098,17 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isArray_1 = __webpack_require__(118);
+var isArray_1 = __webpack_require__(119);
 var isArrayLike_1 = __webpack_require__(222);
 var isPromise_1 = __webpack_require__(224);
 var PromiseObservable_1 = __webpack_require__(211);
 var IteratorObservable_1 = __webpack_require__(411);
 var ArrayObservable_1 = __webpack_require__(47);
 var ArrayLikeObservable_1 = __webpack_require__(405);
-var iterator_1 = __webpack_require__(113);
+var iterator_1 = __webpack_require__(114);
 var Observable_1 = __webpack_require__(1);
 var observeOn_1 = __webpack_require__(425);
-var observable_1 = __webpack_require__(114);
+var observable_1 = __webpack_require__(115);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -101228,7 +101228,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var root_1 = __webpack_require__(24);
 var Observable_1 = __webpack_require__(1);
-var iterator_1 = __webpack_require__(113);
+var iterator_1 = __webpack_require__(114);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -102102,7 +102102,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(8);
-var EmptyError_1 = __webpack_require__(116);
+var EmptyError_1 = __webpack_require__(117);
 /* tslint:enable:max-line-length */
 /**
  * Returns an Observable that emits only the last item emitted by the source Observable.
@@ -102650,7 +102650,7 @@ exports.ReduceSubscriber = ReduceSubscriber;
 "use strict";
 
 var ArrayObservable_1 = __webpack_require__(47);
-var ScalarObservable_1 = __webpack_require__(111);
+var ScalarObservable_1 = __webpack_require__(112);
 var EmptyObservable_1 = __webpack_require__(62);
 var concat_1 = __webpack_require__(416);
 var isScheduler_1 = __webpack_require__(64);
@@ -103187,7 +103187,7 @@ exports.UnsubscriptionError = UnsubscriptionError;
 "use strict";
 
 var Subscriber_1 = __webpack_require__(8);
-var rxSubscriber_1 = __webpack_require__(115);
+var rxSubscriber_1 = __webpack_require__(116);
 var Observer_1 = __webpack_require__(206);
 function toSubscriber(nextOrObserver, error, complete) {
     if (nextOrObserver) {
