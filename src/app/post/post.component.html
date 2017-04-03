@@ -1,3 +1,5 @@
-<h1>{{post.title}}</h1>
-<h3>published on {{post.published | date}}</h3>
-<div Markdown [path]="post.path"></div>
+<md-card>
+  <md-card-title>{{post.title}}</md-card-title>
+  <md-card-subtitle>published on {{post.published | date}}</md-card-subtitle>
+  <md-card-content Markdown [path]="post.path"></md-card-content>
+</md-card>

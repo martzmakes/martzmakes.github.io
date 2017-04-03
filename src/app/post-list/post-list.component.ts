@@ -1,6 +1,7 @@
 import {BlogPostService} from '../blog-post.service';
 import {BlogPost} from '../BlogPost';
 import { Component, OnInit, Inject } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-post-list',
@@ -10,11 +11,15 @@ import { Component, OnInit, Inject } from '@angular/core';
 export class PostListComponent implements OnInit {
   public posts: BlogPost[];
 
-  constructor(@Inject(BlogPostService) private blogPostService: BlogPostService) {
+  constructor(private blogPostService: BlogPostService, private router: Router) {
     this.posts = blogPostService.posts;
   }
 
   ngOnInit() {
+  }
+
+  public onSelect(post: BlogPost) {
+    this.router.navigate(['/posts', post.id]);
   }
 
 }
