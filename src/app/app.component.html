@@ -1,4 +1,7 @@
 <section class="app flex-container" fxLayout="column" fxLayoutAlign="start stretch">
   <app-nav></app-nav>
-  <app-sidenav fxFlex></app-sidenav>
+  <md-sidenav-container fxFlex>
+    <app-sidenav></app-sidenav>
+    <router-outlet></router-outlet>
+  </md-sidenav-container>
 </section>

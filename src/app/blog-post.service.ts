@@ -9,14 +9,18 @@ export class BlogPostService {
 
   constructor() {
     const vm = this;
-    const postFiles = [
-      '20170403-0'
-    ];
+    const postStubs: any[] = require('../posts/posts.json');
 
-    vm.posts = [];
+    let i = 0;
+    vm.posts = postStubs.map(stub => {
+      i++;
+      return new BlogPost(stub, i);
+    });
+  }
 
-    postFiles.forEach(post => {
-      vm.posts.push(new BlogPost(require('../posts/' + post + '.json')));
+  public getPost(id: number) {
+    return this.posts.find(post => {
+      return post.id === id;
     });
   }
 

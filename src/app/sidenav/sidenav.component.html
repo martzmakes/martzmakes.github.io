@@ -1,8 +1,6 @@
-<md-sidenav-container fxFlex>
-  <md-sidenav mode="side" align="end" opened class="mat-elevation-z6">
-    <md-tab-group>
-      <md-tab *ngFor="let tab of tabs;" label="{{tab.label}}"></md-tab>
-    </md-tab-group>
-    <app-post-list></app-post-list>
-  </md-sidenav>
-</md-sidenav-container>
+<md-sidenav mode="side" align="end" opened class="mat-elevation-z6">
+  <md-tab-group>
+    <md-tab label="About"><app-about></app-about></md-tab>
+    <md-tab label="Posts"><app-post-list></app-post-list></md-tab>
+  </md-tab-group>
+</md-sidenav>

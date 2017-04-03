@@ -16,6 +16,18 @@ I'm planning on using this as a blog.  Since I'm an Angular dev (and there aren'
 * No secrets
 * No CI
 
+## To Do
+
+[ ] Tab Routing w/Components
+
+[ ] Post List Component
+
+[ ] Post View Component
+
+[ ] Display Markdown
+
+[ ] Create Post / Editor Component (with Markdown Preview and JSON export)
+
 ## CLI notes
 
 ### Development server
