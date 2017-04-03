@@ -10,12 +10,16 @@ import 'hammerjs';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { BlogPostService } from './blog-post.service';
+import { TabService } from './tab.service';
+import { PostListComponent } from './post-list/post-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    SidenavComponent
+    SidenavComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +28,10 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     MaterialModule,
     FlexLayoutModule
   ],
-  providers: [],
+  providers: [
+    TabService,
+    BlogPostService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

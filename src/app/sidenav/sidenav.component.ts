@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import {Tab} from '.././Tab';
+import { TabService } from '../tab.service';
 
 @Component({
   selector: 'app-sidenav',
@@ -6,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidenav.component.scss']
 })
 export class SidenavComponent implements OnInit {
+  public tabs: Tab[];
 
-  constructor() { }
+  constructor(@Inject(TabService) private tabService: TabService) {
+    this.tabs = tabService.tabs;
+  }
 
   ngOnInit() {
   }
