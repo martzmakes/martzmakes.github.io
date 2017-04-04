@@ -1,7 +1,9 @@
-<section class="app flex-container" fxLayout="column" fxLayoutAlign="start stretch">
+<div class="app flex-container" fxLayout="column" fxLayoutAlign="start stretch">
   <app-nav></app-nav>
-  <md-sidenav-container fxFlex>
-    <app-sidenav></app-sidenav>
-    <router-outlet></router-outlet>
-  </md-sidenav-container>
-</section>
+	<div fxLayout="row" fxLayoutAlign="start" class="content">
+		<div fxFlex = "70%"><router-outlet></router-outlet></div>
+		<md-sidenav-container class="mat-elevation-z6" fxFlex>
+      <app-sidenav></app-sidenav>
+    </md-sidenav-container>
+	</div>
+</div>
