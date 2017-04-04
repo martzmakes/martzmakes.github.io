@@ -10,7 +10,7 @@ import 'rxjs/add/operator/switchMap';
   styleUrls: ['./post.component.scss']
 })
 export class PostComponent implements OnInit {
-  private post: BlogPost;
+  public post: BlogPost;
 
   constructor(
   private route: ActivatedRoute,
