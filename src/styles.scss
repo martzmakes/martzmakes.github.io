@@ -18,3 +18,11 @@ md-toolbar {
 md-sidenav {
     width: 40vw;   // emmet w40vw
 }
+
+.content {
+    height: 100%;
+}
+
+md-card.selected {
+  background-color: aliceblue;
+}

@@ -22,4 +22,8 @@ export class PostListComponent implements OnInit {
     this.router.navigate(['/posts', post.id]);
   }
 
+  public postSelected(post: BlogPost) {
+    return this.router.url === '/posts/' + post.id;
+  }
+
 }

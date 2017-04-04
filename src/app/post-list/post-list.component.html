@@ -1,4 +1,4 @@
-<md-card *ngFor="let post of posts;" (click)="onSelect(post)" routerLinkActive="active">
+<md-card *ngFor="let post of posts;" (click)="onSelect(post)" [ngClass]="{selected: postSelected(post)}">
     <md-card-title>{{post.title}}</md-card-title>
     <md-card-subtitle>{{post.summary}}</md-card-subtitle>
 </md-card>
