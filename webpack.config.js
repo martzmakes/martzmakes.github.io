@@ -20,6 +20,9 @@ module.exports = function (env) {
   let {plugins, entry, output} = require('./build/' + env.mode + '.js')(env);
   return {
     "devtool": "source-map",
+    "devServer": {
+      "historyApiFallback": true
+    },
     "resolve": {
       "extensions": [
         ".ts",
@@ -182,7 +185,7 @@ module.exports = function (env) {
           "favicon.ico"
         ],
         "globOptions": {
-          "cwd": "/Users/matthewmartz/Development/entrocode.github.io/src",
+          "cwd": path.resolve(__dirname, 'src'),
           "dot": true,
           "ignore": "**/.gitkeep"
         }
