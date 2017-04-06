@@ -10,5 +10,11 @@
         "summary": "Performance improvements and other tweaks coming from ng-conf",
         "path": "/src/posts/20170404-0.md",
         "published": "2017-04-04 22:36:27 GMT-0400"
+    },
+    {
+        "title": "Day 2 of ng-conf",
+        "summary": "First actual day of ng-conf (non-workshop)",
+        "path": "/src/posts/20170405-0.md",
+        "published": "2017-04-05 22:22:00 GMT-0400"
     }
 ]
