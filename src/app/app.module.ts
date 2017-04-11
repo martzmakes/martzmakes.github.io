@@ -11,11 +11,15 @@ import '@webcomponents/custom-elements/custom-elements.min.js';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { PostsComponent } from './posts/posts.component';
+import { PostsSidebarComponent } from './posts/posts-sidebar/posts-sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    PostsComponent,
+    PostsSidebarComponent
   ],
   imports: [
     BrowserModule,
