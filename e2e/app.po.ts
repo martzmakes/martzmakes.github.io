@@ -1,11 +1,11 @@
 import { browser, element, by } from 'protractor';
 
-export class Entrocode.Github.IoPage {
+export class Martzcodes.Github.IoPage {
   navigateTo() {
     return browser.get('/');
   }
 
   getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+    return element(by.css('mm-root h1')).getText();
   }
 }

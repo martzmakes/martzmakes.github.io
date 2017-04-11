@@ -1,14 +1,14 @@
-import { Entrocode.Github.IoPage } from './app.po';
+import { Martzcodes.Github.IoPage } from './app.po';
 
-describe('entrocode.github.io App', () => {
-  let page: Entrocode.Github.IoPage;
+describe('martzcodes.github.io App', () => {
+  let page: Martzcodes.Github.IoPage;
 
   beforeEach(() => {
-    page = new Entrocode.Github.IoPage();
+    page = new Martzcodes.Github.IoPage();
   });
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('mm works!');
   });
 });

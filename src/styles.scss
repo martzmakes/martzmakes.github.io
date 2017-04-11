@@ -1,29 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 $fa-font-path: "~font-awesome/fonts";
-@import '~@angular/material/core/theming/prebuilt/indigo-pink.css';
 @import '~font-awesome/scss/font-awesome.scss';
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Roboto, sans-serif;
-}
 
-.app{
-    height: 100vh;    // emmet h100vh
-}
-
-md-toolbar {
-  z-index: 10;     // emmet z10
-}
-
-md-sidenav {
-    width: 40vw;   // emmet w40vw
-}
-
-.content {
-    height: 100%;
-}
-
-md-card.selected {
-  background-color: aliceblue;
-}
+@import '~clarity-icons/clarity-icons.min.css';
+@import '~clarity-ui/clarity-ui.min.css';
