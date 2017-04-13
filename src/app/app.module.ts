@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 import { ClarityModule } from 'clarity-angular';
 import { MarkdownModule } from 'angular2-markdown';
 
+import {GithubButtonModule} from 'angular-github-buttons';
+
 import '@webcomponents/custom-elements/custom-elements.min.js';
 // import 'clarity-icons/clarity-icons.min.js';
 
@@ -27,7 +29,8 @@ import { PostsSidebarComponent } from './posts/posts-sidebar/posts-sidebar.compo
     HttpModule,
     AppRoutingModule,
     ClarityModule.forRoot(),
-    MarkdownModule
+    MarkdownModule,
+    GithubButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

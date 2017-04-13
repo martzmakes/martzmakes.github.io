@@ -26,6 +26,7 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "@webcomponents/custom-elements": "^1.0.0-alpha.3",
+    "angular-github-buttons": "^1.1.1",
     "angular2-markdown": "^1.5.1",
     "clarity-angular": "^0.8.14",
     "clarity-icons": "^0.8.14",
