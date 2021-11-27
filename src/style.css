@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background-image: url('/bg.png');
+}
+
+.profile {
+  background-image: url('/martzcodes-profile.png');
+}

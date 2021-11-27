@@ -1,11 +1,9 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import './style.css'
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+// const app = document.querySelector<HTMLDivElement>('#app')!
 
-if (environment.production) {
-  enableProdMode();
-}
-
-platformBrowserDynamic().bootstrapModule(AppModule);
+// app.innerHTML = `
+//   <h1 class="text-3xl md:text-5xl text-gray-500 text-center font-semibold mx-auto">
+//     Hey, I'm martzcodes!
+//   </h1>
+// `
